@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zin's little corner of the internet. Blue skies, sweet ideas, and social media.">
+  <title>Zin's little space</title>
+  <style>
+    :root { color-scheme: light; --blue: #184cde; --ink: #15294d; --paper: #f8faff; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: Arial, sans-serif; }
+    a { color: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    a:focus-visible, button:focus-visible { outline: 3px solid #ba3c83; outline-offset: 5px; }
+    .wrap { width: min(1060px, 88%); margin: auto; }
+    header { display: flex; align-items: center; justify-content: space-between; padding: 28px 0; }
+    .logo { text-decoration: none; font-size: 24px; font-weight: 800; letter-spacing: -1px; }
+    .logo span { color: var(--blue); }
+    nav a { font-size: 14px; text-decoration: none; border-bottom: 1px solid #b4c4e6; padding-bottom: 4px; }
+    main { padding-top: 28px; }
+    .hero { position: relative; overflow: hidden; border: 1px solid #ccdcff; border-radius: 30px; background: #e5eeff; padding: 70px 54px; }
+    .eyebrow { margin: 0 0 24px; font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+    .hero h1 { position: relative; z-index: 1; max-width: 650px; margin: 0; font-size: clamp(44px, 7.6vw, 86px); line-height: 1.03; letter-spacing: -4px; }
+    h1 span { color: var(--blue); }
+    .intro { position: relative; z-index: 1; max-width: 400px; margin: 26px 0; font-size: 17px; line-height: 1.7; }
+    .button { display: inline-block; position: relative; z-index: 1; padding: 15px 22px; border-radius: 100px; background: var(--blue); color: white; text-decoration: none; font-size: 14px; font-weight: 700; transition: background .2s, transform .2s; }
+    .button:hover { background: #1038a9; transform: translateY(-2px); }
+    .candy { position: absolute; right: 8%; bottom: 60px; width: 130px; height: 130px; border: 12px solid white; border-radius: 50%; background: repeating-conic-gradient(#ff9dce 0deg 30deg, #fff1f8 30deg 60deg); box-shadow: 12px 16px 0 #c4d6ff; transform: rotate(-15deg); }
+    .candy::after { content: ''; position: absolute; top: 113px; left: 46px; width: 13px; height: 100px; border-radius: 0 0 8px 8px; background: white; }
+    .spark { position: absolute; right: 24%; top: 52px; color: var(--blue); font-size: 48px; }
+    .about { padding: 55px 0 44px; display: grid; grid-template-columns: 1fr 1.5fr; gap: 48px; }
+    h2 { margin: 0; font-size: 30px; letter-spacing: -1px; }
+    .about p { margin: 0; line-height: 1.8; color: #52617c; }
+    .tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+    .tags span { padding: 9px 14px; border: 1px solid #d5dff0; border-radius: 100px; font-size: 12px; }
+    .note { background: white; border: 1px solid #d5dff0; border-radius: 20px; padding: 26px 30px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .note small { color: #5d6b85; font-size: 10px; letter-spacing: 1.6px; font-weight: 700; }
+    .note p { margin: 10px 0 0; line-height: 1.5; }
+    button { flex-shrink: 0; background: #eaf0ff; color: #1843b1; border: 0; border-radius: 100px; padding: 12px 18px; font: inherit; font-size: 13px; cursor: pointer; }
+    button:hover { background: #d9e4ff; }
+    footer { display: flex; justify-content: space-between; gap: 20px; padding: 30px 0; color: #63728c; font-size: 12px; }
+    @media (max-width: 700px) {
+      main { padding-top: 10px; }
+      .hero { padding: 40px 26px 55px; }
+      .hero h1 { letter-spacing: -2px; }
+      .intro { max-width: 85%; }
+      .candy { opacity: .18; right: -35px; bottom: 60px; }
+      .spark { right: 20px; top: 15px; font-size: 30px; }
+      .about { grid-template-columns: 1fr; gap: 18px; padding: 35px 0; }
+      .note { align-items: flex-start; flex-direction: column; padding: 24px; }
+      footer { flex-wrap: wrap; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .button { transition: none; } }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <a class="logo" href="#" aria-label="Zin's little space home">zin<span>.</span></a>
+    <nav aria-label="Main navigation"><a href="#about">A little about me ↗</a></nav>
+  </header>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="welcome">
+      <p class="eyebrow">My little corner of the internet</p>
+      <h1 id="welcome">Hi, I'm Zin.<br>A little curious.<br><span>A little creative.</span></h1>
+      <p class="intro">A VNUIS student with a love for social media marketing, all things blue, and a little something sweet.</p>
+      <a class="button" href="#about">Come say hello ↓</a>
+      <span class="spark" aria-hidden="true">✳</span>
+      <div class="candy" aria-hidden="true"></div>
+    </section>
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div><p class="eyebrow">The person behind the page</p><h2>Small space.<br>Plenty of ideas.</h2></div>
+      <div>
+        <p>Welcome to my little space! I'm Zin, a student at VNUIS. Social media marketing is one of my favorite things to explore. This page brings together a few more favorites: blue, candy, and a bit of creativity.</p>
+        <div class="tags" aria-label="My interests"><span>Social media marketing</span><span>Blue everything</span><span>Candy enthusiast</span></div>
+      </div>
+    </section>
+    <section class="note" aria-label="A little inspiration">
+      <div><small>A SWEET LITTLE REMINDER</small><p id="reminder" aria-live="polite">Big ideas can start in little spaces.</p></div>
+      <button id="sweet-button" type="button">Another sweet thought ↗</button>
+    </section>
+  </main>
+  <footer class="wrap"><span>Made with a little blue & a lot of heart.</span><span>Zin's little space ✳</span></footer>
+  <script>
+    const thoughts = [
+      'Big ideas can start in little spaces.',
+      'A little curiosity goes a long way.',
+      'Make something today, even if it is small.',
+      'Keep a little room for the things you love.'
+    ];
+    let thoughtIndex = 0;
+    document.getElementById('sweet-button').addEventListener('click', () => {
+      thoughtIndex = (thoughtIndex + 1) % thoughts.length;
+      document.getElementById('reminder').textContent = thoughts[thoughtIndex];
+    });
+  </script>
+</body>
+</html>
