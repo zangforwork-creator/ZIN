@@ -3,51 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Zin's little corner of the internet. Blue skies, sweet ideas, and social media.">
+  <meta name="description" content="Zin's little corner of the internet: creative ideas, close friends, and the warmth of Tết.">
   <title>Zin's little space</title>
   <style>
-    :root { color-scheme: light; --blue: #184cde; --ink: #15294d; --paper: #f8faff; }
+    :root { color-scheme: dark; --gold: #f4cc76; --ink: #fff0d5; --paper: #160e10; }
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-    body { margin: 0; background: var(--paper); color: var(--ink); font-family: Arial, sans-serif; }
+    body { margin: 0; background: radial-gradient(ellipse at top right, #3b141b, transparent 65%), var(--paper); color: var(--ink); font-family: Arial, sans-serif; }
     a { color: inherit; }
     button, a { -webkit-tap-highlight-color: transparent; }
-    a:focus-visible, button:focus-visible { outline: 3px solid #ba3c83; outline-offset: 5px; }
+    a:focus-visible, button:focus-visible { outline: 3px solid var(--gold); outline-offset: 5px; }
     .wrap { width: min(1060px, 88%); margin: auto; }
     header { display: flex; align-items: center; justify-content: space-between; padding: 28px 0; }
     .logo { text-decoration: none; font-size: 24px; font-weight: 800; letter-spacing: -1px; }
-    .logo span { color: var(--blue); }
-    nav a { font-size: 14px; text-decoration: none; border-bottom: 1px solid #b4c4e6; padding-bottom: 4px; }
+    .logo span { color: var(--gold); }
+    nav { display: flex; flex-wrap: wrap; gap: 20px; }
+    nav a { font-size: 14px; text-decoration: none; border-bottom: 1px solid #805341; padding-bottom: 4px; }
     main { padding-top: 28px; }
-    .hero { position: relative; overflow: hidden; border: 1px solid #ccdcff; border-radius: 30px; background: #e5eeff; padding: 70px 54px; }
-    .eyebrow { margin: 0 0 24px; font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+    .hero { position: relative; overflow: hidden; border: 1px solid #824032; border-radius: 30px; background: radial-gradient(ellipse at top right, #a32b35, transparent 70%), #45151d; padding: 70px 54px; }
+    .eyebrow { margin: 0 0 24px; color: var(--gold); font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
     .hero h1 { position: relative; z-index: 1; max-width: 650px; margin: 0; font-size: clamp(44px, 7.6vw, 86px); line-height: 1.03; letter-spacing: -4px; }
-    h1 span { color: var(--blue); }
+    h1 span { color: var(--gold); }
     .intro { position: relative; z-index: 1; max-width: 400px; margin: 26px 0; font-size: 17px; line-height: 1.7; }
-    .button { display: inline-block; position: relative; z-index: 1; padding: 15px 22px; border-radius: 100px; background: var(--blue); color: white; text-decoration: none; font-size: 14px; font-weight: 700; transition: background .2s, transform .2s; }
-    .button:hover { background: #1038a9; transform: translateY(-2px); }
-    .candy { position: absolute; right: 8%; bottom: 60px; width: 130px; height: 130px; border: 12px solid white; border-radius: 50%; background: repeating-conic-gradient(#ff9dce 0deg 30deg, #fff1f8 30deg 60deg); box-shadow: 12px 16px 0 #c4d6ff; transform: rotate(-15deg); }
-    .candy::after { content: ''; position: absolute; top: 113px; left: 46px; width: 13px; height: 100px; border-radius: 0 0 8px 8px; background: white; }
-    .spark { position: absolute; right: 24%; top: 52px; color: var(--blue); font-size: 48px; }
+    .button { display: inline-block; position: relative; z-index: 1; padding: 15px 22px; border-radius: 100px; background: var(--gold); color: #361318; text-decoration: none; font-size: 14px; font-weight: 700; transition: background .2s, transform .2s; }
+    .button:hover { background: #ffe0a0; transform: translateY(-2px); }
+    .lantern { position: absolute; right: 8%; bottom: 90px; width: 130px; height: 150px; border: 3px solid var(--gold); border-radius: 45%; background: repeating-linear-gradient(90deg, transparent 0 24px, #f4cc763b 24px 27px), #b32e38; box-shadow: 0 0 65px #e34b313b; transform: rotate(-10deg); }
+    .lantern::before { content: ''; position: absolute; top: -150px; left: 60px; width: 2px; height: 148px; background: var(--gold); }
+    .lantern::after { content: ''; position: absolute; top: 147px; left: 52px; width: 18px; height: 65px; border-radius: 0 0 5px 5px; background: repeating-linear-gradient(90deg, var(--gold) 0 2px, #8e2830 2px 4px); }
+    .spark { position: absolute; right: 24%; top: 52px; color: var(--gold); font-size: 48px; }
     .about { padding: 55px 0 44px; display: grid; grid-template-columns: 1fr 1.5fr; gap: 48px; }
     h2 { margin: 0; font-size: 30px; letter-spacing: -1px; }
-    .about p { margin: 0; line-height: 1.8; color: #52617c; }
+    .about p { margin: 0; line-height: 1.8; color: #d4bcb0; }
     .tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
-    .tags span { padding: 9px 14px; border: 1px solid #d5dff0; border-radius: 100px; font-size: 12px; }
-    .note { background: white; border: 1px solid #d5dff0; border-radius: 20px; padding: 26px 30px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
-    .note small { color: #5d6b85; font-size: 10px; letter-spacing: 1.6px; font-weight: 700; }
+    .tags span { padding: 9px 14px; border: 1px solid #674034; border-radius: 100px; font-size: 12px; }
+    .friend { display: grid; grid-template-columns: 120px 1fr; gap: 30px; align-items: center; margin-bottom: 32px; padding: 34px; border: 1px solid #704035; border-radius: 24px; background: linear-gradient(120deg, #42191e, #241416); }
+    .friend-mark { display: grid; place-items: center; width: 110px; height: 110px; border: 1px solid #b5794a; border-radius: 50%; color: var(--gold); background: #5b2028; font: 52px Georgia, serif; }
+    .friend .eyebrow { margin-bottom: 12px; }
+    .friend p:last-child { max-width: 620px; margin-bottom: 0; color: #d4bcb0; line-height: 1.8; }
+    .note { background: #29191b; border: 1px solid #674034; border-radius: 20px; padding: 26px 30px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .note small { color: var(--gold); font-size: 10px; letter-spacing: 1.6px; font-weight: 700; }
     .note p { margin: 10px 0 0; line-height: 1.5; }
-    button { flex-shrink: 0; background: #eaf0ff; color: #1843b1; border: 0; border-radius: 100px; padding: 12px 18px; font: inherit; font-size: 13px; cursor: pointer; }
-    button:hover { background: #d9e4ff; }
-    footer { display: flex; justify-content: space-between; gap: 20px; padding: 30px 0; color: #63728c; font-size: 12px; }
+    button { flex-shrink: 0; background: #64272e; color: #ffe0a0; border: 1px solid #9b5646; border-radius: 100px; padding: 12px 18px; font: inherit; font-size: 13px; cursor: pointer; }
+    button:hover { background: #81343b; }
+    footer { display: flex; justify-content: space-between; gap: 20px; padding: 30px 0; color: #c4a899; font-size: 12px; }
     @media (max-width: 700px) {
       main { padding-top: 10px; }
       .hero { padding: 40px 26px 55px; }
       .hero h1 { letter-spacing: -2px; }
       .intro { max-width: 85%; }
-      .candy { opacity: .18; right: -35px; bottom: 60px; }
+      header { gap: 20px; }
+      nav { gap: 12px; }
+      nav a { font-size: 12px; }
+      .lantern { opacity: .15; right: -35px; bottom: 60px; }
       .spark { right: 20px; top: 15px; font-size: 30px; }
       .about { grid-template-columns: 1fr; gap: 18px; padding: 35px 0; }
+      .friend { grid-template-columns: 1fr; gap: 20px; padding: 26px; }
+      .friend-mark { width: 72px; height: 72px; font-size: 36px; }
       .note { align-items: flex-start; flex-direction: column; padding: 24px; }
       footer { flex-wrap: wrap; }
     }
@@ -57,22 +68,30 @@
 <body>
   <header class="wrap">
     <a class="logo" href="#" aria-label="Zin's little space home">zin<span>.</span></a>
-    <nav aria-label="Main navigation"><a href="#about">A little about me ↗</a></nav>
+    <nav aria-label="Main navigation"><a href="#about">About me ↗</a><a href="#nox">Meet Nox ↗</a></nav>
   </header>
   <main class="wrap">
     <section class="hero" aria-labelledby="welcome">
-      <p class="eyebrow">My little corner of the internet</p>
+      <p class="eyebrow">My little corner · Inspired by <span lang="vi">Tết</span></p>
       <h1 id="welcome">Hi, I'm Zin.<br>A little curious.<br><span>A little creative.</span></h1>
       <p class="intro">A VNUIS student with a love for social media marketing, all things blue, and a little something sweet.</p>
       <a class="button" href="#about">Come say hello ↓</a>
-      <span class="spark" aria-hidden="true">✳</span>
-      <div class="candy" aria-hidden="true"></div>
+      <span class="spark" aria-hidden="true">✿</span>
+      <div class="lantern" aria-hidden="true"></div>
     </section>
     <section class="about" id="about" aria-labelledby="about-title">
-      <div><p class="eyebrow">The person behind the page</p><h2>Small space.<br>Plenty of ideas.</h2></div>
+      <div><p class="eyebrow">The person behind the page</p><h2 id="about-title">Small space.<br>Plenty of ideas.</h2></div>
       <div>
         <p>Welcome to my little space! I'm Zin, a student at VNUIS. Social media marketing is one of my favorite things to explore. This page brings together a few more favorites: blue, candy, and a bit of creativity.</p>
         <div class="tags" aria-label="My interests"><span>Social media marketing</span><span>Blue everything</span><span>Candy enthusiast</span></div>
+      </div>
+    </section>
+    <section class="friend" id="nox" aria-labelledby="nox-title">
+      <div class="friend-mark" aria-hidden="true">N.</div>
+      <div>
+        <p class="eyebrow">A close friend, a big part of my life</p>
+        <h2 id="nox-title">Meet Nox.</h2>
+        <p>Nox is my close friend. He's always there to help me with anything, and I'm grateful to have him by my side. This little corner of my website is for him.</p>
       </div>
     </section>
     <section class="note" aria-label="A little inspiration">
@@ -80,7 +99,7 @@
       <button id="sweet-button" type="button">Another sweet thought ↗</button>
     </section>
   </main>
-  <footer class="wrap"><span>Made with a little blue & a lot of heart.</span><span>Zin's little space ✳</span></footer>
+  <footer class="wrap"><span>Warm reds, golden wishes & a lot of heart.</span><span lang="vi">Chúc mừng năm mới ✿</span></footer>
   <script>
     const thoughts = [
       'Big ideas can start in little spaces.',
