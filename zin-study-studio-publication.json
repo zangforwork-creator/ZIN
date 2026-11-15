@@ -1,0 +1,17 @@
+{
+  "site_title": "Zin's Study Studio",
+  "project_id": "appgprj_6afa0752ea1881918de71089c217a380",
+  "version_id": "appgprj_6afa0752ea1881918de71089c217a380~appgver_4dbe3d307e0081919ed1b2161818146f",
+  "deployment_id": "appgdep_6afa0f8595dc81918f6a48b88d081b98",
+  "status": "succeeded",
+  "url": "https://zin-study-studio.taupeperiwinkle4.chatgpt.site",
+  "source_commit": "332acd4af395a5648195df9d75c030fda314b6ec",
+  "archive": "D:\\ZinGPT\\zin-study-studio-deploy.tar.gz",
+  "access": "owner_only",
+  "user_authorization": "Explicit approval in conversation to publish source, Notion grades/goals, cat images, book catalog and four source pages to this private Site.",
+  "deployment_updated_at_utc": "2026-11-15T20:01:24.927866+00:00",
+  "local_date": "2026-11-16",
+  "timezone": "Asia/Bangkok",
+  "storage": "Learning progress and original uploaded documents remain device-local; no cross-device synchronization.",
+  "verification": "Native owner-private deployment returned succeeded; current audience was confirmed owner-only before publishing."
+}
