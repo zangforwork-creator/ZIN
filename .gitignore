@@ -1,0 +1,6 @@
+# Full course documents stay on this device, outside the source repository.
+# Keep the catalog and Kho-tai-lieu-mon-hoc/README.md under version control.
+/Kho-tai-lieu-mon-hoc/*.pdf
+/Kho-tai-lieu-mon-hoc/*.ppt
+/Kho-tai-lieu-mon-hoc/*.pptx
+/Kho-tai-lieu-mon-hoc/*.docx

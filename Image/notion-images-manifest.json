@@ -1,0 +1,495 @@
+{
+  "images": [
+    {
+      "key": "notion-file-block://3dccecd5-8d57-8097-8d15-c909414efdfe/7102b0d5-702c-4687-953b-af20845cd796?space_id=0bccecd5-8d57-81bb-9fa1-00036fa77838&name=image.png",
+      "reference": "notion-file-block://3dccecd5-8d57-8097-8d15-c909414efdfe/7102b0d5-702c-4687-953b-af20845cd796?space_id=0bccecd5-8d57-81bb-9fa1-00036fa77838&name=image.png",
+      "source_page": "https://app.notion.com/p/3d4cecd58d57809dbaddf90b65a21e7e?pvs=204",
+      "name": "🔖 Tư tưởng Hồ Chí Minh-image-64",
+      "kind": "image",
+      "status": "saved",
+      "file": "🔖 Tư tưởng Hồ Chí Minh-image-64--6b50a70e8e4e.png",
+      "sha256": "6b50a70e8e4e5dbeae1f1fbf55a0880c2cf1b9d8dc5e44015840d11d8cffbf52",
+      "bytes": 2935468
+    },
+    {
+      "key": "notion-file-block://2efcecd5-8d57-80c1-bc37-ee04e758e406/8e8e2b51-b4fb-44e0-9ad6-18ac64d25d44?space_id=0bccecd5-8d57-81bb-9fa1-00036fa77838&name=image.png",
+      "reference": "notion-file-block://2efcecd5-8d57-80c1-bc37-ee04e758e406/8e8e2b51-b4fb-44e0-9ad6-18ac64d25d44?space_id=0bccecd5-8d57-81bb-9fa1-00036fa77838&name=image.png",
+      "source_page": "https://app.notion.com/p/2efcecd58d5780e4b21bd7d4d8b146a5?pvs=204",
+      "name": "🫧 Kỳ 1 - Năm 1-image-73",
+      "kind": "image",
+      "status": "saved",
+      "file": "🫧 Kỳ 1 - Năm 1-image-73--c5856886e439.png",
+      "sha256": "c5856886e4390455488108a08bd4688b50fddc0b9dd6961f00a696d58d024174",
+      "bytes": 2430787
+    },
+    {
+      "key": "notion-file-block://2efcecd5-8d57-8023-96cd-cd4b1cf1530e/eb33e470-27e0-4c06-be0d-727b445372e9?space_id=0bccecd5-8d57-81bb-9fa1-00036fa77838&name=image.png",
+      "reference": "notion-file-block://2efcecd5-8d57-8023-96cd-cd4b1cf1530e/eb33e470-27e0-4c06-be0d-727b445372e9?space_id=0bccecd5-8d57-81bb-9fa1-00036fa77838&name=image.png",
+      "source_page": "https://app.notion.com/p/2efcecd58d57801d89aefb2f8e6b19bb?pvs=204",
+      "name": "🫧 Kỳ 2 - Năm 1-image-80",
+      "kind": "image",
+      "status": "saved",
+      "file": "🫧 Kỳ 2 - Năm 1-image-80--32affdaecd79.png",
+      "sha256": "32affdaecd79f277d5a12835bf9c0d0dfa65e7cb7115aa0c178ba3348d2817be",
+      "bytes": 2860351
+    },
+    {
+      "key": "2b0cecd5-8d57-811c-9748-fce5c11f8c51:cover",
+      "name": "School-cover",
+      "source_page": "https://app.notion.com/p/2b0cecd58d57811c9748fce5c11f8c51?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "School-cover--ed0a0e45842c.png",
+      "sha256": "ed0a0e45842cf967ac01102fb8b74e64d29a94e0ba778f26f15376194c754b99",
+      "bytes": 2583351
+    },
+    {
+      "key": "2b0cecd5-8d57-811c-9748-fce5c11f8c51:icon",
+      "name": "School-icon",
+      "source_page": "https://app.notion.com/p/2b0cecd58d57811c9748fce5c11f8c51?pvs=204",
+      "kind": "icon",
+      "status": "saved",
+      "file": "School-icon--c57647f4ab1c.gif",
+      "sha256": "c57647f4ab1c371c39050238cc9fed0c12b957a7624bc02a41fa9567cf796f1b",
+      "bytes": 43903
+    },
+    {
+      "key": "2b0cecd5-8d57-816e-a282-ff053edc8fd3:cover",
+      "name": "Database-cover",
+      "source_page": "https://app.notion.com/p/2b0cecd58d57816ea282ff053edc8fd3?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "Database-cover--b8e81d725c16.png",
+      "sha256": "b8e81d725c16845c93e8b1802f3ee2c558016cde139c34858e8a668e4d915dd2",
+      "bytes": 2325640
+    },
+    {
+      "key": "2b0cecd5-8d57-816e-a282-ff053edc8fd3:icon",
+      "name": "Database-icon",
+      "source_page": "https://app.notion.com/p/2b0cecd58d57816ea282ff053edc8fd3?pvs=204",
+      "kind": "icon",
+      "status": "saved",
+      "file": "Database-icon--2c97ad99dbfa.gif",
+      "sha256": "2c97ad99dbfaf6a4c8dd64d1d021032b14a19cc501b5a6b13a3decb62ab1b6c3",
+      "bytes": 85666
+    },
+    {
+      "key": "2efcecd5-8d57-80ea-a8a2-f06e4cd96647:cover",
+      "name": "💡 Consumer Behaviour -cover",
+      "source_page": "https://app.notion.com/p/2efcecd58d5780eaa8a2f06e4cd96647?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "💡 Consumer Behaviour -cover--7d6b421db0d2.webp",
+      "sha256": "7d6b421db0d20768f7802716aee4791504b246a201d33587cbab134eb7171600",
+      "bytes": 135354
+    },
+    {
+      "key": "3ddcecd5-8d57-801d-a39c-c4b192bb0851:cover",
+      "name": "📊 Digital Marketing -cover",
+      "source_page": "https://app.notion.com/p/3ddcecd58d57801da39cc4b192bb0851?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "📊 Digital Marketing -cover--109b3244e14f.png",
+      "sha256": "109b3244e14fc64b710e3973966e88f106d7a7f10c11626c9b68567f9d8cba7b",
+      "bytes": 2847191
+    },
+    {
+      "key": "2efcecd5-8d57-8020-9f42-ef80591b71ec:cover",
+      "name": "📜 Management Information System-cover",
+      "source_page": "https://app.notion.com/p/2efcecd58d5780209f42ef80591b71ec?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "📜 Management Information System-cover--b1d23366dcdb.webp",
+      "sha256": "b1d23366dcdbe64e892d582338cb1649873d7e269637f179f7b7d43b78e5b646",
+      "bytes": 101312
+    },
+    {
+      "key": "2b0cecd5-8d57-809b-9abe-e242493a1510:cover",
+      "name": "📏 Mathematics -cover",
+      "source_page": "https://app.notion.com/p/2b0cecd58d57809b9abee242493a1510?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "📏 Mathematics -cover--836f535c30e3.png",
+      "sha256": "836f535c30e36298a44fe004f325a4b043dd799f642fa52074f7e52b68f7e1c9",
+      "bytes": 2635112
+    },
+    {
+      "key": "2b0cecd5-8d57-8017-95ad-e4a794a0fb8e:cover",
+      "name": "🖥️ Informatics -cover",
+      "source_page": "https://app.notion.com/p/2b0cecd58d57801795ade4a794a0fb8e?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "🖥️ Informatics -cover--7a2f8f773990.png",
+      "sha256": "7a2f8f773990d1d733eb85867d92d78bd359187c724d291c7e4d61f5c2adc753",
+      "bytes": 2911553
+    },
+    {
+      "key": "3d4cecd5-8d57-801a-bf92-ee386103dd55:cover",
+      "name": "🛍️ E-Commerce -cover",
+      "source_page": "https://app.notion.com/p/3d4cecd58d57801abf92ee386103dd55?pvs=204",
+      "kind": "cover",
+      "status": "duplicate",
+      "file": "🔖 Tư tưởng Hồ Chí Minh-image-64--6b50a70e8e4e.png",
+      "sha256": "6b50a70e8e4e5dbeae1f1fbf55a0880c2cf1b9d8dc5e44015840d11d8cffbf52",
+      "bytes": 2935468
+    },
+    {
+      "key": "3d4cecd5-8d57-8026-9f8b-c61c91834d9d:cover",
+      "name": "🛺 Supply Chain Management -cover",
+      "source_page": "https://app.notion.com/p/3d4cecd58d5780269f8bc61c91834d9d?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "🛺 Supply Chain Management -cover--dbafa6d18d95.png",
+      "sha256": "dbafa6d18d9500e4efbc5e1a482d038d87cdce396aea766b0b54b1fa5ded8071",
+      "bytes": 3197570
+    },
+    {
+      "key": "3d4cecd5-8d57-809d-badd-f90b65a21e7e:cover",
+      "name": "🔖 Tư tưởng Hồ Chí Minh-cover",
+      "source_page": "https://app.notion.com/p/3d4cecd58d57809dbaddf90b65a21e7e?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "🔖 Tư tưởng Hồ Chí Minh-cover--0f2255bdafc6.png",
+      "sha256": "0f2255bdafc6a0c90eed7003120c5dd48050214e61f74a33dcfe0f391e8c5340",
+      "bytes": 2694351
+    },
+    {
+      "key": "2efcecd5-8d57-8017-8509-d49a5650ea40:cover",
+      "name": "🪀 Introduction to Marketing Career-cover",
+      "source_page": "https://app.notion.com/p/2efcecd58d5780178509d49a5650ea40?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "🪀 Introduction to Marketing Career-cover--33a257434c45.webp",
+      "sha256": "33a257434c4550e9ab225aaf7ec51d4c25e11fb72a4e42261ef2562c7ab7ce04",
+      "bytes": 173586
+    },
+    {
+      "key": "2e0cecd5-8d57-81b5-a02e-c0a8a8e9ca39:cover",
+      "name": "⚖️ New page-cover",
+      "source_page": "https://app.notion.com/p/2e0cecd58d5781b5a02ec0a8a8e9ca39?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "⚖️ New page-cover--3d10f08cd1ec.png",
+      "sha256": "3d10f08cd1ec9438fde62547cb33ae60a7bbcbdf22514eb5f03f752641f7a7c9",
+      "bytes": 3109720
+    },
+    {
+      "key": "2e0cecd5-8d57-8196-808b-c501c7f034a8:cover",
+      "name": "🖥️ New page-cover",
+      "source_page": "https://app.notion.com/p/2e0cecd58d578196808bc501c7f034a8?pvs=204",
+      "kind": "cover",
+      "status": "duplicate",
+      "file": "🖥️ Informatics -cover--7a2f8f773990.png",
+      "sha256": "7a2f8f773990d1d733eb85867d92d78bd359187c724d291c7e4d61f5c2adc753",
+      "bytes": 2911553
+    },
+    {
+      "key": "2b0cecd5-8d57-81bc-8ffe-dd668976a4af:cover",
+      "name": "🖊️ Marx Lenin -cover",
+      "source_page": "https://app.notion.com/p/2b0cecd58d5781bc8ffedd668976a4af?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "🖊️ Marx Lenin -cover--edf48c1f3b48.png",
+      "sha256": "edf48c1f3b48b7d3eb45e50755855fe90e82c722a0922a949e97338e93ff2c3d",
+      "bytes": 2540071
+    },
+    {
+      "key": "2e0cecd5-8d57-81fe-b3fe-c1ba21b3baae:cover",
+      "name": "💰 New page-cover",
+      "source_page": "https://app.notion.com/p/2e0cecd58d5781feb3fec1ba21b3baae?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "💰 New page-cover--9e791fd54db3.jpg",
+      "sha256": "9e791fd54db3e5b6a7bf0a692eab5f9a06b74394533ab21602fe4bc017459cca",
+      "bytes": 150987
+    },
+    {
+      "key": "2e0cecd5-8d57-81c8-8388-f805e30b1afb:cover",
+      "name": "📏 New page-cover",
+      "source_page": "https://app.notion.com/p/2e0cecd58d5781c88388f805e30b1afb?pvs=204",
+      "kind": "cover",
+      "status": "duplicate",
+      "file": "📏 Mathematics -cover--836f535c30e3.png",
+      "sha256": "836f535c30e36298a44fe004f325a4b043dd799f642fa52074f7e52b68f7e1c9",
+      "bytes": 2635112
+    },
+    {
+      "key": "2e0cecd5-8d57-8150-836b-c2bab3ca8d13:cover",
+      "name": "🖊️ New page-cover",
+      "source_page": "https://app.notion.com/p/2e0cecd58d578150836bc2bab3ca8d13?pvs=204",
+      "kind": "cover",
+      "status": "duplicate",
+      "file": "🖊️ Marx Lenin -cover--edf48c1f3b48.png",
+      "sha256": "edf48c1f3b48b7d3eb45e50755855fe90e82c722a0922a949e97338e93ff2c3d",
+      "bytes": 2540071
+    },
+    {
+      "key": "2b0cecd5-8d57-8178-a144-e0c49722ebe1:cover",
+      "name": "✏️ Journal-cover",
+      "source_page": "https://app.notion.com/p/2b0cecd58d578178a144e0c49722ebe1?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "✏️ Journal-cover--ac55c650357b.png",
+      "sha256": "ac55c650357bab7e9b1d148a494e1181c1ac57a41f4d24b213191d6508219e05",
+      "bytes": 2950394
+    },
+    {
+      "key": "2e3cecd5-8d57-8163-a505-cb6a13dde6f0:cover",
+      "name": "💰 Macroeconomics-cover",
+      "source_page": "https://app.notion.com/p/2e3cecd58d578163a505cb6a13dde6f0?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "💰 Macroeconomics-cover--5b54e35045b2.png",
+      "sha256": "5b54e35045b2736ec710958ff13322eaa53cb97e5eb624f4e4b60bd77984bf86",
+      "bytes": 1897738
+    },
+    {
+      "key": "2e3cecd5-8d57-81ff-94a0-cd0436ccbace:cover",
+      "name": "🖥️ Soft skills 3-cover",
+      "source_page": "https://app.notion.com/p/2e3cecd58d5781ff94a0cd0436ccbace?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "🖥️ Soft skills 3-cover--e469039a130d.png",
+      "sha256": "e469039a130d7a323d29dc2c6c8df5a3506c61648944e5e4fb165caef6f4db87",
+      "bytes": 1570498
+    },
+    {
+      "key": "2b0cecd5-8d57-8173-91f2-cc713ad1d721:cover",
+      "name": "💰 Microeconomics -cover",
+      "source_page": "https://app.notion.com/p/2b0cecd58d57817391f2cc713ad1d721?pvs=204",
+      "kind": "cover",
+      "status": "duplicate",
+      "file": "💰 New page-cover--9e791fd54db3.jpg",
+      "sha256": "9e791fd54db3e5b6a7bf0a692eab5f9a06b74394533ab21602fe4bc017459cca",
+      "bytes": 150987
+    },
+    {
+      "key": "2e3cecd5-8d57-8115-aefc-f11732a9159f:cover",
+      "name": "⚖️ Principles of Accounting-cover",
+      "source_page": "https://app.notion.com/p/2e3cecd58d578115aefcf11732a9159f?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "⚖️ Principles of Accounting-cover--c8d71d61be1c.png",
+      "sha256": "c8d71d61be1c335af3bca4466717a39a3bb5e88e47e8ebc306576c7dd3efcc0d",
+      "bytes": 1439225
+    },
+    {
+      "key": "2b0cecd5-8d57-818f-b056-ee3756ec4fb3:cover",
+      "name": "⚖️ State and General Law -cover",
+      "source_page": "https://app.notion.com/p/2b0cecd58d57818fb056ee3756ec4fb3?pvs=204",
+      "kind": "cover",
+      "status": "duplicate",
+      "file": "⚖️ New page-cover--3d10f08cd1ec.png",
+      "sha256": "3d10f08cd1ec9438fde62547cb33ae60a7bbcbdf22514eb5f03f752641f7a7c9",
+      "bytes": 3109720
+    },
+    {
+      "key": "2efcecd58d578050a6dccb597ece2f43:cover",
+      "name": "🫧 Kỳ 1 - Năm 2-cover",
+      "source_page": "https://app.notion.com/p/2efcecd58d578050a6dccb597ece2f43?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "🫧 Kỳ 1 - Năm 2-cover--c7eb395e7b9a.png",
+      "sha256": "c7eb395e7b9a27e64d97ca9284494eb3e3b25846664350a0516f7717656cf1a8",
+      "bytes": 2842613
+    },
+    {
+      "key": "2efcecd58d5780e4b21bd7d4d8b146a5:cover",
+      "name": "🫧 Kỳ 1 - Năm 1-cover",
+      "source_page": "https://app.notion.com/p/2efcecd58d5780e4b21bd7d4d8b146a5?pvs=204",
+      "kind": "cover",
+      "status": "duplicate",
+      "file": "🫧 Kỳ 1 - Năm 1-image-73--c5856886e439.png",
+      "sha256": "c5856886e4390455488108a08bd4688b50fddc0b9dd6961f00a696d58d024174",
+      "bytes": 2430787
+    },
+    {
+      "key": "327cecd58d57802ebb05f3a71ae4928c:cover",
+      "name": "🫧 Course Certificate-cover",
+      "source_page": "https://app.notion.com/p/327cecd58d57802ebb05f3a71ae4928c?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "🫧 Course Certificate-cover--da0e89860677.png",
+      "sha256": "da0e8986067796404741198f087aa5f2464450952269f6fe7fee2c3dfdb16ba6",
+      "bytes": 2695853
+    },
+    {
+      "key": "2efcecd58d57801d89aefb2f8e6b19bb:cover",
+      "name": "🫧 Kỳ 2 - Năm 1-cover",
+      "source_page": "https://app.notion.com/p/2efcecd58d57801d89aefb2f8e6b19bb?pvs=204",
+      "kind": "cover",
+      "status": "duplicate",
+      "file": "🫧 Kỳ 2 - Năm 1-image-80--32affdaecd79.png",
+      "sha256": "32affdaecd79f277d5a12835bf9c0d0dfa65e7cb7115aa0c178ba3348d2817be",
+      "bytes": 2860351
+    },
+    {
+      "key": "2efcecd58d5780fda685dfa91e240d35:cover",
+      "name": "📢 Introduction to Marketing Career (1)-cover",
+      "source_page": "https://app.notion.com/p/2efcecd58d5780fda685dfa91e240d35?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "📢 Introduction to Marketing Career (1)-cover--d517ac4aa59d.png",
+      "sha256": "d517ac4aa59db65f822e9697c12afec9847f523179c7baae80351bfcdf75cbfa",
+      "bytes": 2170475
+    },
+    {
+      "key": "2b0cecd58d5781968c83d95a8e3936f5:cover",
+      "name": "📢 Principle of marketing -cover",
+      "source_page": "https://app.notion.com/p/2b0cecd58d5781968c83d95a8e3936f5?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "📢 Principle of marketing -cover--99f3ba88b5e7.png",
+      "sha256": "99f3ba88b5e7a56d0a4ba5106419702f2cb288f67821a27d4c461cf1df8fec7d",
+      "bytes": 2915346
+    },
+    {
+      "key": "2efcecd58d578046baaef193f9264266:cover",
+      "name": "Macroeconomics-cover",
+      "source_page": "https://app.notion.com/p/2efcecd58d578046baaef193f9264266?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "Macroeconomics-cover--204b276791dc.webp",
+      "sha256": "204b276791dc246054087584502ec67c06363d1df62769f702a614d89ca801a5",
+      "bytes": 121884
+    },
+    {
+      "key": "2efcecd58d578006817be0c8f192bf3a:cover",
+      "name": "Business Management-cover",
+      "source_page": "https://app.notion.com/p/2efcecd58d578006817be0c8f192bf3a?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "Business Management-cover--b3284e5234cf.webp",
+      "sha256": "b3284e5234cf805097729e578be1d69f1d0609215738dce98aecf4f6c89bbaf3",
+      "bytes": 136164
+    },
+    {
+      "key": "2efcecd58d57807688a3dfe13080eb33:cover",
+      "name": "Mathematical Statistics-cover",
+      "source_page": "https://app.notion.com/p/2efcecd58d57807688a3dfe13080eb33?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "Mathematical Statistics-cover--a33746cf6c21.webp",
+      "sha256": "a33746cf6c213288f4db750ea50620231b99fa80d5a1a60570b7a765405f301f",
+      "bytes": 82200
+    },
+    {
+      "key": "2efcecd58d57807d9e36e8a75ae76fa6:cover",
+      "name": "Principles of Accounting-cover",
+      "source_page": "https://app.notion.com/p/2efcecd58d57807d9e36e8a75ae76fa6?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "Principles of Accounting-cover--5489ed0b646d.webp",
+      "sha256": "5489ed0b646d2f6387d71a628d6f5a20ec9bd7cd1a313366b641511964191a90",
+      "bytes": 86076
+    },
+    {
+      "key": "2b0cecd58d5780e98160f5374c9c451d:cover",
+      "name": "🫧 Academic Report-cover",
+      "source_page": "https://app.notion.com/p/2b0cecd58d5780e98160f5374c9c451d?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "🫧 Academic Report-cover--9f00e0f69c8d.png",
+      "sha256": "9f00e0f69c8d9cb504c3b9948e143b15b4c7945c85278404d49726077529125d",
+      "bytes": 3116838
+    },
+    {
+      "key": "2e0cecd58d5780cdb92be0e0e8d41b41:cover",
+      "name": "🫧 Ielts-cover",
+      "source_page": "https://app.notion.com/p/2e0cecd58d5780cdb92be0e0e8d41b41?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "🫧 Ielts-cover--b940450a05b3.png",
+      "sha256": "b940450a05b39e615b47e37b4bf88caf2dc688fc9fa6771cc39c760e1c0cdecf",
+      "bytes": 2606624
+    },
+    {
+      "key": "2e0cecd58d57802081b6e24c9a38634e:cover",
+      "name": "🫧 Volunteer Activities-cover",
+      "source_page": "https://app.notion.com/p/2e0cecd58d57802081b6e24c9a38634e?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "🫧 Volunteer Activities-cover--322beba2206c.png",
+      "sha256": "322beba2206ce6a4d987cab5e64d5b97f47912143e5a13a195d50d8b8b39f7d7",
+      "bytes": 2616442
+    },
+    {
+      "key": "2e0cecd58d578085808cc5fc8bc64139:cover",
+      "name": "🫧 HSK-cover",
+      "source_page": "https://app.notion.com/p/2e0cecd58d578085808cc5fc8bc64139?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "🫧 HSK-cover--ad767a6d78de.png",
+      "sha256": "ad767a6d78def92b92fb1a6b6e48d64dec665adb62707a2acff51d2c0b8de46d",
+      "bytes": 2992989
+    },
+    {
+      "key": "2e0cecd58d57800fa9e8ccdc3ab61774:cover",
+      "name": "🫧 Work Experience-cover",
+      "source_page": "https://app.notion.com/p/2e0cecd58d57800fa9e8ccdc3ab61774?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "🫧 Work Experience-cover--84176871566f.png",
+      "sha256": "84176871566f6587996c52d8756fcf151ea7ddf207ea08c644c8c2ad276b94ee",
+      "bytes": 3516186
+    },
+    {
+      "key": "2e3cecd58d5781a6a772f07897cf7e2e:cover",
+      "name": "📢 Introduction to Marketing Career-cover-9",
+      "source_page": "https://app.notion.com/p/2e3cecd58d5781a6a772f07897cf7e2e?pvs=204",
+      "kind": "cover",
+      "status": "duplicate",
+      "file": "📢 Introduction to Marketing Career (1)-cover--d517ac4aa59d.png",
+      "sha256": "d517ac4aa59db65f822e9697c12afec9847f523179c7baae80351bfcdf75cbfa",
+      "bytes": 2170475
+    },
+    {
+      "key": "2e3cecd58d5781e6a114f6e07e5231c3:cover",
+      "name": "🖊️ Business Organizations & Management-cover-10",
+      "source_page": "https://app.notion.com/p/2e3cecd58d5781e6a114f6e07e5231c3?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "🖊️ Business Organizations & Management-cover-10--4184580ee5ca.png",
+      "sha256": "4184580ee5ca5438dd30fe1678ccd1ede894c0546034c678a06cbb1c1908e246",
+      "bytes": 1757305
+    },
+    {
+      "key": "2e3cecd58d5781038c9af082d013a0f7:cover",
+      "name": "📏 Theory of Probability and Mathematical Statistics-cover-11",
+      "source_page": "https://app.notion.com/p/2e3cecd58d5781038c9af082d013a0f7?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "📏 Theory of Probability and Mathematical Statistics-cover-11--6069015d400f.png",
+      "sha256": "6069015d400f3d04df9d19223c8831be57225b3661017b4b225f3c03c5cab1ea",
+      "bytes": 1428442
+    },
+    {
+      "key": "2e0cecd58d5781c98ae0cccff50fafbc:cover",
+      "name": "📢 New page-cover-13",
+      "source_page": "https://app.notion.com/p/2e0cecd58d5781c98ae0cccff50fafbc?pvs=204",
+      "kind": "cover",
+      "status": "duplicate",
+      "file": "📢 Principle of marketing -cover--99f3ba88b5e7.png",
+      "sha256": "99f3ba88b5e7a56d0a4ba5106419702f2cb288f67821a27d4c461cf1df8fec7d",
+      "bytes": 2915346
+    },
+    {
+      "key": "2b0cecd58d578066b420fb54810b58c8:cover",
+      "name": "📚 Library-cover-15",
+      "source_page": "https://app.notion.com/p/2b0cecd58d578066b420fb54810b58c8?pvs=204",
+      "kind": "cover",
+      "status": "saved",
+      "file": "📚 Library-cover-15--3827d2097518.png",
+      "sha256": "3827d209751861cc441e8063f654350e6ba8d64db99c55791ed900777af65111",
+      "bytes": 3141137
+    }
+  ],
+  "filter": {
+    "date": "2026-11-16",
+    "criteria": "Keep cat cover artwork, existing cat images, and all GIF files. Remove other imported pictures and lesson screenshots.",
+    "kept_image_files": 40,
+    "cat_image_files": 38,
+    "gif_files": 2,
+    "removed_image_files": 81
+  }
+}

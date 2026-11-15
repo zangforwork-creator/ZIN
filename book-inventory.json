@@ -1,0 +1,629 @@
+{
+  "checked_date": "2026-11-16",
+  "scope": "Current local course library in Kho-tai-lieu-mon-hoc: 11 readable PDFs and 1 PowerPoint file, mapped to all 10 retained courses. Business Management now has the 578-page full Modern Management book; Logistics Management uses course slides.",
+  "books": [
+    {
+      "title": "Consumer Behavior - Building Marketing Strategy",
+      "authors": [
+        "David L. Mothersbaugh",
+        "Del I. Hawkins",
+        "Susan Bardi Kleiser"
+      ],
+      "course": "Consumer Behaviour",
+      "verification": "verified_title_page_2",
+      "edition": "14th edition, copyright 2020",
+      "original_file": "David Mothersbaugh, Delbert Hawkins, Susan Bardi Kleiser - Consumer Behavior_ Building Marketing Strategy-McGraw-Hill Education (2019).pdf",
+      "file": "Kho-tai-lieu-mon-hoc/Consumer Behavior - Building Marketing Strategy - David L. Mothersbaugh, Del I. Hawkins, Susan Bardi Kleiser.pdf",
+      "bytes": 77896669,
+      "sha256": "cd079cb9c064cac8f95989d3ceb2d1105220c6d5d041e956958208c8e1643103",
+      "pages": 833,
+      "pdf_status": "opens",
+      "last_check": {
+        "date": "2026-11-16",
+        "pdf_header": true,
+        "eof_marker": true,
+        "page_content_streams_checked": 833,
+        "sample_pages": [
+          {
+            "page": 1,
+            "extracted_chars": 0
+          },
+          {
+            "page": 417,
+            "extracted_chars": 2176
+          },
+          {
+            "page": 833,
+            "extracted_chars": 688
+          }
+        ]
+      },
+      "previous_file": "Consumer Behavior - Building Marketing Strategy - David L. Mothersbaugh, Del I. Hawkins, Susan Bardi Kleiser.pdf",
+      "filename": "Consumer Behavior - Building Marketing Strategy - David L. Mothersbaugh, Del I. Hawkins, Susan Bardi Kleiser.pdf"
+    },
+    {
+      "original_file": "8. Dave Chaffey, Fiona Ellis-Chadwick - Digital Marketing-Pearson (2022).pdf",
+      "file": "Kho-tai-lieu-mon-hoc/Digital Marketing - Dave Chaffey, Fiona Ellis-Chadwick.pdf",
+      "title": "Digital Marketing",
+      "authors": [
+        "Dave Chaffey",
+        "Fiona Ellis-Chadwick"
+      ],
+      "course": "Digital Marketing",
+      "verification": "verified_metadata",
+      "edition": null,
+      "bytes": 17702627,
+      "sha256": "f41c3c8ba1e4d97a82360c28e0316967e758ec605347fcd8ea4ad233f62de25a",
+      "pdf_status": "opens",
+      "pages": 562,
+      "last_check": {
+        "date": "2026-11-16",
+        "pdf_header": true,
+        "eof_marker": true,
+        "page_content_streams_checked": 562,
+        "sample_pages": [
+          {
+            "page": 1,
+            "extracted_chars": 0
+          },
+          {
+            "page": 282,
+            "extracted_chars": 2768
+          },
+          {
+            "page": 562,
+            "extracted_chars": 0
+          }
+        ]
+      },
+      "previous_file": "Digital Marketing - Dave Chaffey, Fiona Ellis-Chadwick.pdf",
+      "filename": "Digital Marketing - Dave Chaffey, Fiona Ellis-Chadwick.pdf"
+    },
+    {
+      "original_file": "23.INS2037.02. Integrated Business Processes with ERP Systems by Simha R. Magal, Jeffrey Word (z-lib.org).pdf",
+      "file": "Kho-tai-lieu-mon-hoc/Integrated Business Processes with ERP Systems - Simha R. Magal, Jeffrey Word.pdf",
+      "title": "Integrated Business Processes with ERP Systems",
+      "authors": [
+        "Simha R. Magal",
+        "Jeffrey Word"
+      ],
+      "course": "Management Information System",
+      "verification": "verified_title_page",
+      "edition": null,
+      "bytes": 19273850,
+      "sha256": "1d4c2c2333feb63e8250e27817aab603a7704feb57ed6402db7bbb602578c4dc",
+      "pdf_status": "opens",
+      "pages": 376,
+      "last_check": {
+        "date": "2026-11-16",
+        "pdf_header": true,
+        "eof_marker": true,
+        "page_content_streams_checked": 376,
+        "sample_pages": [
+          {
+            "page": 1,
+            "extracted_chars": 0
+          },
+          {
+            "page": 189,
+            "extracted_chars": 1279
+          },
+          {
+            "page": 376,
+            "extracted_chars": 1970
+          }
+        ]
+      },
+      "previous_file": "Integrated Business Processes with ERP Systems - Simha R. Magal, Jeffrey Word.pdf",
+      "filename": "Integrated Business Processes with ERP Systems - Simha R. Magal, Jeffrey Word.pdf"
+    },
+    {
+      "original_file": "Marketing_ An Introduction, 15th Global Edition - Armstrong, Philip Kotler - 15th, 2023.pdf",
+      "file": "Kho-tai-lieu-mon-hoc/Marketing - An Introduction - Gary Armstrong, Philip Kotler, Marc Oliver Opresnik.pdf",
+      "title": "Marketing - An Introduction",
+      "authors": [
+        "Gary Armstrong",
+        "Philip Kotler",
+        "Marc Oliver Opresnik"
+      ],
+      "course": "Introduction to Marketing Career",
+      "verification": "verified_title_page",
+      "edition": "15th Global Edition, copyright 2023",
+      "bytes": 43264351,
+      "sha256": "4a28683a728a0a3055425f44a8a9050d5c50af958f4ef008c006d087f3f73eb0",
+      "pdf_status": "opens",
+      "pages": 702,
+      "last_check": {
+        "date": "2026-11-16",
+        "pdf_header": true,
+        "eof_marker": true,
+        "page_content_streams_checked": 702,
+        "sample_pages": [
+          {
+            "page": 1,
+            "extracted_chars": 198
+          },
+          {
+            "page": 352,
+            "extracted_chars": 3976
+          },
+          {
+            "page": 702,
+            "extracted_chars": 3659
+          }
+        ]
+      },
+      "course_assignment": {
+        "basis": "user_confirmed",
+        "date": "2026-11-16"
+      },
+      "previous_file": "Marketing - An Introduction - Gary Armstrong, Philip Kotler, Marc Oliver Opresnik.pdf",
+      "filename": "Marketing - An Introduction - Gary Armstrong, Philip Kotler, Marc Oliver Opresnik.pdf"
+    },
+    {
+      "original_file": "23.INS2037.01 Ralph Stair, George Reynolds, Thomas Chesney - Principles of Business Information Systems-Cengage Learning EMEA (2021).pdf",
+      "file": "Kho-tai-lieu-mon-hoc/Principles of Business Information Systems - Ralph M. Stair, George W. Reynolds, Thomas Chesney.pdf",
+      "title": "Principles of Business Information Systems",
+      "authors": [
+        "Ralph M. Stair",
+        "George W. Reynolds",
+        "Thomas Chesney"
+      ],
+      "course": "Management Information System",
+      "verification": "verified_title_page",
+      "edition": "4th edition, copyright 2021",
+      "bytes": 28744721,
+      "sha256": "4af00a7a709b06728ad54c41f2515e86b41a7f145aac1fa3821554b44d50e5de",
+      "pdf_status": "opens",
+      "pages": 546,
+      "last_check": {
+        "date": "2026-11-16",
+        "pdf_header": true,
+        "eof_marker": true,
+        "page_content_streams_checked": 546,
+        "sample_pages": [
+          {
+            "page": 1,
+            "extracted_chars": 0
+          },
+          {
+            "page": 274,
+            "extracted_chars": 1527
+          },
+          {
+            "page": 546,
+            "extracted_chars": 1614
+          }
+        ]
+      },
+      "previous_file": "Principles of Business Information Systems - Ralph M. Stair, George W. Reynolds, Thomas Chesney.pdf",
+      "filename": "Principles of Business Information Systems - Ralph M. Stair, George W. Reynolds, Thomas Chesney.pdf"
+    },
+    {
+      "original_file": "N. Gregory Mankiw - Principles of Macroeconomics-Cengage Learning (2017).pdf",
+      "file": "Kho-tai-lieu-mon-hoc/Principles of Macroeconomics - N. Gregory Mankiw.pdf",
+      "title": "Principles of Macroeconomics",
+      "authors": [
+        "N. Gregory Mankiw"
+      ],
+      "course": "Macroeconomics",
+      "verification": "verified_title_page",
+      "edition": "8th edition, copyright 2018",
+      "bytes": 24751689,
+      "sha256": "47991dad650a15d7a143b54732ea665cd9635dc9b996cd81b3eb3710f9409458",
+      "pdf_status": "opens",
+      "pages": 578,
+      "last_check": {
+        "date": "2026-11-16",
+        "pdf_header": true,
+        "eof_marker": true,
+        "page_content_streams_checked": 578,
+        "sample_pages": [
+          {
+            "page": 1,
+            "extracted_chars": 134
+          },
+          {
+            "page": 290,
+            "extracted_chars": 4253
+          },
+          {
+            "page": 578,
+            "extracted_chars": 934
+          }
+        ]
+      },
+      "previous_file": "Principles of Macroeconomics - N. Gregory Mankiw.pdf",
+      "filename": "Principles of Macroeconomics - N. Gregory Mankiw.pdf"
+    },
+    {
+      "original_file": "Philip Kotler - Principles of Marketing-Pearson (2023).pdf",
+      "file": "Kho-tai-lieu-mon-hoc/Principles of Marketing - Philip Kotler, Gary Armstrong, Sridhar Balasubramanian.pdf",
+      "title": "Principles of Marketing",
+      "authors": [
+        "Philip Kotler",
+        "Gary Armstrong",
+        "Sridhar Balasubramanian"
+      ],
+      "course": "Principle of Marketing",
+      "verification": "verified_title_page",
+      "edition": "19th Global Edition, copyright 2024",
+      "bytes": 166409412,
+      "sha256": "9083ff3f26ba3cb13cb45a64bd1d1d6713d4394b82ac393e36b18dae1c3e13da",
+      "pdf_status": "opens",
+      "pages": 769,
+      "last_check": {
+        "date": "2026-11-16",
+        "pdf_header": true,
+        "eof_marker": true,
+        "page_content_streams_checked": 769,
+        "sample_pages": [
+          {
+            "page": 1,
+            "extracted_chars": 2894
+          },
+          {
+            "page": 385,
+            "extracted_chars": 4963
+          },
+          {
+            "page": 769,
+            "extracted_chars": 1030
+          }
+        ]
+      },
+      "previous_file": "Principles of Marketing - Philip Kotler, Gary Armstrong, Sridhar Balasubramanian.pdf",
+      "filename": "Principles of Marketing - Philip Kotler, Gary Armstrong, Sridhar Balasubramanian.pdf"
+    },
+    {
+      "original_file": "N. Gregory Mankiw - Principles of Microeconomics (2021, Cengage Learning) - libgen.li.pdf",
+      "file": "Kho-tai-lieu-mon-hoc/Principles of Microeconomics - N. Gregory Mankiw.pdf",
+      "title": "Principles of Microeconomics",
+      "authors": [
+        "N. Gregory Mankiw"
+      ],
+      "course": "Microeconomics",
+      "verification": "verified_metadata",
+      "edition": "9th edition",
+      "bytes": 20531746,
+      "sha256": "642deac26eaf2d161e9b2d3b2e90a5a4eeccd4f8ac5fb39664433e68fa4107db",
+      "pdf_status": "opens",
+      "pages": 516,
+      "last_check": {
+        "date": "2026-11-16",
+        "pdf_header": true,
+        "eof_marker": true,
+        "page_content_streams_checked": 516,
+        "sample_pages": [
+          {
+            "page": 1,
+            "extracted_chars": 134
+          },
+          {
+            "page": 259,
+            "extracted_chars": 3590
+          },
+          {
+            "page": 516,
+            "extracted_chars": 2968
+          }
+        ]
+      },
+      "previous_file": "Principles of Microeconomics - N. Gregory Mankiw.pdf",
+      "filename": "Principles of Microeconomics - N. Gregory Mankiw.pdf"
+    },
+    {
+      "title": "E-Commerce 2019 - Business, Technology, Society",
+      "authors": [
+        "Kenneth C. Laudon",
+        "Carol Guercio Traver"
+      ],
+      "course": "E-Commerce",
+      "verification": "verified_title_page_2_and_metadata",
+      "edition": "15th edition",
+      "original_file": "TEXTBOOK - E-Commerce 2019, 15th Edition_9780135116234.pdf",
+      "file": "Kho-tai-lieu-mon-hoc/E-Commerce 2019 - Business, Technology, Society - Kenneth C. Laudon, Carol Guercio Traver.pdf",
+      "bytes": 22396759,
+      "sha256": "d5fb8aae645f3a66069b8deec1190a3e34d90e035b08708f5269c876ba210c0f",
+      "pages": 913,
+      "pdf_status": "opens",
+      "last_check": {
+        "date": "2026-11-16",
+        "pdf_header": true,
+        "eof_marker": true,
+        "page_content_streams_checked": 913,
+        "sample_pages": [
+          {
+            "page": 1,
+            "extracted_chars": 33
+          },
+          {
+            "page": 457,
+            "extracted_chars": 5529
+          },
+          {
+            "page": 913,
+            "extracted_chars": 2394
+          }
+        ]
+      },
+      "previous_file": "E-Commerce 2019 - Business, Technology, Society - Kenneth C. Laudon, Carol Guercio Traver.pdf",
+      "filename": "E-Commerce 2019 - Business, Technology, Society - Kenneth C. Laudon, Carol Guercio Traver.pdf"
+    },
+    {
+      "title": "The Study Skills Handbook",
+      "authors": [
+        "Stella Cottrell"
+      ],
+      "course": "Study skills reference; outside the 10 retained courses",
+      "verification": "verified_title_pages_1_and_4",
+      "edition": "5th edition, copyright 2019",
+      "original_file": "The study skills handbook-Stella Cottrell.pdf",
+      "file": "Kho-tai-lieu-mon-hoc/The Study Skills Handbook - Stella Cottrell.pdf",
+      "bytes": 15442827,
+      "sha256": "847fdf6e76e16fac2ba008084a5a8ef5cbce0099ba852368384d260c72fbaf83",
+      "pages": 438,
+      "pdf_status": "opens",
+      "last_check": {
+        "date": "2026-11-16",
+        "pdf_header": true,
+        "eof_marker": true,
+        "page_content_streams_checked": 438,
+        "sample_pages": [
+          {
+            "page": 1,
+            "extracted_chars": 85
+          },
+          {
+            "page": 220,
+            "extracted_chars": 3446
+          },
+          {
+            "page": 438,
+            "extracted_chars": 16
+          }
+        ]
+      },
+      "previous_file": "The Study Skills Handbook - Stella Cottrell.pdf",
+      "filename": "The Study Skills Handbook - Stella Cottrell.pdf"
+    },
+    {
+      "original_file": "Modern Management_ Concepts and Skills (What's New in -- Samuel C_ Certo, S_ Trevis Certo -- 15, 2018-03-22 -- Pearson Education Canada -- isbn13 9780134729138 -- 2fc5a9cd80937833b918cde0ad11bd82 -- Anna’s Archive.pdf",
+      "file": "Kho-tai-lieu-mon-hoc/Modern Management - Concepts and Skills - Samuel C. Certo, S. Trevis Certo.pdf",
+      "title": "Modern Management - Concepts and Skills",
+      "authors": [
+        "Samuel C. Certo",
+        "S. Trevis Certo"
+      ],
+      "course": "Business Management",
+      "verification": "verified_title_page_4_and_contents_page_6",
+      "edition": "15th Global Edition, copyright 2019",
+      "bytes": 69865728,
+      "sha256": "1ba5a6b4ace58e44a06faf99f888af7770e9f8e1f4b4f63486bcbd6c851bc32d",
+      "pages": 578,
+      "pdf_status": "opens",
+      "coverage": "full_book_with_20_chapters_appendix_glossary_and_indexes",
+      "coverage_note": "User identifies this as the full book. Contents show 20 chapters, appendix, glossary, author and subject indexes; first, middle and last-page checks support this. Not every page was visually compared against a publisher copy.",
+      "needs_replacement": false,
+      "last_check": {
+        "date": "2026-11-16",
+        "page_content_streams_checked": 578,
+        "sample_pages": [
+          {
+            "page": 290,
+            "chars": 3447,
+            "opening": " CHAPTER 12  Human Resource Management 289\nmanaging human resources in any organization. This chapter explores the process \nof managing human resources within an organization, emphasizes how hiring and \nretaining the right people is part of this proc"
+          },
+          {
+            "page": 578,
+            "chars": 1950,
+            "opening": "GLOBAL \nEDITION\nGLOBAL \nEDITION\nGLOBAL \nEDITION\nModern Management \nConcepts and Skills\nCerto • Certo FIFTEENTH EDITION\nSamuel C. Certo • S. Trevis Certo\nModern Management \nConcepts and Skills\nFIFTEENTH EDITION\nToday’s managers continue to face exciti"
+          }
+        ]
+      },
+      "previous_file": "Modern Management_ Concepts and Skills (What's New in -- Samuel C_ Certo, S_ Trevis Certo -- 15, 2018-03-22 -- Pearson Education Canada -- isbn13 9780134729138 -- 2fc5a9cd80937833b918cde0ad11bd82 -- Anna’s Archive.pdf",
+      "filename": "Modern Management - Concepts and Skills - Samuel C. Certo, S. Trevis Certo.pdf"
+    }
+  ],
+  "courses_without_dedicated_textbooks": [
+    "Logistics Management"
+  ],
+  "related_reference_notes": [
+    "Marketing - An Introduction is assigned to Introduction to Marketing Career, confirmed by the user on 2026-11-16.",
+    "The Study Skills Handbook is a supplementary study skills resource, outside the 10 course count.",
+    "Modern Management full book replaces the user-removed 25-page chapter 1 excerpt. No pending replacement remains.",
+    "Logistics Management uses the PowerPoint file originally named Supply Chain.ppt; the user confirmed the course name correction on 2026-11-16. A slide deck is not counted as a PDF textbook."
+  ],
+  "removed_books": [
+    {
+      "original_file": "David Mothersbaugh, Delbert Hawkins, Susan Bardi Kleiser - Consumer Behavior_ Building Marketing Strategy-McGraw-Hill Education (2019).pdf",
+      "file": "Consumer Behavior - Building Marketing Strategy - David Mothersbaugh, Delbert Hawkins, Susan Bardi Kleiser.pdf",
+      "title": "Consumer Behavior - Building Marketing Strategy",
+      "authors": [
+        "David Mothersbaugh",
+        "Delbert Hawkins",
+        "Susan Bardi Kleiser"
+      ],
+      "course": "Consumer Behaviour",
+      "verification": "original_filename_only_pdf_unreadable",
+      "edition": null,
+      "bytes": 67028975,
+      "sha256": "2e8af2c301976ee8c59fcf253408ce80ac91f9a2f78940c8257ae3f5669a2283",
+      "pdf_status": "read_error",
+      "pdf_error": "PdfStreamError: Stream has ended unexpectedly",
+      "note": "Missing EOF marker. File may be incomplete. Title and authors retained from the original filename; not verified inside the file.",
+      "removed_date": "2026-11-16",
+      "reason": "PdfStreamError: Stream has ended unexpectedly",
+      "eof_marker": false
+    }
+  ],
+  "summary": {
+    "pdfs_checked": 11,
+    "readable_pdfs_kept": 11,
+    "unreadable_pdfs_removed": 1,
+    "courses_with_dedicated_textbooks": 9,
+    "courses_without_dedicated_textbooks": 1,
+    "page_content_streams_checked": 6811,
+    "check_limits": "All page content streams in the 10 unchanged PDFs were checked previously (6233 pages). The replacement Modern Management was checked across all 578 pages. Prior PowerPoint check parsed OLE and text records. SHA-256 confirms all moved files retained their bytes. Not every PDF page or slide was visually inspected.",
+    "powerpoint_files_kept": 1,
+    "courses_with_materials": 10,
+    "courses_without_materials": 0,
+    "courses_with_partial_textbooks": 0,
+    "courses_with_slides_only": 1,
+    "courses_requiring_replacement_or_completion": 0
+  },
+  "documents": [
+    {
+      "file": "Kho-tai-lieu-mon-hoc/Supply Chain.ppt",
+      "title": "Distribution & Logistics Management",
+      "course": "Logistics Management",
+      "format": "PowerPoint 97-2003 (.ppt)",
+      "course_code_in_document": "MKT203",
+      "course_coordinator": "Mr. Jacob Kulleh",
+      "institution_in_document": "HELP University",
+      "bytes": 11102720,
+      "sha256": "f397e4ab712450eb763a0a32a30b10fd5f8198b498713239ee45902ab33a23f0",
+      "status": "structure_and_text_readable",
+      "verification": {
+        "date": "2026-11-16",
+        "ole_container_opened": true,
+        "powerpoint_records_parsed": true,
+        "text_records": 3907,
+        "record_parse_errors": [],
+        "visual_rendering_checked": false
+      },
+      "course_assignment": {
+        "basis": "user_confirmed_course_name_correction",
+        "previous_name": "Supply Chain Management",
+        "date": "2026-11-16"
+      },
+      "previous_file": "Supply Chain.ppt",
+      "filename": "Supply Chain.ppt"
+    }
+  ],
+  "courses_without_materials": [],
+  "courses_with_partial_textbooks": [],
+  "courses_with_slides_only": [
+    "Logistics Management"
+  ],
+  "courses_requiring_replacement_or_completion": [],
+  "notion_course_updates": [
+    {
+      "date": "2026-11-16",
+      "page_id": "3d4cecd5-8d57-8026-9f8b-c61c91834d9d",
+      "url": "https://www.notion.so/3d4cecd58d5780269f8bc61c91834d9d",
+      "previous_name": "Supply Chain Management",
+      "name": "Logistics Management",
+      "status": "updated"
+    }
+  ],
+  "replaced_books": [
+    {
+      "original_file": "modern-management-concepts-skills-15th-ed-global-edition.pdf",
+      "file": "Modern Management - Concepts and Skills (Chapter 1 excerpt) - Samuel C. Certo, S. Trevis Certo.pdf",
+      "title": "Modern Management - Concepts and Skills",
+      "authors": [
+        "Samuel C. Certo",
+        "S. Trevis Certo"
+      ],
+      "course": "Business Management",
+      "verification": "verified_cover_page_2_and_chapter_page_headers",
+      "edition": "15th Global Edition",
+      "bytes": 6748205,
+      "sha256": "ee609663f9d15d56adcd936ebb8cd6367d10755bb7684020b916205478292c90",
+      "pages": 25,
+      "pdf_status": "opens",
+      "coverage": "chapter_1_excerpt_only",
+      "printed_chapter_pages": "31-52",
+      "needs_replacement": true,
+      "replacement_status": "User plans to supply a newer or fuller copy. Keep current excerpt.",
+      "last_check": {
+        "date": "2026-11-16",
+        "page_content_streams_checked": 25
+      },
+      "replaced_date": "2026-11-16",
+      "replaced_by": "Kho-tai-lieu-mon-hoc/Modern Management - Concepts and Skills - Samuel C. Certo, S. Trevis Certo.pdf",
+      "replacement_reason": "User supplied the full book and removed the old chapter 1 excerpt.",
+      "old_file_removed_by": "user"
+    }
+  ],
+  "library_directory": "Kho-tai-lieu-mon-hoc",
+  "file_path_base": "Paths in books[].file and documents[].file are relative to D:/ZinGPT.",
+  "library_moves": {
+    "date": "2026-11-16",
+    "files": [
+      {
+        "source": "Consumer Behavior - Building Marketing Strategy - David L. Mothersbaugh, Del I. Hawkins, Susan Bardi Kleiser.pdf",
+        "destination": "Kho-tai-lieu-mon-hoc/Consumer Behavior - Building Marketing Strategy - David L. Mothersbaugh, Del I. Hawkins, Susan Bardi Kleiser.pdf",
+        "sha256": "cd079cb9c064cac8f95989d3ceb2d1105220c6d5d041e956958208c8e1643103",
+        "bytes": 77896669
+      },
+      {
+        "source": "Digital Marketing - Dave Chaffey, Fiona Ellis-Chadwick.pdf",
+        "destination": "Kho-tai-lieu-mon-hoc/Digital Marketing - Dave Chaffey, Fiona Ellis-Chadwick.pdf",
+        "sha256": "f41c3c8ba1e4d97a82360c28e0316967e758ec605347fcd8ea4ad233f62de25a",
+        "bytes": 17702627
+      },
+      {
+        "source": "E-Commerce 2019 - Business, Technology, Society - Kenneth C. Laudon, Carol Guercio Traver.pdf",
+        "destination": "Kho-tai-lieu-mon-hoc/E-Commerce 2019 - Business, Technology, Society - Kenneth C. Laudon, Carol Guercio Traver.pdf",
+        "sha256": "d5fb8aae645f3a66069b8deec1190a3e34d90e035b08708f5269c876ba210c0f",
+        "bytes": 22396759
+      },
+      {
+        "source": "Integrated Business Processes with ERP Systems - Simha R. Magal, Jeffrey Word.pdf",
+        "destination": "Kho-tai-lieu-mon-hoc/Integrated Business Processes with ERP Systems - Simha R. Magal, Jeffrey Word.pdf",
+        "sha256": "1d4c2c2333feb63e8250e27817aab603a7704feb57ed6402db7bbb602578c4dc",
+        "bytes": 19273850
+      },
+      {
+        "source": "Marketing - An Introduction - Gary Armstrong, Philip Kotler, Marc Oliver Opresnik.pdf",
+        "destination": "Kho-tai-lieu-mon-hoc/Marketing - An Introduction - Gary Armstrong, Philip Kotler, Marc Oliver Opresnik.pdf",
+        "sha256": "4a28683a728a0a3055425f44a8a9050d5c50af958f4ef008c006d087f3f73eb0",
+        "bytes": 43264351
+      },
+      {
+        "source": "Modern Management_ Concepts and Skills (What's New in -- Samuel C_ Certo, S_ Trevis Certo -- 15, 2018-03-22 -- Pearson Education Canada -- isbn13 9780134729138 -- 2fc5a9cd80937833b918cde0ad11bd82 -- Anna’s Archive.pdf",
+        "destination": "Kho-tai-lieu-mon-hoc/Modern Management - Concepts and Skills - Samuel C. Certo, S. Trevis Certo.pdf",
+        "sha256": "1ba5a6b4ace58e44a06faf99f888af7770e9f8e1f4b4f63486bcbd6c851bc32d",
+        "bytes": 69865728
+      },
+      {
+        "source": "Principles of Business Information Systems - Ralph M. Stair, George W. Reynolds, Thomas Chesney.pdf",
+        "destination": "Kho-tai-lieu-mon-hoc/Principles of Business Information Systems - Ralph M. Stair, George W. Reynolds, Thomas Chesney.pdf",
+        "sha256": "4af00a7a709b06728ad54c41f2515e86b41a7f145aac1fa3821554b44d50e5de",
+        "bytes": 28744721
+      },
+      {
+        "source": "Principles of Macroeconomics - N. Gregory Mankiw.pdf",
+        "destination": "Kho-tai-lieu-mon-hoc/Principles of Macroeconomics - N. Gregory Mankiw.pdf",
+        "sha256": "47991dad650a15d7a143b54732ea665cd9635dc9b996cd81b3eb3710f9409458",
+        "bytes": 24751689
+      },
+      {
+        "source": "Principles of Marketing - Philip Kotler, Gary Armstrong, Sridhar Balasubramanian.pdf",
+        "destination": "Kho-tai-lieu-mon-hoc/Principles of Marketing - Philip Kotler, Gary Armstrong, Sridhar Balasubramanian.pdf",
+        "sha256": "9083ff3f26ba3cb13cb45a64bd1d1d6713d4394b82ac393e36b18dae1c3e13da",
+        "bytes": 166409412
+      },
+      {
+        "source": "Principles of Microeconomics - N. Gregory Mankiw.pdf",
+        "destination": "Kho-tai-lieu-mon-hoc/Principles of Microeconomics - N. Gregory Mankiw.pdf",
+        "sha256": "642deac26eaf2d161e9b2d3b2e90a5a4eeccd4f8ac5fb39664433e68fa4107db",
+        "bytes": 20531746
+      },
+      {
+        "source": "Supply Chain.ppt",
+        "destination": "Kho-tai-lieu-mon-hoc/Supply Chain.ppt",
+        "sha256": "f397e4ab712450eb763a0a32a30b10fd5f8198b498713239ee45902ab33a23f0",
+        "bytes": 11102720
+      },
+      {
+        "source": "The Study Skills Handbook - Stella Cottrell.pdf",
+        "destination": "Kho-tai-lieu-mon-hoc/The Study Skills Handbook - Stella Cottrell.pdf",
+        "sha256": "847fdf6e76e16fac2ba008084a5a8ef5cbce0099ba852368384d260c72fbaf83",
+        "bytes": 15442827
+      }
+    ]
+  }
+}
