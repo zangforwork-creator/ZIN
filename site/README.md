@@ -20,3 +20,6 @@ Syntax check (`node --check`) and a scripted headless-Edge run of the study flow
 
 ## Limits
 Demo news only; no OCR or Office/PDF parsing; no accounts or sync; cards are written by hand, not AI-generated.
+
+## Link previews (Discord, Instagram, etc.)
+`index.html` has Open Graph and Twitter-card tags, plus `favicon.svg`, `apple-touch-icon.png` and `og.png` (1200x630). Crawlers need absolute URLs, so after you publish, replace every `https://YOUR-SITE-URL/` in `index.html` with the real address (end with `/`). Until then the preview image will not show. Discord and others cache previews, so re-test with a fresh link after changes. `tools/og.html` and `tools/icon.html` are the sources for the images (screenshot them at 1200x630 and 180x180 to regenerate). Instagram does not show link previews in posts; the image is used when the link is shared in DMs/stories where supported.
