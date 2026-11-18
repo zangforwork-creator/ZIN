@@ -44,6 +44,18 @@ const SPR = {
   library: ['.dddddd.', 'dbbbbbbd', 'dbwwwwbd', 'dbbbbbbd', 'dbwwwwbd', 'dbbbbbbd', 'dbbbbbbd', '.dddddd.'],
   progress: ['........', '......mm', '......mm', '...yy.mm', '...yy.mm', 'pp.yy.mm', 'pp.yy.mm', 'pppyyymm'],
   pad: ['........', '.dddddd.', 'dbbbbbbd', 'dbybbbpd', 'dyyybpbd', 'dbybbbbd', '.dbbbbd.', '..dddd..'],
+  cat_happy: ['ll........ll', 'lbl......lbl', 'lbbl....lbbl', 'lbpbllllbpbl', 'lbbbbbbbbbbl', 'lbeebbbbeebl', 'lbbbbbbbbbbl', 'lbbbppppbbbl', 'lbbbbbbbbbbl', '.lbbbbbbbbl.', '..llllllll..'],
+  cat_sleep: ['ll........ll', 'lbl......lbl', 'lbbl....lbbl', 'lbpbllllbpbl', 'lbbbbbbbbbbl', 'lbbbbbbbbbbl', 'lbeebbbbeebl', 'lbbbbppbbbbl', 'lbbbbbbbbbbl', '.lbbbbbbbbl.', '..llllllll..'],
+  i_heart: ['.pp..pp.', 'pppppppp', 'pppppppp', 'pppppppp', '.pppppp.', '..pppp..', '...pp...', '........'],
+  i_screen: ['dddddddd', 'dbbbbbbd', 'dbmmmbbd', 'dbbbmmbd', 'dbbbbbbd', 'dddddddd', '...dd...', '..dddd..'],
+  i_chip: ['..d..d..', 'dddddddd', 'dbbbbbbd', 'dbbyybbd', 'dbbyybbd', 'dbbbbbbd', 'dddddddd', '..d..d..'],
+  i_horn: ['......y.', '....yyy.', 'pppyyyyy', 'pppyyyyy', 'pppyyyy.', 'pp.yyy..', 'pp..y...', '........'],
+  i_coin: ['..yyyy..', '.yyyyyy.', 'yyyooyyy', 'yyoyyyyy', 'yyyooyyy', 'yyyyyoyy', '.yyyyyy.', '..yyyy..'],
+  i_target: ['.pppppp.', 'pwwwwwwp', 'pwppppwp', 'pwpyypwp', 'pwpyypwp', 'pwppppwp', 'pwwwwwwp', '.pppppp.'],
+  i_cross: ['d.......', 'd.....pp', 'd...pp..', 'dmmpp...', 'd.pmm...', 'pp..mm..', 'd....mmm', 'dddddddd'],
+  i_cart: ['o.......', '.ooooooo', '.obbbbbo', '..obbbo.', '..ooooo.', '..o...o.', '.dd..dd.', '.dd..dd.'],
+  i_case: ['...dd...', '..d..d..', 'dddddddd', 'dbbbbbbd', 'dbbyybbd', 'dbbbbbbd', 'dbbbbbbd', 'dddddddd'],
+  i_truck: ['........', 'dddddd..', 'dbbbbbdd', 'dbbbbbdy', 'dbbbbbdy', 'dddddddd', '.ee..ee.', '.ee..ee.'],
   news: ['wwwwwwww', 'wddddwbw', 'wddddwbw', 'wwwwwwbw', 'wbbbbbbw', 'wwwwwwww', 'wbbbbbbw', 'wwwwwwww']
 };
 function sprite(name, scale = 4, cls = '') {
@@ -59,9 +71,28 @@ function sprite(name, scale = 4, cls = '') {
   }));
   return svg;
 }
-const empty = msg => el('div', { class: 'empty' }, sprite('cat', 5), el('p', {}, msg));
+const empty = msg => el('div', { class: 'empty' }, sprite('cat_sleep', 5), el('p', {}, msg));
 const stTag = c => el('span', { class: 'tag st-' + status(c).toLowerCase().replace(' ', '-') }, status(c));
-const mascot = msg => el('div', { class: 'hero' }, sprite('cat', 10, 'bob'), el('div', { class: 'bubble', role: 'status' }, msg));
+const mascot = (msg, face = 'cat') => el('div', { class: 'hero' }, sprite(face, 10, 'bob'), el('div', { class: 'bubble', role: 'status' }, msg));
+
+/* ---------- course catalog (from book-inventory.json via catalog.js) ---------- */
+const CAT = window.CATALOG || { courses: [], reference: [], checked: null };
+const catId = slug => 'cat-' + slug;
+const COURSE_ICON = { 'consumer-behaviour': 'i_heart', 'digital-marketing': 'i_screen', 'management-information-system': 'i_chip',
+  'introduction-to-marketing-career': 'i_horn', 'macroeconomics': 'i_coin', 'principle-of-marketing': 'i_target', 'microeconomics': 'i_cross',
+  'e-commerce': 'i_cart', 'business-management': 'i_case', 'logistics-management': 'i_truck' };
+const COVER_BG = ['#7dffb8', '#ffd84a', '#ff7ac8', '#6fb0ff', '#ff9d4a'];
+function cover(slug, name) {   // generated pixel course cover (replaces image files)
+  const i = Math.max(0, CAT.courses.findIndex(c => c.slug === slug));
+  return el('div', { class: 'cover', style: '--cv:' + COVER_BG[i % COVER_BG.length] }, sprite(COURSE_ICON[slug] || 'library', 7), el('b', {}, name));
+}
+const catCourse = id => CAT.courses.find(c => catId(c.slug) === id);
+const bookLabel = b => b.title + (b.edition ? ' (' + b.edition + ')' : '');
+function syncCatalog(d) {            // adds missing catalog courses; never removes or renames anything
+  let changed = false;
+  for (const c of CAT.courses) if (!d.courses.some(x => x.id === catId(c.slug))) { d.courses.push({ id: catId(c.slug), name: c.name, catalog: true }); changed = true; }
+  return changed;
+}
 
 /* ---------- storage ---------- */
 function demoData() {
@@ -143,12 +174,17 @@ function go(v) {
 function render() {
   document.querySelectorAll('nav button').forEach(b => b.setAttribute('aria-current', b.dataset.view === view ? 'page' : 'false'));
   const app = $('#app'); app.replaceChildren();
-  app.append(...[views[view]()].flat());
+  app.append(...[views[view]()].flat().filter(Boolean));
 }
 
 /* ---------- Home ---------- */
 function homeView() {
   const due = dueCards(), nw = newCards();
+  const tiles = D.courses.filter(c => c.catalog).map(c => {
+    const n = dueCards(c.id).length, cc = catCourse(c.id), k = D.cards.filter(x => x.courseId === c.id).length;
+    return el('button', { class: 'ghost course', onclick: () => { curCourse = c.id; go('library'); } },
+      el('span', { class: 'ctop' }, sprite(COURSE_ICON[cc.slug] || 'library', 4), el('b', {}, c.name)), el('small', {}, (cc && cc.items[0].kind === 'slides' ? 'Slides' : cc ? cc.items.length + (cc.items.length === 1 ? ' textbook' : ' textbooks') : '') + ' · ' + k + ' cards' + (n ? ' · ' + n + ' due' : '')));
+  });
   const behind = D.courses.map(c => ({ c, n: dueCards(c.id).length })).filter(x => x.n > 0).sort((a, b) => b.n - a.n);
   const msg = !D.cards.length ? 'Meow! Add a course and a few cards in the Library to begin.'
     : due.length ? 'Meow! ' + due.length + ' card' + (due.length === 1 ? ' is' : 's are') + ' ready to review. A short session is plenty.'
@@ -172,6 +208,7 @@ function homeView() {
     out.push(el('div', { class: 'panel' }, el('h3', {}, 'Where reviews are waiting'),
       el('ul', {}, behind.map(x => el('li', {}, courseName(x.c.id) + ': ' + x.n + ' due')))));
   }
+  if (tiles.length) out.push(el('div', { class: 'panel' }, el('h3', {}, 'Your courses'), el('div', { class: 'courses' }, tiles)));
   const nextDue = D.cards.filter(c => c.history.length && c.due > today()).map(c => c.due).sort()[0];
   if (!due.length && nextDue) out.push(el('p', { class: 'dim' }, 'Nothing due now. Next review: ' + nextDue + '.'));
   return out;
@@ -261,7 +298,7 @@ function studyDone() {
   }
   const n = S.results.length, got = S.results.filter(r => r.result === 'got').length;
   const miss = S.results.filter(r => r.result === 'forgot').map(r => D.cards.find(c => c.id === r.id)).filter(Boolean);
-  const out = [el('h2', {}, 'Session done'), mascot(n ? 'Session saved. Cards you missed come back sooner so they stick.' : 'No cards reviewed this time. That is fine.'),
+  const out = [el('h2', {}, 'Session done'), mascot(n ? 'Session saved. Cards you missed come back sooner so they stick.' : 'No cards reviewed this time. That is fine.', n ? 'cat_happy' : 'cat_sleep'),
     el('div', { class: 'panel' },
       n ? el('p', {}, 'Reviewed ' + n + ' card' + (n === 1 ? '' : 's') + ': ' + got + ' recalled, ' +
         S.results.filter(r => r.result === 'hard').length + ' hard, ' + miss.length + ' forgotten.') : el('p', {}, 'No cards reviewed.'),
@@ -303,7 +340,7 @@ function srcText(c) {
   return s.docName ? s.docName + (s.loc ? ', ' + s.loc : '') : 'No source (written by you)';
 }
 function libraryView() {
-  if (!curCourse || !D.courses.find(c => c.id === curCourse)) curCourse = D.courses[0] ? D.courses[0].id : null;
+  if (!curCourse || !D.courses.find(c => c.id === curCourse)) curCourse = (D.courses.find(c => c.catalog) || D.courses[0] || {}).id || null;
   const out = [el('h2', {}, 'Library')];
   // add course
   const nameIn = el('input', { type: 'text', id: 'newCourse', placeholder: 'e.g. Consumer Behavior', maxlength: 80 });
@@ -319,8 +356,23 @@ function libraryView() {
   const sel = el('select', { id: 'cSel' }, D.courses.map(c => el('option', { value: c.id, selected: c.id === curCourse }, c.name)));
   sel.addEventListener('change', () => { curCourse = sel.value; render(); });
   out.push(el('div', { class: 'panel' }, el('label', { for: 'cSel' }, 'Current course'), sel));
-  out.push(docsPanel(), cardFormPanel(), cardListPanel());
+  out.push(shelfPanel(), docsPanel(), cardFormPanel(), cardListPanel());
   return out;
+}
+function bookCard(b) {
+  const meta = [b.kind === 'slides' ? b.format || 'Slides' : 'Textbook', b.edition || (b.kind === 'book' ? 'Edition not recorded' : null),
+    b.pages ? b.pages + ' pages' : null, b.check].filter(Boolean);
+  return el('div', { class: 'book' }, sprite('library', 5),
+    el('div', {}, el('b', {}, b.title), b.authors.length ? el('div', { class: 'dim' }, b.authors.join(', ')) : null,
+      el('div', {}, meta.map(m => el('span', { class: 'tag' }, m)))));
+}
+function shelfPanel() {
+  const cc = catCourse(curCourse);
+  if (!cc) return null;
+  const box = el('div', { class: 'panel' }, cover(cc.slug, cc.name), el('h3', {}, 'Textbook shelf'), cc.items.map(bookCard),
+    el('p', { class: 'dim' }, 'Listed from your book inventory (checked ' + CAT.checked + '). This site does not open the book files: read them yourself, then cite the page when you write a card.'));
+  if (cc.items.some(i => i.kind === 'slides')) box.append(el('p', { class: 'dim' }, 'This course has slides only, not a textbook. Cite slide numbers.'));
+  return box;
 }
 function docsPanel() {
   const docs = D.docs.filter(d => d.courseId === curCourse);
@@ -377,18 +429,20 @@ function cardFormPanel() {
   const docs = D.docs.filter(d => d.courseId === curCourse);
   const q = el('textarea', { id: 'cQ', placeholder: 'Question or term', maxlength: 400 });
   const a = el('textarea', { id: 'cA', placeholder: 'Answer (keep it short)', maxlength: 800 });
+  const cc = catCourse(curCourse), books = cc ? cc.items : [];
   const ds = el('select', { id: 'cD' }, el('option', { value: '' }, 'No source (my own)'),
+    books.map((b, i) => el('option', { value: 'book:' + i }, (b.kind === 'slides' ? 'Slides: ' : 'Textbook: ') + bookLabel(b))),
     docs.map(d => el('option', { value: d.id, selected: prefill && prefill.docId === d.id }, d.name + ' (v' + d.version + ')')));
-  const loc = el('input', { type: 'text', id: 'cL', placeholder: 'e.g. page 12, slide 5, section 3', maxlength: 80, value: prefill ? prefill.loc : '' });
+  const loc = el('input', { type: 'text', id: 'cL', placeholder: 'e.g. p. 12, slide 5, section 3', maxlength: 80, value: prefill ? prefill.loc : '' });
   prefill = null;
   return el('form', { class: 'panel', onsubmit: e => {
     e.preventDefault();
     const qq = q.value.trim(), aa = a.value.trim();
     if (!qq || !aa) return toast('Write both a question and an answer. Your text is kept.');
     if (D.cards.some(c => c.courseId === curCourse && c.q.toLowerCase() === qq.toLowerCase())) return toast('A card with this question already exists in the course.');
-    const doc = docs.find(d => d.id === ds.value);
+    const doc = docs.find(d => d.id === ds.value), bk = ds.value.startsWith('book:') ? books[Number(ds.value.slice(5))] : null;
     D.cards.push({ id: uid(), courseId: curCourse, q: qq, a: aa, demo: false, box: 0, due: today(), history: [], created: new Date().toISOString(),
-      source: doc ? { docId: doc.id, docName: doc.name + ' (v' + doc.version + ')', loc: loc.value.trim() } : { docName: '', loc: '' } });
+      source: bk ? { docName: (bk.kind === 'slides' ? 'Slides: ' : 'Textbook: ') + bookLabel(bk), loc: loc.value.trim() } : doc ? { docId: doc.id, docName: doc.name + ' (v' + doc.version + ')', loc: loc.value.trim() } : { docName: '', loc: '' } });
     if (save()) { render(); toast('Card added.'); }
   } }, el('h3', {}, 'Add a card'),
     el('p', { class: 'dim' }, 'Cards are written by you from your documents, so every card keeps its source. Nothing is auto-generated.'),
@@ -530,6 +584,7 @@ document.querySelectorAll('nav button').forEach(b => {
 });
 $('#logoCat').append(sprite('cat', 6, 'bob'));
 try { D = load(); } catch (e) { D = demoData(); storageBroken = true; }
-if (!localStorage.getItem(KEY) && !storageBroken) save();
+const synced = syncCatalog(D);
+if ((synced || !localStorage.getItem(KEY)) && !storageBroken) save();
 render();
 if (storageBroken) toast('Stored data could not be read. A copy was kept; import a backup to restore.');

@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Zin Study Studio</title>
-<meta name="description" content="A pixel-style study site: upload course documents, write flashcards, recall before you peek, and review on a spaced schedule.">
+<meta name="description" content="A pixel-style study site: pick a course, write flashcards from your textbook pages, recall before you peek, and review on a spaced schedule.">
 <meta name="theme-color" content="#050b1a">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-<!-- Link previews (Discord, Instagram, WhatsApp, Facebook, X). The image URLs must be absolute.
+<!-- Link previews (Discord, Instagram, WhatsApp, Facebook, X). Image URLs must be absolute.
      Replace https://YOUR-SITE-URL/ with the real address once the site is published. -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Zin Study Studio">
@@ -26,10 +26,12 @@
 <meta name="twitter:description" content="Upload. Learn. Recall. Review. A pixel-style study site with flashcards and spaced review.">
 <meta name="twitter:image" content="https://YOUR-SITE-URL/og.png">
 <meta name="twitter:image:alt" content="A pixel-art blue cat next to the words Zin Study Studio">
+
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a class="skip" href="#app">Skip to content</a>
+
 <header>
   <div class="brand">
     <span id="logoCat" aria-hidden="true"></span>
@@ -46,11 +48,16 @@
     <button data-view="news">News</button>
   </nav>
 </header>
+
 <main id="app" tabindex="-1">
-  <noscript>This site needs JavaScript to run.</noscript>
+  <noscript><div class="banner">This site needs JavaScript to run. Please turn it on and reload.</div></noscript>
 </main>
+
 <footer>Saved on this device only (browser storage). Use Progress &rarr; Backup to export your data.</footer>
 <div id="toast" role="status" aria-live="polite"></div>
+
+<!-- catalog.js is generated from book-inventory.json: node tools/make-catalog.mjs -->
+<script src="catalog.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

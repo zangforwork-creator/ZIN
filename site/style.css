@@ -105,6 +105,21 @@ textarea{min-height:92px;resize:vertical}
 .board .txt small{display:block;color:var(--dim);font-size:1.15rem}
 @media (max-width:520px){.board li{flex-wrap:wrap}}
 
+/* ---------- courses & books ---------- */
+.courses{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:18px}
+.courses button.course{display:flex;flex-direction:column;align-items:flex-start;gap:6px;text-align:left;text-transform:none;font-size:.6rem;padding:12px;line-height:1.6}
+.courses button.course small{font-family:var(--body);font-size:1.15rem;color:var(--dim);letter-spacing:0}
+.courses button.course:hover small{color:var(--ink)}
+.ctop{display:flex;align-items:center;gap:10px}
+.ctop b{font-weight:400}
+.cover{display:flex;align-items:center;gap:18px;padding:14px 18px;margin:0 0 16px;background:var(--cv,#6fb0ff) repeating-linear-gradient(45deg,#0000 0 8px,#0000001a 8px 16px);
+  box-shadow:0 0 0 4px #000,6px 6px 0 4px #0008}
+.cover b{font-family:var(--px);font-weight:400;font-size:.8rem;line-height:1.6;color:var(--ink);text-shadow:2px 2px 0 #fff8}
+.cover svg{background:var(--ink);padding:6px;box-sizing:content-box}
+.book{display:flex;gap:14px;align-items:flex-start;padding:10px 0;border-bottom:3px dashed #2a4a82}
+.book:last-of-type{border-bottom:0}
+.book b{color:var(--paper);font-weight:400}
+
 /* ---------- tags ---------- */
 .tag{display:inline-block;font-family:var(--px);font-size:.5rem;line-height:1;padding:5px 6px;margin:0 6px 4px 0;color:var(--ink);background:var(--bd);box-shadow:0 0 0 2px #000}
 .tag.st-new,.tag.t-marketing{background:var(--mint)}
