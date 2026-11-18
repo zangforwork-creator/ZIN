@@ -1,0 +1,22 @@
+# Zin Study Studio (`site/`)
+
+Plain `index.html` + `style.css` + `app.js`. No build, no libraries, no server code.
+
+Run: `cd site && python -m http.server 8000`, then open http://localhost:8000 (or open `index.html` directly).
+
+## Look
+Pixel-game style: blue night sky with twinkling stars, notched RPG dialog boxes, chunky 3D buttons, trading-card flashcards, segmented meters, and a pixel cat mascot with speech bubbles. Sprites are drawn in code from tiny grids (no image files). Fonts `Press Start 2P` and `VT323` are bundled in `fonts/` (OFL). Animations stop under reduced-motion. Meters show real review data only; there is no XP, streak or timer.
+
+## What works
+- **Library:** add courses, upload `.txt/.md/.csv` (text is read), store `.pdf/.docx/.pptx` by name only (text is NOT extracted; paste it instead), paste text, re-upload keeps older versions. Write cards from document sections; each card keeps its source and location.
+- **Study:** 5/15/25-minute budget (about 1 card per minute), optional skippable matching warm-up, type an answer before revealing, hints are recorded.
+- **Review rule (Leitner, fixed):** Forgot = due today; Hard = same step; Got it = next step (gaps 1, 3, 7, 14, 30 days). A hint turns "Got it" into Hard. No "Easy" button.
+- **Progress:** card states, 7-day accuracy (shows "Insufficient data" under 10 reviews), reviews per day, per-course table, most missed, upcoming reviews, recent sessions.
+- **News:** layout with clearly labelled DEMO placeholders. No real news source is connected.
+- **Storage:** browser `localStorage`, this device only. Export/import backup on the Progress page (import merges, never deletes).
+
+## Checks run
+Syntax check (`node --check`) and a scripted headless-Edge run of the study flow: scheduling, hint handling, single session save, persistence. Not tested: other browsers, real phones, screen readers, PDF/DOCX/PPTX text extraction (not built).
+
+## Limits
+Demo news only; no OCR or Office/PDF parsing; no accounts or sync; cards are written by hand, not AI-generated.
