@@ -263,7 +263,7 @@ If updates fail, show the time of the most recent successful update.
 
 ## 11. User Experience and Technical Requirements
 
-- Keep Vietnamese as the default website language, with a clear, concise interface.
+- Keep English as the permanent language of every website interface, authored lesson, diagram, game, message, date label, and AI answer. This is Zin's explicit latest preference. Do not switch based on the browser language or question language, and do not add another language unless Zin explicitly requests it. Preserve original documents and user-authored notes, answers, and history.
 - Place a prominent "Start Study Session" action on the home page.
 - Design for both mobile and desktop.
 - Use consistent components, spacing, and colors.

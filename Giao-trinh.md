@@ -38,3 +38,6 @@ Marketing: An Introduction thuộc Introduction to Marketing Career theo xác nh
 Tên cũ, tên mới, đường dẫn hiện tại, tác giả, phiên bản và mã SHA-256 nằm trong [book-inventory.json](book-inventory.json).
 
 Nguồn cảm hứng cho giao diện đọc sách nằm trong [Tham-khao-thiet-ke-website.md](Tham-khao-thiet-ke-website.md).
+
+
+Updated 19 November 2026: Consumer Behavior and Digital MKT now each have a dedicated folder containing their textbook, extracted lecture PDFs and original ZIP. Sixteen lecture files are preserved. Only Chapter 1 has been synthesised in this update; the remaining uploaded chapters are retained for later work.

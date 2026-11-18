@@ -4,3 +4,6 @@
 /Kho-tai-lieu-mon-hoc/*.ppt
 /Kho-tai-lieu-mon-hoc/*.pptx
 /Kho-tai-lieu-mon-hoc/*.docx
+/Kho-tai-lieu-mon-hoc/**/*.pdf
+/Kho-tai-lieu-mon-hoc/**/*.zip
+/Websites/Archives/
