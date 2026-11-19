@@ -1,0 +1,312 @@
+{
+  "course": "cb",
+  "version": 1,
+  "updatedOn": "2026-11-19",
+  "title": "Chapter 1 · your lecture, connected to the textbook",
+  "source": {
+    "filename": "Chapter 1 - Consumer behavior n marketing strategy.pdf",
+    "sha256": "7f0b7d9e4aeea008bdda4c1762db39c7c2b88a0a6904d37f199934a35f87ae0e",
+    "slides": 62,
+    "materialId": "7f0b7d9e4aeea008",
+    "folder": "Kho-tai-lieu-mon-hoc/Consumer Behavior/Slides"
+  },
+  "intro": "The uploaded lecture adds explicit customer roles, three features of behaviour, a purchase-cycle comparison, perceived-value components, local illustrations and a current-to-the-lecture campaign case. Existing textbook modules, notes and review IDs are retained.",
+  "sections": [
+    {
+      "id": "roles",
+      "title": "Who buys, who uses, and what changes?",
+      "modules": [
+        1
+      ],
+      "slides": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "summary": "Consumer behaviour reaches beyond the person at checkout and beyond the purchase moment.",
+      "points": [
+        "A customer is the buying party in a transaction; the consumer or end-user uses the offering. One person may occupy both roles, but gifts and organisational purchases separate them.",
+        "Client commonly describes a service relationship; it is not an exclusive psychological category. These role distinctions answer the lecture question rather than impose universally identical terminology.",
+        "Behaviour is dynamic: needs, resources and context can change through time. Interaction involves people, internal processes and the surrounding environment. Exchange involves money, time, effort or other value.",
+        "Compare pre-purchase information and alternatives, the experience and circumstances of purchase, and post-purchase performance, satisfaction, word of mouth and disposal."
+      ],
+      "diagram": [
+        [
+          "Before purchase",
+          "Need → information → alternatives"
+        ],
+        [
+          "During purchase",
+          "Access → situation → experience"
+        ],
+        [
+          "After purchase",
+          "Use → evaluation → disposal / feedback"
+        ]
+      ],
+      "example": "Hypothetical: a parent pays for a laptop selected and used by a student. The parent is the customer for the purchase; the student is the end-user. Their roles and concerns can overlap.",
+      "limit": "Slide 11 compresses buyer and end-user roles and uses a physiology metaphor. The website uses the textbook definition and distinguishes roles rather than presenting the metaphor as a scientific definition.",
+      "quiz": {
+        "prompt": "A parent pays for a laptop used by a student. Which is the careful interpretation?",
+        "options": [
+          "The buyer and end-user must be the same person.",
+          "The parent and student can hold different roles in the same consumption process.",
+          "Only the payment moment belongs to consumer behaviour."
+        ],
+        "correct": 1,
+        "explanation": "Payment, selection, use and later consequences can involve different people."
+      }
+    },
+    {
+      "id": "value",
+      "title": "Build the full customer-perceived-value picture",
+      "modules": [
+        3
+      ],
+      "slides": [
+        20,
+        23,
+        24,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "summary": "The lecture presents CPV as perceived total benefit minus perceived total cost.",
+      "points": [
+        "Benefits include product performance, service, people-related benefits and image or symbolic associations.",
+        "Costs include money, time, energy and psychological burden. A low money price does not guarantee low total cost.",
+        "Value depends on the target consumer’s needs and alternatives. The budget-phone example is a teaching scenario, not a claim that cheaper products always win.",
+        "The winning-zone diagram asks where customer needs and the brand’s capabilities create a meaningful advantage relative to competitors. It does not prove that competitors cannot respond."
+      ],
+      "diagram": [
+        [
+          "Customer needs",
+          "What matters to this segment?"
+        ],
+        [
+          "Benefits − costs",
+          "Product / service / people / image minus money / time / effort / strain"
+        ],
+        [
+          "Competitive value",
+          "Compare feasible alternatives"
+        ],
+        [
+          "Feedback",
+          "Check experience and satisfaction"
+        ]
+      ],
+      "example": "Hypothetical: one student values long battery life and easy repairs more than a premium finish. Another student may reasonably value a different bundle.",
+      "limit": "CPV is a perception-based comparison. Time, stress and money cannot be mechanically subtracted in unlike units. The optional sandbox uses explicitly invented common-scale scores, not measured demand or willingness to pay.",
+      "quiz": {
+        "prompt": "A cheaper product needs hours of difficult setup. What does CPV suggest?",
+        "options": [
+          "Ignore time because the price is low.",
+          "Consider time, effort and psychological costs alongside the perceived benefits.",
+          "Assume every customer gives identical value scores."
+        ],
+        "correct": 1,
+        "explanation": "The lecture’s cost side includes non-monetary burdens, and value differs across consumers."
+      }
+    },
+    {
+      "id": "strategy",
+      "title": "Trace research, STP and the 4Ps in both directions",
+      "modules": [
+        2,
+        3
+      ],
+      "slides": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "summary": "Consumer insight informs strategy; customer responses provide evidence for revising it.",
+      "points": [
+        "Research identifies needs, alternatives and response patterns rather than guaranteeing forecasts. Segmentation groups relevant differences; targeting selects whom to serve; positioning concerns perceived relative meaning.",
+        "Product, price, place and promotion translate a proposition into an offer and experience. Promotion is broader than an advertisement, and place concerns access or distribution.",
+        "The lecture’s phone example joins feature preferences to segments, positioning, a differentiated offer and subsequent responses. Treat it as an illustrative company, not measured market research.",
+        "Government decisions can influence prices, access and behaviour; social marketing seeks individual or social benefit. A commercial connectivity campaign is not automatically social marketing."
+      ],
+      "diagram": [
+        [
+          "Research",
+          "Observe needs and alternatives"
+        ],
+        [
+          "STP",
+          "Segment → target → position"
+        ],
+        [
+          "4Ps",
+          "Product / price / place / promotion"
+        ],
+        [
+          "Response",
+          "Observe use, satisfaction and feedback"
+        ]
+      ],
+      "example": "Hypothetical: research suggests a target group needs accessible repairs. The firm selects that group, positions the phone around dependable ownership, aligns the 4Ps, and tests whether the experience meets the promise.",
+      "limit": "Slides 44–45 contain dated regulatory examples and outcome claims without enough evidence for a current legal conclusion. They are not taught as verified law or causal estimates.",
+      "quiz": {
+        "prompt": "Which proposal is social marketing rather than simply marketing through social media?",
+        "options": [
+          "A programme seeking safer phone use while driving, evaluated by safer behaviour.",
+          "Any sponsored post promoting a handset.",
+          "Any campaign with many likes."
+        ],
+        "correct": 0,
+        "explanation": "The distinguishing criterion is the intended individual or societal behavioural benefit, not the platform."
+      }
+    },
+    {
+      "id": "influences",
+      "title": "Connect external influences to the person and situation",
+      "modules": [
+        4
+      ],
+      "slides": [
+        22,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "summary": "Internal and external influences help explain self-concept, lifestyle and decisions in context.",
+      "points": [
+        "External influences include culture, demographic/social structures, subcultures, families and groups.",
+        "Internal influences include perception, learning, memory, motives, personality, emotion and attitudes.",
+        "Self-concept concerns thoughts and feelings about oneself; lifestyle concerns patterns of living and consumption. Neither is determined by one demographic label.",
+        "Slide 22 displays Maslow’s five need groups: physiological, safety, love/belonging, esteem and self-actualisation. Use them as a discussion lens for differing priorities, not a guaranteed universal sequence or a diagnosis inferred from one purchase.",
+        "Situations alter opportunities, constraints and perceived problems. The textbook feedback map remains the fuller model.",
+        "The image-only MUJI slides can prompt observation of functional simplicity, meaning, store environment and social experience. They do not by themselves establish purchase motivation or sales effects."
+      ],
+      "diagram": [
+        [
+          "External + internal",
+          "Influences interact"
+        ],
+        [
+          "Self-concept + lifestyle",
+          "Meaning and patterns of living"
+        ],
+        [
+          "Situation + decision",
+          "A particular need or opportunity"
+        ],
+        [
+          "Experience",
+          "Feedback can reshape later behaviour"
+        ]
+      ],
+      "example": "Hypothetical: the same student buys coffee for convenience before class and for social time on a weekend. The person has not become a different demographic segment merely because the situation changed.",
+      "limit": "Slides 28, 55 and 56 were visually inspected. They show imagery, not numerical evidence or a complete causal argument; no unreadable graph or hidden result was invented.",
+      "quiz": {
+        "prompt": "The same person chooses differently when rushed. What should you examine?",
+        "options": [
+          "Only age.",
+          "Situational constraints alongside internal and external influences.",
+          "Assume a stable preference can never vary."
+        ],
+        "correct": 1,
+        "explanation": "The lecture places consumer problems and decisions in specific situations."
+      }
+    },
+    {
+      "id": "knorr",
+      "title": "Knorr × Tinder: meaning, insight and evidence",
+      "modules": [
+        5
+      ],
+      "slides": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "summary": "Use the lecture campaign to connect a cultural meaning to consumer insight and marketing execution.",
+      "points": [
+        "The lecture presents cooking as a positive signal in dating culture. Analyse the proposed meaning, whose insight supports it, and how the brand fits the occasion.",
+        "Unilever describes a social-first campaign connecting cooking and dating, using creators and local adaptation. It reports 700 million impressions. This is company-reported reach, not audited incremental sales.",
+        "Distinguish exposure, interaction, purchase intention and actual buying. A change in intention does not establish an equal change in sales.",
+        "The checked company article uses inconsistent wording around one engagement/post metric. That ambiguous number, and unsupported slide claims of 275% discoverability and 75% purchase-intent growth, are omitted from the teaching answer."
+      ],
+      "diagram": [
+        [
+          "Insight",
+          "Proposed meaning in dating culture"
+        ],
+        [
+          "Strategy",
+          "Link cooking with a relevant social occasion"
+        ],
+        [
+          "Execution",
+          "Social content, creators and local adaptation"
+        ],
+        [
+          "Evaluation",
+          "Separate reported exposure, attitudes and behaviour"
+        ]
+      ],
+      "example": "Evidence exercise: identify a statement about meaning, a campaign activity and a reported outcome. Then list the additional research you would need before claiming incremental sales.",
+      "limit": "The primary company account supports the campaign description but is an interested source. Survey populations, measurement methods and causal attribution require scrutiny.",
+      "quiz": {
+        "prompt": "Does 700 million reported impressions establish incremental sales?",
+        "options": [
+          "Yes, impressions and purchases are the same measure.",
+          "No; impressions measure exposure, while incremental sales require different evidence.",
+          "It proves every exposed person remembers the campaign."
+        ],
+        "correct": 1,
+        "explanation": "Exposure, attention, intention and purchase are separate outcomes."
+      }
+    }
+  ],
+  "brief": {
+    "slides": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "text": "The uploaded course overview assigns 10% attendance/participation, 15% midterm, 15% group project and 60% final examination. The project asks for a small-scale consumer study: define a problem, develop and pilot a questionnaire, collect actual survey evidence, analyse it and derive justified marketing implications. The lecture organises seven course chapters around twenty textbook chapters. This website retains the textbook roadmap and does not invent exam dates."
+  },
+  "external": [
+    {
+      "section": "knorr",
+      "title": "Unilever: campaign account (company-reported)",
+      "url": "https://www.unilever.com/news/news-search/2025/knorrs-campaign-for-gen-z-daters-drives-desire-at-scale/"
+    }
+  ],
+  "omitted": "Administrative class rules are reference material, not instructions executed by the website. Image-only closing slides add no new learning claim."
+}

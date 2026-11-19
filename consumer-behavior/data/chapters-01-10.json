@@ -1,0 +1,1811 @@
+[
+  {
+    "id": 1,
+    "titleEn": "Consumer Behavior and Marketing Strategy",
+    "teaser": "Understand customers to create value: from needs and segmentation to the experience of using a product.",
+    "objectives": [
+      "Explain why consumer behavior extends beyond buying.",
+      "Analyze benefits and total costs from the customer's perspective.",
+      "Apply the four steps of market segmentation to a product."
+    ],
+    "keyPoints": [
+      "Consumer behavior includes selecting, acquiring, using, and disposing of offerings; its consequences also affect society.",
+      "Customer value depends on both benefits and costs, not just the selling price.",
+      "Segmentation begins with groups of needs a business can serve, followed by describing and selecting customers.",
+      "Internal and external factors, situations, and experiences interact; the model does not mechanically predict each individual's behavior."
+    ],
+    "concepts": [
+      {
+        "id": "c1-1",
+        "term": "Consumer behavior",
+        "definition": "The process by which individuals, groups, or organizations select, acquire, use, and dispose of products, services, experiences, or ideas to meet their needs.",
+        "detail": "Consider what happens before, during, and after a purchase, as well as the effects on consumers and society. Decisions have many influences and are not always conscious.",
+        "condition": "Identify the people involved, product category, and situation before applying a conclusion.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "An online store sells cosmetics.",
+          "problem": "Customers make an initial purchase but do not return.",
+          "choice": "Investigate expectations before purchase, product use, and packaging disposal.",
+          "explanation": "Focusing only on the purchase button misses experiences after purchase that may affect whether customers return.",
+          "lesson": "Study the entire consumption process."
+        },
+        "misconception": "Consumer behavior concerns only the person paying and the moment of payment.",
+        "question": "Why must consumer behavior research include the stage after purchase?",
+        "answer": "Use, evaluation, and disposal also meet needs, influence later choices, and have social consequences.",
+        "hint": "Think about use and disposal.",
+        "pages": [
+          25,
+          26
+        ]
+      },
+      {
+        "id": "c1-2",
+        "term": "Customer value",
+        "definition": "The difference between all the benefits customers receive and all the costs of obtaining those benefits.",
+        "detail": "Benefits can come from products, services, and experiences. Costs can also include time, effort, and perceived disadvantages; assess them from the customer's perspective.",
+        "condition": "Compare within the same context and segment; the business must still serve customers profitably.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A student chooses a printing service.",
+          "problem": "The cheaper shop is farther away and has a long wait.",
+          "choice": "Compare price, travel time, quality, and reliability.",
+          "explanation": "A lower price may not compensate for the other costs.",
+          "lesson": "Optimize total value rather than only reducing price."
+        },
+        "misconception": "High value always means the lowest selling price.",
+        "question": "How can a more expensive service still offer greater value?",
+        "answer": "Additional benefits or lower costs in time and effort can lead customers to perceive greater total value.",
+        "hint": "Benefits minus total costs.",
+        "pages": [
+          24,
+          29,
+          36
+        ]
+      },
+      {
+        "id": "c1-3",
+        "term": "Segmentation by need sets",
+        "definition": "Dividing a market into groups with relatively similar product-related needs to select groups to serve.",
+        "detail": "Four steps: identify need sets; group customers with similar needs; describe the groups; select attractive segments. A product usually meets several needs.",
+        "condition": "Segments must be feasible to serve profitably and fit the business's capabilities.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A team develops a learning app.",
+          "problem": "Students of the same age have different learning goals.",
+          "choice": "Separate urgent exam preparation from long-term learning needs, then study each group.",
+          "explanation": "Age helps describe customers but does not explain their needs on its own.",
+          "lesson": "Use needs to design an appropriate solution."
+        },
+        "misconception": "Dividing customers by age alone completes segmentation.",
+        "question": "Name the four segmentation steps and explain why they begin with needs.",
+        "answer": "Identify needs, group similar customers, describe the groups, and select groups to serve; needs reveal the value the product must provide.",
+        "hint": "Needs → groups → descriptions → selection.",
+        "pages": [
+          32,
+          33,
+          36
+        ]
+      }
+    ],
+    "diagram": {
+      "title": "From understanding markets to creating value",
+      "kind": "flow",
+      "nodes": [
+        {
+          "label": "Market analysis",
+          "detail": "Examine customers, the company, competitors, and market conditions.",
+          "pages": [
+            29,
+            30
+          ]
+        },
+        {
+          "label": "Segmentation",
+          "detail": "Identify, group, and describe needs.",
+          "pages": [
+            29,
+            32
+          ]
+        },
+        {
+          "label": "Target market selection",
+          "detail": "Compare attractiveness with the ability to serve.",
+          "pages": [
+            29,
+            36
+          ]
+        },
+        {
+          "label": "Marketing mix",
+          "detail": "Coordinate product, price, communication, distribution, and service.",
+          "pages": [
+            29,
+            36
+          ]
+        },
+        {
+          "label": "Decisions and outcomes",
+          "detail": "Outcomes affect individuals, businesses, and society.",
+          "pages": [
+            29
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "from": 0,
+          "to": 1,
+          "label": "provides a basis for"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "label": "evaluated to select"
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "label": "guides value creation through"
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "label": "influences"
+        }
+      ]
+    },
+    "caseStudy": {
+      "title": "Starbucks: adding value around a cup of coffee",
+      "kind": "textbook",
+      "context": "The historical opening example compares making coffee at home with buying it at a cafe. Starbucks adds service and experience, including a store reflecting local culture in New Orleans.",
+      "problem": "Which explanation best accounts for customers being willing to pay more?",
+      "choices": [
+        "Customers pay only for the amount of coffee, so all prices must be equal.",
+        "Service and experience can add benefits that target customers value.",
+        "Needs research is unnecessary because one experience suits everyone."
+      ],
+      "correct": 1,
+      "analysis": "The textbook uses Starbucks to illustrate layers of value around a core product. This concerns perceived value; it does not show that all customers prefer the same experience.",
+      "lesson": "Identify the benefits customers value before designing products and services.",
+      "limitations": "The example reflects the book's publication period; it does not verify current prices, store performance, or customer preferences.",
+      "pages": [
+        24,
+        36
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "titleEn": "Cross-Cultural Variations in Consumer Behavior",
+    "teaser": "The same product can carry different meanings: understand values, norms, and cultural signals.",
+    "objectives": [
+      "Explain the relationship between values, norms, and consumption.",
+      "Distinguish the textbook's three categories of cultural values.",
+      "Analyze why localization goes beyond translating language."
+    ],
+    "keyPoints": [
+      "Culture is learned and provides a framework for behavior, but does not determine identical behavior in every individual.",
+      "The three value categories are other-oriented, environment-oriented, and self-oriented.",
+      "Nonverbal communication includes the meanings of time, space, symbols, relationships, agreements, things, and etiquette.",
+      "Globalization does not make all markets identical; research local fit."
+    ],
+    "concepts": [
+      {
+        "id": "c2-1",
+        "term": "Culture, norms, and sanctions",
+        "definition": "Culture is a system of knowledge, beliefs, and customs learned in society; values guide norms and sanctions for violations.",
+        "detail": "Values indicate what is desirable. Norms define acceptable behavior in a situation; sanctions may include group disapproval.",
+        "condition": "Use these concepts to understand patterns and context; do not assume an individual will necessarily follow a stereotype.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A food brand enters a new market.",
+          "problem": "A familiar use of corn in its original market seems unusual in the new one.",
+          "choice": "Research local usage habits and the meanings attached to foods.",
+          "explanation": "Preferences that seem natural may result from cultural learning.",
+          "lesson": "Check how people use the product."
+        },
+        "misconception": "Culture is innate and precisely determines all behavior.",
+        "question": "Distinguish values, norms, and sanctions using a consumption example.",
+        "answer": "A value is something considered important; a norm is a behavioral rule; a sanction is a response to a violation. For example: valuing politeness, queuing, and being challenged for cutting in line.",
+        "hint": "What matters → rules → responses.",
+        "pages": [
+          59,
+          60
+        ]
+      },
+      {
+        "id": "c2-2",
+        "term": "Three categories of cultural values",
+        "definition": "Classifying values by relationships with others, the environment, and one's own life goals.",
+        "detail": "Other-oriented: individualism–collectivism and competition–cooperation. Environment-oriented: tradition–change and risk-taking–security. Self-oriented: life goals such as immediate–postponed gratification.",
+        "condition": "These dimensions are continua, not mutually exclusive boxes; comparisons require evidence about the specific customer group.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A team advertises a course.",
+          "problem": "A message about individual superiority may not suit every group.",
+          "choice": "Research both personal achievement motives and benefits to the group.",
+          "explanation": "Individualism–collectivism affects the meaning of the promise.",
+          "lesson": "Adapt messages using evidence."
+        },
+        "misconception": "Each country belongs at one extreme, and everyone in it is the same.",
+        "question": "Which value category does 'succeed together as a team' relate to, and what inference should you avoid?",
+        "answer": "It relates to other-oriented values, especially collectivism and cooperation; do not assume everyone in a country responds alike.",
+        "hint": "Consider the relationship between individuals and groups.",
+        "pages": [
+          62,
+          63,
+          72
+        ]
+      },
+      {
+        "id": "c2-3",
+        "term": "Nonverbal communication",
+        "definition": "The meanings a culture assigns to actions, events, and things beyond spoken words.",
+        "detail": "The textbook identifies seven areas: time, space, symbols, relationships, agreements, things, and etiquette. Accurate translation does not ensure accurate interpretation.",
+        "condition": "Check signals in their local context; symbols do not always have universal meanings.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A store sends appreciation gifts in a new market.",
+          "problem": "Colors and gift-giving practices may suggest unintended meanings.",
+          "choice": "Test the design and giving customs with people who understand the local context.",
+          "explanation": "Objects and etiquette also communicate messages.",
+          "lesson": "Assess words alongside accompanying signals."
+        },
+        "misconception": "Accurate translation is enough for successful cross-cultural communication.",
+        "question": "Why can the same design or custom be interpreted differently across cultures?",
+        "answer": "Cultures assign different meanings to symbols, space, time, things, and etiquette.",
+        "hint": "Think beyond words.",
+        "pages": [
+          72,
+          73
+        ]
+      }
+    ],
+    "diagram": {
+      "title": "Values provide a framework for consumption",
+      "kind": "map",
+      "nodes": [
+        {
+          "label": "Values",
+          "detail": "Beliefs about what is desirable.",
+          "pages": [
+            60,
+            62
+          ]
+        },
+        {
+          "label": "Norms",
+          "detail": "Behavior considered appropriate in a situation.",
+          "pages": [
+            60
+          ]
+        },
+        {
+          "label": "Sanctions",
+          "detail": "Responses to violations of norms.",
+          "pages": [
+            60
+          ]
+        },
+        {
+          "label": "Consumption",
+          "detail": "Patterns influenced by culture.",
+          "pages": [
+            60
+          ]
+        },
+        {
+          "label": "Nonverbal signals",
+          "detail": "Meanings of actions, things, and context.",
+          "pages": [
+            73
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "from": 0,
+          "to": 1,
+          "label": "guide"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "label": "are associated with"
+        },
+        {
+          "from": 1,
+          "to": 3,
+          "label": "provide a framework for"
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "label": "help guide"
+        },
+        {
+          "from": 4,
+          "to": 3,
+          "label": "influence interpretations of"
+        }
+      ]
+    },
+    "caseStudy": {
+      "title": "Coca-Cola: global and local",
+      "kind": "textbook",
+      "context": "Consumer Insight 2–1 describes how Coca-Cola combines global messages with local adaptations to products, packaging, distribution, and communication.",
+      "problem": "Which interpretation matches the approach described in the textbook?",
+      "choices": [
+        "Maintain a shared direction while researching suitable local adaptations.",
+        "Keep every element identical because cultures have become uniform.",
+        "Only translate slogans, ignoring tastes and distribution."
+      ],
+      "correct": 0,
+      "analysis": "The textbook describes a shared campaign alongside local changes in celebrities, flavors, ingredients, and products. Both levels can coexist.",
+      "lesson": "Use customer research to choose which elements should stay consistent and which should adapt.",
+      "limitations": "This is a historical textbook case; it does not verify the current product range, formulas, or business results.",
+      "pages": [
+        86,
+        87
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "titleEn": "Changing American Society: Values",
+    "teaser": "A historical US context: green marketing, social causes, and gender roles.",
+    "objectives": [
+      "Distinguish environmental concern from purchasing behavior.",
+      "Distinguish cause-related marketing from social marketing.",
+      "Identify gender stereotypes in assumptions about buyers and messages."
+    ],
+    "keyPoints": [
+      "The chapter describes the United States during the book's preparation; it does not represent present-day Vietnam.",
+      "Values often change slowly and unevenly; short-term responses do not necessarily signal lasting change.",
+      "Green claims need specificity and evidence; positive environmental attitudes do not guarantee purchases.",
+      "Understand roles and social causes in their actual context, avoiding stereotypes."
+    ],
+    "concepts": [
+      {
+        "id": "c3-1",
+        "term": "Green marketing",
+        "definition": "Designing less harmful products, providing environmental benefits, or linking purchases to environmental organizations and activities.",
+        "detail": "The textbook discusses barriers involving price, quality, and trust. Greenwashing promotes environmental benefits that are unsupported or not delivered.",
+        "condition": "Specify the benefit, the comparison, and the evidence; regulations mentioned in the textbook reflect a historical US context.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A shop uses reusable bags.",
+          "problem": "The team wants to call its entire product range 'completely green.'",
+          "choice": "Describe only verified bag characteristics and the scope of their effects.",
+          "explanation": "A packaging change does not establish that every environmental impact is positive.",
+          "lesson": "Limit promises to what the evidence supports."
+        },
+        "misconception": "A green label means a product is better in every respect and will certainly sell well.",
+        "question": "Why might people who care about the environment still not buy green products?",
+        "answer": "They also consider price, quality, usefulness, and credibility; concern does not equal purchasing.",
+        "hint": "Price, performance, and trust.",
+        "pages": [
+          109,
+          110
+        ]
+      },
+      {
+        "id": "c3-2",
+        "term": "Cause-related marketing",
+        "definition": "Linking a business or product to a social cause, both to support the cause and to pursue image and business objectives.",
+        "detail": "This differs from social marketing, which the textbook describes as improving welfare without directly benefiting the business. Trust depends on perceived motives, fit, and commitment.",
+        "condition": "Naming a charity does not demonstrate impact; clarify how support works and its conditions.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A brand supports a library through purchases.",
+          "problem": "Customers do not know how much is contributed or who receives it.",
+          "choice": "Publish the mechanism, time period, and implementation reports.",
+          "explanation": "Customers have a basis for assessing the promise and the fit with the cause.",
+          "lesson": "Be transparent to avoid appearing to exploit a social cause."
+        },
+        "misconception": "Every charitable campaign is social marketing and will necessarily create trust.",
+        "question": "How do these two forms of marketing differ in their objectives for business benefits?",
+        "answer": "Cause-related marketing also seeks commercial benefits; social marketing aims to improve welfare without directly benefiting the business.",
+        "hint": "Look for a direct business benefit.",
+        "pages": [
+          110,
+          111,
+          112
+        ]
+      },
+      {
+        "id": "c3-3",
+        "term": "Gender roles in consumption",
+        "definition": "Behaviors that society considers appropriate for different genders in a particular context.",
+        "detail": "The textbook uses changes in the United States to show why shopping, working, and family care should not be inferred from fixed stereotypes. Participation varies across families.",
+        "condition": "Research who performs and decides each task; do not use gender as a substitute for observing needs.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A campaign advertises family food products.",
+          "problem": "The draft assumes only mothers shop and fathers cannot cook.",
+          "choice": "Research the buyers and show varied ways of sharing household tasks.",
+          "explanation": "A message fits better when it reflects actual roles.",
+          "lesson": "Use behavioral evidence instead of stereotypes."
+        },
+        "misconception": "People of the same gender necessarily have the same role in every family.",
+        "question": "Why do changing gender roles require businesses to research buyers again?",
+        "answer": "Who initiates, chooses, and buys may change; old stereotypes do not reflect actual responsibilities and influence.",
+        "hint": "Who buys, and who decides?",
+        "pages": [
+          98,
+          99,
+          116,
+          117
+        ]
+      }
+    ],
+    "diagram": {
+      "title": "Responding to changing values",
+      "kind": "map",
+      "nodes": [
+        {
+          "label": "Changing values",
+          "detail": "Change is uneven in the US society described by the textbook.",
+          "pages": [
+            99
+          ]
+        },
+        {
+          "label": "Environmental concern",
+          "detail": "Relates to how people treat nature.",
+          "pages": [
+            109
+          ]
+        },
+        {
+          "label": "Green marketing",
+          "detail": "Specific benefits need evidence and practical value.",
+          "pages": [
+            109,
+            110
+          ]
+        },
+        {
+          "label": "Problem solving",
+          "detail": "One basis the textbook uses to explain support for social causes.",
+          "pages": [
+            111
+          ]
+        },
+        {
+          "label": "Cause-related marketing",
+          "detail": "Combines support for a cause with business activity.",
+          "pages": [
+            111,
+            112
+          ]
+        },
+        {
+          "label": "Gender roles",
+          "detail": "Change who participates in purchases and how to communicate.",
+          "pages": [
+            98,
+            116,
+            117
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "from": 0,
+          "to": 1,
+          "label": "can be expressed through"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "label": "suggests a response through"
+        },
+        {
+          "from": 0,
+          "to": 3,
+          "label": "can be expressed through"
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "label": "suggests a response through"
+        },
+        {
+          "from": 0,
+          "to": 5,
+          "label": "can be expressed through"
+        }
+      ]
+    },
+    "caseStudy": {
+      "title": "Toms Shoes: a cause built into the brand",
+      "kind": "textbook",
+      "context": "Consumer Insight 3–1 describes Toms' historical model: selling a pair of shoes was linked to giving a pair to a child who needed shoes.",
+      "problem": "Which conclusion does the example support?",
+      "choices": [
+        "Having a social cause rules out a profit objective.",
+        "A support mechanism can be integrated into a commercial model, while impact and trust still require assessment.",
+        "Giving products automatically proves that all problems have been solved."
+      ],
+      "correct": 1,
+      "analysis": "The textbook uses Toms to illustrate a cause integrated into a profitable brand, while noting broader criticisms of business–cause relationships. The mechanism does not establish comprehensive effectiveness.",
+      "lesson": "Distinguish the commitment mechanism, business objectives, and evidence of impact.",
+      "limitations": "The model reflects the textbook's period; it does not establish Toms' current policy or the effectiveness of community support.",
+      "pages": [
+        113
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "titleEn": "Changing American Society: Demographics and Social Stratification",
+    "teaser": "Interpret population, generation, and social-status data carefully; do not turn group labels into individual profiles.",
+    "objectives": [
+      "Distinguish population size, distribution, and structure.",
+      "Explain why people of the same age may not share generational experiences.",
+      "Choose demographic variables or status measures suited to a marketing question."
+    ],
+    "keyPoints": [
+      "The chapter's statistics and generational boundaries reflect a historical US context; do not use them as current Vietnamese statistics.",
+      "Demographics describe population size, distribution, and structure; they may influence behavior directly or through values and decision processes.",
+      "Generations share experiences, but differences within a generation may exceed differences between generations.",
+      "Social status has multiple dimensions; high income does not fully describe lifestyle or taste."
+    ],
+    "concepts": [
+      {
+        "id": "c4-1",
+        "term": "Demographics",
+        "definition": "Describing a population by its size, distribution, and structure, including age, income, occupation, and education.",
+        "detail": "This information helps estimate markets, describe segments, and select media. The chapter focuses on US data from the book's preparation period.",
+        "condition": "Descriptive variables do not establish causes; combine them with needs and product context.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A team launches online skills classes.",
+          "problem": "Knowing the number of students is not enough to choose course content.",
+          "choice": "Estimate market size, then research needs, study schedules, and ability to pay.",
+          "explanation": "Demographics help identify who and how many; needs research clarifies the value to provide.",
+          "lesson": "Combine population descriptions with the problem to solve."
+        },
+        "misconception": "People of the same age and income have identical purchasing needs.",
+        "question": "Which three broad aspects do demographics describe, and what limits their use for segmentation?",
+        "answer": "Size, distribution, and structure; they describe groups but do not guarantee identical needs or behavior within them.",
+        "hint": "How many, where, and who?",
+        "pages": [
+          131,
+          133,
+          134,
+          135
+        ]
+      },
+      {
+        "id": "c4-2",
+        "term": "Generations and cohort analysis",
+        "definition": "A generation is a group of people who experienced a shared social, political, historical, and economic environment while growing up.",
+        "detail": "Cohort analysis examines how these experiences relate to attitudes and behavior as a group ages. Distinguish age effects from generational experiences.",
+        "condition": "The textbook's labels and year boundaries are US classifications; do not assume they are universal or apply to every individual.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A brand wants to serve older adults.",
+          "problem": "The team plans to reuse a campaign aimed at retirees many years ago.",
+          "choice": "Research the new group's experiences with technology and lifestyles.",
+          "explanation": "People of the same age in different periods may belong to different cohorts with different experiences.",
+          "lesson": "Do not treat age as the whole explanation."
+        },
+        "misconception": "Every generation has one shared personality, and all young people are alike.",
+        "question": "Why should we avoid predicting that new retirees will resemble retirees from the previous generation?",
+        "answer": "They experienced different historical, technological, and social contexts; cohort effects may persist as they age.",
+        "hint": "The same age, different journeys.",
+        "pages": [
+          138
+        ]
+      },
+      {
+        "id": "c4-3",
+        "term": "Social status and its measurement",
+        "definition": "The relative position of a person or family on dimensions valued by society.",
+        "detail": "The textbook discusses occupation, education, wealth, income, and family background. Single-variable measures are simpler; multiple-variable indices combine status dimensions but may hide product-relevant differences.",
+        "condition": "Choose a measure to fit the question. If behavior is closely related to education or occupation, that variable may be more useful than a composite index.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A publisher selects channels to promote books.",
+          "problem": "Two people have similar status scores but different educational backgrounds.",
+          "choice": "Check reading habits and education rather than relying only on the composite score.",
+          "explanation": "Variables may offset each other in an index without being interchangeable when predicting a specific behavior.",
+          "lesson": "Measure what directly relates to the decision."
+        },
+        "misconception": "Income fully measures social class and the ability to buy every product.",
+        "question": "When might a multiple-variable status index be less useful than a specific demographic variable?",
+        "answer": "When the behavior being explained is strongly related to a variable such as education or occupation that the composite index obscures.",
+        "hint": "Which variable is closest to the marketing question?",
+        "pages": [
+          149,
+          157,
+          158
+        ]
+      }
+    ],
+    "diagram": {
+      "title": "Reading data to understand customers",
+      "kind": "map",
+      "nodes": [
+        {
+          "label": "Demographics",
+          "detail": "Population size, distribution, and structure.",
+          "pages": [
+            131
+          ]
+        },
+        {
+          "label": "Age and generation",
+          "detail": "Age and cohort experiences complement each other.",
+          "pages": [
+            138
+          ]
+        },
+        {
+          "label": "Occupation, education, income",
+          "detail": "Variables that may relate directly to behavior and status.",
+          "pages": [
+            131,
+            149
+          ]
+        },
+        {
+          "label": "Social status",
+          "detail": "Relative position on multiple valued dimensions.",
+          "pages": [
+            149
+          ]
+        },
+        {
+          "label": "Consumer decisions",
+          "detail": "Influences vary by product category and research question.",
+          "pages": [
+            131,
+            158
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "from": 0,
+          "to": 1,
+          "label": "includes perspectives on"
+        },
+        {
+          "from": 0,
+          "to": 2,
+          "label": "is described through"
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "label": "help shape"
+        },
+        {
+          "from": 1,
+          "to": 4,
+          "label": "may influence"
+        },
+        {
+          "from": 2,
+          "to": 4,
+          "label": "may directly influence"
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "label": "relates to some"
+        }
+      ]
+    },
+    "caseStudy": {
+      "title": "Lennar: designing for multigenerational households",
+      "kind": "textbook",
+      "context": "The chapter opens with US data from the period it discusses to describe multigenerational households. Lennar designed its NextGen line around a 'home within a home' idea.",
+      "problem": "Which lesson does this case support?",
+      "choices": [
+        "Housing needs depend only on the age of the person paying.",
+        "Every multigenerational household wants the same home design.",
+        "Household structure can create distinct usage needs and involve several people in decisions."
+      ],
+      "correct": 2,
+      "analysis": "The textbook describes design that supports living together and notes that several members may participate in decisions, especially when they share financial contributions. This applies demographic information to needs.",
+      "lesson": "Research the living unit and people sharing the product, beyond the named buyer.",
+      "limitations": "This is a historical US context; do not treat the textbook's household percentages as current statistics or infer Vietnamese housing needs from them.",
+      "pages": [
+        130
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "titleEn": "Changing American Society: Subcultures",
+    "teaser": "One person has many identities: approach cultural groups with understanding rather than stereotypes.",
+    "objectives": [
+      "Explain the relationship between the broader culture and subcultures.",
+      "Recognize diversity within ethnic groups.",
+      "Analyze the roles of acculturation, language, and generation."
+    ],
+    "keyPoints": [
+      "The chapter examines US groups during the textbook's period; its statistics and forecasts are not current data about Vietnam.",
+      "A person can simultaneously belong to ethnic, religious, regional, and generational subcultures.",
+      "Identification with a group affects behavior; membership alone does not imply shared tastes.",
+      "Localization must reflect needs and cultural meanings; changing actors or translating words may not be enough."
+    ],
+    "concepts": [
+      {
+        "id": "c5-1",
+        "term": "Subcultures and identification",
+        "definition": "A subculture is a part of a larger culture with distinctive values and behavioral patterns.",
+        "detail": "Members often share many characteristics with the broader culture. People belong to multiple subcultures; each one's influence depends on identification and the area of consumption.",
+        "condition": "Identify which subculture actually relates to the product; do not assume every identity governs every decision.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A student enjoys running and maintains family traditions.",
+          "problem": "A food brand wants to infer tastes solely from the student's age group.",
+          "choice": "Ask about activities, beliefs, traditions, and meal needs.",
+          "explanation": "Different identities may relate to different aspects of consumption.",
+          "lesson": "Research multiple dimensions of the same customer."
+        },
+        "misconception": "Each person belongs to only one subculture, separate from the broader culture.",
+        "question": "How can several subcultures influence one person?",
+        "answer": "A person may belong to ethnic, religious, regional, and generational groups; each has different influences depending on the product and degree of identification.",
+        "hint": "One person, many groups, many situations.",
+        "pages": [
+          171,
+          172
+        ]
+      },
+      {
+        "id": "c5-2",
+        "term": "Ethnic subcultures",
+        "definition": "Groups with distinctive shared behaviors associated with racial, linguistic, or national backgrounds.",
+        "detail": "Broad group labels still contain differences in origins, economic circumstances, and multiethnic identities. The textbook warns against stereotyped advertising or purely superficial changes.",
+        "condition": "Analyze the specific target group and product needs; do not assign group averages to an individual.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A business creates advertising for a community with diverse origins.",
+          "problem": "The draft changes the actors' faces but retains an unsuitable setting.",
+          "choice": "Research symbols, activities, and experiences meaningful to the group.",
+          "explanation": "Cultural relevance extends beyond the appearance of the people shown.",
+          "lesson": "Respect diversity within the community."
+        },
+        "misconception": "Changing actors is always enough to make a message culturally appropriate.",
+        "question": "Why is a broad ethnic label insufficient for designing advertising?",
+        "answer": "Group members differ in origins, language, income, identities, and needs; check that the content fits the target group.",
+        "hint": "Look beyond the group label.",
+        "pages": [
+          173,
+          178,
+          180
+        ]
+      },
+      {
+        "id": "c5-3",
+        "term": "Acculturation",
+        "definition": "The degree to which immigrants adapt to the culture they have moved into.",
+        "detail": "In its US Hispanic example, the textbook relates acculturation to language use and generational experiences. Adopting a new culture does not necessarily erase an earlier identity.",
+        "condition": "Do not infer acculturation solely from a name, appearance, or language currently used; ask in the relevant context.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A store wants to reach immigrant customers.",
+          "problem": "The team plans to send every advertisement only in their original language.",
+          "choice": "Investigate preferred languages, content, and the identities customers wish to express.",
+          "explanation": "Language ability, media preferences, and identity can combine in many ways.",
+          "lesson": "Personalize using actual information rather than assumptions."
+        },
+        "misconception": "Using the destination country's language means completely abandoning one's original culture.",
+        "question": "Why should language, generation, and acculturation be considered together?",
+        "answer": "They are related and may affect interpretations of messages, values, and choices; they are not identical and do not determine every individual's behavior.",
+        "hint": "Does adopting a new culture erase an earlier identity?",
+        "pages": [
+          180
+        ]
+      }
+    ],
+    "diagram": {
+      "title": "One person within multiple cultural layers",
+      "kind": "map",
+      "nodes": [
+        {
+          "label": "Broader culture",
+          "detail": "Many shared values and norms.",
+          "pages": [
+            171
+          ]
+        },
+        {
+          "label": "Subculture",
+          "detail": "Distinctive values and behaviors.",
+          "pages": [
+            171
+          ]
+        },
+        {
+          "label": "Individual",
+          "detail": "May belong to several subcultures at once.",
+          "pages": [
+            172
+          ]
+        },
+        {
+          "label": "Group identification",
+          "detail": "The degree of identification influences distinctive behavior.",
+          "pages": [
+            171
+          ]
+        },
+        {
+          "label": "Consumer behavior",
+          "detail": "Includes both shared and distinctive characteristics, depending on the situation.",
+          "pages": [
+            171,
+            172
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "from": 0,
+          "to": 2,
+          "label": "provides context for"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "label": "is one influence on"
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "label": "varies in degree of"
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "label": "shapes group influence on"
+        },
+        {
+          "from": 0,
+          "to": 4,
+          "label": "provides a shared foundation for"
+        }
+      ]
+    },
+    "caseStudy": {
+      "title": "Essence Music Festival: understanding a community",
+      "kind": "textbook",
+      "context": "The chapter opening describes the US Essence Music Festival: alongside music, it offers content on education, careers, beauty, and family, with several brand sponsors.",
+      "problem": "Which interpretation fits the event's role in the textbook?",
+      "choices": [
+        "Build meaningful community connections through relevant experiences and content.",
+        "Everyone in the community cares only about music.",
+        "A sponsor logo guarantees that participants will buy."
+      ],
+      "correct": 0,
+      "analysis": "The textbook uses the event to illustrate a deeper cultural approach that respects the community. Relevant activities do not prove that all members are alike or establish specific sales effects.",
+      "lesson": "Understand what a community values before choosing how to engage.",
+      "limitations": "This is a historical US case; it does not verify the event's current size, sponsors, or results.",
+      "pages": [
+        170
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "titleEn": "American Society: Families and Households",
+    "teaser": "Who uses, chooses, and buys? Understand the household as a consumption unit with multiple roles.",
+    "objectives": [
+      "Distinguish a household from a family household using the textbook's definitions.",
+      "Explain the household life cycle's multiple transition paths.",
+      "Distinguish six roles in family purchase decisions."
+    ],
+    "keyPoints": [
+      "The chapter's household statistics and structures reflect the United States during the textbook's period, not present-day Vietnam.",
+      "The household is an important consumption unit: one person's choices may affect others' resources.",
+      "The household life cycle considers adult age, couple relationships, and children's presence and ages; it is not a single journey.",
+      "Users, influencers, decision makers, and purchasers may be different people; one person may also hold several roles.",
+      "Families also help children learn consumption skills, preferences, and attitudes; children's ability to understand must be considered."
+    ],
+    "concepts": [
+      {
+        "id": "c6-1",
+        "term": "The household as a consumption unit",
+        "definition": "People occupying a housing unit together, whether related or unrelated.",
+        "detail": "Under the US definition used in the textbook, a family household includes at least two people related by birth, marriage, or adoption. Spending and use often affect several members.",
+        "condition": "This definition comes from the textbook's source; check local definitions and statistical methods when researching elsewhere.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "Two students share a rented apartment.",
+          "problem": "Buying a washing machine affects both budgets.",
+          "choice": "Research shared usage needs and how costs are divided.",
+          "explanation": "A household can be a consumption unit even when its members are unrelated.",
+          "lesson": "Identify shared users and resources."
+        },
+        "misconception": "A household always consists of a married couple with children.",
+        "question": "How do a household and a family household differ in the textbook?",
+        "answer": "A household consists of people occupying a housing unit; a family household has at least two members related by birth, marriage, or adoption.",
+        "hint": "Are blood or legal relationships required in every household?",
+        "pages": [
+          207,
+          208
+        ]
+      },
+      {
+        "id": "c6-2",
+        "term": "Household life cycle",
+        "definition": "A framework classifying household stages by adults' ages and relationships and the presence and ages of children.",
+        "detail": "Each stage is associated with different problems, resources, and needs. Transitions may include being single, forming a couple, having children, separation, or membership changes; not every stage is required.",
+        "condition": "Use it to investigate needs alongside lifestyle and circumstances; do not predict choices from marital status alone.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A meal-delivery service wants to introduce a new plan.",
+          "problem": "Customers of the same age have different routines depending on whether they have children.",
+          "choice": "Research household structure, available time, and portion needs.",
+          "explanation": "Household stage may change the problems to solve and resources available for meals.",
+          "lesson": "Connect household stages with actual needs."
+        },
+        "misconception": "All households move through the same stages in order and have identical needs.",
+        "question": "Why should the household life cycle not be drawn as a single path?",
+        "answer": "Households have varied structures and paths into and out of stages, and may return to an earlier state; needs also depend on lifestyle.",
+        "hint": "Single → couple → single is possible.",
+        "pages": [
+          211,
+          212
+        ]
+      },
+      {
+        "id": "c6-3",
+        "term": "Roles in family decisions",
+        "definition": "Six roles: initiator, information gatherer, influencer, decision maker, purchaser, and user.",
+        "detail": "The person who pays or buys is not necessarily the person who chooses. Roles can overlap and vary by product, stage, or family; decisions also have emotional meaning.",
+        "condition": "Identify each role through research; avoid assumptions based on gender or targeting only the end user.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A family buys a computer for a child's studies.",
+          "problem": "The child uses it, while the parents consider budget and durability.",
+          "choice": "Find out who proposes, compares, decides, and buys.",
+          "explanation": "Information must help different roles, not just the user.",
+          "lesson": "Design the experience for the entire decision-making group."
+        },
+        "misconception": "The person buying a product is its only decision maker and user.",
+        "question": "What does having different users and purchasers require of marketing?",
+        "answer": "Understand the needs, criteria, and influence of users, decision makers, and purchasers; they may hold different roles.",
+        "hint": "Who proposes, chooses, pays, and uses?",
+        "pages": [
+          221,
+          222
+        ]
+      }
+    ],
+    "diagram": {
+      "title": "Six roles that can overlap",
+      "kind": "map",
+      "nodes": [
+        {
+          "label": "Initiator",
+          "detail": "Recognizes a need or starts the purchase process.",
+          "pages": [
+            221
+          ]
+        },
+        {
+          "label": "Information gatherer",
+          "detail": "Investigates aspects of the options.",
+          "pages": [
+            221
+          ]
+        },
+        {
+          "label": "Influencer",
+          "detail": "Affects criteria and alternatives.",
+          "pages": [
+            221
+          ]
+        },
+        {
+          "label": "Decision maker",
+          "detail": "Makes the final choice, possibly jointly.",
+          "pages": [
+            221
+          ]
+        },
+        {
+          "label": "Purchaser",
+          "detail": "Completes the transaction; may differ from the person choosing.",
+          "pages": [
+            221,
+            222
+          ]
+        },
+        {
+          "label": "User",
+          "detail": "One or more members use the product.",
+          "pages": [
+            221,
+            222
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "from": 0,
+          "to": 3,
+          "label": "raises a need for consideration"
+        },
+        {
+          "from": 1,
+          "to": 3,
+          "label": "provides information to"
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "label": "influences the choice of"
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "label": "has the choice carried out by"
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "label": "buys for"
+        }
+      ]
+    },
+    "caseStudy": {
+      "title": "Crayola: the user may not be the decision maker",
+      "kind": "textbook",
+      "context": "The textbook describes Crayola shifting advertising spending from children's television to women's magazines after research found that mothers often recognized needs, evaluated options, and purchased.",
+      "problem": "Which reason correctly reflects the example's lesson?",
+      "choices": [
+        "Children never influence purchases.",
+        "Every product used by children should be advertised in women's magazines.",
+        "Select audiences and media according to researched roles in the specific decision."
+      ],
+      "correct": 2,
+      "analysis": "Children were users, but mothers held important roles in this research. The conclusion applies within that context; it is not a rule for every family or media channel.",
+      "lesson": "Research purchase roles before choosing the message's audience.",
+      "limitations": "This is a historical US example; it does not establish this channel's current effectiveness or exclude fathers' and children's roles in other situations.",
+      "pages": [
+        222
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "titleEn": "Group Influences on Consumer Behavior",
+    "teaser": "Groups provide information, create expectations, and help shape identity; new products also spread through groups.",
+    "objectives": [
+      "Identify reference groups in a purchase situation.",
+      "Distinguish informational, normative, and identification influence.",
+      "Explain why compatibility, trialability, and risk relate to the rate of innovation diffusion."
+    ],
+    "keyPoints": [
+      "A reference group guides behavior in a situation; it need not be a group a person already belongs to.",
+      "Information helps evaluation; norms involve rewards or sanctions; identification means adopting the group's values.",
+      "Word of mouth may occur face to face or online; distinguish genuine recommendations from sponsorship and fake reviews.",
+      "An innovation is defined by users' perceptions, not just technological novelty; diffusion does not always follow the same speed or curve."
+    ],
+    "concepts": [
+      {
+        "id": "c7-1",
+        "term": "Reference group",
+        "definition": "A group whose perspectives or values an individual uses as a basis for current behavior.",
+        "detail": "A person belongs to multiple groups, but the guiding group may change by situation. A reference group can be one the person has not joined, such as an aspirational group.",
+        "condition": "Ask whom the person looks to for a specific decision; membership and attachment do not establish influence in every matter.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A student buys running shoes.",
+          "problem": "The student usually listens to classmates but does not know how to choose training shoes.",
+          "choice": "Consult an experienced running group and check personal needs.",
+          "explanation": "The reference group depends on the domain and situation, and may differ from everyday social contacts.",
+          "lesson": "Identify the group relevant to the decision."
+        },
+        "misconception": "Only groups a person belongs to can influence choices.",
+        "question": "How does a reference group differ from a membership group?",
+        "answer": "A reference group guides behavior in a situation; a person may not be a member, while an existing membership group may not be the reference point at that moment.",
+        "hint": "Belonging to a group and using it as a reference are different.",
+        "pages": [
+          239,
+          240
+        ]
+      },
+      {
+        "id": "c7-2",
+        "term": "Three forms of group influence",
+        "definition": "Informational influence, normative influence, and identification influence are three distinct mechanisms.",
+        "detail": "Informational: treating group opinions or behavior as useful evidence. Normative: meeting expectations for acceptance or to avoid sanctions. Identification: adopting group values as one's own.",
+        "condition": "Classify by actual motives, not simply because many people buy the same brand; several mechanisms may coexist.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A person chooses the same water bottle as a running team.",
+          "problem": "It is unclear whether this reflects quality, group pressure, or personal values.",
+          "choice": "Ask why the person chose it before identifying the mechanism.",
+          "explanation": "The same behavior may arise from expert information, a desire for acceptance, or shared values.",
+          "lesson": "Identify the mechanism to explain the behavior."
+        },
+        "misconception": "All purchases that resemble the group's choices result from pressure to conform.",
+        "question": "Distinguish choosing based on group expertise, fear of criticism, and belief in group values.",
+        "answer": "These are informational, normative, and identification influence, respectively; examine motives rather than only the chosen product.",
+        "hint": "Useful evidence, others' reactions, or one's own values?",
+        "pages": [
+          247,
+          248
+        ]
+      },
+      {
+        "id": "c7-3",
+        "term": "Diffusion of innovations",
+        "definition": "The process by which a product or idea perceived as new spreads through a market through adoption and use.",
+        "detail": "The rate relates to fulfilled needs, relative advantage, compatibility, complexity, observability, trialability, and perceived risk, alongside group, decision, and marketing factors.",
+        "condition": "The target group's perception defines an innovation. These factors guide analysis; they do not guarantee sales or a time to widespread adoption.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A content-writing app launches.",
+          "problem": "People want to try it but worry about data loss and switching tools.",
+          "choice": "Offer a trial with sample data, clear guidance, and migration support.",
+          "explanation": "Trialability, workflow compatibility, and reduced risk may support adoption.",
+          "lesson": "Reduce usage barriers rather than only promoting novelty."
+        },
+        "misconception": "Newer technology necessarily spreads faster.",
+        "question": "Name three factors that may slow innovation diffusion and explain why.",
+        "answer": "Difficulty of use, incompatibility with habits or values, and high perceived risk make adoption less attractive or harder.",
+        "hint": "How easy to use, compatible, and safe is it?",
+        "pages": [
+          261,
+          262,
+          265,
+          266
+        ]
+      }
+    ],
+    "diagram": {
+      "title": "Three influence mechanisms, not three steps",
+      "kind": "map",
+      "nodes": [
+        {
+          "label": "Reference group",
+          "detail": "A group used to guide behavior in a situation.",
+          "pages": [
+            239
+          ]
+        },
+        {
+          "label": "Informational",
+          "detail": "Opinions and behavior provide evidence for evaluation.",
+          "pages": [
+            247
+          ]
+        },
+        {
+          "label": "Normative",
+          "detail": "Meeting expectations to gain rewards or avoid sanctions.",
+          "pages": [
+            247,
+            248
+          ]
+        },
+        {
+          "label": "Identification",
+          "detail": "Adopting group values as one's own.",
+          "pages": [
+            248
+          ]
+        },
+        {
+          "label": "Consumer behavior",
+          "detail": "Influence may concern a product category, brand, or usage.",
+          "pages": [
+            248
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "from": 0,
+          "to": 1,
+          "label": "may influence through"
+        },
+        {
+          "from": 0,
+          "to": 2,
+          "label": "may influence through"
+        },
+        {
+          "from": 0,
+          "to": 3,
+          "label": "may influence through"
+        },
+        {
+          "from": 1,
+          "to": 4,
+          "label": "supports evaluation"
+        },
+        {
+          "from": 2,
+          "to": 4,
+          "label": "guides through expectations"
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "label": "guides through values"
+        }
+      ]
+    },
+    "caseStudy": {
+      "title": "lululemon: products and community",
+      "kind": "textbook",
+      "context": "The chapter opening describes lululemon offering yoga and fitness classes in stores, community information boards, and an ambassador program connected to local activities.",
+      "problem": "Which analysis best fits the example?",
+      "choices": [
+        "Community can create meaning and lifestyle connections alongside clothing benefits.",
+        "Only product materials can relate to purchase decisions.",
+        "Every customer buys for fear of exclusion from the group."
+      ],
+      "correct": 0,
+      "analysis": "The textbook emphasizes participation opportunities and a sense of belonging. Buying the same brand alone does not establish whether each customer experiences informational, normative, or identification influence.",
+      "lesson": "Research how community creates value and why people participate, rather than assigning one mechanism to everyone.",
+      "limitations": "This is a historical example; it does not establish current activity levels, revenue, or loyalty, or prove a single causal relationship.",
+      "pages": [
+        238,
+        239
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "titleEn": "Perception: Exposure, Attention, and Interpretation",
+    "teaser": "A message's appearance does not guarantee attention; attention does not guarantee the intended interpretation.",
+    "objectives": [
+      "Distinguish exposure from attention.",
+      "Explain stimulus, individual, and situational factors in attention.",
+      "Analyze why different people interpret the same message differently."
+    ],
+    "keyPoints": [
+      "Perception includes exposure, attention, and interpretation; memory is a related part of information processing.",
+      "The processes interact and may occur almost simultaneously, rather than forming a rigid assembly line.",
+      "Attention is limited and selective; more information or greater prominence does not necessarily improve communication.",
+      "Meaning depends on the recipient and context; check how customers actually understand the message."
+    ],
+    "concepts": [
+      {
+        "id": "c8-1",
+        "term": "Exposure",
+        "definition": "A stimulus comes within range of a consumer's senses, creating an opportunity for attention.",
+        "detail": "Exposure can be deliberately sought or incidental. Viewers may avoid advertising; even when an advertisement is present in their environment, they may not attend to it.",
+        "condition": "Distinguish measures of opportunities to see from evidence of attention, understanding, or recall.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A course banner appears on a news website.",
+          "problem": "The team treats every impression as someone having read the content.",
+          "choice": "Separate impressions from assessments of attention and comprehension.",
+          "explanation": "Being within sensory range only creates an opportunity for reception.",
+          "lesson": "Choose measures suited to each stage."
+        },
+        "misconception": "Impressions prove that customers have read, understood, and remembered the message.",
+        "question": "How does exposure to an advertisement differ from attention to it?",
+        "answer": "Exposure means a stimulus is within sensory range; attention allocates processing to that stimulus. Exposure does not guarantee attention.",
+        "hint": "An opportunity to see differs from actual processing.",
+        "pages": [
+          301,
+          302
+        ]
+      },
+      {
+        "id": "c8-2",
+        "term": "Selective attention",
+        "definition": "Allocating limited processing resources to some stimuli in the environment.",
+        "detail": "Attention depends on stimuli, such as size; individuals, such as motivation and ability; and situations, such as clutter and pressure. The same person and message may receive different attention across contexts.",
+        "condition": "Design for both prominence and relevance; avoid adding more information than people can process.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A store displays too many promotional signs.",
+          "problem": "Customers fail to notice the main offer.",
+          "choice": "Reduce competing signs and clarify the message relevant to customer needs.",
+          "explanation": "Multiple stimuli compete for limited attention.",
+          "lesson": "Prioritize useful messages that are easy to process."
+        },
+        "misconception": "Brighter colors and more text necessarily make attention more effective.",
+        "question": "What three categories of factors influence attention? Give one example of each.",
+        "answer": "Stimulus factors such as size; individual factors such as needs or knowledge; situational factors such as a crowded setting with many advertisements.",
+        "hint": "Message, recipient, environment.",
+        "pages": [
+          306,
+          307,
+          313,
+          314
+        ]
+      },
+      {
+        "id": "c8-3",
+        "term": "Interpretation",
+        "definition": "Assigning meaning to sensations and received information.",
+        "detail": "Interpretation may be cognitive or affective and depends on stimulus, individual, and situational characteristics. Reference points, experience, and expectations influence the meaning assigned.",
+        "condition": "The advertiser's intended meaning may differ from the customer's understanding; research and test comprehension.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A new brand sets a price below competitors.",
+          "problem": "The team intends to communicate savings, but customers may infer poor quality.",
+          "choice": "Explain the basis for the price and check customer interpretations.",
+          "explanation": "The same price can carry different psychological meanings depending on experience and context.",
+          "lesson": "Assess received meaning, not only the sender's intention."
+        },
+        "misconception": "Perceived quality always equals objective quality.",
+        "question": "Why might a low price be interpreted positively or negatively?",
+        "answer": "Recipients may see savings or a signal of low quality, depending on reference points, experience, expectations, and context.",
+        "hint": "What meaning do customers assign to the price?",
+        "pages": [
+          316,
+          317
+        ]
+      }
+    ],
+    "diagram": {
+      "title": "Information processing with feedback",
+      "kind": "flow",
+      "nodes": [
+        {
+          "label": "Exposure",
+          "detail": "A stimulus is within sensory range.",
+          "pages": [
+            301
+          ]
+        },
+        {
+          "label": "Attention",
+          "detail": "Some stimuli receive processing resources.",
+          "pages": [
+            301,
+            306
+          ]
+        },
+        {
+          "label": "Interpretation",
+          "detail": "Cognitive or affective meaning is assigned.",
+          "pages": [
+            301,
+            316,
+            317
+          ]
+        },
+        {
+          "label": "Memory",
+          "detail": "Meaning may be used immediately or stored; existing knowledge feeds back.",
+          "pages": [
+            301,
+            302
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "from": 0,
+          "to": 1,
+          "label": "creates an opportunity, not a guarantee"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "label": "provides information for meaning"
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "label": "may be used or stored in"
+        },
+        {
+          "from": 3,
+          "to": 2,
+          "label": "experience influences interpretation"
+        },
+        {
+          "from": 3,
+          "to": 1,
+          "label": "goals and experience guide"
+        }
+      ]
+    },
+    "caseStudy": {
+      "title": "Buick in black-ish: appearing within the story",
+      "kind": "textbook",
+      "context": "The chapter opening describes Buick placing the Enclave in black-ish to reach a suitable audience and integrate the vehicle into the story rather than only a separate commercial.",
+      "problem": "Which conclusion is most reasonable?",
+      "choices": [
+        "If a product appears, every viewer pays attention and buys.",
+        "Product placement can create exposure opportunities; fit and response still need assessment.",
+        "The program's context is unrelated to how viewers interpret the brand."
+      ],
+      "correct": 1,
+      "analysis": "The textbook explains that product placement may reduce avoidance but warns that viewers may react negatively to obvious selling. Exposure opportunities do not establish comprehension or purchases.",
+      "lesson": "Assess how the product appears, its fit with the content, and recipients' reactions.",
+      "limitations": "The case reflects the textbook's period; do not infer current sales or effectiveness, or treat product placement as a guarantee of success.",
+      "pages": [
+        300,
+        301
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "titleEn": "Learning, Memory, and Product Positioning",
+    "teaser": "How are associations formed and retrieved? From experience to brand image.",
+    "objectives": [
+      "Distinguish working memory from long-term memory.",
+      "Compare classical and operant conditioning.",
+      "Distinguish actual brand image from the company's intended positioning."
+    ],
+    "keyPoints": [
+      "Learning changes the content or organization of long-term memory or behavior; it is not limited to deliberate study.",
+      "Working memory holds and processes active information; connecting meaning to existing knowledge helps organize information.",
+      "Classical conditioning links stimuli to responses; operant conditioning links behavior to reinforcing outcomes.",
+      "Brand image consists of learned associations; positioning seeks a desired image relative to competitors within a segment."
+    ],
+    "concepts": [
+      {
+        "id": "c9-1",
+        "term": "Working memory and long-term memory",
+        "definition": "Working memory consists of information currently activated for processing; long-term memory stores knowledge, experiences, and associations.",
+        "detail": "Working memory has limited duration and capacity. Grouping information meaningfully and connecting it with existing knowledge supports processing; recall also depends on the context that activates associations.",
+        "condition": "Prior exposure is not proof that information was stored or will always be recalled. Capacity figures in the textbook describe a model, not a precisely measured limit for every person.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "Customers view a page presenting many app features.",
+          "problem": "A long list is difficult to grasp and remember.",
+          "choice": "Group features into meaningful benefits and connect them with usage situations.",
+          "explanation": "Meaningful groups support processing and connections to what customers already know.",
+          "lesson": "Organize by meaning rather than adding more detail."
+        },
+        "misconception": "Information seen before will always be recalled when needed.",
+        "question": "How do working and long-term memory differ, and how does chunking help?",
+        "answer": "Working memory holds information being processed; long-term memory stores knowledge and associations. Grouping related items into meaningful units supports processing and retention.",
+        "hint": "Active processing differs from stored knowledge; group by meaning.",
+        "pages": [
+          344,
+          345,
+          346,
+          347
+        ]
+      },
+      {
+        "id": "c9-2",
+        "term": "Two forms of conditioning",
+        "definition": "Classical conditioning forms stimulus–response associations; operant conditioning makes behavior more likely to recur through reinforcing outcomes.",
+        "detail": "Classical: repeatedly pairing a brand with an emotion-evoking stimulus. Operant: a user acts and receives an outcome, such as a satisfying product trial. The textbook notes that both can occur at different involvement levels.",
+        "condition": "Pairing upbeat music does not guarantee emotional transfer to the brand; a trial reinforces behavior positively only when the experience delivers a suitable outcome.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A new tea brand wants customers to remember it and buy again.",
+          "problem": "The team confuses an enjoyable advertisement with a product-trial experience.",
+          "choice": "Distinguish pairing a brand with emotion from trying a product and receiving a satisfying outcome.",
+          "explanation": "These form different associations: a response to a stimulus versus behavior linked to an outcome.",
+          "lesson": "Choose a mechanism suited to the objective and check the experience."
+        },
+        "misconception": "Operant conditioning simply means repeating a logo or using upbeat music.",
+        "question": "Which mechanisms are illustrated by an advertisement paired with upbeat music and an enjoyable product trial?",
+        "answer": "Pairing a brand with emotion-evoking music illustrates classical conditioning; a satisfying trial reinforcing repeated behavior illustrates operant conditioning.",
+        "hint": "Stimulus–response or behavior–outcome?",
+        "pages": [
+          350,
+          351,
+          352,
+          356
+        ]
+      },
+      {
+        "id": "c9-3",
+        "term": "Brand image and positioning",
+        "definition": "Brand image is the network of associations consumers already hold; positioning seeks a defined image relative to competitors within a segment.",
+        "detail": "Associations include attributes, benefits, users, usage situations, and emotions. Positioning needs meaningful differentiation supported by the product and experience.",
+        "condition": "Intended positioning does not equal actual image; measure how customers think and feel rather than only reading slogans.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A brand wants to be seen as convenient.",
+          "problem": "The slogan promises speed, but ordering is complicated.",
+          "choice": "Compare customers' associations with the promise and improve the experience.",
+          "explanation": "Associations develop from what customers learn, not only what the company claims.",
+          "lesson": "Positioning must align with actual experience."
+        },
+        "misconception": "Positioning is shelf location or just a slogan.",
+        "question": "Distinguish brand image and positioning in one sentence each.",
+        "answer": "Brand image is the actual set of associations in customers' minds; positioning is the marketer's choice to create a desired image relative to competitors in a segment.",
+        "hint": "What do customers currently think, and what does the company want to create?",
+        "pages": [
+          346,
+          366,
+          367
+        ]
+      }
+    ],
+    "diagram": {
+      "title": "Learning and the brand association network",
+      "kind": "map",
+      "nodes": [
+        {
+          "label": "Learning",
+          "detail": "Changes in memory or behavior through information processing.",
+          "pages": [
+            343
+          ]
+        },
+        {
+          "label": "Conditioning",
+          "detail": "One group of mechanisms that creates learned associations.",
+          "pages": [
+            350,
+            352
+          ]
+        },
+        {
+          "label": "Memory",
+          "detail": "Information is processed, stored, and retrieved.",
+          "pages": [
+            343,
+            344,
+            346
+          ]
+        },
+        {
+          "label": "Brand image",
+          "detail": "The network of learned associations about a brand.",
+          "pages": [
+            346,
+            366
+          ]
+        },
+        {
+          "label": "Positioning",
+          "detail": "An effort to create a desired image relative to competitors.",
+          "pages": [
+            367
+          ]
+        },
+        {
+          "label": "Product experience",
+          "detail": "One source of learning and associations.",
+          "pages": [
+            352,
+            366
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "from": 1,
+          "to": 0,
+          "label": "is one form of"
+        },
+        {
+          "from": 0,
+          "to": 2,
+          "label": "changes content or organization of"
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "label": "contains the association network forming"
+        },
+        {
+          "from": 4,
+          "to": 3,
+          "label": "seeks to shape"
+        },
+        {
+          "from": 5,
+          "to": 3,
+          "label": "helps form"
+        }
+      ]
+    },
+    "caseStudy": {
+      "title": "Tyson: convenience linked to an established image",
+      "kind": "textbook",
+      "context": "The brand-image section describes Tyson introducing fully cooked meat products to address concerns about preparation time and safety, drawing on its established reputation for meat products.",
+      "problem": "Which analysis fits the textbook example?",
+      "choices": [
+        "A brand name alone guarantees every new product's success.",
+        "Image comes only from a logo, unrelated to experiences or benefits.",
+        "A new product can connect benefits suited to needs with established brand associations."
+      ],
+      "correct": 2,
+      "analysis": "The textbook uses Tyson to illustrate drawing on an association network consistent with convenience and safety needs. This supports an argument about fit, not guaranteed effectiveness for every brand extension.",
+      "lesson": "Check whether a new product reinforces or contradicts associations customers have learned.",
+      "limitations": "This is a historical textbook example; it does not verify the current range, individual product quality, or sales.",
+      "pages": [
+        366
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "titleEn": "Motivation, Personality, and Emotion",
+    "teaser": "Why do customers act, how do they tend to respond, and how do emotions affect decisions?",
+    "objectives": [
+      "Explain motivation and the limits of Maslow's hierarchy of needs.",
+      "Distinguish consumer personality from brand personality.",
+      "Analyze emotional effects in relation to recipients and circumstances."
+    ],
+    "keyPoints": [
+      "Motivation energizes and directs behavior; one action can meet several needs.",
+      "Maslow offers a broad framework, not a rule that everyone always follows each level in order.",
+      "Personality reflects relatively consistent response tendencies; brands may also be assigned human characteristics.",
+      "Emotion involves subjective feelings, bodily responses, thoughts, and behavior; emotional messages do not affect everyone alike."
+    ],
+    "concepts": [
+      {
+        "id": "c10-1",
+        "term": "Motivation and needs",
+        "definition": "Motivation is an internal force that energizes and directs behavior toward satisfying needs or goals.",
+        "detail": "Maslow groups needs into physiological, safety, belongingness, esteem, and self-actualization. The textbook treats this as a broad framework with exceptions; one behavior can satisfy several needs, and the same behavior can have different motives.",
+        "condition": "Motives cannot be directly observed from a single action; research them and avoid forcing everyone into the same sequence.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A person buys a content-creation course.",
+          "problem": "The team assumes the only goal is higher income.",
+          "choice": "Explore career goals, belonging, and personal development.",
+          "explanation": "One choice can meet several needs at once.",
+          "lesson": "Explore motives rather than inferring a single reason."
+        },
+        "misconception": "Customers act only when every lower-level need has been fully satisfied.",
+        "question": "Why should Maslow not be used as a mandatory sequence for every purchase decision?",
+        "answer": "The textbook notes exceptions, and one behavior may meet several needs; motives depend on the person and situation rather than a compulsory sequence.",
+        "hint": "A broad framework with exceptions and overlapping needs.",
+        "pages": [
+          385,
+          386
+        ]
+      },
+      {
+        "id": "c10-2",
+        "term": "Consumer personality and brand personality",
+        "definition": "Human personality consists of characteristic response tendencies; brand personality consists of human characteristics associated with a brand.",
+        "detail": "The textbook's five brand dimensions are sincerity, excitement, competence, sophistication, and ruggedness. User imagery, spokespeople, and advertising execution can communicate them.",
+        "condition": "Assess scales in their cultural context; brand personality must fit experience. Do not infer buyers' personalities solely from brands they use.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "An app wants an approachable, trustworthy image.",
+          "problem": "Its content is playful, but customer support is brusque.",
+          "choice": "Align tone, guidance, and customer support.",
+          "explanation": "Customers learn brand characteristics through multiple touchpoints.",
+          "lesson": "Express personality through service behavior."
+        },
+        "misconception": "Adding adjectives to a logo is enough for customers to see the intended brand personality.",
+        "question": "How does brand personality differ from consumer personality and relate to brand image?",
+        "answer": "Consumer personality describes an individual's response tendencies; brand personality is the human characteristics customers assign to a brand, forming part of its image.",
+        "hint": "Who has response tendencies, and what is assigned human characteristics?",
+        "pages": [
+          396,
+          399,
+          400,
+          401
+        ]
+      },
+      {
+        "id": "c10-3",
+        "term": "Emotion in consumption",
+        "definition": "Strong, relatively uncontrolled feelings that can affect consumer thinking and behavior.",
+        "detail": "Events or imagination can evoke emotions, alongside physiological changes and thoughts. The textbook presents PAD dimensions: pleasure, arousal, and dominance; individual and situational differences produce different responses.",
+        "condition": "Do not equate positive emotion with purchasing. Consider intensity, meaning, product experience, and how users cope with negative emotions.",
+        "example": {
+          "kind": "hypothetical",
+          "context": "A customer receives a faulty order and is upset.",
+          "problem": "A staff member responds only with a scripted joking tone.",
+          "choice": "Acknowledge the problem, explain the resolution, and adjust the tone.",
+          "explanation": "A cheerful manner may not fit the recipient's emotional state.",
+          "lesson": "Read the situation before choosing an emotional message."
+        },
+        "misconception": "Stronger emotions necessarily make a campaign more effective.",
+        "question": "Why can the same emotional advertisement produce different responses?",
+        "answer": "Recipients differ in emotional intensity, needs, personality, experience, culture, and circumstances; a response does not equal a purchase decision.",
+        "hint": "Are the recipients and contexts identical?",
+        "pages": [
+          385,
+          401,
+          402,
+          403,
+          404
+        ]
+      }
+    ],
+    "diagram": {
+      "title": "Three complementary perspectives on behavior",
+      "kind": "map",
+      "nodes": [
+        {
+          "label": "Motivation",
+          "detail": "Provides energy and direction toward goals.",
+          "pages": [
+            385
+          ]
+        },
+        {
+          "label": "Consumer personality",
+          "detail": "Response tendencies in similar situations.",
+          "pages": [
+            396
+          ]
+        },
+        {
+          "label": "Emotion",
+          "detail": "Feelings and responses that may vary by situation.",
+          "pages": [
+            401,
+            402
+          ]
+        },
+        {
+          "label": "Brand personality",
+          "detail": "Human characteristics customers assign to a brand.",
+          "pages": [
+            399,
+            400
+          ]
+        },
+        {
+          "label": "Consumer behavior",
+          "detail": "Examined through interrelated influences, rather than wholly separate ones.",
+          "pages": [
+            385,
+            399,
+            402
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "from": 0,
+          "to": 4,
+          "label": "energizes and directs"
+        },
+        {
+          "from": 1,
+          "to": 4,
+          "label": "shapes response tendencies"
+        },
+        {
+          "from": 2,
+          "to": 4,
+          "label": "may influence"
+        },
+        {
+          "from": 0,
+          "to": 2,
+          "label": "connects needs and feelings"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "label": "influences felt intensity"
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "label": "creates expectations and relationships"
+        }
+      ]
+    },
+    "caseStudy": {
+      "title": "Gap Inc.: a personality for each brand",
+      "kind": "textbook",
+      "context": "The chapter opening describes images of Gap Inc. brands during the textbook's period: Gap and Banana Republic faced identity problems, while Old Navy was described as playful and Athleta as approachable and inclusive.",
+      "problem": "Which lesson best fits this comparison?",
+      "choices": [
+        "Brands in the same corporation must have identical personalities.",
+        "Changing descriptive adjectives alone resolves all business difficulties.",
+        "A clear identity should fit the target group and be expressed consistently through products, communication, and experiences."
+      ],
+      "correct": 2,
+      "analysis": "The textbook uses the brand portfolio to show how personality contributes to image and relevance to customer groups. Image should not be inferred to be the only cause of business results.",
+      "lesson": "Compare intended personality with perceived image and the product's actual value.",
+      "limitations": "This is a historical textbook assessment; it does not verify the brands' current situations or a campaign's causal effects.",
+      "pages": [
+        384
+      ]
+    }
+  }
+]

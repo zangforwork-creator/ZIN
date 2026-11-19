@@ -1,0 +1,310 @@
+{
+  "course": "dm",
+  "version": 1,
+  "updatedOn": "2026-11-19",
+  "title": "Chapter 1 · lecture-aligned applications",
+  "source": {
+    "filename": "Chapter 1 - Introduction.pdf",
+    "sha256": "945a936debb47f820796cc8e01394ddd2b0b8cbc92ef3977aa319a4f2e0fd5a6",
+    "slides": 43,
+    "materialId": "945a936debb47f82",
+    "folder": "Kho-tai-lieu-mon-hoc/Digital MKT/Slides"
+  },
+  "intro": "The new lecture reinforces the textbook foundation and adds local STP applications, AIDA versus RACE, two campaign analyses and a multichannel/omnichannel comparison. Existing concept IDs, answers and review schedules remain unchanged.",
+  "sections": [
+    {
+      "id": "scope",
+      "title": "Connect customer needs, the 7Ds and the 5Ss",
+      "modules": [
+        1,
+        2
+      ],
+      "slides": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "summary": "Digital activity should identify, anticipate and satisfy customer needs in support of commercial or other stated organisational goals.",
+      "points": [
+        "Slide 13 lists six audience/technology dimensions; slides 21–22 explicitly add digital goals to form the 7Ds. These are different levels of the same planning discussion, not competing definitions.",
+        "Use the 5Ss to examine Sell, Speak, Serve, Save and Sizzle. Objectives need a measure, a timeframe and a credible baseline.",
+        "Paid, owned and earned describe the arrangement, while a device or platform describes access or mediation. Sponsorship is not automatically independent earned media.",
+        "The lecture’s Vietnam brand examples are illustrations of mechanisms. Their statements about growth, rural reach, cost savings or loyalty are not adopted as measured outcomes without supporting evidence."
+      ],
+      "diagram": [
+        [
+          "Customer need",
+          "Identify → anticipate → satisfy"
+        ],
+        [
+          "7Ds",
+          "Goals guide audiences, devices, platforms, media, data and technology"
+        ],
+        [
+          "5Ss",
+          "Sales, dialogue, service, efficiency and brand value"
+        ],
+        [
+          "Evaluation",
+          "Check the actual outcome"
+        ]
+      ],
+      "example": "Hypothetical: a service team seeks fewer unresolved enquiries. It may combine useful content, a relevant communication channel and appropriate records rather than choosing a tool first.",
+      "limit": "The 7-Eleven video prompt is an assigned discussion stimulus, not evidence that has been analysed automatically. No video finding is invented.",
+      "quiz": {
+        "prompt": "Do the six dimensions on slide 13 disprove the 7Ds?",
+        "options": [
+          "Yes; goals should be excluded.",
+          "No; the later 7Ds view makes goals explicit alongside those dimensions.",
+          "The number of platforms determines the number of Ds."
+        ],
+        "correct": 1,
+        "explanation": "Slide 21 explicitly includes goals, consistent with the textbook’s broader 7Ds."
+      }
+    },
+    {
+      "id": "stp",
+      "title": "Work through STP and an online value proposition",
+      "modules": [
+        2
+      ],
+      "slides": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "summary": "Separate how a market is divided, whom the brand chooses to serve, how it should be perceived and what useful online benefit it delivers.",
+      "points": [
+        "Segmentation can use behavioural needs and usage as well as demographic or geographic characteristics. A group label is not a complete persona or evidence of demand.",
+        "Targeting selects a relevant, feasible group; positioning describes desired relative meaning for that group.",
+        "The OVP identifies the online service benefit and differentiation. It must be deliverable rather than just an attractive slogan.",
+        "The lecture uses MoMo payment tasks to illustrate segmentation and an integrated service proposition. Treat the specific target and positioning account as a lecture interpretation, not a verified current company strategy."
+      ],
+      "diagram": [
+        [
+          "Segmentation",
+          "Different payment tasks and needs"
+        ],
+        [
+          "Targeting",
+          "Select a relevant group"
+        ],
+        [
+          "Positioning",
+          "Desired perception versus alternatives"
+        ],
+        [
+          "OVP",
+          "A concrete online service benefit"
+        ]
+      ],
+      "example": "Hypothetical exercise: select students who need predictable low-effort bill payment. State the need, compare alternatives, propose a credible benefit and identify how you would test it.",
+      "limit": "No invented audience size, conversion improvement or ROI is used. The website does not treat a demographic label as proof of a shared need.",
+      "quiz": {
+        "prompt": "Which item is an OVP rather than merely a technology label?",
+        "options": [
+          "We use AI.",
+          "Complete a relevant task with a clear, deliverable convenience benefit.",
+          "We are present on every social network."
+        ],
+        "correct": 1,
+        "explanation": "An OVP explains a customer benefit and differentiation, not simply the tools or number of channels."
+      }
+    },
+    {
+      "id": "race-cases",
+      "title": "Apply AIDA and RACE without overstating conversion",
+      "modules": [
+        2,
+        3,
+        5
+      ],
+      "slides": [
+        8,
+        32,
+        33,
+        34,
+        35,
+        36,
+        38,
+        39
+      ],
+      "summary": "Use the lecture’s campaign cases to distinguish response, trial, purchase intention, sales and ongoing relationships.",
+      "points": [
+        "AIDA considers awareness, interest, desire and action. RACE broadens planning across Reach, Act, Convert and Engage, including retention. Neither should be treated as a guaranteed linear journey for every customer.",
+        "For Burger King, app/AR interaction fits Act. Voucher redemption can indicate trial; a free product redemption alone does not establish paid revenue. Record the chosen conversion definition.",
+        "Slide 39 places trust, preference and purchase consideration under Convert for the Biti’s Hunter illustration. These may support conversion, but they are not evidence of achieved sales under the textbook’s RACE definition.",
+        "Engage needs evidence of a relationship over time; emotional response to one communication does not by itself demonstrate retention."
+      ],
+      "diagram": [
+        [
+          "Reach",
+          "Exposure / relevant visits"
+        ],
+        [
+          "Act",
+          "Interaction / useful leads"
+        ],
+        [
+          "Convert",
+          "Defined sale; distinguish trial or intention"
+        ],
+        [
+          "Engage",
+          "Repeat relationship / retention"
+        ]
+      ],
+      "example": "Lecture case analysis: for the Biti’s Hunter example, propose a separate measure for audience exposure, participation, actual purchasing and repeat interaction. Do not fill missing results with optimistic estimates.",
+      "limit": "The Biti’s campaign year and performance narrative are presented as claims in the uploaded lecture, not independently verified campaign results. Historical Burger King content remains dated to the textbook case.",
+      "quiz": {
+        "prompt": "A campaign improves purchase consideration, but no sales evidence is supplied. What can you conclude?",
+        "options": [
+          "Sales conversion has been proven.",
+          "Consideration may support conversion; actual sales remain unestablished.",
+          "Retention is guaranteed."
+        ],
+        "correct": 1,
+        "explanation": "The lecture’s placement is a discussion prompt; intention and actual purchasing are distinct measures."
+      }
+    },
+    {
+      "id": "channels",
+      "title": "Distinguish more channels from a connected journey",
+      "modules": [
+        1,
+        4,
+        5
+      ],
+      "slides": [
+        18,
+        30,
+        31,
+        40,
+        41,
+        42
+      ],
+      "summary": "Multichannel availability and omnichannel integration answer different questions.",
+      "points": [
+        "Multichannel means customers can access several channels. Omnichannel emphasises coordinated information, service and handoffs across the customer journey.",
+        "The lecture table contrasts fragmented and integrated archetypes. Multiple channels do not inherently require identical content or a poor experience; integration is a design capability.",
+        "A customer may research online, reserve an item, collect in a store and request support later. Consistent promises and usable handoffs matter at each point.",
+        "E-commerce includes financial and informational external exchanges; digital business also includes internal processes. Distribution/delivery should not be collapsed into creating advertising visibility.",
+        "Assess complexity, competitive responses, changing platforms, cost and attention. More channels can increase operational burden."
+      ],
+      "diagram": [
+        [
+          "Discover",
+          "Useful and consistent information"
+        ],
+        [
+          "Choose",
+          "Reserve or enquire"
+        ],
+        [
+          "Receive",
+          "Reliable online/offline handoff"
+        ],
+        [
+          "Support",
+          "Connected service and preferences"
+        ]
+      ],
+      "example": "Hypothetical: a retailer displays store availability online and honours the reservation at collection. The advantage comes from the connected promise and handoff, not from counting the channels.",
+      "limit": "The lecture’s local retail example illustrates the intended journey; the website does not claim it has audited a named retailer’s current systems.",
+      "quiz": {
+        "prompt": "A company has a website, app and store, but reservations are not recognised by staff. What is missing?",
+        "options": [
+          "An additional logo.",
+          "Integration of information and the customer handoff.",
+          "Proof that physical stores should close."
+        ],
+        "correct": 1,
+        "explanation": "Channel presence alone does not create a coordinated experience."
+      }
+    },
+    {
+      "id": "responsible",
+      "title": "Treat local campaign adaptation as a verification task",
+      "modules": [
+        3,
+        7
+      ],
+      "slides": [
+        35,
+        36,
+        37
+      ],
+      "summary": "A campaign that attracts attention in one setting is not automatically appropriate or compliant in another.",
+      "points": [
+        "For the lecture’s Vietnam adaptation question, identify the claims, competitor references, intellectual-property permissions, data uses and consumer experience that need specialist review.",
+        "The official government record identifies Law 75/2025/QH15 as an advertising-law amendment effective 1 January 2026. This narrow verified fact does not validate every assertion in the lecture’s legal list.",
+        "The website does not reproduce the lecture’s enterprise-law citation or blanket prior-approval assertion as verified requirements. Applicable law and permissions must be checked for the specific proposed activity."
+      ],
+      "diagram": [
+        [
+          "Idea",
+          "State the intended audience and benefit"
+        ],
+        [
+          "Evidence",
+          "Check factual claims and permissions"
+        ],
+        [
+          "Review",
+          "Obtain appropriate local advice"
+        ],
+        [
+          "Decision",
+          "Adapt, test, or do not run"
+        ]
+      ],
+      "example": "Hypothetical alternative: demonstrate the brand’s own product benefits using original creative assets rather than assuming a foreign competitor-focused AR mechanic can be copied safely.",
+      "limit": "This is a source-verification exercise, not legal advice or a checklist guaranteeing compliance.",
+      "quiz": {
+        "prompt": "Can the lecture’s foreign AR campaign be copied locally with automatic legal assurance?",
+        "options": [
+          "Yes; success elsewhere is sufficient.",
+          "No; the actual local use, claims, permissions and rules require separate review.",
+          "A download target overrides other responsibilities."
+        ],
+        "correct": 1,
+        "explanation": "A teaching example does not establish authorisation or compliance for a new execution."
+      }
+    }
+  ],
+  "brief": {
+    "slides": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "text": "The uploaded overview assigns 10% attendance/participation, 15% midterm, 15% team project and 60% final examination. Teams of four or five analyse an actual Vietnam-market business, target audience, journey and competitors, propose 1–3 SMART objectives and justified channels/KPIs, and submit a 15–20-slide presentation, landing-page link or prototype, a 30–90-second advertising video, contribution record and sources. Suggested presentation time is 12–15 minutes with 10 minutes of Q&A. These are supplied-course requirements, not invented deadlines. The lecture maps nine course chapters to ten textbook chapters."
+  },
+  "external": [
+    {
+      "section": "responsible",
+      "title": "Government record: advertising amendment 75/2025/QH15",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=214561&pageid=27160"
+    }
+  ],
+  "omitted": "Classroom instructions and video links are treated as reference material. The closing slide contains no additional teaching content."
+}

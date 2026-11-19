@@ -1,0 +1,1820 @@
+[
+{
+  "id": 11,
+  "teaser": "Someone may like a brand and still not buy it. Separate beliefs, feelings, and behavioral tendencies.",
+  "objectives": [
+    "Distinguish the three components of an attitude.",
+    "Choose an appropriate way to change the structure of beliefs.",
+    "Explain the two routes to persuasion in the ELM."
+  ],
+  "keyPoints": [
+    "An attitude is a learned predisposition, rather than a passing reaction.",
+    "Cognition, affect, and behavioral tendencies are often related but are not always consistent.",
+    "Marketers can change beliefs, attribute importance, add beliefs, or change the ideal product.",
+    "Involvement affects message processing; situational factors can also prevent intentions from becoming behavior."
+  ],
+  "concepts": [
+    {
+      "id": "c11-1",
+      "term": "The three components of an attitude",
+      "definition": "An attitude includes beliefs about an object, feelings toward it, and a tendency to respond to it.",
+      "detail": "Cognition answers 'What do I believe?'; affect answers 'How do I feel?'; the behavioral component reflects intentions or response tendencies. Actual behavior is also constrained by the situation.",
+      "condition": "Measure each component separately, specifying the same object, behavior, and context.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A student is choosing a learning app.",
+        "problem": "They like its design but have not subscribed.",
+        "choice": "Ask separately about reliability, liking, and intention to pay.",
+        "explanation": "The three questions may reveal positive beliefs and feelings alongside low purchase intention because of budget constraints.",
+        "lesson": "Do not infer purchases from likes alone."
+      },
+      "misconception": "Liking a brand means someone will definitely buy it.",
+      "question": "How do the three attitude components differ, and why might intentions fail to become behavior?",
+      "answer": "Cognition refers to beliefs; affect to likes or dislikes; the behavioral component to response tendencies. Situations can cause actual behavior to differ from intentions.",
+      "hint": "Think, feel, tend to act.",
+      "pages": [
+        417,
+        420,
+        421,
+        424
+      ]
+    },
+    {
+      "id": "c11-2",
+      "term": "Changing the cognitive component",
+      "definition": "Influencing attitudes by changing the structure of beliefs and the evaluation of attributes.",
+      "detail": "The book describes four approaches: change beliefs about brand performance, change attribute importance, add beliefs, or change beliefs about the ideal product. Strong beliefs are often harder to change.",
+      "condition": "Support claims with evidence and understand current buyer beliefs; changing advertising copy does not itself improve actual quality.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A reusable water bottle shop wants to introduce a product.",
+        "problem": "Buyers compare only the initial price.",
+        "choice": "Explain reuse and provide verifiable durability information.",
+        "explanation": "The message adds an evaluation attribute and clarifies benefits, without promising savings when usage frequency is unknown.",
+        "lesson": "Ground changes in beliefs in actual evidence."
+      },
+      "misconception": "Every attitude change requires rejecting an existing belief.",
+      "question": "Name the four approaches to cognitive change. How does adding a belief differ from changing a belief?",
+      "answer": "Change beliefs, change importance, add beliefs, or change the ideal. Adding a belief introduces a new association; changing one revises an existing evaluation.",
+      "hint": "Beliefs, weights, additions, ideals.",
+      "pages": [
+        424,
+        425
+      ]
+    },
+    {
+      "id": "c11-3",
+      "term": "Elaboration likelihood model (ELM)",
+      "definition": "The ELM explains attitude formation and change in terms of how extensively people elaborate on a message.",
+      "detail": "The central route involves deliberate processing of relevant arguments; the peripheral route relies more on accessible cues such as music, imagery, or the communicator. The book emphasizes involvement and notes that peripheral cues can still matter when brands are equivalent.",
+      "condition": "Consider involvement with the product, message, and decision; video versus text alone does not determine the processing route.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A laptop brand has two content audiences.",
+        "problem": "Active buyers need specifications; casual browsers elaborate less.",
+        "choice": "Offer clear comparisons for active buyers and memorable brand cues for casual browsers.",
+        "explanation": "Presentation fits the anticipated level of processing, but actual responses still need checking.",
+        "lesson": "Match the message to how the audience processes it."
+      },
+      "misconception": "Using a celebrity means everyone processes the message through the peripheral route.",
+      "question": "When is central-route processing likely, and how does it differ from the peripheral route?",
+      "answer": "With high involvement, audiences tend to consider product-related arguments. Peripheral processing involves less elaboration and relies more on readily available message cues.",
+      "hint": "Degree of elaboration and relevance of information.",
+      "pages": [
+        428,
+        429
+      ]
+    }
+  ],
+  "diagram": {
+    "title": "From attitude to behavior: conditions matter",
+    "kind": "map",
+    "nodes": [
+      {
+        "label": "Beliefs",
+        "detail": "What consumers believe about attributes or benefits.",
+        "pages": [
+          417,
+          418
+        ]
+      },
+      {
+        "label": "Affect",
+        "detail": "Emotional responses toward the object.",
+        "pages": [
+          420
+        ]
+      },
+      {
+        "label": "Behavioral tendency",
+        "detail": "An intention or tendency to respond.",
+        "pages": [
+          421
+        ]
+      },
+      {
+        "label": "Overall attitude",
+        "detail": "The three components reflect an orientation toward the object.",
+        "pages": [
+          417,
+          423
+        ]
+      },
+      {
+        "label": "Actual behavior",
+        "detail": "Other people and situational factors can alter intentions.",
+        "pages": [
+          421,
+          424
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from": 0,
+        "to": 3,
+        "label": "component"
+      },
+      {
+        "from": 1,
+        "to": 3,
+        "label": "component"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "label": "component"
+      },
+      {
+        "from": 2,
+        "to": 4,
+        "label": "may lead to, depending on the situation"
+      }
+    ]
+  },
+  "caseStudy": {
+    "title": "Avocados of Mexico: expanding perceptions of avocados",
+    "kind": "textbook",
+    "context": "The chapter opening describes changing attitudes toward avocados in the United States and Avocados of Mexico's Super Bowl advertising.",
+    "problem": "Avocados had been associated with limited uses and occasions. The activities described introduce additional uses.",
+    "choices": [
+      "Repeat only that avocados are used for guacamole.",
+      "Introduce more consumption occasions and roles in meals.",
+      "Attribute all changes in consumption solely to advertising."
+    ],
+    "correct": 1,
+    "analysis": "The book discusses avocados on toast, as burger toppings, and in other dishes; the advertising uses humor to highlight versatility. This adds beliefs and usage occasions. The book also discusses prices, supply, and immigration, so advertising cannot explain the entire change.",
+    "lesson": "A new use can change how consumers think about a product.",
+    "limitations": "A historical textbook example. Do not treat health claims in the opening as medical advice or as causal evidence about sales.",
+    "pages": [
+      416
+    ]
+  },
+  "titleEn": "Attitudes and Influencing Attitudes"
+},
+{
+  "id": 12,
+  "teaser": "Two people of the same age and income may buy for very different reasons.",
+  "objectives": [
+    "Distinguish actual, ideal, private, and social self-concepts.",
+    "Explain the relationship between self-concept, lifestyle, and consumption.",
+    "Choose information for researching lifestyle segments."
+  ],
+  "keyPoints": [
+    "Self-concept consists of a person's thoughts and feelings about themselves.",
+    "Lifestyle expresses how someone lives within particular resources and circumstances.",
+    "Consumption both expresses and can change lifestyle.",
+    "Psychographic research complements demographics; one segmentation framework does not fit every market."
+  ],
+  "concepts": [
+    {
+      "id": "c12-1",
+      "term": "Self-concept",
+      "definition": "The totality of an individual's thoughts and feelings about themselves.",
+      "detail": "The actual–ideal and private–social dimensions create four perspectives. Social self-concept concerns how someone thinks others see them, or wishes others would see them; it is not an objective measure of everyone's opinions.",
+      "condition": "Identify which self-concept is relevant to the product; do not assume people always buy to impress others.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A student is choosing a presentation course.",
+        "problem": "They see themselves as shy but want to be more confident.",
+        "choice": "Choose a course with speaking practice and specific feedback.",
+        "explanation": "The choice may address a gap between the actual and ideal self.",
+        "lesson": "Understand self-related goals before writing a message."
+      },
+      "misconception": "Self-concept is only appearance or how others actually judge you.",
+      "question": "Which two dimensions produce the four forms of self-concept?",
+      "answer": "Actual versus ideal, and private versus social. Together they describe how I see myself, wish to see myself, think others see me, and wish others would see me.",
+      "hint": "Who am I, and who do I want to be? In my own eyes or others'?",
+      "pages": [
+        453
+      ]
+    },
+    {
+      "id": "c12-2",
+      "term": "Lifestyle and consumption",
+      "definition": "Lifestyle is how a person lives, expressed through activities, interests, attitudes, and consumption.",
+      "detail": "Experiences, personal characteristics, culture, and circumstances help shape lifestyle. A desired lifestyle guides purchase and usage needs; consumption choices can then reinforce or change that lifestyle.",
+      "condition": "Consider constraints on income, ability, and circumstances; behavior does not fully reflect what someone wants.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "Someone wants to maintain a home-cooking lifestyle.",
+        "problem": "Their class schedule leaves little preparation time.",
+        "choice": "Choose prepared ingredients while still cooking the meal themselves.",
+        "explanation": "The product supports the desired lifestyle within time constraints.",
+        "lesson": "Convenience can coexist with a preference for doing things yourself."
+      },
+      "misconception": "People with the same income have the same lifestyle.",
+      "question": "How do consumption and lifestyle influence each other?",
+      "answer": "A desired lifestyle guides needs and how products are bought and used; those behaviors then reinforce or adjust the lifestyle.",
+      "hint": "A two-way relationship within resource constraints.",
+      "pages": [
+        453,
+        460,
+        461
+      ]
+    },
+    {
+      "id": "c12-3",
+      "term": "Psychographics and lifestyle measurement",
+      "definition": "Psychographics uses attitudes, values, activities, and interests to identify lifestyle patterns.",
+      "detail": "Research may also collect demographics, media habits, and usage levels to describe groups. Some approaches classify general lifestyles; others focus on a particular activity or product category.",
+      "condition": "Choose the level of specificity to suit the research question and check data in the target market.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A team plans cooking content for students.",
+        "problem": "Age groups alone do not reveal who enjoys trying recipes.",
+        "choice": "Ask about enjoyment of cooking, available time, motivations, and recipe-search habits.",
+        "explanation": "Lifestyle information differentiates needs that age alone cannot explain.",
+        "lesson": "Segment by relevant behaviors and motivations."
+      },
+      "misconception": "International segment names are ready-made labels that accurately describe every Vietnamese individual.",
+      "question": "What information does lifestyle research need beyond age and income?",
+      "answer": "Attitudes, values, activities, and interests, potentially supplemented by media habits and product usage.",
+      "hint": "How people think, what they value, and how they spend time.",
+      "pages": [
+        461,
+        462
+      ]
+    }
+  ],
+  "diagram": {
+    "title": "Self-concept, lifestyle, and consumption",
+    "kind": "map",
+    "nodes": [
+      {
+        "label": "Self-concept",
+        "detail": "How people see themselves and who they wish to be.",
+        "pages": [
+          453
+        ]
+      },
+      {
+        "label": "Resources and circumstances",
+        "detail": "Income, ability, and situations constrain the lifestyles people can pursue.",
+        "pages": [
+          453,
+          460
+        ]
+      },
+      {
+        "label": "Lifestyle",
+        "detail": "Expressed in activities, interests, attitudes, and ways of living.",
+        "pages": [
+          460
+        ]
+      },
+      {
+        "label": "Purchase and use",
+        "detail": "Lifestyle guides what, where, and when people buy, and with whom they use products.",
+        "pages": [
+          460
+        ]
+      },
+      {
+        "label": "Psychographic data",
+        "detail": "Measures of attitudes, values, and activities help describe and group lifestyles.",
+        "pages": [
+          461,
+          462
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from": 0,
+        "to": 2,
+        "label": "helps guide"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "label": "shapes and constrains"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "label": "influences"
+      },
+      {
+        "from": 3,
+        "to": 2,
+        "label": "reinforces or changes"
+      },
+      {
+        "from": 4,
+        "to": 2,
+        "label": "helps investigate"
+      }
+    ]
+  },
+  "caseStudy": {
+    "title": "Dove Real Beauty: gaps in self-concept",
+    "kind": "textbook",
+    "context": "Consumer Insight 12-1 describes Unilever's 2004 research and Dove Real Beauty campaigns, including the 2013 Real Beauty Sketches.",
+    "problem": "Dove raised the issue of women judging their own beauty against an ideal; the campaign's portrayal of beauty also attracted debate.",
+    "choices": [
+      "Interpret the campaign through the gap between actual and ideal selves.",
+      "Treat the message as evidence that all women think alike.",
+      "Ignore criticism because the campaign attracted attention."
+    ],
+    "correct": 0,
+    "analysis": "The campaign broadened portrayals of beauty. The Sketches video compared portraits based on women's self-descriptions with portraits based on others' descriptions. The book records support and criticism, including concerns that the campaign still places too much importance on appearance.",
+    "lesson": "Evaluate self-related messages for both relevance and social consequences.",
+    "limitations": "An interpretation of a historical textbook example, not representative research on all women or independent evidence of sales effects.",
+    "pages": [
+      459
+    ]
+  },
+  "titleEn": "Self-Concept and Lifestyle"
+},
+{
+  "id": 13,
+  "teaser": "The same person may choose the same product differently when rushed and when relaxed.",
+  "objectives": [
+    "Identify four types of consumption situation.",
+    "Analyze five situational characteristics.",
+    "Distinguish symbolic rituals from ordinary habits."
+  ],
+  "keyPoints": [
+    "Behavior depends jointly on the individual, marketing stimuli, and the situation.",
+    "The four situations involve communication, purchase, usage, and disposition.",
+    "Five characteristics cover physical surroundings, social surroundings, time, task, and temporary states.",
+    "Rituals have structure and symbolic meaning; responses to situations may differ across cultures."
+  ],
+  "concepts": [
+    {
+      "id": "c13-1",
+      "term": "Four consumption situations",
+      "definition": "Situations can influence receiving information, buying, using, and disposing of products.",
+      "detail": "Communication settings affect message reception; purchase settings affect outlet and product choice; usage occasions alter suitability; disposition conditions affect recycling or disposal.",
+      "condition": "Analyze each touchpoint; purchase and usage contexts may differ.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "Someone buys drinks to bring to a gathering with friends.",
+        "problem": "They see the ad at home, buy in a hurry, and consume the drinks with the group.",
+        "choice": "Separate these three situations and consider container collection afterward.",
+        "explanation": "Each situation creates a different requirement: easy to understand, quick to buy, suitable for the group, and easy to collect.",
+        "lesson": "Study more than the checkout moment."
+      },
+      "misconception": "A situation refers only to the inside of a store.",
+      "question": "Name the four situation types and one possible influence in each.",
+      "answer": "Communication: ad reception; purchase: choices under time pressure; usage: suitability for an occasion; disposition: recycling or disposal options.",
+      "hint": "Receive information, buy, use, dispose.",
+      "pages": [
+        507,
+        508,
+        509,
+        510
+      ]
+    },
+    {
+      "id": "c13-2",
+      "term": "Five situational characteristics",
+      "definition": "A situation can be described through physical surroundings, people present, time, purpose, and temporary states.",
+      "detail": "Physical surroundings include sound, light, scent, and layout. Social surroundings concern other people present. Time includes pressure and timing. Task definition is the reason for consumption. Antecedent states include moods and temporary conditions such as fatigue.",
+      "condition": "Distinguish temporary states from stable traits; the same environment need not produce the same response across cultures.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A store is crowded during the lunch break.",
+        "problem": "Customers are hungry and short of time.",
+        "choice": "Make queues and quick choices clear, then observe the experience.",
+        "explanation": "Crowding, time pressure, and hunger act together; music alone cannot explain the outcome.",
+        "lesson": "Consider factors together and check actual responses."
+      },
+      "misconception": "A customer's passing mood is a fixed personality trait.",
+      "question": "Use an example to distinguish task definition from an antecedent state.",
+      "answer": "Task definition is the reason for buying, such as a gift rather than personal use. An antecedent state is a temporary condition, such as feeling tired or happy.",
+      "hint": "Why someone buys differs from how they feel at the time.",
+      "pages": [
+        510,
+        515,
+        517,
+        518,
+        519
+      ]
+    },
+    {
+      "id": "c13-3",
+      "term": "Ritual situations",
+      "definition": "A socially or personally meaningful occasion that triggers related, structured behaviors with symbolic meaning.",
+      "detail": "Rituals may be private, such as personal anniversaries, or public, such as weddings, prom, and holidays. They often involve an expected set of consumption behaviors.",
+      "condition": "Understand the meaning and norms of the particular community; not every repeated behavior is a ritual.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "Friends meet each year to celebrate graduation.",
+        "problem": "A restaurant wants to support a meaningful experience.",
+        "choice": "Let the group reserve the same spot and retain requested messages.",
+        "explanation": "The service supports shared structure and memories without assigning meanings to the group.",
+        "lesson": "Understand the ritual before designing an offer."
+      },
+      "misconception": "Any weekly repeat purchase is a symbolically meaningful ritual.",
+      "question": "Which two features distinguish a ritual from ordinary repeated behavior?",
+      "answer": "Related behaviors have structure and symbolic meaning within a socially or personally defined occasion.",
+      "hint": "Structure and meaning.",
+      "pages": [
+        520
+      ]
+    }
+  ],
+  "diagram": {
+    "title": "Five lenses for understanding a situation",
+    "kind": "map",
+    "nodes": [
+      {
+        "label": "Consumption situation",
+        "detail": "Factors tied to time and place that influence current behavior.",
+        "pages": [
+          507
+        ]
+      },
+      {
+        "label": "Physical surroundings",
+        "detail": "Lighting, scent, sound, and layout.",
+        "pages": [
+          510
+        ]
+      },
+      {
+        "label": "Social surroundings",
+        "detail": "People present and their influence.",
+        "pages": [
+          515
+        ]
+      },
+      {
+        "label": "Time",
+        "detail": "Time pressure can shorten information search.",
+        "pages": [
+          517
+        ]
+      },
+      {
+        "label": "Task definition",
+        "detail": "The reason for consumption, such as gift buying or personal use.",
+        "pages": [
+          517
+        ]
+      },
+      {
+        "label": "Antecedent states",
+        "detail": "Temporary moods and conditions, distinct from stable traits.",
+        "pages": [
+          518,
+          519
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from": 1,
+        "to": 0,
+        "label": "describes"
+      },
+      {
+        "from": 2,
+        "to": 0,
+        "label": "describes"
+      },
+      {
+        "from": 3,
+        "to": 0,
+        "label": "describes"
+      },
+      {
+        "from": 4,
+        "to": 0,
+        "label": "describes"
+      },
+      {
+        "from": 5,
+        "to": 0,
+        "label": "describes"
+      }
+    ]
+  },
+  "caseStudy": {
+    "title": "KFC and the prom corsage",
+    "kind": "textbook",
+    "context": "The chapter opening describes KFC partnering with a Louisville florist to introduce a chicken-related corsage kit during prom season.",
+    "problem": "A food brand wanted to participate in a ritual usually associated with outfits, flowers, and dates.",
+    "choices": [
+      "View the product only as an everyday meal.",
+      "Analyze how the brand connects to the ritual and social meaning of prom.",
+      "Conclude that every American family likes the product."
+    ],
+    "correct": 1,
+    "analysis": "The kit combined fresh flowers with a KFC gift card. The book reports interest beyond the local area but provides no basis for claiming universal acceptance. The learning point is that marketers can identify usage occasions through rituals.",
+    "lesson": "Social context can create a new use for a brand.",
+    "limitations": "A historical US example; do not generalize to every community's rituals or claim a sales effect.",
+    "pages": [
+      506
+    ]
+  },
+  "titleEn": "Situational Influences"
+},
+{
+  "id": 14,
+  "teaser": "Customers may not seek a solution because they have not recognized the problem, or it is not important enough.",
+  "objectives": [
+    "Compare nominal, limited, and extended decision making.",
+    "Explain the gap between actual and desired states.",
+    "Distinguish active from inactive problems."
+  ],
+  "keyPoints": [
+    "Purchase involvement is a temporary state, distinct from enduring involvement with a category.",
+    "Decision types lie on a continuum rather than in three separate boxes.",
+    "Problem recognition concerns perceived states, not objective circumstances alone.",
+    "The size of the discrepancy and its relative importance jointly influence motivation to resolve it."
+  ],
+  "concepts": [
+    {
+      "id": "c14-1",
+      "term": "Purchase involvement",
+      "definition": "Interest in the decision process for a particular purchase, influenced by the individual, product, and situation.",
+      "detail": "Low involvement often accompanies nominal decision making; limited decision making lies between low and high involvement; high involvement often involves extended search and evaluation. Someone enthusiastic about a category may still make repeat purchases with little thought.",
+      "condition": "Specify the purchase and circumstances; product price is not the only indicator.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A coffee enthusiast buys their usual beans each month.",
+        "problem": "A marketing team assumes this person always compares every brand.",
+        "choice": "Separate enthusiasm for coffee from the effort devoted to a routine repeat purchase.",
+        "explanation": "Enduring interest may be high while involvement with a familiar purchase is low.",
+        "lesson": "Measure the relevant type of involvement before designing content."
+      },
+      "misconception": "Interest in a category means every purchase involves extended decision making.",
+      "question": "How does purchase involvement differ from enduring product involvement?",
+      "answer": "One is a temporary state during a purchase decision; the other is continuing interest in a product or category. The two levels can differ.",
+      "hint": "This purchase versus lasting interest.",
+      "pages": [
+        533,
+        534
+      ]
+    },
+    {
+      "id": "c14-2",
+      "term": "Problem recognition",
+      "definition": "Perceiving a discrepancy between a desired state and the perceived actual state sufficient to activate the decision process.",
+      "detail": "Both actual and desired states are influenced by lifestyle and situations. The discrepancy may involve having less or more than desired. A discrepancy need not trigger search if the issue has little importance.",
+      "condition": "Assess the consumer's perceptions, discrepancy size, and priorities within time and budget constraints.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A student wants a quiet place to study.",
+        "problem": "Their room suddenly becomes too noisy.",
+        "choice": "Consider the library, changing study hours, or noise reduction options.",
+        "explanation": "The actual state differs from the desired state, but importance and resources determine the next action.",
+        "lesson": "A problem does not automatically imply a need to buy a product."
+      },
+      "misconception": "Every discrepancy immediately causes a purchase.",
+      "question": "Why might even a large discrepancy fail to trigger a search for solutions?",
+      "answer": "Its relative importance may be low, or other priorities and resource constraints may outweigh it.",
+      "hint": "Discrepancy and priority are separate factors.",
+      "pages": [
+        537,
+        538,
+        539
+      ]
+    },
+    {
+      "id": "c14-3",
+      "term": "Active and inactive problems",
+      "definition": "An active problem is one consumers already know or will recognize in the normal course of events; an inactive problem is one they do not yet recognize.",
+      "detail": "For an active problem, marketers need to demonstrate their solution. For an inactive problem, recognition comes first. This is a distinction in awareness, not proof that a purchase is necessary.",
+      "condition": "Verify that the problem is real through research or experience; avoid creating anxiety through unsupported claims.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A team makes cable organizers.",
+        "problem": "Some people find tangled cables frustrating; others have grown used to them.",
+        "choice": "Offer a trial and observe rather than only asking whether a problem exists.",
+        "explanation": "Experience may help users notice an inconvenience they previously regarded as normal.",
+        "lesson": "Match research to the state of problem recognition."
+      },
+      "misconception": "If users say there is no problem, there is definitely no need for improvement.",
+      "question": "How should messages differ for active and inactive problems?",
+      "answer": "For active problems, demonstrate the solution. For inactive problems, first help users recognize a real inconvenience and why resolving it matters.",
+      "hint": "Solution first, or recognition first?",
+      "pages": [
+        539,
+        540
+      ]
+    }
+  ],
+  "diagram": {
+    "title": "Will the discrepancy lead to action?",
+    "kind": "flow",
+    "nodes": [
+      {
+        "label": "Desired state",
+        "detail": "The state the consumer currently wants.",
+        "pages": [
+          537,
+          538
+        ]
+      },
+      {
+        "label": "Perceived actual state",
+        "detail": "The state the person believes currently exists.",
+        "pages": [
+          537,
+          538
+        ]
+      },
+      {
+        "label": "Discrepancy",
+        "detail": "Comparison of the two states; without a discrepancy, this model identifies no problem.",
+        "pages": [
+          538
+        ]
+      },
+      {
+        "label": "Magnitude and priority",
+        "detail": "Motivation depends on discrepancy size and relative importance.",
+        "pages": [
+          539
+        ]
+      },
+      {
+        "label": "Search or no action yet",
+        "detail": "A sufficiently urgent problem can activate decision making; not every discrepancy is resolved.",
+        "pages": [
+          538,
+          539
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from": 0,
+        "to": 2,
+        "label": "compared with actual state"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "label": "compared with desired state"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "label": "is evaluated"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "label": "influences motivation"
+      }
+    ]
+  },
+  "caseStudy": {
+    "title": "Timberlane: users did not recognize an inconvenience",
+    "kind": "textbook",
+    "context": "The book describes Timberlane Lumber researching a type of pinewood for starting fireplace or charcoal fires.",
+    "problem": "People using familiar fireplace-lighting methods reported few problems; charcoal users already had safety concerns about lighter fluid.",
+    "choices": [
+      "Use the same message for both groups.",
+      "For fireplace users, reveal improvements through experience; for charcoal users, address existing concerns.",
+      "Conclude that interview questions are always useless."
+    ],
+    "correct": 1,
+    "analysis": "Participants paid to try the product over several weeks viewed it as an improvement, while initial verbal descriptions attracted little interest. The example illustrates an inactive problem for fireplace users and an active problem for charcoal users.",
+    "lesson": "Recognition determines whether to clarify the problem or focus on the solution.",
+    "limitations": "A summary of historical research reported in the book. The study involved paid product trials and does not guarantee market demand or results for other products.",
+    "pages": [
+      539
+    ]
+  },
+  "titleEn": "Consumer Decision Process and Problem Recognition"
+},
+{
+  "id": 15,
+  "teaser": "Being known does not guarantee consideration. Information should help buyers move toward a decision.",
+  "objectives": [
+    "Distinguish internal, external, and ongoing search.",
+    "Classify brands within choice sets.",
+    "Explain the search stopping point in terms of perceived benefits and costs."
+  ],
+  "keyPoints": [
+    "Internal search retrieves information from memory; external search uses sources outside the individual.",
+    "Buyers seek criteria, solutions, and how well solutions perform on those criteria.",
+    "The consideration set contains only some of the alternatives a buyer knows.",
+    "Further search offers benefits but also costs time, effort, and money; search varies with context."
+  ],
+  "concepts": [
+    {
+      "id": "c15-1",
+      "term": "Internal and external search",
+      "definition": "Internal search uses information from memory; external search draws on independent sources, other people, marketers, or experience.",
+      "detail": "Memory often supplies boundaries and direction even during extensive search. Ongoing search can occur without a current purchase problem, for enjoyment or future use.",
+      "condition": "Assess existing knowledge and purchase involvement; not every journey involves extensive external search.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A student is replacing a phone.",
+        "problem": "They remember several brands but do not know current battery performance.",
+        "choice": "Use memory to set a budget, then read tests and examine phones in person.",
+        "explanation": "Internal search frames the decision; external sources fill the gaps.",
+        "lesson": "Content should answer what the buyer still needs to know."
+      },
+      "misconception": "People seek product information only when preparing to buy.",
+      "question": "How does ongoing search differ from prepurchase search?",
+      "answer": "Ongoing search occurs even without a specific purchase problem, to accumulate information or for enjoyment; prepurchase search addresses a current problem.",
+      "hint": "Must the person currently need to buy?",
+      "pages": [
+        555
+      ]
+    },
+    {
+      "id": "c15-2",
+      "term": "Awareness and consideration sets",
+      "definition": "The awareness set contains alternatives a consumer knows; the consideration set contains those actually evaluated for a particular problem.",
+      "detail": "Among known alternatives, the inert set contains brands toward which consumers are neutral; the inept set contains negatively evaluated brands. A consideration set can include substitute product categories and change with the usage occasion.",
+      "condition": "Specify the problem, occasion, and target market; awareness alone does not establish a chance of being chosen.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "Someone needs a takeaway breakfast.",
+        "problem": "They know many outlets, but only two open early along their route.",
+        "choice": "Evaluate those two outlets and an option prepared at home.",
+        "explanation": "The consideration set is smaller than the awareness set and includes an alternative beyond food outlets.",
+        "lesson": "Being considered requires fitting the situation."
+      },
+      "misconception": "Greater awareness automatically puts a brand in the consideration set.",
+      "question": "Why can a consideration set contain products from different categories?",
+      "answer": "Solutions from different categories can solve the same consumption problem, so buyers may evaluate them as substitutes.",
+      "hint": "Competition to solve a problem extends beyond category labels.",
+      "pages": [
+        556,
+        557
+      ]
+    },
+    {
+      "id": "c15-3",
+      "term": "Search benefits and costs",
+      "definition": "Buyers weigh the expected benefits of additional information against the costs of obtaining it.",
+      "detail": "Benefits include better prices, a more suitable quality level, or reassurance. Costs include time, money, inconvenience, and forgone activities. In the model, search stops when the next information is perceived to cost more than it benefits the buyer.",
+      "condition": "These are perceived evaluations; buyers need not calculate accurately. Risk, knowledge, and available time alter the balance.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "Someone is choosing earphones before boarding a bus.",
+        "problem": "A lower price may be available, but only a few minutes remain.",
+        "choice": "Compare a few reliable options and decide when further search no longer seems worthwhile.",
+        "explanation": "Limited time raises search costs even when the Internet provides abundant information.",
+        "lesson": "Reducing comparison effort can create value."
+      },
+      "misconception": "The Internet reduces search costs to zero.",
+      "question": "When might a buyer stop searching despite unread information remaining?",
+      "answer": "When the perceived benefit of further information is below its perceived cost, including time, effort, and forgone opportunities.",
+      "hint": "Compare marginal benefit with marginal cost.",
+      "pages": [
+        571,
+        573
+      ]
+    }
+  ],
+  "diagram": {
+    "title": "Three questions in information search",
+    "kind": "map",
+    "nodes": [
+      {
+        "label": "Information from memory",
+        "detail": "Suggests solutions, criteria, and search boundaries.",
+        "pages": [
+          555
+        ]
+      },
+      {
+        "label": "External sources",
+        "detail": "Independent, personal, marketer, and experiential sources add information.",
+        "pages": [
+          555
+        ]
+      },
+      {
+        "label": "Which criteria?",
+        "detail": "Dimensions used to evaluate solutions.",
+        "pages": [
+          555,
+          556
+        ]
+      },
+      {
+        "label": "Which solutions?",
+        "detail": "Alternatives that may address the problem.",
+        "pages": [
+          555,
+          556
+        ]
+      },
+      {
+        "label": "How well do they perform?",
+        "detail": "Each solution's performance on the criteria.",
+        "pages": [
+          555,
+          556
+        ]
+      },
+      {
+        "label": "Enough to decide?",
+        "detail": "Search may continue or stop depending on decision readiness, costs, and benefits.",
+        "pages": [
+          556,
+          571
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from": 0,
+        "to": 2,
+        "label": "provides direction"
+      },
+      {
+        "from": 1,
+        "to": 3,
+        "label": "adds alternatives"
+      },
+      {
+        "from": 1,
+        "to": 4,
+        "label": "adds evaluations"
+      },
+      {
+        "from": 2,
+        "to": 5,
+        "label": "information to consider"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "label": "information to consider"
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "label": "information to consider"
+      }
+    ]
+  },
+  "caseStudy": {
+    "title": "HSN and QVC: connecting viewing and search through a second screen",
+    "kind": "textbook",
+    "context": "The chapter opening describes HSN and QVC apps that synchronized television shopping programs with phones.",
+    "problem": "Viewers wanted to find and potentially buy products they had just seen, but switching information channels could create inconvenience.",
+    "choices": [
+      "Make viewers remember product names and search later.",
+      "Connect the program to search and purchase functions in the app.",
+      "Assume all second-screen users want to buy."
+    ],
+    "correct": 1,
+    "analysis": "The apps shortened the path from advertising exposure to search and purchase in decisions that could be nominal or limited. The book also notes that many second-screen users engage with content unrelated to television.",
+    "lesson": "Accessible information can reduce search costs, but it must offer relevant value.",
+    "limitations": "A historical example of journey design, not a description of current features or evidence that every view produces a purchase.",
+    "pages": [
+      554
+    ]
+  },
+  "titleEn": "Information Search"
+},
+{
+  "id": 16,
+  "teaser": "Buyers may seek an option that is good enough, saves effort, or is easy to explain to others; they do not always optimize every attribute.",
+  "objectives": [
+    "Distinguish affective, attitude-based, and attribute-based choice.",
+    "Identify evaluation criteria and their importance.",
+    "Compare compensatory and noncompensatory decision rules."
+  ],
+  "keyPoints": [
+    "Cognitive limits, time, and goals make actual choices differ from rational optimization.",
+    "Three approaches to choice can work together in one decision.",
+    "Evaluation criteria may involve function, emotion, or social responses.",
+    "Noncompensatory rules do not allow a strength to offset a weakness; compensatory rules can."
+  ],
+  "concepts": [
+    {
+      "id": "c16-1",
+      "term": "Three approaches to choice",
+      "definition": "Buyers may choose through anticipated feelings, overall brand attitudes, or comparisons of specific attributes.",
+      "detail": "Affective choice imagines the experience; attitude-based choice uses an existing overall evaluation; attribute-based choice compares alternatives on individual dimensions. These approaches are not mutually exclusive and may be used at different stages.",
+      "condition": "Identify motivations, information, and situational pressures; not every choice belongs in a specification table.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "Someone is choosing a camera for travel.",
+        "problem": "They like its appearance, trust a familiar brand, and care about weight.",
+        "choice": "Use feelings and attitudes to narrow options, then compare weight and features.",
+        "explanation": "Several processes can work together rather than requiring a single approach.",
+        "lesson": "Content may need both experiential elements and clear information."
+      },
+      "misconception": "Buyers have one fixed approach for every decision.",
+      "question": "How does attitude-based choice differ from attribute-based choice?",
+      "answer": "Attitude-based choice uses an overall brand evaluation; attribute-based choice requires specific information and comparisons of individual attributes across alternatives.",
+      "hint": "Overall impression versus individual dimensions.",
+      "pages": [
+        588,
+        589,
+        590,
+        591
+      ]
+    },
+    {
+      "id": "c16-2",
+      "term": "Evaluative criteria",
+      "definition": "Dimensions, characteristics, or benefits consumers use to solve a particular problem.",
+      "detail": "Marketers need to know which criteria buyers use, their perceptions of each brand on those criteria, and each criterion's importance. Feelings and social acceptance can also be criteria.",
+      "condition": "Specify the usage situation because importance may change; direct questions may miss criteria that are hard to express.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A team is researching a note-taking app.",
+        "problem": "The company's feature list does not reflect what learners value.",
+        "choice": "Investigate retrieval speed, ease of use, and confidence in data security.",
+        "explanation": "Criteria start with users' problems, not merely the company's available features.",
+        "lesson": "Separate criteria, perceived performance, and weights."
+      },
+      "misconception": "Evaluation criteria are only measurable technical specifications.",
+      "question": "What three things should marketers learn when studying evaluative criteria?",
+      "answer": "The criteria used, perceptions of each alternative on those criteria, and the relative importance of each criterion.",
+      "hint": "Which criteria, what performance, how important?",
+      "pages": [
+        591,
+        594,
+        595
+      ]
+    },
+    {
+      "id": "c16-3",
+      "term": "Compensatory and noncompensatory rules",
+      "definition": "Compensatory rules allow strengths to offset weaknesses; noncompensatory rules use thresholds or priorities that do not permit such trade-offs.",
+      "detail": "Conjunctive rules require all minimum thresholds; disjunctive rules accept an option meeting a high threshold on any criterion; elimination-by-aspects filters by cutoffs beginning with the most important criterion; lexicographic rules choose the best option in criterion priority order. Compensatory rules combine performance while considering importance.",
+      "condition": "Apply these rules only with information about buyers' criteria and decision rules; a single decision may use multiple rules sequentially.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A student is choosing a laptop for classes.",
+        "problem": "The most powerful model exceeds a firm budget limit.",
+        "choice": "Exclude over-budget models first, then balance battery life against weight among the rest.",
+        "explanation": "The first stage is noncompensatory; afterward, better battery life might offset extra weight.",
+        "lesson": "Strengths cannot rescue an option that violates a mandatory cutoff."
+      },
+      "misconception": "The highest total score always wins, even if the option violates an exclusion criterion.",
+      "question": "How do conjunctive and lexicographic rules differ? When can a strength fail to offset a weakness?",
+      "answer": "Conjunctive rules require minimum cutoffs on all criteria. Lexicographic rules choose the best on the most important criterion, breaking ties with subsequent criteria. Both are noncompensatory.",
+      "hint": "Meeting every cutoff versus being best in priority order.",
+      "pages": [
+        599,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605
+      ]
+    }
+  ],
+  "diagram": {
+    "title": "Approaches to choice can work together",
+    "kind": "compare",
+    "nodes": [
+      {
+        "label": "Consumer choice",
+        "detail": "May serve several goals; cognitive and situational limits mean optimization is not always the aim.",
+        "pages": [
+          587,
+          588
+        ]
+      },
+      {
+        "label": "Affective choice",
+        "detail": "Imagining feelings and usage experiences.",
+        "pages": [
+          588,
+          589
+        ]
+      },
+      {
+        "label": "Attitude-based choice",
+        "detail": "Using an overall brand evaluation.",
+        "pages": [
+          589,
+          590
+        ]
+      },
+      {
+        "label": "Attribute-based choice",
+        "detail": "Comparing specific attributes.",
+        "pages": [
+          590,
+          591
+        ]
+      },
+      {
+        "label": "Noncompensatory",
+        "detail": "Applying thresholds or priorities; strengths do not offset weaknesses.",
+        "pages": [
+          600,
+          603
+        ]
+      },
+      {
+        "label": "Compensatory",
+        "detail": "Combining evaluations to balance strengths and weaknesses.",
+        "pages": [
+          604,
+          605
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from": 0,
+        "to": 1,
+        "label": "may use"
+      },
+      {
+        "from": 0,
+        "to": 2,
+        "label": "may use"
+      },
+      {
+        "from": 0,
+        "to": 3,
+        "label": "may use"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "label": "family of rules"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "label": "family of rules"
+      }
+    ]
+  },
+  "caseStudy": {
+    "title": "Stitch Fix: reducing the burden of choice",
+    "kind": "textbook",
+    "context": "The chapter opening describes Stitch Fix using a preference survey, algorithmic recommendations, and a stylist to select a box of five items.",
+    "problem": "A catalog with too many alternatives can overwhelm customers and delay choice.",
+    "choices": [
+      "Always increase the number of alternatives without distinguishing them.",
+      "Narrow recommendations by preferences and support the decision.",
+      "Remove all choice because more options always cause overload."
+    ],
+    "correct": 1,
+    "analysis": "The survey helps buyers clarify preferences; algorithms and stylists help select items, with a way to return unwanted ones. The book emphasizes finding the right number of options and supporting decisions, rather than concluding that fewer is always better.",
+    "lesson": "Design choice sets around abilities, goals, and meaningful differences.",
+    "limitations": "A historical example that does not confirm current prices or the current service model. Choice overload depends on circumstances, familiarity, and complexity.",
+    "pages": [
+      586,
+      587
+    ]
+  },
+  "titleEn": "Alternative Evaluation and Selection"
+},
+{
+  "id": 17,
+  "teaser": "Research online and buy in a store, or try in a store and buy online: a journey can span multiple channels.",
+  "objectives": [
+    "Distinguish webrooming from showrooming.",
+    "Explain the functional and emotional dimensions of outlet image.",
+    "Analyze possible responses to stockouts."
+  ],
+  "keyPoints": [
+    "Outlet selection may occur before, during, or after brand selection.",
+    "Channels complement each other; no channel is best on every dimension.",
+    "Store and website images involve many attributes beyond price.",
+    "A stockout may lead to switching stores, switching brands, delaying purchase, or abandoning it."
+  ],
+  "concepts": [
+    {
+      "id": "c17-1",
+      "term": "Multichannel shopping behavior",
+      "definition": "Consumers combine channels for research and purchase: webrooming means researching online and buying in a store; showrooming reverses that sequence.",
+      "detail": "Someone may use a phone inside a store. Classify behavior by where research and purchase occur, not just by device. An omnichannel strategy coordinates experiences across channels.",
+      "condition": "Track journeys with consent and clearly identify the purchase point; having several channels does not itself create a seamless experience.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "Someone finds shoes on a website and then tries them in a store.",
+        "problem": "They are unsure of the size and want to take the shoes home immediately.",
+        "choice": "Buy in the store after trying them.",
+        "explanation": "This is webrooming: the digital channel provides information, while the store enables trial and immediate possession.",
+        "lesson": "Evaluate how channels complement each other."
+      },
+      "misconception": "Using a phone inside a store always means showrooming.",
+      "question": "How does webrooming differ from showrooming?",
+      "answer": "Webrooming involves online research followed by an in-store purchase; showrooming involves examining or trying products in a store followed by an online purchase.",
+      "hint": "Research location first, purchase location second.",
+      "pages": [
+        626,
+        627
+      ]
+    },
+    {
+      "id": "c17-2",
+      "term": "Outlet image",
+      "definition": "Consumers' perceptions of the overall attributes associated with an outlet.",
+      "detail": "Stores may be evaluated on merchandise, service, convenience, atmosphere, and reputation. Online, usefulness, usability, trust, delivery, and browsing enjoyment also matter. Image includes functional and emotional elements.",
+      "condition": "Measure image for the target segment and outlet type; do not transfer a physical-store scale unchanged to a website.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "An accessories store launches a website.",
+        "problem": "Images look attractive, but delivery information is hard to find.",
+        "choice": "Maintain consistent branding and clarify search, returns, security, and delivery.",
+        "explanation": "Online image includes trust and the ability to complete a purchase as well as appearance.",
+        "lesson": "Design for both emotion and function."
+      },
+      "misconception": "Store image consists only of decoration and colors.",
+      "question": "Name two functional factors and one emotional factor in outlet image.",
+      "answer": "Functional examples include merchandise, service, findability, or delivery; emotional examples include pleasantness, enjoyment, or shopping excitement.",
+      "hint": "How easy is buying, and how does it feel?",
+      "pages": [
+        630,
+        631
+      ]
+    },
+    {
+      "id": "c17-3",
+      "term": "Responses to stockouts",
+      "definition": "When an outlet temporarily lacks a desired brand, consumers must consider alternatives to their original plan.",
+      "detail": "They may find the same brand elsewhere, switch brands, wait to buy later, or abandon the purchase. Perceived substitution costs and commitment to the original choice help shape responses.",
+      "condition": "Consider urgency, similarity of substitutes, and loyalty; switching brands is not always easy.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "Someone needs the correct ink cartridge to print documents.",
+        "problem": "Their usual store has run out.",
+        "choice": "Find another store rather than buy an incompatible cartridge.",
+        "explanation": "Substitution costs are high because incompatible ink cannot do the job; switching outlets may make more sense than switching products.",
+        "lesson": "Substitute suggestions must suit the usage task."
+      },
+      "misconception": "Customers always buy another brand when an item is out of stock.",
+      "question": "What four stockout responses should a store anticipate?",
+      "answer": "Buy the same brand elsewhere, switch brands, delay purchase, or abandon the purchase entirely.",
+      "hint": "Change outlet, change brand, wait, abandon.",
+      "pages": [
+        645
+      ]
+    }
+  ],
+  "diagram": {
+    "title": "Two paths linking online and in-store shopping",
+    "kind": "compare",
+    "nodes": [
+      {
+        "label": "Research online",
+        "detail": "Use online information to investigate products.",
+        "pages": [
+          626
+        ]
+      },
+      {
+        "label": "Buy in a store",
+        "detail": "An in-store purchase after online research is webrooming.",
+        "pages": [
+          626
+        ]
+      },
+      {
+        "label": "Examine in a store",
+        "detail": "Inspect, try, or touch the product directly.",
+        "pages": [
+          626
+        ]
+      },
+      {
+        "label": "Buy online",
+        "detail": "An online purchase after examining products in a store is showrooming.",
+        "pages": [
+          626,
+          627
+        ]
+      },
+      {
+        "label": "Channel coordination",
+        "detail": "Channels complement each other and require coordinated experiences.",
+        "pages": [
+          626,
+          627
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from": 0,
+        "to": 1,
+        "label": "webrooming"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "label": "showrooming"
+      },
+      {
+        "from": 4,
+        "to": 0,
+        "label": "supports information"
+      },
+      {
+        "from": 4,
+        "to": 2,
+        "label": "supports direct experience"
+      }
+    ]
+  },
+  "caseStudy": {
+    "title": "Burberry Regent Street: connecting digital and store experiences",
+    "kind": "textbook",
+    "context": "The chapter describes Burberry's Regent Street store in London, with screens, mirrors displaying content, and staff using iPads.",
+    "problem": "Bring the physical store experience closer to the online brand world while supporting information and checkout.",
+    "choices": [
+      "Add screens without helping customers buy.",
+      "Use product content, stock checks, ordering, and payment to support the experience.",
+      "Conclude that technology always increases sales."
+    ],
+    "correct": 1,
+    "analysis": "The book describes RFID-tagged merchandise triggering mirror content and staff assisting with stock, orders, and payment. Technology creates emotional experiences and reduces purchase steps; the passage does not demonstrate a causal sales effect.",
+    "lesson": "Effective channel integration supports information, experience, and transactions.",
+    "limitations": "A historical textbook description; it does not confirm equipment or services currently operating in the store.",
+    "pages": [
+      616,
+      617
+    ]
+  },
+  "titleEn": "Outlet Selection and Purchase"
+},
+{
+  "id": 18,
+  "teaser": "Customers may buy again because they trust a provider, or because switching is difficult.",
+  "objectives": [
+    "Explain postpurchase dissonance and when it is likely.",
+    "Compare expectations with perceived performance when evaluating satisfaction.",
+    "Distinguish repeat purchase from brand commitment."
+  ],
+  "keyPoints": [
+    "Postpurchase processes include usage, evaluation, product disposition, and other responses.",
+    "Postpurchase dissonance is doubt about a decision and may occur before use.",
+    "Satisfaction depends on perceived performance relative to expectations and minimum desired performance.",
+    "Repeat purchase alone does not prove loyalty; customers may stay because of habit or switching costs."
+  ],
+  "concepts": [
+    {
+      "id": "c18-1",
+      "term": "Postpurchase dissonance",
+      "definition": "Doubt or anxiety following a difficult purchase decision that is relatively hard to reverse.",
+      "detail": "Likelihood increases with importance, hard-to-reverse commitment, choice difficulty, and a tendency toward anxiety. Dissonance may be reduced through suitable confirming information, reassessing alternatives, or returning the product.",
+      "condition": "Not every purchase produces dissonance; distinguish it from dissatisfaction after experiencing poor quality.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A student has just bought an expensive laptop.",
+        "problem": "Before using it, they worry that another model might have been better.",
+        "choice": "Revisit their original needs and provide setup guidance and clear return policies.",
+        "explanation": "The concern is about whether the decision was right rather than actual product quality.",
+        "lesson": "Postpurchase support begins before a complaint."
+      },
+      "misconception": "Postpurchase dissonance means the product is definitely defective.",
+      "question": "Why can an important, hard-to-reverse decision generate postpurchase dissonance?",
+      "answer": "Buyers have committed while giving up advantages of other options, making them question whether the trade-off was right.",
+      "hint": "Commitment, trade-offs, and doubt.",
+      "pages": [
+        661,
+        662
+      ]
+    },
+    {
+      "id": "c18-2",
+      "term": "Expectations and satisfaction",
+      "definition": "Satisfaction is an evaluation involving perceived performance relative to expectations, while considering minimum desired performance.",
+      "detail": "Performance below expectations commonly causes dissatisfaction. Meeting expectations at a sufficiently good level typically produces satisfaction. Meeting very low expectations may produce only nonsatisfaction rather than satisfaction or dissatisfaction.",
+      "condition": "Measure prior expectations and perceived experience; lowering expectations cannot replace meeting minimum needs.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "An online store promises delivery before a presentation.",
+        "problem": "It delivers as promised, but the product does not work.",
+        "choice": "Evaluate both timeliness and usability, and resolve the defect.",
+        "explanation": "Meeting one aspect does not ensure that the overall offering meets minimum needs.",
+        "lesson": "Realistic promises must accompany suitable quality."
+      },
+      "misconception": "Meeting expectations always creates satisfaction, even when expectations are very low.",
+      "question": "Why can meeting low expectations produce neither satisfaction nor dissatisfaction?",
+      "answer": "Performance may still fall below the buyer's minimum desired level; they are not unexpectedly disappointed but still want a better alternative.",
+      "hint": "Predicted expectations differ from minimum desired performance.",
+      "pages": [
+        669,
+        670
+      ]
+    },
+    {
+      "id": "c18-3",
+      "term": "Repeat purchase and brand commitment",
+      "definition": "Repeat purchase is repeated behavior; commitment also includes psychological and emotional attachment to the brand.",
+      "detail": "Repeat purchase may reflect price, convenience, habit, or the cost of finding and switching to alternatives. Committed customers tend to trust and like the brand and resist competitive influence more, but they are not completely immune.",
+      "condition": "Combine behavioral and attitudinal data; no single repeat-purchase or recommendation measure captures all of loyalty.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "Someone continues using a cloud storage service.",
+        "problem": "They are dissatisfied, but transferring data takes considerable effort.",
+        "choice": "Measure why they stay rather than inferring loyalty from renewals.",
+        "explanation": "Switching costs can maintain repurchase without attachment.",
+        "lesson": "Sustainable retention requires understanding why customers stay."
+      },
+      "misconception": "A high repeat-purchase rate proves customers love the brand.",
+      "question": "Give two reasons customers may repurchase without commitment, and an additional sign of commitment.",
+      "answer": "Habit, convenience, price, or switching costs may explain repurchase. Commitment also involves trust, liking, and psychological attachment.",
+      "hint": "Repeated behavior differs from emotional attachment.",
+      "pages": [
+        677,
+        678
+      ]
+    }
+  ],
+  "diagram": {
+    "title": "Postpurchase responses follow several paths",
+    "kind": "map",
+    "nodes": [
+      {
+        "label": "Purchase",
+        "detail": "The starting point for postpurchase processes in the model.",
+        "pages": [
+          661
+        ]
+      },
+      {
+        "label": "Postpurchase doubt",
+        "detail": "May arise immediately after purchase, before usage.",
+        "pages": [
+          661,
+          662
+        ]
+      },
+      {
+        "label": "Usage and evaluation",
+        "detail": "Perceived performance is compared with expectations.",
+        "pages": [
+          669,
+          670
+        ]
+      },
+      {
+        "label": "Dissatisfaction",
+        "detail": "May lead to no action, complaints, brand switching, or negative word of mouth.",
+        "pages": [
+          672
+        ]
+      },
+      {
+        "label": "Satisfaction",
+        "detail": "May support repurchase and positive word of mouth.",
+        "pages": [
+          670
+        ]
+      },
+      {
+        "label": "Repeat purchase / commitment",
+        "detail": "Repurchase does not necessarily mean commitment; commitment adds psychological attachment.",
+        "pages": [
+          677,
+          678
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from": 0,
+        "to": 1,
+        "label": "sometimes occurs"
+      },
+      {
+        "from": 0,
+        "to": 2,
+        "label": "usually follows"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "label": "one possible outcome"
+      },
+      {
+        "from": 2,
+        "to": 4,
+        "label": "one possible outcome"
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "label": "may contribute, without guaranteeing"
+      }
+    ]
+  },
+  "caseStudy": {
+    "title": "Dollar Shave Club: a human response to a complaint",
+    "kind": "textbook",
+    "context": "The book describes a member pregnant with twins who reported difficulty shaving her legs; Dollar Shave Club staff sent a pedicure kit and baby books.",
+    "problem": "The response needed to recognize the customer's circumstances rather than merely answer a product question.",
+    "choices": [
+      "Send a mechanical reply and close the request.",
+      "Listen to the circumstances and offer support suited to the individual.",
+      "Treat every gift as proof of loyalty."
+    ],
+    "correct": 1,
+    "analysis": "The example illustrates a human approach to responses and member experience. It relates to building relationships beyond individual transactions, but one anecdote cannot establish that every supported customer becomes committed.",
+    "lesson": "Service recovery requires understanding the needs of the person raising the issue.",
+    "limitations": "A historical example reported in the book; membership changes cited there cannot establish the causal effect of this one action.",
+    "pages": [
+      675,
+      677
+    ]
+  },
+  "titleEn": "Postpurchase Processes, Satisfaction, and Customer Commitment"
+},
+{
+  "id": 19,
+  "teaser": "Organizations use purchasing processes, but the people involved have different roles, criteria, and influence.",
+  "objectives": [
+    "Identify roles within the decision-making unit.",
+    "Compare straight rebuy, modified rebuy, and new-task purchases.",
+    "Use organizational characteristics to guide B2B customer research."
+  ],
+  "keyPoints": [
+    "An organization is more than the sum of its individuals: rules and culture also shape purchasing.",
+    "A decision-making unit may span several functions and change with the situation.",
+    "The buying situation determines search breadth, participation, and criteria.",
+    "B2B buying involves more than price; functional and emotional needs, power, and context also matter."
+  ],
+  "concepts": [
+    {
+      "id": "c19-1",
+      "term": "Decision-making unit (DMU)",
+      "definition": "Individuals representing functional areas and management levels who participate in a particular organizational purchase decision.",
+      "detail": "Roles may include information gathering, influencing, deciding, purchasing, and using. One person may hold several roles; the purchasing department is not necessarily the only source of influence.",
+      "condition": "Map the specific decision and update the map when the task changes; job titles alone do not reveal influence.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A company is choosing campaign management software.",
+        "problem": "Marketing needs ease of use, IT needs integration, and finance needs cost control.",
+        "choice": "Clarify each party's roles and criteria before making a proposal.",
+        "explanation": "Information relevant to one group may not persuade the others.",
+        "lesson": "B2B selling requires understanding multiple participants."
+      },
+      "misconception": "The person signing the purchase order is the only decision maker.",
+      "question": "What roles can a DMU include, and why is the number of people not necessarily the number of roles?",
+      "answer": "Information gathering, influencing, deciding, purchasing, and using. One person can hold several roles, and several people can share a role.",
+      "hint": "Roles differ from job titles and headcounts.",
+      "pages": [
+        713,
+        714,
+        715
+      ]
+    },
+    {
+      "id": "c19-2",
+      "term": "Three organizational buying situations",
+      "definition": "Straight rebuy, modified rebuy, and new task describe different levels of importance and complexity in B2B buying.",
+      "detail": "Straight rebuys involve little search and may be automated. Modified rebuys require reconsidering changed needs or suppliers. New tasks usually involve less experience, more participants, and greater strategic concern.",
+      "condition": "These are useful categories along a continuum; not every new task takes the same time or involves the same DMU.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A company orders supplies and chooses a CRM platform.",
+        "problem": "Reordering familiar paper and implementing CRM for the first time require different effort.",
+        "choice": "Use a repeat process for paper and a cross-functional evaluation for CRM.",
+        "explanation": "The new task's complexity and consequences require a deeper process.",
+        "lesson": "Match tactics to the buying situation."
+      },
+      "misconception": "Every B2B transaction follows an equally long and comprehensive process.",
+      "question": "What distinguishes a modified rebuy from a straight rebuy?",
+      "answer": "Products, needs, or conditions have changed, or importance prompts a reassessment of alternatives, requiring more information, criteria, and participants.",
+      "hint": "A familiar purchase with something to reconsider.",
+      "pages": [
+        715,
+        716,
+        717
+      ]
+    },
+    {
+      "id": "c19-3",
+      "term": "Organizational characteristics: firmographics",
+      "definition": "Organizational characteristics such as size, activities, objectives, location, industry, and workforce composition.",
+      "detail": "Larger organizations often involve more specialists and participants; small organizations may concentrate responsibilities in the owner. Commercial, government, and nonprofit objectives also shape buying.",
+      "condition": "Use these characteristics to form research hypotheses and choose an approach, rather than infer individual behavior with certainty from company size.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A content-tool provider approaches two businesses.",
+        "problem": "A small startup and a corporation have different purchasing structures.",
+        "choice": "Investigate size, functions, and objectives before choosing message recipients.",
+        "explanation": "One person may fill several roles in a small company, while a larger company may need content for several functions.",
+        "lesson": "Use firmographics for B2B segmentation, then verify actual conditions."
+      },
+      "misconception": "Firmographics means only revenue or employee count.",
+      "question": "Which firmographic characteristics extend beyond size?",
+      "answer": "Activities, objectives, location, industry, and organizational composition, such as age distribution, education, or workforce characteristics.",
+      "hint": "What the organization does, its aims, where it operates, and who it includes.",
+      "pages": [
+        724
+      ]
+    }
+  ],
+  "diagram": {
+    "title": "B2B buying situations and participants",
+    "kind": "map",
+    "nodes": [
+      {
+        "label": "Buying situation",
+        "detail": "Importance and complexity help distinguish straight rebuy, modified rebuy, and new task.",
+        "pages": [
+          715,
+          716
+        ]
+      },
+      {
+        "label": "DMU",
+        "detail": "Participants in a particular purchase decision.",
+        "pages": [
+          713,
+          715
+        ]
+      },
+      {
+        "label": "Roles and criteria",
+        "detail": "Roles and influence differ; functions may prioritize different criteria.",
+        "pages": [
+          714,
+          715,
+          719
+        ]
+      },
+      {
+        "label": "Search and evaluation",
+        "detail": "Search and analysis generally increase with important, complex situations.",
+        "pages": [
+          716,
+          717
+        ]
+      },
+      {
+        "label": "Firmographics",
+        "detail": "Size, objectives, and activities influence purchasing structures and approaches.",
+        "pages": [
+          724
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from": 0,
+        "to": 1,
+        "label": "influences size and composition"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "label": "includes"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "label": "guides information needs"
+      },
+      {
+        "from": 0,
+        "to": 3,
+        "label": "influences effort"
+      },
+      {
+        "from": 4,
+        "to": 1,
+        "label": "helps shape"
+      }
+    ]
+  },
+  "caseStudy": {
+    "title": "Hewlett-Packard sells diagnostic imaging systems to hospitals",
+    "kind": "textbook",
+    "context": "An HP salesperson in the book describes selling expensive imaging systems to large hospitals.",
+    "problem": "Medical staff focus on image quality, reliability, and service; administrators often emphasize price and costs.",
+    "choices": [
+      "Persuade only the purchasing department through low prices.",
+      "Clarify relevant value for each group in the DMU.",
+      "Assume every hospital prioritizes exactly the same criteria."
+    ],
+    "correct": 1,
+    "analysis": "The example describes contact with medical professionals and negotiations with administrators. The salesperson also notes that a hospital's specialty changes its priorities, so both shared and specific criteria need investigation.",
+    "lesson": "A B2B proposal must explain value to groups with different roles.",
+    "limitations": "A historical account from one salesperson in the book; the stages and timelines are not universal rules for every hospital or device.",
+    "pages": [
+      714,
+      715
+    ]
+  },
+  "titleEn": "Organizational Buyer Behavior"
+},
+{
+  "id": 20,
+  "teaser": "Read advertising through what consumers may understand, as well as the words written. This chapter presents the textbook's US context.",
+  "objectives": [
+    "Explain why children's message comprehension needs separate consideration.",
+    "Summarize the historical privacy framework presented in the book.",
+    "Distinguish direct claims, logical implications, and pragmatic implications."
+  ],
+  "keyPoints": [
+    "The chapter concerns historical US circumstances, rather than current legal guidance or Vietnamese regulations.",
+    "Recognizing selling intent and understanding specific claims are separate issues for children.",
+    "The framework cited in the book addresses privacy through design, choice, and transparency.",
+    "Messages can mislead through implications even when individual sentences do not state a falsehood; consider the audience and context."
+  ],
+  "concepts": [
+    {
+      "id": "c20-1",
+      "term": "Children's comprehension of advertising",
+      "definition": "Two concerns are whether children recognize selling intent and whether they correctly understand advertising content, wording, and comparisons.",
+      "detail": "The book presents CARU as a US children's advertising self-regulatory mechanism during the period covered. Limited abilities, experience, and vocabulary can make messages, fantasy imagery, or difficult disclosures misleading.",
+      "condition": "Assess how the target children actually understand the message; this content does not establish current legal duties or statutory ages in Vietnam.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A team is designing a toy advertisement for children.",
+        "problem": "The imagery makes the toy appear able to fly by itself.",
+        "choice": "Show its actual operation and explain assembly requirements in understandable terms.",
+        "explanation": "Consider what children infer from words and images, beyond whether adults understand the disclosure.",
+        "lesson": "Test messages against the audience's capabilities."
+      },
+      "misconception": "Small-print disclosures guarantee that children will not misunderstand.",
+      "question": "What two core questions help assess children's understanding of advertising?",
+      "answer": "Do children understand the selling intent, and do they correctly understand specific content such as wording, comparisons, and product capabilities?",
+      "hint": "Recognizing advertising and understanding its claims are separate tasks.",
+      "pages": [
+        751,
+        752,
+        753
+      ]
+    },
+    {
+      "id": "c20-2",
+      "term": "Privacy in marketing design",
+      "definition": "In the historical FTC framework cited by the book, data protection involves design, simplified choice, and transparency.",
+      "detail": "Table 20-4 cites the FTC's 2012 recommendations: build privacy into design, simplify consumer choice, and increase transparency. The book also describes notice, choice, access, and security in an earlier approach.",
+      "condition": "This summarizes a historical US framework. The voluntary status described in the book does not establish current obligations; consult current rules before making legal decisions.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "A learning app wants to collect reading habits.",
+        "problem": "Users do not understand how their data will be used.",
+        "choice": "Explain purposes briefly, collect only what is needed, and provide understandable controls.",
+        "explanation": "The example applies design and transparency principles; it is not a legal compliance assessment.",
+        "lesson": "Build data protection into the design from the start."
+      },
+      "misconception": "A long policy page alone guarantees privacy or legal compliance.",
+      "question": "What are the three parts of the FTC's 2012 privacy framework cited in the book?",
+      "answer": "Privacy by Design, Simplified Consumer Choice, and Transparency.",
+      "hint": "Design, choice, transparency.",
+      "pages": [
+        760,
+        761
+      ]
+    },
+    {
+      "id": "c20-3",
+      "term": "Pragmatic implications",
+      "definition": "Meanings audiences infer through practical interpretation, even when they are neither stated directly nor logically necessary.",
+      "detail": "The book distinguishes direct claims, logical implications, and pragmatic implications. Vaguely qualified wording or two adjacent sentences may lead readers to conclusions broader than their literal content.",
+      "condition": "Consider how a reasonable audience interprets the message in its particular context; a classroom analysis is not itself a legal determination about an advertisement.",
+      "example": {
+        "kind": "hypothetical",
+        "context": "An ad says, 'Want better focus? Choose drink A.'",
+        "problem": "Readers may infer that A has been proven to improve concentration.",
+        "choice": "Examine the implication and revise the message to match the available evidence.",
+        "explanation": "Neither sentence explicitly promises an effect, but their placement may imply effectiveness.",
+        "lesson": "Check what the audience understands as well as what the writer intends."
+      },
+      "misconception": "An unstated promise cannot create a misleading impression about that promise.",
+      "question": "How does a pragmatic implication differ from a logical implication?",
+      "answer": "A logical implication necessarily follows from a statement. A pragmatic implication is inferred from context and language use, without logical necessity.",
+      "hint": "Logical necessity versus contextual interpretation.",
+      "pages": [
+        763,
+        764
+      ]
+    }
+  ],
+  "diagram": {
+    "title": "Read messages through the audience's understanding",
+    "kind": "map",
+    "nodes": [
+      {
+        "label": "Marketing message",
+        "detail": "Consider accuracy, completeness, and interpretation.",
+        "pages": [
+          761,
+          762
+        ]
+      },
+      {
+        "label": "Direct claim",
+        "detail": "What is stated explicitly in words.",
+        "pages": [
+          763
+        ]
+      },
+      {
+        "label": "Logical implication",
+        "detail": "What necessarily follows from the claim.",
+        "pages": [
+          763
+        ]
+      },
+      {
+        "label": "Pragmatic implication",
+        "detail": "What the audience infers from practical context.",
+        "pages": [
+          763,
+          764
+        ]
+      },
+      {
+        "label": "Audience capabilities and context",
+        "detail": "Differences in processing ability and motivation complicate comprehension.",
+        "pages": [
+          752,
+          764
+        ]
+      },
+      {
+        "label": "Careful assessment",
+        "detail": "Consider overall meaning and evidence in the appropriate legal context; the book warns that regulations change over time.",
+        "pages": [
+          751,
+          763,
+          764
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from": 0,
+        "to": 1,
+        "label": "may contain"
+      },
+      {
+        "from": 0,
+        "to": 2,
+        "label": "may create"
+      },
+      {
+        "from": 0,
+        "to": 3,
+        "label": "may create"
+      },
+      {
+        "from": 5,
+        "to": 1,
+        "label": "examines"
+      },
+      {
+        "from": 5,
+        "to": 2,
+        "label": "examines"
+      },
+      {
+        "from": 5,
+        "to": 3,
+        "label": "examines"
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "label": "provides context"
+      }
+    ]
+  },
+  "caseStudy": {
+    "title": "Schick Silk Effects: fine print changes an advertisement's meaning",
+    "kind": "textbook",
+    "context": "The book describes a Schick Silk Effects razor advertisement stating that a model's legs were insured on condition that she used this product.",
+    "problem": "Readers might infer that an independent insurer required the razor brand because of its quality. Very small print instead stated that the condition was added at the request of Warner-Lambert, the product's marketer at the time.",
+    "choices": [
+      "Check only whether the prominent wording is literally accurate.",
+      "Examine the overall impression, the origin of the condition, and the visibility of the disclosure.",
+      "Claim that the book reports a ruling that the advertisement was illegal."
+    ],
+    "correct": 1,
+    "analysis": "Knowing who requested the condition changes the interpretation of what appears to be an independent endorsement. The author raises legal and ethical questions without providing a ruling on the case in this passage.",
+    "lesson": "Details hidden in fine print can change the meaning readers infer.",
+    "limitations": "An analysis of a historical US advertisement described in the textbook; it does not establish current legal conclusions or Vietnamese regulations.",
+    "pages": [
+      763
+    ]
+  },
+  "titleEn": "Marketing Regulation and Consumer Protection"
+}
+]

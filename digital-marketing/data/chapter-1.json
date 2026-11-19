@@ -1,0 +1,2160 @@
+{
+  "version": 1,
+  "language": "en",
+  "title": "Introducing digital marketing",
+  "chapter": 1,
+  "source": {
+    "title": "Digital Marketing",
+    "authors": [
+      "Dave Chaffey",
+      "Fiona Ellis-Chadwick"
+    ],
+    "edition": "8th edition",
+    "year": 2022,
+    "sha256": "f41c3c8ba1e4d97a82360c28e0316967e758ec605347fcd8ea4ad233f62de25a",
+    "printedStart": 4,
+    "printedEnd": 43,
+    "pdfOffset": 27,
+    "totalPdfPages": 562,
+    "url": "https://zin-study-studio.taupeperiwinkle4.chatgpt.site/api/materials/f41c3c8ba1e4d97a"
+  },
+  "objectives": [
+    {
+      "id": 1,
+      "title": "Strategy and business opportunity",
+      "description": "Explain a strategic approach to digital marketing opportunities and challenges.",
+      "pages": [
+        4,
+        5,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Audiences, platforms and media",
+      "description": "Review digital media and platform options for communications goals.",
+      "pages": [
+        4,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Data and technology",
+      "description": "Explain how data and technology support audience experiences and business goals.",
+      "pages": [
+        4,
+        34,
+        35,
+        36,
+        37
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 1,
+      "lo": 1,
+      "title": "Start with the customer, not the tool",
+      "subtitle": "Digital marketing, integration and the 7Ds",
+      "minutes": 12,
+      "pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "objectives": [
+        "Explain digital marketing as a means to an objective.",
+        "Connect the seven pillars without confusing a device, platform and channel.",
+        "Distinguish digital business from e-commerce."
+      ],
+      "summary": [
+        "Choose the customer and business result before a technology.",
+        "Digital and offline touchpoints support one journey.",
+        "The 7Ds are connected planning dimensions.",
+        "E-commerce includes informational exchanges, not only checkout."
+      ],
+      "concepts": [
+        "purpose",
+        "integration",
+        "seven-ds",
+        "commerce"
+      ],
+      "diagram": {
+        "title": "A connected planning system",
+        "kind": "map",
+        "nodes": [
+          [
+            "Goals",
+            "What outcome?"
+          ],
+          [
+            "Audiences",
+            "Whose need?"
+          ],
+          [
+            "Devices",
+            "How accessed?"
+          ],
+          [
+            "Platforms",
+            "Where mediated?"
+          ],
+          [
+            "Media",
+            "How communicated?"
+          ],
+          [
+            "Data",
+            "What evidence?"
+          ],
+          [
+            "Technology",
+            "How supported?"
+          ]
+        ],
+        "relation": "Goals guide choices; customer evidence feeds improvements across all seven pillars."
+      },
+      "case": {
+        "title": "The app-first trap",
+        "context": "Hypothetical scenario: a campus stationery shop has a queue at lunchtime and an outdated online stock list.",
+        "problem": "The owner wants an expensive app immediately. What is the strongest first move?",
+        "options": [
+          "Buy the app and decide its purpose later.",
+          "Clarify the customer problem, service objective and channel handoff.",
+          "Move the entire service to social media."
+        ],
+        "correct": 1,
+        "explanations": [
+          "A tool-first approach can leave the actual customer problem unresolved.",
+          "Map the need, define a useful outcome and then select the least complex suitable technology.",
+          "Changing platform does not resolve inaccurate stock or the queue."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "lo": 1,
+      "title": "Turn ambition into a plan",
+      "subtitle": "RACE, 5Ss and the strategy feedback loop",
+      "minutes": 15,
+      "pages": [
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21
+      ],
+      "objectives": [
+        "Choose RACE measures that match the lifecycle stage.",
+        "Use the 5Ss to broaden a business case.",
+        "Connect opportunity, strategy, action and measurement."
+      ],
+      "summary": [
+        "RACE connects acquisition and retention.",
+        "Act means meaningful interaction; Convert concerns sales.",
+        "5Ss describe benefits rather than five lifecycle stages.",
+        "An OVP explains the distinctive online benefit.",
+        "Measurement informs objectives and strategy again."
+      ],
+      "concepts": [
+        "race",
+        "five-s",
+        "ovp",
+        "strategy-loop"
+      ],
+      "diagram": {
+        "title": "Strategy is a learning loop",
+        "kind": "flow",
+        "nodes": [
+          [
+            "Opportunity",
+            "Objectives + performance + marketplace"
+          ],
+          [
+            "Strategy",
+            "Target value + communications mix"
+          ],
+          [
+            "Action",
+            "Experience + communications"
+          ],
+          [
+            "Improve",
+            "Profile, measure and revise"
+          ]
+        ],
+        "relation": "Evidence loops back to opportunity and strategy; the phases inform one another."
+      },
+      "case": {
+        "title": "Reach is not the bottleneck",
+        "context": "Hypothetical scenario: a service business attracts visitors, but very few request a useful consultation.",
+        "problem": "Which initial plan best addresses the observed gap?",
+        "options": [
+          "Buy more impressions without changing the journey.",
+          "Review Act-stage friction and the relevance of the consultation offer.",
+          "Report visits as completed sales."
+        ],
+        "correct": 1,
+        "explanations": [
+          "More reach may amplify the same problem.",
+          "Check the offer, interaction and handoff, then choose a measure such as qualified enquiries.",
+          "Visits and sales are different lifecycle outcomes."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "lo": 1,
+      "title": "Choose a viable digital business",
+      "subtitle": "Digital presence, growth and strategic risk",
+      "minutes": 12,
+      "pages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "objectives": [
+        "Match online functionality to a business contribution.",
+        "Distinguish three ways digital channels can grow demand.",
+        "Use historical cases without assuming a guaranteed recipe."
+      ],
+      "summary": [
+        "Not every website needs online checkout.",
+        "Five presence functions can coexist.",
+        "Growth may mean new category users, switching or deeper relationships.",
+        "Capability, cost, attention and integration constrain execution.",
+        "Boo.com and Boohoo.com are distinct businesses."
+      ],
+      "concepts": [
+        "presence",
+        "growth",
+        "risks"
+      ],
+      "diagram": {
+        "title": "Match the presence to its job",
+        "kind": "map",
+        "nodes": [
+          [
+            "Transactions",
+            "Purchase"
+          ],
+          [
+            "Relationships",
+            "Enquiry + support"
+          ],
+          [
+            "Brand",
+            "Experience"
+          ],
+          [
+            "Publisher",
+            "Information + referrals"
+          ],
+          [
+            "Community",
+            "User interaction"
+          ]
+        ],
+        "relation": "Functions may overlap. Choose and fund the combination that supports the business model."
+      },
+      "case": {
+        "title": "A launch decision",
+        "context": "Hypothetical scenario inspired by the historical Boo.com case: a retailer tests an immersive shop that works well in the office but loads poorly on customer devices.",
+        "problem": "What should the launch team prioritise?",
+        "options": [
+          "Expand into every market before testing.",
+          "Test with target customers and realistic access conditions; reassess unit economics.",
+          "Replace customer research with investor enthusiasm."
+        ],
+        "correct": 1,
+        "explanations": [
+          "Expansion increases exposure to untested constraints.",
+          "Customer capability, delivery cost and conversion assumptions need validation.",
+          "Investor interest is not evidence of a usable customer experience."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "lo": 2,
+      "title": "Meet audiences where they are",
+      "subtitle": "Transaction types, 6Is, devices and channels",
+      "minutes": 16,
+      "pages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "objectives": [
+        "Classify who supplies value and who receives it.",
+        "Apply the 6Is without treating digital as automatically superior.",
+        "Choose among six channel families using audience and task context."
+      ],
+      "summary": [
+        "B2B, B2C, C2C and C2B depend on the transaction direction.",
+        "The 6Is explain useful communications differences.",
+        "Device and platform adoption vary across audiences.",
+        "Paid, owned and earned are media relationships, not six channel names.",
+        "Channel choice should reflect the intended action."
+      ],
+      "concepts": [
+        "audiences",
+        "six-is",
+        "device-platform",
+        "media-channels"
+      ],
+      "diagram": {
+        "title": "Two questions for every media choice",
+        "kind": "flow",
+        "nodes": [
+          [
+            "Audience",
+            "Who + task + access"
+          ],
+          [
+            "Channel",
+            "Search / social / ads / PR / partners / messaging"
+          ],
+          [
+            "Relationship",
+            "Paid / owned / earned"
+          ],
+          [
+            "Experience",
+            "Relevant landing page + handoff"
+          ]
+        ],
+        "relation": "Channel and media relationship are different dimensions. Match both to a customer task and lifecycle goal."
+      },
+      "case": {
+        "title": "The sponsored review",
+        "context": "Hypothetical scenario: a study-supplies brand pays a creator to show a product. Customers later share the video without payment.",
+        "problem": "How should the team describe these communications?",
+        "options": [
+          "Every third-party post is earned.",
+          "The paid placement and independent customer sharing have different media relationships.",
+          "The brand owns the social platform."
+        ],
+        "correct": 1,
+        "explanations": [
+          "Payment distinguishes the initial placement.",
+          "The initial placement is paid; independent sharing can be earned.",
+          "An account or paid placement does not confer platform ownership."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "lo": 2,
+      "title": "Build relationships beyond the campaign",
+      "subtitle": "Inbound, permission, content and always-on",
+      "minutes": 15,
+      "pages": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "objectives": [
+        "Distinguish five related communications concepts.",
+        "Design a useful content and permission exchange.",
+        "Separate short-term interaction from sustained engagement."
+      ],
+      "summary": [
+        "Inbound starts with people seeking a useful answer.",
+        "Permission requires an agreed exchange.",
+        "Content strategy includes production, distribution and governance.",
+        "Long-term engagement is more than a single reaction.",
+        "Always-on activity complements campaign bursts."
+      ],
+      "concepts": [
+        "inbound",
+        "permission",
+        "content",
+        "engagement",
+        "always-on"
+      ],
+      "diagram": {
+        "title": "A useful relationship engine",
+        "kind": "flow",
+        "nodes": [
+          [
+            "Need",
+            "A person seeks help"
+          ],
+          [
+            "Content",
+            "A useful answer"
+          ],
+          [
+            "Permission",
+            "A clear value exchange"
+          ],
+          [
+            "Lifecycle",
+            "Relevant ongoing contact"
+          ],
+          [
+            "Learning",
+            "Response informs improvements"
+          ]
+        ],
+        "relation": "This learning adaptation links concepts; it is not a mandatory sequence for every customer."
+      },
+      "case": {
+        "title": "Turn a download into a relationship",
+        "context": "Hypothetical scenario: students download a free planning checklist. The team wants to build a useful ongoing relationship.",
+        "problem": "Which follow-up best fits the chapter?",
+        "options": [
+          "Send every downloader daily offers indefinitely.",
+          "Explain the optional updates, honour preferences and provide relevant follow-up.",
+          "Treat the download count as long-term loyalty."
+        ],
+        "correct": 1,
+        "explanations": [
+          "Volume without agreement or relevance can undermine trust.",
+          "Permission and useful lifecycle content work together.",
+          "A download is an interaction; durable engagement needs further evidence."
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "lo": 3,
+      "title": "Make data useful, not just plentiful",
+      "subtitle": "Profiles, behaviour, analytics and attribution",
+      "minutes": 12,
+      "pages": [
+        24,
+        34,
+        35
+      ],
+      "objectives": [
+        "Distinguish profile, behavioural and inferred data.",
+        "Turn a measurement question into a decision.",
+        "Explain the limitations of attributing conversions."
+      ],
+      "summary": [
+        "Data is useful when it informs a defined decision.",
+        "Profiles combine disclosed details, preferences and possible inferences.",
+        "Behavioural events need reliable tracking and context.",
+        "Multiple devices and touchpoints complicate attribution."
+      ],
+      "concepts": [
+        "customer-data",
+        "analytics",
+        "attribution"
+      ],
+      "diagram": {
+        "title": "From records to a better decision",
+        "kind": "flow",
+        "nodes": [
+          [
+            "Collect",
+            "Purpose + preferences"
+          ],
+          [
+            "Check",
+            "Quality + coverage"
+          ],
+          [
+            "Analyse",
+            "Question + context"
+          ],
+          [
+            "Decide",
+            "Test an improvement"
+          ],
+          [
+            "Review",
+            "Outcome + limitations"
+          ]
+        ],
+        "relation": "Learning feeds the next question. No diagram can remove missing-data or causal uncertainty."
+      },
+      "case": {
+        "title": "The missing journey",
+        "context": "Hypothetical scenario: an email receives the last click before a sale. A previous social visit occurred on another device.",
+        "problem": "What should the analyst report?",
+        "options": [
+          "Email caused the entire sale with certainty.",
+          "The recorded path is incomplete; assess contribution with explicit attribution limits.",
+          "Ignore all sales because attribution is imperfect."
+        ],
+        "correct": 1,
+        "explanations": [
+          "Last-click observation is not full causal evidence.",
+          "Use the available evidence while acknowledging incomplete measurement.",
+          "Limitations require careful interpretation rather than abandoning measurement."
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "lo": 3,
+      "title": "Choose technology that serves the plan",
+      "subtitle": "Martech, integration and responsible implementation",
+      "minutes": 10,
+      "pages": [
+        7,
+        9,
+        35,
+        36,
+        37
+      ],
+      "objectives": [
+        "Explain martech’s operational and insight roles.",
+        "Map the six layers in the chapter’s technology view.",
+        "Choose an integration plan around a real need."
+      ],
+      "summary": [
+        "Tools can support delivery and insight.",
+        "The stack includes more than visible campaign software.",
+        "APIs and shared definitions help systems work together.",
+        "People, costs and data quality affect value from a tool."
+      ],
+      "concepts": [
+        "martech",
+        "stack",
+        "implementation"
+      ],
+      "diagram": {
+        "title": "The stack supports the experience",
+        "kind": "stack",
+        "nodes": [
+          [
+            "Experiences",
+            "Customer-facing interaction"
+          ],
+          [
+            "Operations",
+            "Insight + reporting"
+          ],
+          [
+            "Middleware",
+            "APIs + integration"
+          ],
+          [
+            "Backbone",
+            "CRM / CMS / automation / commerce"
+          ],
+          [
+            "Infrastructure",
+            "Data + cloud + development"
+          ],
+          [
+            "Internet",
+            "Digital platforms"
+          ]
+        ],
+        "relation": "Groups support one another; select only what the customer task and organisation can justify."
+      },
+      "case": {
+        "title": "One useful automation",
+        "context": "Hypothetical scenario: a small service team has inconsistent customer details and is considering several new automation tools.",
+        "problem": "Which next step best follows Chapter 1?",
+        "options": [
+          "Purchase all the tools before reviewing the data.",
+          "Define a useful customer task, data owner, integration needs and a small evaluated pilot.",
+          "Automate all messages regardless of preferences."
+        ],
+        "correct": 1,
+        "explanations": [
+          "More tools may multiply the current inconsistency.",
+          "Goal-led implementation tests whether technology creates value.",
+          "Relevance and preferences remain necessary."
+        ]
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "id": "purpose",
+      "term": "Digital marketing",
+      "pages": [
+        5,
+        6
+      ],
+      "definition": "Use digital media, data and technology, alongside other marketing activities, to achieve marketing objectives.",
+      "points": [
+        "Start with the desired acquisition, service, retention or brand outcome.",
+        "A website, app or social account is a means, not proof of marketing effectiveness.",
+        "Customer relationship management supports continued use and relationships after acquisition."
+      ],
+      "example": "A hypothetical campus shop improves access to product information before choosing whether it needs an app.",
+      "mistake": "Buying software is not itself a marketing strategy.",
+      "recall": "Which proposal best expresses digital marketing?",
+      "answer": [
+        "Name a customer or business objective.",
+        "Explain the role of media, data and technology.",
+        "Include offline integration when the audience needs it."
+      ],
+      "quiz": {
+        "id": "q-purpose",
+        "prompt": "Which proposal best expresses digital marketing?",
+        "options": [
+          "Use digital touchpoints to increase relevant enquiries and improve service.",
+          "Replace every physical interaction with a screen.",
+          "Launch an app because competitors have one."
+        ],
+        "correct": 0,
+        "explanations": [
+          "The objective leads the choice of digital activities.",
+          "Digital marketing can support offline interactions too.",
+          "This names a tool without a result."
+        ]
+      },
+      "moduleId": 1,
+      "lo": 1
+    },
+    {
+      "id": "integration",
+      "term": "Omnichannel integration",
+      "pages": [
+        6,
+        10,
+        11,
+        24,
+        25,
+        26
+      ],
+      "definition": "Coordinate online and offline touchpoints so customers can progress through their relationship with the organisation.",
+      "points": [
+        "A person may research online and buy in a shop, or do the reverse.",
+        "Align information, handoffs and service across web, phone, email and staff.",
+        "AIDA explains a response sequence; RACE also addresses ongoing retention."
+      ],
+      "example": "Hypothetical: a student checks stock on a website, asks a question by chat and collects the product at a shop.",
+      "mistake": "A website sale total alone can miss the website’s contribution to offline sales.",
+      "recall": "A website visit leads to an in-store purchase. What should the marketer consider?",
+      "answer": [
+        "Describe the channel handoff.",
+        "Explain why the website can contribute without taking payment.",
+        "Use measures appropriate to each touchpoint."
+      ],
+      "quiz": {
+        "id": "q-integration",
+        "prompt": "A website visit leads to an in-store purchase. What should the marketer consider?",
+        "options": [
+          "The website failed because it did not take payment.",
+          "The digital and shop experience should be assessed together.",
+          "The shop should stop serving customers offline."
+        ],
+        "correct": 1,
+        "explanations": [
+          "Research and lead generation can support offline conversion.",
+          "The complete journey matters.",
+          "Integration preserves useful offline choices."
+        ]
+      },
+      "moduleId": 1,
+      "lo": 1
+    },
+    {
+      "id": "seven-ds",
+      "term": "The 7Ds",
+      "pages": [
+        8,
+        9
+      ],
+      "definition": "Seven connected dimensions organise digital marketing: goals, audiences, devices, platforms, media, data and technology.",
+      "points": [
+        "Goals guide the result; audiences describe the people.",
+        "Devices are access hardware; platforms mediate interactions.",
+        "Media carry communications, data supports understanding, and technology supports delivery and insight.",
+        "The pillars form a connected audit, not seven guaranteed stages of success."
+      ],
+      "example": "Hypothetical: for a phone user arriving from a search platform, paid search is the media technique; the analytics and content systems are supporting technology.",
+      "mistake": "A smartphone, a search engine and paid search are related but different categories.",
+      "recall": "Which item is a digital device?",
+      "answer": [
+        "List all seven dimensions.",
+        "Distinguish physical access, interaction platform and communications technique.",
+        "Explain how goals guide the other dimensions."
+      ],
+      "quiz": {
+        "id": "q-seven-ds",
+        "prompt": "Which item is a digital device?",
+        "options": [
+          "A paid search campaign.",
+          "A customer profile.",
+          "A smartphone."
+        ],
+        "correct": 2,
+        "explanations": [
+          "This is a media technique.",
+          "This is data about a customer.",
+          "This is access hardware."
+        ]
+      },
+      "moduleId": 1,
+      "lo": 1
+    },
+    {
+      "id": "commerce",
+      "term": "E-commerce and digital business",
+      "pages": [
+        12,
+        16,
+        17,
+        42
+      ],
+      "definition": "E-commerce covers electronically mediated financial and informational exchanges with external parties; digital business also includes internal processes.",
+      "points": [
+        "Sell-side concerns exchanges with customers; buy-side concerns procurement from suppliers.",
+        "An enquiry or service exchange can be e-commerce even without an online payment.",
+        "Transactional e-commerce is the narrower everyday sense of selling online.",
+        "Social commerce uses participation such as reviews, ratings or group buying to support shopping."
+      ],
+      "example": "Hypothetical: an online supplier order is buy-side; a customer booking is sell-side; internal stock processing belongs to the wider digital business.",
+      "mistake": "Do not treat e-commerce, online sales and all digital business processes as identical.",
+      "recall": "Which activity is buy-side e-commerce?",
+      "answer": [
+        "State the broad and narrow meanings of e-commerce.",
+        "Contrast buy-side and sell-side.",
+        "Explain why digital business is broader."
+      ],
+      "quiz": {
+        "id": "q-commerce",
+        "prompt": "Which activity is buy-side e-commerce?",
+        "options": [
+          "A company orders packaging from its supplier online.",
+          "A shopper buys the company’s product.",
+          "Two staff discuss an internal rota."
+        ],
+        "correct": 0,
+        "explanations": [
+          "The company is purchasing resources.",
+          "This is sell-side from the company’s perspective.",
+          "Internal coordination belongs to broader digital business."
+        ]
+      },
+      "moduleId": 1,
+      "lo": 1
+    },
+    {
+      "id": "race",
+      "term": "RACE",
+      "pages": [
+        9,
+        10,
+        11
+      ],
+      "definition": "Reach, Act, Convert and Engage organise activities and measures across the customer lifecycle.",
+      "points": [
+        "Reach builds awareness and visits; Act encourages useful interactions and leads.",
+        "Convert concerns sales online or offline.",
+        "Engage builds repeat business, retention and advocacy over time.",
+        "Planning sets direction around these activities; RACE is not a promise that every individual follows a straight funnel."
+      ],
+      "example": "Hypothetical: search visibility → product guide interaction → store purchase → helpful after-sale contact.",
+      "mistake": "A newsletter signup is usually Act; it is not a sale just because analytics calls it a conversion event.",
+      "recall": "In RACE, a prospect requests a product demonstration. Which stage is the closest fit?",
+      "answer": [
+        "Name each RACE stage and purpose.",
+        "Distinguish lead interaction from sale.",
+        "Choose a stage-appropriate measure."
+      ],
+      "quiz": {
+        "id": "q-race",
+        "prompt": "In RACE, a prospect requests a product demonstration. Which stage is the closest fit?",
+        "options": [
+          "Engage, because every interaction is retention.",
+          "Act.",
+          "Convert, because every click is a sale."
+        ],
+        "correct": 1,
+        "explanations": [
+          "Long-term retention differs from an initial prospect action.",
+          "A demo request is a meaningful interaction or lead.",
+          "RACE Convert refers to achieving sales."
+        ]
+      },
+      "moduleId": 2,
+      "lo": 1
+    },
+    {
+      "id": "five-s",
+      "term": "The 5Ss",
+      "pages": [
+        11,
+        12
+      ],
+      "definition": "Sell, Speak, Serve, Save and Sizzle describe different benefits digital marketing can deliver.",
+      "points": [
+        "Sell supports online and influenced offline sales.",
+        "Speak creates dialogue and customer understanding; Serve adds useful value.",
+        "Save reduces appropriate costs; Sizzle strengthens the brand experience.",
+        "Benefits can overlap; an objective needs a defined measure, baseline and timeframe."
+      ],
+      "example": "Hypothetical: a self-service guide can Serve customers and Save support effort, but quality must be checked.",
+      "mistake": "Reducing cost while making service unusable is not automatically a successful digital outcome.",
+      "recall": "Which 5S best fits helping customers solve a product problem with a useful guide?",
+      "answer": [
+        "Explain all five benefits.",
+        "Allow overlap where the mechanism supports it.",
+        "Give a measurable objective without inventing a business result."
+      ],
+      "quiz": {
+        "id": "q-five-s",
+        "prompt": "Which 5S best fits helping customers solve a product problem with a useful guide?",
+        "options": [
+          "Sell only.",
+          "Sizzle means counting every impression as profit.",
+          "Serve."
+        ],
+        "correct": 2,
+        "explanations": [
+          "Support does not have to produce an immediate transaction.",
+          "Brand experience and profit are different outcomes.",
+          "The guide adds customer value; it may also save costs."
+        ]
+      },
+      "moduleId": 2,
+      "lo": 1
+    },
+    {
+      "id": "ovp",
+      "term": "Online value proposition (OVP)",
+      "pages": [
+        15,
+        16
+      ],
+      "definition": "An OVP explains the distinctive benefit of the online service in relation to the core offer, offline alternatives and competitors.",
+      "points": [
+        "Segmentation, targeting and positioning still guide digital choices.",
+        "Useful content, convenience, interactivity and service can support differentiation.",
+        "The promise must be delivered by the experience and operations."
+      ],
+      "example": "Hypothetical: reserve a stationery bundle online and collect it between classes, with confirmed stock.",
+      "mistake": "“We are on the internet” does not explain a customer benefit or a competitive difference.",
+      "recall": "Which is the strongest OVP for a campus retailer?",
+      "answer": [
+        "Name the target need.",
+        "State a distinctive online benefit.",
+        "Explain how delivery supports the promise."
+      ],
+      "quiz": {
+        "id": "q-ovp",
+        "prompt": "Which is the strongest OVP for a campus retailer?",
+        "options": [
+          "Reserve confirmed stock online and collect in a chosen break.",
+          "We use the newest technology.",
+          "We have a website."
+        ],
+        "correct": 0,
+        "explanations": [
+          "This states a relevant, deliverable customer benefit.",
+          "A technology label does not establish customer value.",
+          "Presence alone is not a value proposition."
+        ]
+      },
+      "moduleId": 2,
+      "lo": 1
+    },
+    {
+      "id": "strategy-loop",
+      "term": "Opportunity → Strategy → Action",
+      "pages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "definition": "Assess the opportunity, choose a strategic approach, implement it, and use evidence to improve the plan.",
+      "points": [
+        "Opportunity joins objectives, current performance and marketplace analysis.",
+        "Strategy selects target value and the communications mix.",
+        "Action delivers customer experience and integrated communications.",
+        "Profiling, measurement and improvement feed back into the earlier decisions.",
+        "Responsibilities, resources and clear objectives prevent disconnected experiments."
+      ],
+      "example": "Hypothetical: investigate a weak checkout before increasing traffic; choose a relevant fix, test it and review results.",
+      "mistake": "The textbook’s double-headed arrows mean this is not a one-pass checklist.",
+      "recall": "Results contradict the campaign assumptions. What should the team do?",
+      "answer": [
+        "Describe all three phases.",
+        "Include implementation and measurement.",
+        "Explain the feedback loop to objectives and strategy."
+      ],
+      "quiz": {
+        "id": "q-strategy-loop",
+        "prompt": "Results contradict the campaign assumptions. What should the team do?",
+        "options": [
+          "Keep the plan unchanged until the year ends.",
+          "Use the evidence to revisit assumptions, objectives and execution.",
+          "Buy another platform without diagnosing the problem."
+        ],
+        "correct": 1,
+        "explanations": [
+          "A rigid sequence ignores learning.",
+          "Measurement informs the next planning decisions.",
+          "New tools do not replace diagnosis."
+        ]
+      },
+      "moduleId": 2,
+      "lo": 1
+    },
+    {
+      "id": "presence",
+      "term": "Five digital-presence functions",
+      "pages": [
+        16,
+        17
+      ],
+      "definition": "A digital presence can focus on transactions, relationship-building, brand-building, publishing/intermediation or community.",
+      "points": [
+        "Transactional sites enable purchases and can also support offline sales.",
+        "Relationship-building sites generate leads and support complex purchases.",
+        "Brand sites develop an experience; publisher/intermediary sites organise content or comparisons.",
+        "Communities enable interactions among users.",
+        "Revenue may come from product sales, advertising, subscription or referral arrangements; functionality and revenue mechanism are different decisions."
+      ],
+      "example": "Hypothetical: an equipment consultant uses a lead-generating site rather than forcing immediate checkout for a complex contract.",
+      "mistake": "These are overlapping functions, not mutually exclusive company types.",
+      "recall": "A complex B2B service website primarily generates qualified enquiries. Which function fits best?",
+      "answer": [
+        "Explain the five functions.",
+        "Match functionality to buying needs.",
+        "Distinguish website purpose from revenue mechanism."
+      ],
+      "quiz": {
+        "id": "q-presence",
+        "prompt": "A complex B2B service website primarily generates qualified enquiries. Which function fits best?",
+        "options": [
+          "Online checkout is always required.",
+          "A community must sell every post.",
+          "Services-oriented relationship-building."
+        ],
+        "correct": 2,
+        "explanations": [
+          "Digital contribution can occur before an offline sale.",
+          "Community interaction has a different primary purpose.",
+          "Information and lead support suit a complex buying decision."
+        ]
+      },
+      "moduleId": 3,
+      "lo": 1
+    },
+    {
+      "id": "growth",
+      "term": "Three demand-expansion routes",
+      "pages": [
+        13,
+        14
+      ],
+      "definition": "Direct digital channels may grow demand through market expansion, brand switching or relationship deepening.",
+      "points": [
+        "Market expansion brings in people who did not previously buy in the category.",
+        "Brand switching wins buyers from competitors.",
+        "Relationship deepening increases business with existing customers.",
+        "International reach still depends on local service, fulfilment and economics."
+      ],
+      "example": "Hypothetical: an existing customer begins using a second relevant service after useful follow-up: relationship deepening.",
+      "mistake": "A bigger audience is not evidence of profitable expansion, and every new-to-brand buyer is not new to the category.",
+      "recall": "An existing customer purchases an additional relevant service. Which route fits?",
+      "answer": [
+        "Distinguish category expansion, competitor switching and deeper relationships.",
+        "Identify what evidence would tell them apart.",
+        "Do not infer profitability from reach alone."
+      ],
+      "quiz": {
+        "id": "q-growth",
+        "prompt": "An existing customer purchases an additional relevant service. Which route fits?",
+        "options": [
+          "Relationship deepening.",
+          "Market expansion in every case.",
+          "Brand switching in every case."
+        ],
+        "correct": 0,
+        "explanations": [
+          "The relationship with an existing customer grows.",
+          "Market expansion concerns new category demand.",
+          "There is no evidence this transaction was won from a competitor."
+        ]
+      },
+      "moduleId": 3,
+      "lo": 1
+    },
+    {
+      "id": "risks",
+      "term": "Strategic execution risks",
+      "pages": [
+        14,
+        15,
+        17,
+        18,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "definition": "Digital opportunities require viable economics, relevant customer experience, clear ownership and operational capability.",
+      "points": [
+        "Campaign complexity and platform changes need skills and maintenance.",
+        "Competition, acquisition costs and limited attention constrain results.",
+        "Poor objectives, fragmented budgets and missing measurement weaken strategy.",
+        "The Boo.com case links an ambitious experience and international rollout to technology, market and financial constraints."
+      ],
+      "example": "Textbook historical case: Boo.com’s rich experience was difficult for many dial-up users; the chapter contrasts it with Boohoo’s later approach, while also discussing Boohoo’s 2020 supply-chain controversy.",
+      "mistake": "Boohoo.com is not Boo.com renamed, and historical sales success does not establish ethical success.",
+      "recall": "What is the strongest lesson from the chapter’s Boo.com case?",
+      "answer": [
+        "Connect customer access, proposition, resources and economics.",
+        "Distinguish Boo.com from Boohoo.com.",
+        "Separate historical commercial evidence from ethical evaluation."
+      ],
+      "quiz": {
+        "id": "q-risks",
+        "prompt": "What is the strongest lesson from the chapter’s Boo.com case?",
+        "options": [
+          "Good-looking technology alone ensures demand.",
+          "Validate customer experience and economics before scaling.",
+          "The two names describe the same company."
+        ],
+        "correct": 1,
+        "explanations": [
+          "A compelling demonstration can still fail real users.",
+          "The case highlights multiple interdependent execution risks.",
+          "The source explicitly says the businesses are unrelated."
+        ]
+      },
+      "moduleId": 3,
+      "lo": 1
+    },
+    {
+      "id": "audiences",
+      "term": "Transaction and audience types",
+      "pages": [
+        21,
+        22
+      ],
+      "definition": "B2B, B2C, C2C and C2B describe exchanges between businesses and consumers; public-service exchanges add government roles.",
+      "points": [
+        "Identify both the supplier and the receiver of value.",
+        "Consumers may exchange information as well as money.",
+        "User-generated recommendations are important C2C interactions even on business-run platforms.",
+        "A business can serve several audience types; a demographic label does not establish a person’s needs."
+      ],
+      "example": "Hypothetical: a student sells a used textbook to another student through a marketplace: C2C mediated by a business platform.",
+      "mistake": "The platform owner’s identity does not automatically make every user-to-user exchange B2C.",
+      "recall": "Two consumers exchange a used product on a business-run marketplace. What is the exchange?",
+      "answer": [
+        "Identify the two transaction parties.",
+        "Explain the platform’s intermediary role.",
+        "Allow informational as well as financial exchanges."
+      ],
+      "quiz": {
+        "id": "q-audiences",
+        "prompt": "Two consumers exchange a used product on a business-run marketplace. What is the exchange?",
+        "options": [
+          "Always B2B.",
+          "Always government-to-consumer.",
+          "C2C."
+        ],
+        "correct": 2,
+        "explanations": [
+          "The intermediary does not change the identities of the trading parties.",
+          "No government party is specified.",
+          "Both trading parties are consumers."
+        ]
+      },
+      "moduleId": 4,
+      "lo": 2
+    },
+    {
+      "id": "six-is",
+      "term": "The 6Is",
+      "pages": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "definition": "Interactivity, intelligence, individualisation, integration, industry restructuring and independence of location describe opportunities of digital media.",
+      "points": [
+        "Interactivity enables dialogue; intelligence uses interaction data for insight.",
+        "Individualisation tailors communication; integration connects channels.",
+        "Industry restructuring includes removal or creation of intermediaries.",
+        "Independence of location broadens reach but does not remove fulfilment or cultural constraints.",
+        "Testing, flexibility, accountability, targeting and cost control remain conditional capabilities."
+      ],
+      "example": "Hypothetical: a firm combines web enquiries with phone support (integration), then personalises relevant follow-up (individualisation).",
+      "mistake": "Digital media can push as well as pull; tracking does not automatically prove causation.",
+      "recall": "A brand sells directly, bypassing a former distributor. Which change is this?",
+      "answer": [
+        "Name the six opportunities.",
+        "Distinguish disintermediation from new intermediary creation.",
+        "State one practical limitation."
+      ],
+      "quiz": {
+        "id": "q-six-is",
+        "prompt": "A brand sells directly, bypassing a former distributor. Which change is this?",
+        "options": [
+          "Disintermediation within industry restructuring.",
+          "Individualisation only.",
+          "Proof that logistics no longer matters."
+        ],
+        "correct": 0,
+        "explanations": [
+          "A former link between supplier and customer is removed.",
+          "Tailoring a message is a different mechanism.",
+          "Physical fulfilment can remain essential."
+        ]
+      },
+      "moduleId": 4,
+      "lo": 2
+    },
+    {
+      "id": "device-platform",
+      "term": "Devices and platforms",
+      "pages": [
+        8,
+        9,
+        27,
+        28
+      ],
+      "definition": "Devices provide access; platforms mediate interactions. Selection depends on audience adoption, usage context and the task.",
+      "points": [
+        "Assess device capability, timing, accessibility and connection conditions.",
+        "Device-specific targeting and dayparting adjust who is reached and when.",
+        "Sector-specific and regional platforms may matter more than a large global platform.",
+        "FAMGA is the textbook’s historical shorthand; it is not an up-to-date platform recommendation."
+      ],
+      "example": "Hypothetical: test whether a target group can use an AR feature before choosing it for a campaign.",
+      "mistake": "Growing up with digital media does not guarantee adoption of every new technology.",
+      "recall": "Before an AR campaign, which evidence is most useful?",
+      "answer": [
+        "Distinguish device and platform.",
+        "Assess capability and adoption in the target audience.",
+        "Connect context to the intended customer task."
+      ],
+      "quiz": {
+        "id": "q-device-platform",
+        "prompt": "Before an AR campaign, which evidence is most useful?",
+        "options": [
+          "Only the creative team’s newest phone.",
+          "Target-audience access, supported devices and context of use.",
+          "A claim that all young people use the same platforms."
+        ],
+        "correct": 1,
+        "explanations": [
+          "Internal equipment may not represent customers.",
+          "The intended audience must be able and willing to participate.",
+          "Age alone is an inadequate capability measure."
+        ]
+      },
+      "moduleId": 4,
+      "lo": 2
+    },
+    {
+      "id": "media-channels",
+      "term": "Media relationships and six channel families",
+      "pages": [
+        6,
+        7,
+        29,
+        30
+      ],
+      "definition": "Paid, owned and earned describe media investment/control relationships; six channel families describe communication techniques.",
+      "points": [
+        "Paid buys reach or response; owned is the brand’s managed presence; earned includes independent mentions and sharing.",
+        "The six families are search, social, digital/display advertising, digital PR, partnerships and messaging.",
+        "Search includes paid PPC and organic SEO; social includes paid and organic activity.",
+        "PR seeks and manages mentions; partnerships include affiliates or co-marketing; messaging includes email and push.",
+        "A relevant landing page continues the offer; organic activity still uses labour and production resources."
+      ],
+      "example": "Hypothetical: a paid social ad promotes an owned guide that a customer independently shares; the three media types work together.",
+      "mistake": "A paid influencer placement is not independent earned publicity just because an influencer published it.",
+      "recall": "A brand pays a creator for a promotional placement. How should the placement be treated?",
+      "answer": [
+        "Separate media relationship from channel family.",
+        "Identify payment and control.",
+        "Explain how one campaign can join paid, owned and earned."
+      ],
+      "quiz": {
+        "id": "q-media-channels",
+        "prompt": "A brand pays a creator for a promotional placement. How should the placement be treated?",
+        "options": [
+          "Automatically earned because a third party posts it.",
+          "Owned media because payment gives complete control of the platform.",
+          "Paid media in the relevant channel."
+        ],
+        "correct": 2,
+        "explanations": [
+          "Third-party publication alone does not make publicity earned.",
+          "Paying for placement does not mean owning the platform.",
+          "Payment makes it a bought placement."
+        ]
+      },
+      "moduleId": 4,
+      "lo": 2
+    },
+    {
+      "id": "inbound",
+      "term": "Inbound marketing",
+      "pages": [
+        23,
+        31
+      ],
+      "definition": "Attract people who actively seek relevant information through content, search and social interactions.",
+      "points": [
+        "Visibility matters at the moment of need.",
+        "Organic options avoid a direct media fee but still require work.",
+        "Inbound may offer less control over audience timing and scale than a push campaign."
+      ],
+      "example": "Hypothetical: a useful comparison guide answers a searcher’s question and leads them to a relevant service.",
+      "mistake": "Inbound is not a synonym for every digital message or for marketing that costs nothing.",
+      "recall": "Which activity most clearly follows an inbound approach?",
+      "answer": [
+        "Explain proactive customer information seeking.",
+        "Name a relevant content/discovery mechanism.",
+        "State a control or cost limitation."
+      ],
+      "quiz": {
+        "id": "q-inbound",
+        "prompt": "Which activity most clearly follows an inbound approach?",
+        "options": [
+          "A searchable guide that answers a problem the audience is investigating.",
+          "An automatic guarantee of free customers.",
+          "An unsolicited interruption unrelated to the user’s task."
+        ],
+        "correct": 0,
+        "explanations": [
+          "The user’s information need initiates the interaction.",
+          "Organic discovery is neither costless nor guaranteed.",
+          "This interrupts rather than responds to an expressed need."
+        ]
+      },
+      "moduleId": 5,
+      "lo": 2
+    },
+    {
+      "id": "permission",
+      "term": "Permission marketing",
+      "pages": [
+        31,
+        32
+      ],
+      "definition": "Seek agreement before developing a marketing relationship, usually by offering something useful in exchange.",
+      "points": [
+        "Make the proposed communication and customer benefit understandable.",
+        "A subscription can be a lead, not a completed sale.",
+        "Respect communication preferences rather than assuming every interaction is permission.",
+        "This is the textbook’s marketing principle; current legal requirements need separate jurisdiction-specific verification."
+      ],
+      "example": "Hypothetical: offer a study-planning guide and a clear optional newsletter subscription rather than hiding signup inside an unrelated action.",
+      "mistake": "A public email address or a single visit is not the same as agreed marketing participation.",
+      "recall": "Which action best reflects permission marketing?",
+      "answer": [
+        "Explain the value exchange.",
+        "Make agreement and preferences explicit.",
+        "Distinguish permission from mere access to contact details."
+      ],
+      "quiz": {
+        "id": "q-permission",
+        "prompt": "Which action best reflects permission marketing?",
+        "options": [
+          "Add every public address to the mailing list.",
+          "Explain the newsletter value and let the person choose to subscribe.",
+          "Treat viewing a product as consent to every message."
+        ],
+        "correct": 1,
+        "explanations": [
+          "Availability of an address does not establish agreement.",
+          "This offers a clear voluntary exchange.",
+          "An interaction is not blanket permission."
+        ]
+      },
+      "moduleId": 5,
+      "lo": 2
+    },
+    {
+      "id": "content",
+      "term": "Content marketing and the hub",
+      "pages": [
+        32,
+        33
+      ],
+      "definition": "Plan, create, distribute and manage useful content to engage audiences and support business goals across relevant presences.",
+      "points": [
+        "Choose content goals and formats for the customer’s lifecycle needs.",
+        "Plan distribution through search, social, partners and paid promotion.",
+        "Support interaction and moderate or respond to participation.",
+        "A branded hub makes relevant assets accessible.",
+        "People, processes, platforms and measurement sustain the content operation."
+      ],
+      "example": "Hypothetical: a campus retailer organises buying guides in a resource hub, distributes selected answers through social posts, and uses questions to improve guides.",
+      "mistake": "Publishing often is not a content strategy unless content, distribution and outcomes fit together.",
+      "recall": "Which plan is closest to a complete content approach?",
+      "answer": [
+        "Join audience need and business purpose.",
+        "Include format, distribution and participation.",
+        "Assign ownership and measures."
+      ],
+      "quiz": {
+        "id": "q-content",
+        "prompt": "Which plan is closest to a complete content approach?",
+        "options": [
+          "Count files in a folder as customer engagement.",
+          "Post every day without a purpose.",
+          "Create a useful guide, distribute it appropriately and measure relevant interactions."
+        ],
+        "correct": 2,
+        "explanations": [
+          "Stored assets do not prove that an audience used them.",
+          "Frequency alone does not establish value.",
+          "Creation, distribution and review work together."
+        ]
+      },
+      "moduleId": 5,
+      "lo": 2
+    },
+    {
+      "id": "engagement",
+      "term": "Digital audience engagement",
+      "pages": [
+        33,
+        34
+      ],
+      "definition": "Repeated interactions across the relationship can deepen customers’ involvement with a brand over time.",
+      "points": [
+        "A click, comment or visit is a short-term interaction.",
+        "Sustained involvement, retention and advocacy require evidence across time.",
+        "An integrated lifecycle plan and coherent customer view help maintain relevant contact."
+      ],
+      "example": "Hypothetical: a customer uses support, returns for a relevant purchase and independently recommends the brand over several months.",
+      "mistake": "A high like count does not by itself demonstrate durable engagement or loyalty.",
+      "recall": "Which is stronger evidence of long-term engagement?",
+      "answer": [
+        "Distinguish an event from a relationship.",
+        "Look for repeated relevant interactions across time.",
+        "Avoid treating reactions as automatic loyalty or profit."
+      ],
+      "quiz": {
+        "id": "q-engagement",
+        "prompt": "Which is stronger evidence of long-term engagement?",
+        "options": [
+          "Relevant repeated interactions and retention over time.",
+          "The number of accounts the brand creates.",
+          "One popular post alone."
+        ],
+        "correct": 0,
+        "explanations": [
+          "This fits the relationship perspective.",
+          "Brand activity is not the same as customer involvement.",
+          "One event cannot establish durability."
+        ]
+      },
+      "moduleId": 5,
+      "lo": 2
+    },
+    {
+      "id": "always-on",
+      "term": "Always-on lifecycle communications",
+      "pages": [
+        34
+      ],
+      "definition": "Continuously plan and optimise useful acquisition and retention activities alongside time-limited campaigns.",
+      "points": [
+        "Examples include useful search content, onboarding and service follow-up.",
+        "Triggers should fit customer behaviour, needs and preferences.",
+        "Retargeting revisits prior interactors; it is not proof of customer interest or permission for every use.",
+        "Continuous activity still requires monitoring, resources and a stop/review policy."
+      ],
+      "example": "Hypothetical: a chosen welcome sequence helps subscribers use a service, while a separate launch campaign introduces a new feature.",
+      "mistake": "Always-on does not mean message everyone constantly or automate without review.",
+      "recall": "Which plan fits always-on lifecycle marketing?",
+      "answer": [
+        "Contrast a continuous lifecycle activity with a campaign burst.",
+        "Tie a trigger to a relevant need.",
+        "Explain monitoring and preference safeguards."
+      ],
+      "quiz": {
+        "id": "q-always-on",
+        "prompt": "Which plan fits always-on lifecycle marketing?",
+        "options": [
+          "A single launch poster only.",
+          "A monitored onboarding sequence supporting new customers throughout the year.",
+          "Unlimited repeated messages regardless of response."
+        ],
+        "correct": 1,
+        "explanations": [
+          "A burst can complement but does not constitute always-on activity.",
+          "This serves an ongoing lifecycle need.",
+          "Constant volume can damage relevance and the customer relationship."
+        ]
+      },
+      "moduleId": 5,
+      "lo": 2
+    },
+    {
+      "id": "customer-data",
+      "term": "Customer data",
+      "pages": [
+        24,
+        35
+      ],
+      "definition": "Profiles describe customer characteristics and preferences; behavioural data describes interactions. Inferred values are estimates rather than disclosed facts.",
+      "points": [
+        "Disclosed details include contact information the person supplies.",
+        "Behavioural information may include pages viewed, visits and purchases.",
+        "Communication preferences describe desired contact.",
+        "Data lakes retain diverse raw data; warehouses hold structured data.",
+        "Check quality, purpose and appropriate access before using data."
+      ],
+      "example": "Hypothetical: an email address is disclosed profile data, a guide view is behaviour, and predicted lifetime value is an inference.",
+      "mistake": "A prediction about value or intent is not something the customer necessarily told the business.",
+      "recall": "Which item is inferred rather than directly disclosed?",
+      "answer": [
+        "Separate profile and behaviour.",
+        "Identify an inferred estimate.",
+        "Explain why data quality and customer preferences matter."
+      ],
+      "quiz": {
+        "id": "q-customer-data",
+        "prompt": "Which item is inferred rather than directly disclosed?",
+        "options": [
+          "A chosen communication preference.",
+          "An email address typed by the customer.",
+          "A model’s prediction of future customer value."
+        ],
+        "correct": 2,
+        "explanations": [
+          "This is a declared preference.",
+          "This is supplied by the person.",
+          "This is an estimate based on other evidence."
+        ]
+      },
+      "moduleId": 6,
+      "lo": 3
+    },
+    {
+      "id": "analytics",
+      "term": "Digital analytics",
+      "pages": [
+        34,
+        35
+      ],
+      "definition": "Analyse digital interactions to assess and improve their contribution to business and customer goals.",
+      "points": [
+        "Define a question and relevant metric before collecting everything.",
+        "Check tracking quality, device context and consistent denominators.",
+        "Use insights to choose an action and review its outcome.",
+        "The scope includes reach, referrals, behaviour, satisfaction, leads and sales, not only website traffic."
+      ],
+      "example": "Hypothetical: investigate whether mobile enquiry completion differs from desktop, check measurement quality and test a relevant form improvement.",
+      "mistake": "A dashboard full of numbers is not automatically actionable insight, and correlation does not establish cause.",
+      "recall": "Which question best uses digital analytics?",
+      "answer": [
+        "Start with a decision and objective.",
+        "Choose and validate relevant measures.",
+        "State how the result informs improvement."
+      ],
+      "quiz": {
+        "id": "q-analytics",
+        "prompt": "Which question best uses digital analytics?",
+        "options": [
+          "Where does the enquiry journey lose users, and what evidence supports a fix?",
+          "Can any traffic increase be declared profit?",
+          "How many numbers can we display?"
+        ],
+        "correct": 0,
+        "explanations": [
+          "The question connects measurement to a decision.",
+          "Traffic and profit are different measures.",
+          "Volume of metrics is not the objective."
+        ]
+      },
+      "moduleId": 6,
+      "lo": 3
+    },
+    {
+      "id": "attribution",
+      "term": "Digital media attribution",
+      "pages": [
+        35
+      ],
+      "definition": "Assess how different media touchpoints contribute to conversions and value across a customer journey.",
+      "points": [
+        "A purchase may follow several visits and channels.",
+        "Cross-device use and missing tracking can obscure the path.",
+        "A crediting rule is an analytical choice, not direct proof of causal impact.",
+        "Review channel interaction rather than assuming the final click did all the work."
+      ],
+      "example": "Hypothetical: a person discovers a brand through social content, later searches, and finally responds to an email before buying.",
+      "mistake": "Giving the final email all credit does not prove earlier interactions were irrelevant.",
+      "recall": "A purchase follows social discovery, search and email. What is the careful conclusion?",
+      "answer": [
+        "Describe the multi-touch journey.",
+        "Explain what attribution seeks to assess.",
+        "State tracking and causal limitations."
+      ],
+      "quiz": {
+        "id": "q-attribution",
+        "prompt": "A purchase follows social discovery, search and email. What is the careful conclusion?",
+        "options": [
+          "The last click proves all earlier channels had zero value.",
+          "Different touches may contribute; the crediting method and tracking limits matter.",
+          "All channels must receive identical credit in every business."
+        ],
+        "correct": 1,
+        "explanations": [
+          "The final recorded event does not rule out earlier contribution.",
+          "This separates analytical credit from certainty about cause.",
+          "Equal weighting is a possible rule, not a universal truth."
+        ]
+      },
+      "moduleId": 6,
+      "lo": 3
+    },
+    {
+      "id": "martech",
+      "term": "Marketing technology",
+      "pages": [
+        9,
+        35,
+        36
+      ],
+      "definition": "Software and services support marketing operations, customer experiences, communications and insight.",
+      "points": [
+        "Operational tools deliver and manage activities.",
+        "Insight tools support analysis and reporting; many tools combine both.",
+        "SaaS provides software functionality through hosted services.",
+        "Tool selection follows goals, capabilities, integration needs and total cost."
+      ],
+      "example": "Hypothetical: use a content system and a small analytics setup to answer a defined need before considering more specialised tools.",
+      "mistake": "More tools or fashionable AI features do not by themselves establish return on investment.",
+      "recall": "What should lead martech selection?",
+      "answer": [
+        "Connect the tool to an objective.",
+        "Distinguish insight and operational roles.",
+        "Consider integration, people and cost."
+      ],
+      "quiz": {
+        "id": "q-martech",
+        "prompt": "What should lead martech selection?",
+        "options": [
+          "The assumption that automation always raises profit.",
+          "The size of a vendor’s logo collection.",
+          "A clear need, expected contribution and implementation capability."
+        ],
+        "correct": 2,
+        "explanations": [
+          "Automation needs relevant data, rules and ongoing review.",
+          "Popularity alone does not establish fit.",
+          "Technology should serve the plan and the organisation."
+        ]
+      },
+      "moduleId": 7,
+      "lo": 3
+    },
+    {
+      "id": "stack",
+      "term": "A layered martech view",
+      "pages": [
+        36,
+        37
+      ],
+      "definition": "The chapter’s Figure 1.13 groups technology into experiences, operations, middleware, backbone platforms, infrastructure and internet platforms.",
+      "points": [
+        "Experiences include customer-facing content, service and testing.",
+        "Operations include analytics, attribution, dashboards and assets.",
+        "Middleware joins systems through APIs, tagging and identity/data handling.",
+        "Backbone platforms include CRM, content management, automation and e-commerce.",
+        "Infrastructure provides databases, cloud and development; internet platforms support interactions."
+      ],
+      "example": "Hypothetical: a CRM backbone supplies a useful service context through middleware to a customer experience, while operations review performance.",
+      "mistake": "This is a conceptual map from the source, not a current vendor ranking or a mandatory shopping list.",
+      "recall": "Which layer primarily joins systems through APIs and data management?",
+      "answer": [
+        "Identify all six groups.",
+        "Explain one relationship between them.",
+        "State why the diagram is not a product recommendation."
+      ],
+      "quiz": {
+        "id": "q-stack",
+        "prompt": "Which layer primarily joins systems through APIs and data management?",
+        "options": [
+          "Marketing middleware.",
+          "Only the visible campaign artwork.",
+          "Only the internet audience."
+        ],
+        "correct": 0,
+        "explanations": [
+          "The middleware layer connects services and information.",
+          "Artwork is not system integration.",
+          "An audience is not an integration layer."
+        ]
+      },
+      "moduleId": 7,
+      "lo": 3
+    },
+    {
+      "id": "implementation",
+      "term": "Integration, ownership and value",
+      "pages": [
+        7,
+        9,
+        18,
+        35,
+        36,
+        37
+      ],
+      "definition": "Realising technology value requires clear responsibilities, reliable data, connected processes and ongoing improvement.",
+      "points": [
+        "APIs provide defined ways for systems to exchange information.",
+        "Assign responsibility for data quality, communications rules and performance.",
+        "Pilot a focused use case and evaluate the customer experience.",
+        "Consider operating effort and access controls as well as subscription cost."
+      ],
+      "example": "Hypothetical: test one welcome flow using agreed preferences and consistent records before linking every system.",
+      "mistake": "A successful data connection does not establish that every use of that data is appropriate or useful.",
+      "recall": "What is the strongest implementation approach?",
+      "answer": [
+        "Define the use case and owner.",
+        "Check data and process handoffs.",
+        "Pilot, evaluate and improve."
+      ],
+      "quiz": {
+        "id": "q-implementation",
+        "prompt": "What is the strongest implementation approach?",
+        "options": [
+          "Connect every system and decide the purpose later.",
+          "Pilot an owned use case with agreed data rules and outcome checks.",
+          "Treat a subscription receipt as proof of success."
+        ],
+        "correct": 1,
+        "explanations": [
+          "Complexity without purpose can amplify errors.",
+          "This joins technology, process and customer value.",
+          "Spending measures cost, not the resulting benefit."
+        ]
+      },
+      "moduleId": 7,
+      "lo": 3
+    }
+  ],
+  "models": [
+    {
+      "moduleId": 2,
+      "title": "RACE: a lifecycle view",
+      "pages": [
+        10,
+        11
+      ],
+      "columns": [
+        "Stage",
+        "Customer task and aim",
+        "Example measures"
+      ],
+      "rows": [
+        [
+          "Reach",
+          "Become aware and arrive at a relevant presence",
+          "Relevant audience reach, visitors"
+        ],
+        [
+          "Act",
+          "Interact, explore, subscribe or enquire",
+          "Useful interactions, qualified leads"
+        ],
+        [
+          "Convert",
+          "Complete a sale online or offline",
+          "Sales and customer satisfaction"
+        ],
+        [
+          "Engage",
+          "Continue a valuable relationship over time",
+          "Repeat sales, retention, advocacy and satisfaction"
+        ]
+      ],
+      "limit": "A guide to planning and measurement, not a fixed path every person must follow. An analytics conversion event is not always a RACE sale."
+    },
+    {
+      "moduleId": 2,
+      "title": "5Ss: a business-benefit view",
+      "pages": [
+        11,
+        12
+      ],
+      "columns": [
+        "Benefit",
+        "What it contributes",
+        "Hypothetical application"
+      ],
+      "rows": [
+        [
+          "Sell",
+          "Grow relevant sales, including offline sales influenced online",
+          "An online enquiry leads to a useful store purchase"
+        ],
+        [
+          "Speak",
+          "Create dialogue and learn about customers",
+          "Use volunteered questions to improve a service"
+        ],
+        [
+          "Serve",
+          "Add useful customer value",
+          "A clear troubleshooting guide resolves a problem"
+        ],
+        [
+          "Save",
+          "Reduce suitable costs while maintaining value",
+          "Help people self-serve simple questions"
+        ],
+        [
+          "Sizzle",
+          "Strengthen the distinctive brand experience",
+          "A useful interactive experience expresses the brand promise"
+        ]
+      ],
+      "limit": "The benefits overlap. Choose a baseline, a defined measure and a timeframe; these examples claim no achieved business result."
+    },
+    {
+      "moduleId": 4,
+      "title": "6Is: communications opportunities",
+      "pages": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "columns": [
+        "Opportunity",
+        "What changes",
+        "Condition or limit"
+      ],
+      "rows": [
+        [
+          "Interactivity",
+          "Dialogue and customer-initiated information seeking",
+          "Digital also includes push communications"
+        ],
+        [
+          "Intelligence",
+          "Interaction data can support insight",
+          "Reliable collection and interpretation are necessary"
+        ],
+        [
+          "Individualisation",
+          "Content can be tailored to needs or behaviour",
+          "Relevance depends on data and an appropriate use"
+        ],
+        [
+          "Integration",
+          "Online and offline touchpoints can work together",
+          "Handoffs and organisational ownership matter"
+        ],
+        [
+          "Industry restructuring",
+          "Intermediaries may be removed or newly created",
+          "A new intermediary can become a new dependency"
+        ],
+        [
+          "Independence of location",
+          "Communications can reach new geographical markets",
+          "Delivery, localisation and support still constrain the offer"
+        ]
+      ],
+      "limit": "These are opportunities rather than automatic advantages or proof of effectiveness."
+    },
+    {
+      "moduleId": 4,
+      "title": "Six channel families × media relationships",
+      "pages": [
+        6,
+        7,
+        29,
+        30
+      ],
+      "columns": [
+        "Channel family",
+        "Bought or paid example",
+        "Managed or owned example",
+        "Independent or earned example"
+      ],
+      "rows": [
+        [
+          "Search",
+          "PPC placement",
+          "Technical/content SEO work",
+          "A relevant independent backlink"
+        ],
+        [
+          "Social",
+          "Sponsored social placement",
+          "Posts on a brand-managed account",
+          "Unpaid customer sharing"
+        ],
+        [
+          "Digital/display advertising",
+          "Bought display or video space",
+          "Creative hosted on the brand website",
+          "Independent sharing of that creative"
+        ],
+        [
+          "Digital PR",
+          "Paid advertorial placement",
+          "A brand newsroom",
+          "Independent publisher coverage"
+        ],
+        [
+          "Partnerships",
+          "Commission-based affiliate placement",
+          "Content co-created and managed with a partner",
+          "Unpaid partner recommendation"
+        ],
+        [
+          "Messaging",
+          "Paid third-party newsletter placement",
+          "An opted-in house email list",
+          "Unprompted person-to-person recommendation"
+        ]
+      ],
+      "limit": "Original teaching examples. Classify the actual arrangement by payment and control; a family does not belong exclusively to one media type. Organic work still has production and staff costs."
+    }
+  ],
+  "written": [
+    {
+      "id": "self-1",
+      "prompt": "Explain the scope of digital marketing beyond a list of tools.",
+      "pages": [
+        5,
+        6
+      ],
+      "points": [
+        "Marketing objective",
+        "Digital media, data and technology",
+        "Integration with offline activity"
+      ],
+      "sourceType": "Original study prompt paraphrasing the textbook exercise scope"
+    },
+    {
+      "id": "self-2",
+      "prompt": "Show why online and offline communications should connect across a customer lifecycle.",
+      "pages": [
+        6,
+        10,
+        11,
+        24,
+        25,
+        26
+      ],
+      "points": [
+        "A mixed-channel journey",
+        "Relevant handoff",
+        "Measures beyond online sales"
+      ],
+      "sourceType": "Original study prompt paraphrasing the textbook exercise scope"
+    },
+    {
+      "id": "self-3",
+      "prompt": "Propose digital applications for sales, service and customer relationships.",
+      "pages": [
+        11,
+        12,
+        16,
+        17
+      ],
+      "points": [
+        "More than advertising",
+        "Match function and objective",
+        "Resources and measures"
+      ],
+      "sourceType": "Original study prompt paraphrasing the textbook exercise scope"
+    },
+    {
+      "id": "self-4",
+      "prompt": "Compare e-commerce, social commerce and digital business.",
+      "pages": [
+        12,
+        14,
+        42
+      ],
+      "points": [
+        "External financial and informational exchanges",
+        "Participation in shopping",
+        "Broader internal and external processes"
+      ],
+      "sourceType": "Original study prompt paraphrasing the textbook exercise scope"
+    },
+    {
+      "id": "self-5",
+      "prompt": "Choose from all six channel families to support reach, interaction and sales.",
+      "pages": [
+        29,
+        30
+      ],
+      "points": [
+        "Six channel families",
+        "Paid/owned/earned distinctions",
+        "Customer-stage fit"
+      ],
+      "sourceType": "Original study prompt paraphrasing the textbook exercise scope"
+    },
+    {
+      "id": "self-6",
+      "prompt": "Compare digital and traditional communication using the 6Is.",
+      "pages": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "points": [
+        "All six opportunities",
+        "An applied example",
+        "A practical limitation"
+      ],
+      "sourceType": "Original study prompt paraphrasing the textbook exercise scope"
+    },
+    {
+      "id": "self-7",
+      "prompt": "Distinguish social media, inbound and content marketing using one integrated example.",
+      "pages": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "points": [
+        "Channel versus approach",
+        "Proactive information seeking",
+        "Content across different presences"
+      ],
+      "sourceType": "Original study prompt paraphrasing the textbook exercise scope"
+    },
+    {
+      "id": "self-8",
+      "prompt": "Explain digital routes to existing-market growth and new markets or products.",
+      "pages": [
+        13,
+        14,
+        16,
+        26
+      ],
+      "points": [
+        "Expansion/switching/deepening",
+        "A feasible digital or physical service",
+        "Operational and market constraints"
+      ],
+      "sourceType": "Original study prompt paraphrasing the textbook exercise scope"
+    },
+    {
+      "id": "discussion-1",
+      "prompt": "Build a business case for digital activity beyond advertising and checkout.",
+      "pages": [
+        11,
+        12,
+        16,
+        17
+      ],
+      "points": [
+        "5S benefits",
+        "Appropriate online function",
+        "Cost, resources and measurement"
+      ],
+      "sourceType": "Original study prompt paraphrasing the textbook exercise scope"
+    },
+    {
+      "id": "discussion-2",
+      "prompt": "Evaluate the claim that all digital marketing is pull rather than push.",
+      "pages": [
+        23,
+        24,
+        31,
+        34
+      ],
+      "points": [
+        "Customer-initiated inquiry",
+        "Outbound and paid activity",
+        "A balanced integrated example"
+      ],
+      "sourceType": "Original study prompt paraphrasing the textbook exercise scope"
+    },
+    {
+      "id": "discussion-3",
+      "prompt": "Propose a stronger online presence for a B2B firm with only an online brochure.",
+      "pages": [
+        15,
+        16,
+        17,
+        19,
+        20,
+        21
+      ],
+      "points": [
+        "Customer problem and OVP",
+        "Lead and support functions",
+        "Pilot, ownership and evaluation"
+      ],
+      "sourceType": "Original study prompt paraphrasing the textbook exercise scope"
+    },
+    {
+      "id": "discussion-4",
+      "prompt": "Design useful website and campaign contributions for a consumer-goods brand.",
+      "pages": [
+        16,
+        17,
+        29,
+        30,
+        32,
+        33
+      ],
+      "points": [
+        "Brand/service objectives",
+        "Relevant content and channels",
+        "Appropriate outcome measures"
+      ],
+      "sourceType": "Original study prompt paraphrasing the textbook exercise scope"
+    },
+    {
+      "id": "discussion-5",
+      "prompt": "Choose techniques to raise brand awareness and encourage meaningful interaction.",
+      "pages": [
+        10,
+        29,
+        30,
+        31,
+        32
+      ],
+      "points": [
+        "Separate Reach and Act",
+        "Audience and channel rationale",
+        "Limitations and measurement"
+      ],
+      "sourceType": "Original study prompt paraphrasing the textbook exercise scope"
+    }
+  ],
+  "historical": [
+    {
+      "id": "bk",
+      "title": "Burger King: connect interaction to trial",
+      "pages": [
+        11
+      ],
+      "period": "2019 campaign, reported in the 2022 textbook",
+      "text": "The chapter describes a Brazilian AR campaign that invited people to interact through the app and offered a product incentive. It is useful for connecting an Act-stage interaction to trial and ongoing app use.",
+      "limit": "Campaign aims are not independently verified achieved results. The example does not show that AR suits every audience."
+    },
+    {
+      "id": "zalando",
+      "title": "Zalando: growth needs more than visibility",
+      "pages": [
+        13,
+        14
+      ],
+      "period": "Historical textbook account using sources through 2020",
+      "text": "The chapter links expansion to localisation, customer experience, paid visibility and distribution capability. It also notes the investment required before break-even in core markets.",
+      "limit": "Historical scale figures are not current facts or a forecast for another retailer. Local operations and economics matter."
+    },
+    {
+      "id": "boo",
+      "title": "Boo.com and Boohoo.com: compare assumptions",
+      "pages": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "period": "Boo.com, 1998–2000; Boohoo comparison uses sources through 2020",
+      "text": "Boo.com aimed for a rich global shopping experience, but its technology, realistic user access, rollout costs and commercial assumptions presented serious constraints. The later Boohoo.com is a different business. Its historical growth discussion includes targeting, media, customer experience and data, followed by a discussion of supply-chain allegations in 2020.",
+      "limit": "This is a historical, multi-factor case rather than proof of one cause. Commercial growth does not settle ethical evaluation, and the textbook does not establish either business’s current position."
+    }
+  ],
+  "fieldwork": [
+    {
+      "id": "activity-1",
+      "title": "Map a real C2C interaction",
+      "pages": [
+        22
+      ],
+      "task": "Record an actual example you have observed. Identify who creates the information, who receives it and how it might help or harm a business. Separate your observation from an inferred outcome."
+    },
+    {
+      "id": "activity-2",
+      "title": "Trace a mixed-channel journey",
+      "pages": [
+        26
+      ],
+      "task": "Observe or interview someone about a real purchase journey. Map online and offline contacts, handoffs and support. Do not invent interview findings."
+    },
+    {
+      "id": "activity-3",
+      "title": "Check device and platform fit",
+      "pages": [
+        27,
+        28
+      ],
+      "task": "For one target audience, list the device capabilities and platform-use questions you need to answer. Collect dated sources or observations rather than assuming adoption."
+    },
+    {
+      "id": "activity-4",
+      "title": "Audit a small martech use case",
+      "pages": [
+        36,
+        37
+      ],
+      "task": "Choose one real marketing task. Record a vendor’s current stated function, the date and URL you checked, the required data and integration, and what remains unverified. This site supplies no current vendor ranking."
+    }
+  ]
+}

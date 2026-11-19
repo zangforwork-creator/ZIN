@@ -1,0 +1,1314 @@
+{
+  "version": 1,
+  "sourceHash": "cd079cb9c064cac8f95989d3ceb2d1105220c6d5d041e956958208c8e1643103",
+  "kind": "authored-study-guide",
+  "guides": [
+    {
+      "chapterId": 1,
+      "question": "How does understanding people become a marketing strategy?",
+      "connection": "Move from understanding a market to deciding whom to serve, then design a coherent value proposition. The diagram is a planning framework; it does not predict each person’s behavior.",
+      "steps": [
+        {
+          "title": "Analyze the market",
+          "text": "Study consumers, the company, competitors, and conditions before making assumptions.",
+          "pages": [
+            29,
+            30
+          ]
+        },
+        {
+          "title": "Group needs and choose a target",
+          "text": "Identify need sets, describe the groups, and evaluate whom the business can serve profitably.",
+          "pages": [
+            32,
+            33,
+            36
+          ]
+        },
+        {
+          "title": "Design the offering",
+          "text": "Coordinate product, price, communication, distribution, and service around the selected customer’s value.",
+          "pages": [
+            29,
+            36
+          ]
+        },
+        {
+          "title": "Check outcomes",
+          "text": "Consider effects on customers, the firm, and society; use new evidence to revise assumptions.",
+          "pages": [
+            29
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c1-1",
+          "explanation": "Start with the need, then follow what people do to satisfy it. Selecting a service, using it, complaining, and disposing of its packaging belong to the same field of study. Identify users, buyers, and other affected people separately before choosing what to research.",
+          "distinction": "A purchase is one event; consumer behavior includes the processes and consequences around that event.",
+          "evidence": {
+            "page": 25,
+            "quote": "The field of consumer behavior is the study of individuals, groups, or organizations and the processes they use to select, secure, use, and dispose of products, services, experiences, or ideas to satisfy needs and the impacts that these processes have on the consumer and society.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c1-2",
+          "explanation": "List benefits and costs separately from the customer’s point of view. A service can add convenience, confidence, or an enjoyable experience while also costing money, travel, and effort. A higher price can still accompany greater perceived value when the extra benefits or saved effort matter to this customer.",
+          "distinction": "Value is a customer’s evaluation; price is one cost within that evaluation.",
+          "evidence": {
+            "page": 29,
+            "quote": "Customer value is the difference between all the benefits derived from a total product and all the costs of acquiring those benefits.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c1-3",
+          "explanation": "Begin by asking which needs the offering could satisfy. Group people with similar need patterns, describe those groups, then decide which ones the business can serve. Demographics help locate a group; they do not automatically explain the problem its members want solved.",
+          "distinction": "A segment describes a group; targeting is the later decision about which group to serve.",
+          "evidence": {
+            "page": 33,
+            "quote": "While better-defined segments will generally be discovered by focusing first on needs and then on consumer characteristics associated with those needs, both approaches are used in practice and both provide a useful basis for segmentation.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 2,
+      "question": "Why can the same message mean different things across cultures?",
+      "connection": "Use values to investigate norms and meanings, then examine the consumption context. Culture provides a framework, while people and situations still vary.",
+      "steps": [
+        {
+          "title": "Identify the relevant value",
+          "text": "Ask whether the value concerns other people, the environment, or personal goals.",
+          "pages": [
+            62,
+            63,
+            72
+          ]
+        },
+        {
+          "title": "Identify norms and sanctions",
+          "text": "Specify the behavior expected in the situation and responses to violating that expectation.",
+          "pages": [
+            60
+          ]
+        },
+        {
+          "title": "Check verbal and nonverbal meaning",
+          "text": "Test words alongside time, space, symbols, relationships, agreements, things, and etiquette.",
+          "pages": [
+            72,
+            73
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c2-1",
+          "explanation": "Read the relationship in three parts: a value indicates what is desirable, a norm specifies acceptable behavior in a situation, and a sanction is a response to violating that norm. This helps explain why an offer can be acceptable in one context and uncomfortable in another.",
+          "distinction": "A value is a broad preference; a norm is a situation-specific rule, and a sanction is a consequence.",
+          "evidence": {
+            "page": 60,
+            "quote": "The boundaries that culture sets on behavior are called norms , which are simply rules that specify or prohibit certain behaviors in specific situations.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c2-2",
+          "explanation": "Ask three different questions: How should people relate to one another? How should they relate to their environment? What personal goals are desirable? Classifying a value helps organize research, but a category does not measure how strongly any individual holds that value.",
+          "distinction": "These are categories for analysis, not stages that a consumer moves through.",
+          "evidence": {
+            "page": 62,
+            "quote": "We will present a classification scheme consisting of three broad forms of cultural values: other-oriented, environment-oriented, and self-oriented.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c2-3",
+          "explanation": "A message includes more than translated words. Timing, personal space, symbols, agreements, and etiquette can change how an interaction is interpreted. Check the meaning with the relevant audience rather than assuming a gesture or color has the same meaning everywhere.",
+          "distinction": "Accurate translation addresses words; cultural interpretation also concerns actions and context.",
+          "evidence": {
+            "page": 73,
+            "quote": "Nonverbal communication systems are the arbitrary meanings a culture assigns actions, events, and things other than words.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 3,
+      "question": "How should marketing respond to changing values?",
+      "connection": "Understand the value relevant to a decision, choose a response, and examine whether the response is credible. The chapter describes a historical US setting.",
+      "steps": [
+        {
+          "title": "Investigate the audience",
+          "text": "Research actual needs and roles rather than treating a social label as a fixed preference.",
+          "pages": [
+            98,
+            99,
+            116,
+            117
+          ]
+        },
+        {
+          "title": "Choose the response",
+          "text": "Distinguish environmental benefits, cause-related support, and other positioning choices.",
+          "pages": [
+            109,
+            110,
+            111,
+            112
+          ]
+        },
+        {
+          "title": "Examine credibility",
+          "text": "Check the specific benefit claimed and the limitations of the evidence supporting it.",
+          "pages": [
+            109,
+            110,
+            111,
+            112
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c3-1",
+          "explanation": "Specify the environmental claim before designing the campaign: is it about production, use, disposal, a positive environmental effect, or support for an organization? Then check what evidence supports that exact claim. A green theme by itself does not establish an environmental benefit.",
+          "distinction": "An environmental claim is a proposition to substantiate; green imagery is only part of its presentation.",
+          "evidence": {
+            "page": 109,
+            "quote": "Green marketing generally involves (1) developing products whose production, use, or disposal is less harmful to the environment than the traditional versions of the product; (2) developing products that have a positive impact on the environment; or (3) tying the purchase of a product to an environmental organization or event.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c3-2",
+          "explanation": "Separate the cause being supported from the firm’s objectives. A cause-related offer can support a cause while also seeking brand or business benefits. Explain the link clearly; the existence of a partnership alone does not establish the size of its social impact.",
+          "distinction": "Cause-related marketing can directly benefit the business; the book distinguishes social marketing by its welfare focus without direct firm benefit.",
+          "evidence": {
+            "page": 110,
+            "quote": "social marketing is marketing done to enhance the welfare of individuals or society without direct benefit to a firm.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c3-3",
+          "explanation": "Treat gender roles as expectations within a society and period, then investigate actual behavior. Household shopping and work responsibilities can vary within the same group. Research who performs the task instead of assigning it from an advertisement’s stereotype.",
+          "distinction": "A social expectation is not proof of an individual’s preference, ability, or household role.",
+          "evidence": {
+            "page": 116,
+            "quote": "Gender roles are the behaviors considered appropriate for males and females in a given society.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 4,
+      "question": "What can population data explain, and what does it leave unanswered?",
+      "connection": "Describe who is in the market, then investigate why a pattern occurs. Demographic, cohort, and status measures answer different questions.",
+      "steps": [
+        {
+          "title": "Describe the population",
+          "text": "Separate size, distribution, and structure. Check when and where the data were collected.",
+          "pages": [
+            131,
+            133,
+            134,
+            135
+          ]
+        },
+        {
+          "title": "Interpret age-related patterns",
+          "text": "Distinguish current life stage from shared generational experience.",
+          "pages": [
+            138
+          ]
+        },
+        {
+          "title": "Select a status measure",
+          "text": "Choose income, occupation, education, or a combined measure to fit the product and research question.",
+          "pages": [
+            149,
+            157,
+            158
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c4-1",
+          "explanation": "Use population size to ask how many people may be relevant, distribution to ask where they are, and structure to ask how the population is composed. These descriptions help estimate markets, but further research is needed to explain motivations or evaluate an offer.",
+          "distinction": "Demographics describe a population; they do not provide a complete psychological explanation of a purchase.",
+          "evidence": {
+            "page": 131,
+            "quote": "Demographics describe a population in terms of its size, distribution, and structure (see also Chapter 2).",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c4-2",
+          "explanation": "Distinguish a person’s current age from the shared experiences associated with growing up in a period. When comparing groups, ask whether a difference could reflect life stage, shared history, or the conditions at the time of measurement. A generation label alone cannot resolve that question.",
+          "distinction": "An age effect concerns a stage of life; a cohort interpretation concerns shared historical experience.",
+          "evidence": {
+            "page": 138,
+            "quote": "A generation , or age cohort , is a group of persons who have experienced a common social, political, historical, and economic environment.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c4-3",
+          "explanation": "Choose a status measure that fits the research question. Income can describe spending resources; occupation or education may capture other dimensions of standing. Combining measures gives a broader index, but may hide differences that matter for a particular product.",
+          "distinction": "Income is one status-related dimension; social status is not simply a bank balance.",
+          "evidence": {
+            "page": 157,
+            "quote": "Single-item indexes estimate social status on the basis of a single dimension such as education, income, or occupation.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 5,
+      "question": "How can a marketer recognize shared culture without stereotyping people?",
+      "connection": "Start with cultural layers and investigate identification in a particular setting. A person can draw on multiple identities at once.",
+      "steps": [
+        {
+          "title": "Locate shared patterns",
+          "text": "Identify values and behaviors that distinguish the subculture within the wider culture.",
+          "pages": [
+            171,
+            172
+          ]
+        },
+        {
+          "title": "Investigate variation",
+          "text": "Check differences in background, resources, and identification within broad ethnic labels.",
+          "pages": [
+            173,
+            178,
+            180
+          ]
+        },
+        {
+          "title": "Consider cultural adaptation",
+          "text": "Ask how language and generational experience relate to the consumption context, without assuming identity is erased.",
+          "pages": [
+            180
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c5-1",
+          "explanation": "A person can share a wider culture and identify with several subcultures at once. Ask how strongly a particular membership matters in this consumption setting. Do not treat membership as a fixed instruction that determines every brand choice.",
+          "distinction": "Group membership and strength of identification are related but different questions.",
+          "evidence": {
+            "page": 171,
+            "quote": "A subculture is a segment of a larger culture whose members share distinguishing values and patterns of behavior.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c5-2",
+          "explanation": "Broad ethnic labels contain different languages, histories, resources, and personal identities. Use the label as a starting point for respectful inquiry, then investigate the needs of the specific audience. Surface changes to an advertisement do not substitute for understanding that audience.",
+          "distinction": "An ethnic category describes shared background; it does not make all members one homogeneous market.",
+          "evidence": {
+            "page": 173,
+            "quote": "We define ethnic subcultures broadly as those whose members’ unique shared behaviors are based on a common racial, language, or national background.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c5-3",
+          "explanation": "Consider adaptation to a new culture alongside the person’s earlier cultural ties. Language use and generational experience can be relevant indicators in the book’s example, but neither proves that all other consumption patterns have changed. Avoid treating identity as an either-or choice.",
+          "distinction": "Adapting to a new culture does not necessarily mean abandoning an earlier identity.",
+          "evidence": {
+            "page": 180,
+            "quote": "Acculturation is the degree to which an immigrant has adapted to his or her new culture.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 6,
+      "question": "Who really makes a household purchase?",
+      "connection": "Understand the household’s needs and current situation, then map the roles in the decision. The roles can overlap and are not a fixed sequence of six different people.",
+      "steps": [
+        {
+          "title": "Describe the consumption unit",
+          "text": "Identify who shares the home, uses the product, and is affected by the decision.",
+          "pages": [
+            207,
+            208
+          ]
+        },
+        {
+          "title": "Locate current needs",
+          "text": "Use household composition and life-cycle circumstances to investigate needs and available resources.",
+          "pages": [
+            211,
+            212
+          ]
+        },
+        {
+          "title": "Map decision roles",
+          "text": "Distinguish initiating, gathering information, influencing, deciding, purchasing, and using.",
+          "pages": [
+            221,
+            222
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c6-1",
+          "explanation": "Begin with the people sharing a home and how their consumption decisions affect one another. The user of a product may be different from the buyer, while a shared budget can constrain both. The chapter’s distinction between family and nonfamily households uses its US statistical context.",
+          "distinction": "A household can include unrelated people; a family household has the relationship criteria specified by the book.",
+          "evidence": {
+            "page": 207,
+            "quote": "The household is the basic consumption unit for most consumer goods.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c6-2",
+          "explanation": "Describe the household’s current composition before predicting needs. Ages, relationships, and the presence and ages of children help identify changing problems and resources. Read the model as possible routes between categories, because households can enter, leave, or revisit stages.",
+          "distinction": "A life-cycle category is a research framework, not a required sequence for every family.",
+          "evidence": {
+            "page": 211,
+            "quote": "All are based on the age and marital status of the adult members of the household and the presence and age of children.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c6-3",
+          "explanation": "Trace the decision from recognizing a need to using the offering. Ask who collects information, shapes the criteria, makes the final choice, and carries out the purchase. One person can hold several roles, and the pattern can change for another product.",
+          "distinction": "Purchaser identifies who buys; decision maker identifies who chooses. They may be the same person.",
+          "evidence": {
+            "page": 221,
+            "quote": "The family member who first recognizes a need or starts the purchase process.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 7,
+      "question": "When does a group change a consumer’s choice?",
+      "connection": "Identify the reference group and the influence mechanism before connecting group behavior to adoption. Influence mechanisms are alternatives, not three required stages.",
+      "steps": [
+        {
+          "title": "Locate the guiding group",
+          "text": "Ask whose perspectives or values are used for this behavior and situation.",
+          "pages": [
+            239,
+            240
+          ]
+        },
+        {
+          "title": "Diagnose the mechanism",
+          "text": "Distinguish useful information, acceptance pressure, and adoption of group values.",
+          "pages": [
+            247,
+            248
+          ]
+        },
+        {
+          "title": "Investigate spread",
+          "text": "For an innovation, examine perceived benefits, compatibility, complexity, trialability, visibility, and risk.",
+          "pages": [
+            261,
+            262,
+            265,
+            266
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c7-1",
+          "explanation": "Identify the group a consumer is using as a guide in this particular situation. It may be a group the person belongs to or one they aspire to join. Then ask which perspectives or values are relevant to the behavior being studied.",
+          "distinction": "A membership group describes belonging; a reference group describes a guiding influence on behavior.",
+          "evidence": {
+            "page": 239,
+            "quote": "A reference group is a group whose presumed perspectives or values are being used by an individual as the basis for his or her current behavior.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c7-2",
+          "explanation": "Explain the mechanism before recommending a campaign. Advice may provide useful evidence, group expectations may encourage conformity, or group values may become part of a person’s own identity. The same visible choice can arise through different mechanisms.",
+          "distinction": "Informational means evidence; normative means expectations or sanctions; identification means adopting values as one’s own.",
+          "evidence": {
+            "page": 247,
+            "quote": "Reference group influence can take three forms: informational, normative, and identification.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c7-3",
+          "explanation": "First ask whether the audience perceives the offering as new. Then examine benefits, fit with existing practices, difficulty, risk, and opportunities to observe or try it. These factors help diagnose adoption barriers; they do not guarantee a particular adoption curve.",
+          "distinction": "An innovation is perceived newness; diffusion concerns how adoption and use spread through a market.",
+          "evidence": {
+            "page": 265,
+            "quote": "The diffusion process is the manner in which innovations spread throughout a market.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 8,
+      "question": "Why does seeing an advertisement not guarantee understanding it?",
+      "connection": "Use exposure, attention, and interpretation as distinct checkpoints. Feedback from memory and context means this is an organizing model, not an automatic conveyor belt.",
+      "steps": [
+        {
+          "title": "Exposure: was it within sensory range?",
+          "text": "Establish the opportunity to encounter the stimulus. Deliberately seeking it differs from incidental exposure.",
+          "pages": [
+            301,
+            302
+          ]
+        },
+        {
+          "title": "Attention: was it processed?",
+          "text": "Investigate stimulus features, personal goals and ability, and the situation competing for limited resources.",
+          "pages": [
+            306,
+            307,
+            313,
+            314
+          ]
+        },
+        {
+          "title": "Interpretation: what did it mean?",
+          "text": "Ask the consumer to explain the message; prior experience and expectations can change the meaning.",
+          "pages": [
+            316,
+            317
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c8-1",
+          "explanation": "Establish whether the stimulus could reach the senses before asking what people thought about it. An advertisement can be present in a feed or environment without receiving attention. Deliberately visiting a brand site is also exposure, with a different selection context.",
+          "distinction": "Exposure is an opportunity to process information; it is not evidence that processing occurred.",
+          "evidence": {
+            "page": 301,
+            "quote": "Exposure occurs when a stimulus such as a banner ad comes within range of a person’s sensory receptor nerves—vision, in this example.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c8-2",
+          "explanation": "Ask what competes for the consumer’s limited processing resources. Features of the stimulus, the person’s goals and ability, and the surrounding situation all matter. A prominent design can attract attention without ensuring that the intended claim is understood.",
+          "distinction": "Attention selects information for processing; interpretation concerns the meaning assigned to it.",
+          "evidence": {
+            "page": 306,
+            "quote": "Attention requires consumers to allocate limited mental resources toward the processing of incoming stimuli, such as packages seen on store shelves or banner ads on the web.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c8-3",
+          "explanation": "Once information is noticed, ask what meaning the consumer assigns to it. Prior knowledge, expectations, reference points, and the context can change that meaning. Test understanding of the claim rather than assuming that noticing it means agreeing with the intended interpretation.",
+          "distinction": "The message a marketer sends and the meaning a consumer receives are different things to investigate.",
+          "evidence": {
+            "page": 316,
+            "quote": "Interpretation is the assignment of meaning to sensations.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 9,
+      "question": "How does a momentary experience become a brand association?",
+      "connection": "Connect current processing with stored associations and distinguish two learning mechanisms. A desired position is only useful when consumers actually develop the relevant associations.",
+      "steps": [
+        {
+          "title": "Process information",
+          "text": "Keep the immediate message manageable and link it to existing knowledge in working memory.",
+          "pages": [
+            344,
+            345,
+            346,
+            347
+          ]
+        },
+        {
+          "title": "Identify the learning mechanism",
+          "text": "Separate pairing a stimulus with a response from reinforcing a behavior through its outcome.",
+          "pages": [
+            350,
+            351,
+            352,
+            356
+          ]
+        },
+        {
+          "title": "Examine associations",
+          "text": "Study the image consumers hold, then compare it with the intended position relative to competitors.",
+          "pages": [
+            346,
+            366,
+            367
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c9-1",
+          "explanation": "Distinguish what is active in the moment from what is stored for later use. Working memory has limits; meaningful grouping and links to existing knowledge can support processing. Later retrieval depends on activating relevant associations, so storage does not guarantee recall in every situation.",
+          "distinction": "Working memory concerns currently active processing; long-term memory concerns stored knowledge and associations.",
+          "evidence": {
+            "page": 344,
+            "quote": "short-term memory (STM) , or working memory, is that portion of total memory that is currently activated or in use.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c9-2",
+          "explanation": "For classical conditioning, identify the paired stimuli and the response the pairing is intended to evoke. For operant conditioning, identify the person’s action and the reinforcing outcome that follows. Describe what is being learned instead of labeling every repeated advertisement as the same process.",
+          "distinction": "Classical conditioning links stimuli and responses; operant conditioning concerns behavior and its consequences.",
+          "evidence": {
+            "page": 350,
+            "quote": "There are two basic forms of conditioned learning: classical and operant.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c9-3",
+          "explanation": "First find the associations consumers currently connect with a brand. Then decide which relative image the marketer wants within a defined segment and competitive set. Communication, product performance, and usage experience need to support that intended position.",
+          "distinction": "Brand image is held by consumers; positioning is a marketer’s attempt to shape a relative image.",
+          "evidence": {
+            "page": 367,
+            "quote": "Product positioning is a decision by a marketer to try to achieve a defined brand image relative to competition within a market segment.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 10,
+      "question": "What energizes a choice, shapes it, and gives it a feeling?",
+      "connection": "Motivation, personality, and emotion provide complementary perspectives. They are not three stages, and one purchase cannot reveal a unique motive with certainty.",
+      "steps": [
+        {
+          "title": "Ask why",
+          "text": "Investigate the need or goal energizing behavior. A choice may serve more than one need.",
+          "pages": [
+            385,
+            386
+          ]
+        },
+        {
+          "title": "Ask about characteristic tendencies",
+          "text": "Distinguish the person’s personality from human characteristics associated with the brand.",
+          "pages": [
+            396,
+            399,
+            400,
+            401
+          ]
+        },
+        {
+          "title": "Ask about feelings",
+          "text": "Examine pleasure, arousal, and dominance in the particular consumption situation.",
+          "pages": [
+            385,
+            401,
+            402,
+            403,
+            404
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c10-1",
+          "explanation": "A purchase can serve several needs, and the same purchase can serve different motives for different people. Use a needs framework to generate questions, then seek evidence for the relevant motive. Maslow’s categories help organize inquiry but do not compel every person to follow one rigid order.",
+          "distinction": "A product’s features describe what it offers; motives concern why a person seeks it.",
+          "evidence": {
+            "page": 385,
+            "quote": "Motivation is the energizing force that activates behavior and provides purpose and direction to that behavior.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c10-2",
+          "explanation": "Keep the person’s characteristic tendencies separate from human qualities associated with a brand. Advertising, user imagery, and spokespeople can contribute to perceived brand personality. Investigate the audience’s actual associations rather than treating the intended personality as already established.",
+          "distinction": "Consumer personality concerns the individual; brand personality concerns perceptions of the brand.",
+          "evidence": {
+            "page": 399,
+            "quote": "Brand personality is a set of human characteristics that become associated with a brand.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c10-3",
+          "explanation": "Ask which feelings an experience evokes and under what circumstances. The PAD framework describes pleasure, arousal, and dominance as dimensions, helping distinguish pleasantness from intensity or perceived control. Different people can react differently to the same communication.",
+          "distinction": "Arousal describes activation; it is not the same as positive feeling or liking.",
+          "evidence": {
+            "page": 385,
+            "quote": "Emotions are strong, relatively uncontrollable feelings that affect our behavior.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 11,
+      "question": "How can a message change attitudes without guaranteeing a purchase?",
+      "connection": "First identify the attitude component, then choose an appropriate persuasion approach and consider processing conditions. Situational constraints can still prevent behavior.",
+      "steps": [
+        {
+          "title": "Separate attitude components",
+          "text": "Identify beliefs, feelings, and response tendencies instead of treating attitude as one observed purchase.",
+          "pages": [
+            417,
+            420,
+            421,
+            424
+          ]
+        },
+        {
+          "title": "Choose a belief strategy",
+          "text": "Change perceived performance, attribute importance, additional beliefs, or the ideal used for comparison.",
+          "pages": [
+            424,
+            425
+          ]
+        },
+        {
+          "title": "Consider elaboration",
+          "text": "Assess whether relevant arguments or accessible cues are likely to receive attention in this situation.",
+          "pages": [
+            428,
+            429
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c11-1",
+          "explanation": "Separate what someone believes, how they feel, and how they intend or tend to respond. These components can be related without being perfectly consistent. A favorable intention may not become a purchase when money, availability, or other situational constraints intervene.",
+          "distinction": "A behavioral intention is part of attitude; the completed behavior is a separate observation.",
+          "evidence": {
+            "page": 417,
+            "quote": "it is useful to consider attitudes as having three components: cognitive (beliefs), affective (feelings), and behavioral (response tendencies).",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c11-2",
+          "explanation": "Diagnose the belief structure before choosing a message. You might address perceived brand performance, the importance of an attribute, an additional belief, or the consumer’s ideal. Each approach changes a different part of the evaluation and needs evidence for the claim being made.",
+          "distinction": "Adding a belief introduces an attribute or use; changing importance alters how much an existing attribute matters.",
+          "evidence": {
+            "page": 425,
+            "quote": "Another approach to changing the cognitive component of an attitude is to add new beliefs to the consumer’s belief structure, as illustrated in the chapter opener.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c11-3",
+          "explanation": "Ask whether the consumer is likely to think carefully about the message. When elaboration is high, relevant arguments deserve attention; when it is low, accessible cues may have more influence. Routes describe processing conditions, not two permanent personality types.",
+          "distinction": "Central and peripheral processing differ in elaboration; a cue is not automatically persuasive in every context.",
+          "evidence": {
+            "page": 428,
+            "quote": "The elaboration likelihood model (ELM) is a theory about how attitudes are formed and changed under varying conditions of involvement.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 12,
+      "question": "How do self-perception and lifestyle connect with consumption?",
+      "connection": "Self-concept concerns how someone sees or wants to see themselves. Lifestyle expresses a way of living within constraints, and consumption can reinforce or alter that pattern.",
+      "steps": [
+        {
+          "title": "Locate the self perspective",
+          "text": "Distinguish actual from ideal and private from social self-concept.",
+          "pages": [
+            453
+          ]
+        },
+        {
+          "title": "Trace the way of living",
+          "text": "Investigate activities, interests, and consumption alongside resources and circumstances.",
+          "pages": [
+            453,
+            460,
+            461
+          ]
+        },
+        {
+          "title": "Measure relevant patterns",
+          "text": "Choose broad or product-specific psychographic questions to fit the marketing problem.",
+          "pages": [
+            461,
+            462
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c12-1",
+          "explanation": "Use two questions to locate the perspective: actual or ideal, and private or social? This creates four ways to think about self-perception and desired identity. The social self is still the person’s perception of how others see them, not a survey of others’ actual opinions.",
+          "distinction": "Actual means perceived present self; ideal means desired self. Private and social identify the viewpoint.",
+          "evidence": {
+            "page": 453,
+            "quote": "Self-concept is defined as the totality of the individual’s thoughts and feelings having reference to himself or herself as an object.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c12-2",
+          "explanation": "Look for patterns in how someone spends time, what interests them, and how consumption fits their way of living. Resources constrain what is possible. A desired lifestyle can guide purchases, while those experiences can reinforce or alter the lifestyle over time.",
+          "distinction": "Lifestyle is a pattern of living; owning one product does not establish the entire pattern.",
+          "evidence": {
+            "page": 460,
+            "quote": "Desired lifestyle determines many of a person’s consumption decisions, which in turn reinforce or alter that person’s lifestyle.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c12-3",
+          "explanation": "Decide whether the research concerns broad lifestyles or behavior around a specific activity. Measure relevant attitudes, interests, activities, and values, then use other variables to describe the groups. A segment’s usefulness depends on how well it informs the actual marketing decision.",
+          "distinction": "Psychographics explores lifestyle-related patterns; demographics describes population characteristics.",
+          "evidence": {
+            "page": 461,
+            "quote": "Attempts to develop quantitative measures of lifestyle were initially referred to as psychographics .",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 13,
+      "question": "Why might the same person choose differently tomorrow?",
+      "connection": "Describe the consumption situation before attributing a choice only to personality or brand preference. Types of situation and characteristics of situation are two different lenses.",
+      "steps": [
+        {
+          "title": "Locate the occasion",
+          "text": "Identify whether communication, purchase, use, or disposition is being analyzed.",
+          "pages": [
+            507,
+            508,
+            509,
+            510
+          ]
+        },
+        {
+          "title": "Describe five characteristics",
+          "text": "Examine physical and social surroundings, time, task, and temporary states.",
+          "pages": [
+            510,
+            515,
+            517,
+            518,
+            519
+          ]
+        },
+        {
+          "title": "Check symbolic structure",
+          "text": "For a ritual, identify the meaningful occasion and related structured behaviors.",
+          "pages": [
+            520
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c13-1",
+          "explanation": "Locate the moment being analyzed: receiving a message, making a purchase, using a product, or disposing of it. A product may fit one occasion and fail another. The same person can therefore make different choices without changing their general preferences.",
+          "distinction": "Types of situation identify the consumption context; characteristics describe what that context is like.",
+          "evidence": {
+            "page": 507,
+            "quote": "Consumer behavior occurs within four broad categories or types of situations: the communications situation, the purchase situation, the usage situation, and the disposition situation.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c13-2",
+          "explanation": "Describe the setting through five lenses: physical environment, other people, time, task, and temporary states. Keep the purpose of the activity separate from the person’s momentary mood or fatigue. This gives a more precise explanation than saying only that the atmosphere matters.",
+          "distinction": "Task definition is why the activity is happening; antecedent state is a temporary condition brought to it.",
+          "evidence": {
+            "page": 510,
+            "quote": "The five key dimensions or characteristics are physical surroundings, social surroundings, temporal perspectives, task definition, and antecedent states.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c13-3",
+          "explanation": "Identify the symbolic occasion and the structured behaviors linked to it. Rituals can be private as well as public, so the meaningful pattern matters more than the size of the audience. Explore the offering’s role in the occasion without assuming every person performs the same ritual.",
+          "distinction": "A routine is repeated behavior; the ritual framework also emphasizes symbolic meaning and structure.",
+          "evidence": {
+            "page": 520,
+            "quote": "A ritual situation can be described as a socially defined occasion that triggers a set of interrelated behaviors that occur in a structured format and that have symbolic meaning.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 14,
+      "question": "When does a difference become a problem worth acting on?",
+      "connection": "A perceived actual–desired gap must be important enough to activate a decision. The amount of deliberation and the consumer’s awareness determine the next research question.",
+      "steps": [
+        {
+          "title": "Compare states",
+          "text": "Describe the actual situation and desired situation from the consumer’s perspective.",
+          "pages": [
+            537,
+            538,
+            539
+          ]
+        },
+        {
+          "title": "Check activation and involvement",
+          "text": "Ask whether the gap matters enough to act and how much interest this particular purchase receives.",
+          "pages": [
+            533,
+            534,
+            537,
+            539
+          ]
+        },
+        {
+          "title": "Check awareness",
+          "text": "For an active problem, demonstrate the solution; for an inactive problem, establish recognition credibly first.",
+          "pages": [
+            539,
+            540
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c14-1",
+          "explanation": "Assess interest in this particular decision, not just enthusiasm for the product category. A familiar repeat purchase can involve little deliberation even for someone who likes the brand. Importance, risk, available time, and the situation can change the decision process.",
+          "distinction": "Enduring product involvement is continuing interest; purchase involvement concerns a particular decision.",
+          "evidence": {
+            "page": 534,
+            "quote": "purchase involvement is a temporary state of an individual or household.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c14-2",
+          "explanation": "Compare the perceived actual state with the desired state, then ask whether the gap is important enough to motivate action. The gap can arise from a changed actual condition or changed expectations. Recognizing a discrepancy does not ensure the person will immediately search or buy.",
+          "distinction": "A discrepancy is a difference; problem recognition requires a difference sufficient to activate the process.",
+          "evidence": {
+            "page": 537,
+            "quote": "Problem recognition is the result of a discrepancy between a desired state and an actual state that is sufficient to arouse and activate the decision process.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c14-3",
+          "explanation": "Find out whether the consumer already recognizes the problem. If so, explain how the offering addresses it. If awareness is missing, first establish the relevant problem credibly; do not assume that everyone needs the marketer’s proposed solution.",
+          "distinction": "Active and inactive describe awareness of the problem, not whether the product is currently being used.",
+          "evidence": {
+            "page": 539,
+            "quote": "An active problem is one the consumer is aware of or will become aware of in the normal course of events.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 15,
+      "question": "How does a consumer narrow what to investigate?",
+      "connection": "Memory and external information help identify options and criteria. Knowing a brand does not guarantee considering it, and searching has perceived costs as well as benefits.",
+      "steps": [
+        {
+          "title": "Start with memory",
+          "text": "Ask what information and options are already accessible, then what must be found externally.",
+          "pages": [
+            555
+          ]
+        },
+        {
+          "title": "Identify the shortlist",
+          "text": "Separate known options from those actually evaluated for this problem.",
+          "pages": [
+            556,
+            557
+          ]
+        },
+        {
+          "title": "Evaluate further search",
+          "text": "Consider the expected value and cost of the next information-gathering activity.",
+          "pages": [
+            571,
+            573
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c15-1",
+          "explanation": "Start with information recalled from memory. If it is insufficient, the consumer may consult people, independent sources, marketers, or direct experience. Some search also happens without an immediate purchase, so distinguish ongoing interest from search triggered by a problem.",
+          "distinction": "Internal search uses memory; external search obtains information beyond memory.",
+          "evidence": {
+            "page": 555,
+            "quote": "This is external search , which can involve independent sources, personal sources, marketer-based information, and product experience.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c15-2",
+          "explanation": "A known brand is not necessarily an option the person would evaluate. Ask which alternatives are known, which are unacceptable or neutral, and which enter the shortlist for this particular problem. Consideration can include substitutes from a different product category.",
+          "distinction": "Awareness means known; consideration means actually evaluated for the current problem.",
+          "evidence": {
+            "page": 556,
+            "quote": "The evoked set (also called the consideration set ) is composed of those brands or products one will evaluate for the solution of a particular consumer problem.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c15-3",
+          "explanation": "Ask what one more search activity might add and what it would cost. Better fit, price, or reassurance can be weighed against time, effort, money, and forgone activities. The relevant judgment is perceived by the consumer, not necessarily a calculation made with full information.",
+          "distinction": "Total search can be useful while the next search step is no longer worth its perceived cost.",
+          "evidence": {
+            "page": 571,
+            "quote": "All else equal, greater perceived benefits increase search, while greater perceived costs reduce search.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 16,
+      "question": "Why can two sensible decision rules produce different winners?",
+      "connection": "Identify how the consumer chooses, what criteria matter, and whether trade-offs are permitted. The framework explains possible rules, not a requirement to calculate every choice.",
+      "steps": [
+        {
+          "title": "Identify the approach",
+          "text": "Distinguish imagined experience, overall attitude, and attribute comparisons; approaches can overlap.",
+          "pages": [
+            588,
+            589,
+            590,
+            591
+          ]
+        },
+        {
+          "title": "Define criteria",
+          "text": "Separate criterion importance from perceived brand performance.",
+          "pages": [
+            591,
+            594,
+            595
+          ]
+        },
+        {
+          "title": "Apply the rule",
+          "text": "Check whether strengths compensate for weaknesses or a cutoff or priority determines acceptance.",
+          "pages": [
+            599,
+            600,
+            601,
+            602,
+            603,
+            604,
+            605
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c16-1",
+          "explanation": "Listen to the explanation of the choice. Is the person imagining the experience, relying on an overall brand evaluation, or comparing individual attributes? More than one approach can appear during a decision, so avoid forcing the whole purchase into one exclusive category.",
+          "distinction": "Affective choice imagines feelings; attitude-based choice uses overall evaluation; attribute-based choice compares dimensions.",
+          "evidence": {
+            "page": 588,
+            "quote": "The three choice processes are affective choice, attitude-based choice, and attribute-based choice.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c16-2",
+          "explanation": "Identify the dimensions used to judge alternatives, the perceived performance of each option, and the importance of those dimensions. Criteria can include functional features, feelings, or social reactions. Keep what matters separate from how well a brand is believed to deliver it.",
+          "distinction": "Criterion importance is a weight; perceived performance is an evaluation of an option on that criterion.",
+          "evidence": {
+            "page": 591,
+            "quote": "Evaluative criteria are the various dimensions, features, or benefits a consumer looks for in response to a specific problem.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c16-3",
+          "explanation": "Ask whether an excellent score can offset a weak one. If trade-offs are allowed, a compensatory approach may apply. If a cutoff or priority excludes the option regardless of strengths elsewhere, examine the specific noncompensatory rule. The same option can win under one rule and fail another.",
+          "distinction": "Conjunctive requires all minimums; disjunctive requires a high score on at least one; lexicographic follows criterion priority.",
+          "evidence": {
+            "page": 604,
+            "quote": "very good performance on one evaluative criterion cannot compensate for poor performance on another evaluative criterion.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 17,
+      "question": "How do channels and availability reshape a purchase?",
+      "connection": "Trace the activity across channels, then consider outlet perceptions and stock availability. Research and buying need not occur in the same place.",
+      "steps": [
+        {
+          "title": "Map research and purchase",
+          "text": "Distinguish webrooming from showrooming by the channels used for each activity.",
+          "pages": [
+            626,
+            627
+          ]
+        },
+        {
+          "title": "Explain outlet choice",
+          "text": "Investigate the retailer’s functional and emotional associations for this target and task.",
+          "pages": [
+            630,
+            631
+          ]
+        },
+        {
+          "title": "Respond to availability",
+          "text": "Examine substitution, another outlet, postponement, or abandonment if the original item is unavailable.",
+          "pages": [
+            645
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c17-1",
+          "explanation": "Trace research and purchase separately. Online research followed by buying in a store is webrooming; store research followed by online purchase is showrooming. A phone used inside a shop does not by itself identify which sequence occurred.",
+          "distinction": "A channel is where an activity takes place; a device is the tool used to access it.",
+          "evidence": {
+            "page": 626,
+            "quote": "The need for omni-channel shopping arises because no retailing format is optimal on all dimensions.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c17-2",
+          "explanation": "Assess the bundle of associations a consumer holds about the outlet. Merchandise, service, convenience, atmosphere, or online usability and trust can all matter. Compare outlets for the target customer and task rather than treating one attribute as the whole image.",
+          "distinction": "Outlet image concerns the retailer; brand image may concern a product sold by that retailer.",
+          "evidence": {
+            "page": 630,
+            "quote": "A given consumer’s or target market’s perception of all the attributes associated with a retail outlet is generally referred to as the store image.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c17-3",
+          "explanation": "Treat a stockout as a new decision situation. The buyer might substitute, visit another outlet, postpone, or abandon the purchase. Commitment to the original brand and perceived similarity of alternatives help explain why the same stockout produces different responses.",
+          "distinction": "Switching outlets preserves the brand choice; switching brands changes it. Neither response is automatic.",
+          "evidence": {
+            "page": 645,
+            "quote": "the store being temporarily out of a particular brand, obviously affect a consumer’s purchase decision.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 18,
+      "question": "What happens after a customer pays?",
+      "connection": "Separate uncertainty about a decision, evaluation of the experience, and longer-term attachment. These are related processes, not identical measures of success.",
+      "steps": [
+        {
+          "title": "Investigate doubt",
+          "text": "Check whether a difficult, consequential choice creates postpurchase dissonance.",
+          "pages": [
+            661,
+            662
+          ]
+        },
+        {
+          "title": "Evaluate the experience",
+          "text": "Compare perceived performance with expectations and minimum desired performance.",
+          "pages": [
+            669,
+            670
+          ]
+        },
+        {
+          "title": "Explain repeat buying",
+          "text": "Distinguish habit, convenience, or switching barriers from psychological commitment.",
+          "pages": [
+            677,
+            678
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c18-1",
+          "explanation": "Dissonance concerns doubt about the choice after a consequential or difficult decision. The consumer may seek confirming information or reconsider alternatives. Investigate uncertainty about the decision separately from an evaluation that the product performed badly.",
+          "distinction": "Dissonance is doubt about a decision; dissatisfaction is an unfavorable consumption evaluation.",
+          "evidence": {
+            "page": 661,
+            "quote": "Doubt or anxiety of this type is referred to as postpurchase dissonance .",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c18-2",
+          "explanation": "Compare perceived performance with expectations, then also consider the minimum level the consumer desires. Matching expectations at an acceptable level can produce satisfaction. Matching very low expectations need not create satisfaction merely because the outcome was predictable.",
+          "distinction": "Expected performance is what the consumer anticipates; minimum desired performance is what is acceptable.",
+          "evidence": {
+            "page": 670,
+            "quote": "When perceptions of product performance match expectations that are at or above the minimum desired performance level, satisfaction generally results.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c18-3",
+          "explanation": "Observe repeat buying, then investigate its reason. Convenience, habit, price, or switching costs can sustain purchases without strong attachment. Commitment adds psychological and emotional connection, but still does not make a customer immune to competing offers.",
+          "distinction": "Repeat purchase is observable behavior; commitment includes the attachment behind behavior.",
+          "evidence": {
+            "page": 677,
+            "quote": "Repeat purchasers are desirable, but mere repeat purchasers are vulnerable to competitor actions.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 19,
+      "question": "Why is selling to an organization more than persuading its buyer?",
+      "connection": "Organizational characteristics, the buying situation, and the decision-making unit jointly frame the purchase. The book’s hospital example illustrates different concerns across participants.",
+      "steps": [
+        {
+          "title": "Describe the organization",
+          "text": "Use size, activity, objectives, location, industry, and workforce where relevant.",
+          "pages": [
+            724
+          ]
+        },
+        {
+          "title": "Classify the buying situation",
+          "text": "Distinguish straight rebuy, modified rebuy, and new task by familiarity, importance, and complexity.",
+          "pages": [
+            715,
+            716,
+            717
+          ]
+        },
+        {
+          "title": "Map participants and criteria",
+          "text": "Identify functional concerns and overlapping decision roles; do not focus only on the purchasing function.",
+          "pages": [
+            713,
+            714,
+            715
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c19-1",
+          "explanation": "Map the people participating in this purchase and the concerns of their functions. Identify who supplies information, influences the choice, decides, buys, and uses. Roles may overlap, and important unfamiliar decisions can involve more participants.",
+          "distinction": "The purchasing department is a function; the decision-making unit includes everyone participating in the particular decision.",
+          "evidence": {
+            "page": 715,
+            "quote": "Members of the decision-making unit play various roles, such as information gatherer, key influencer, decision maker, purchaser, or user.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c19-2",
+          "explanation": "Ask how familiar and consequential the decision is. A straight rebuy repeats an established purchase, a modified rebuy reconsiders changed requirements or suppliers, and a new task brings an unfamiliar decision. These conditions help determine the information and participation required.",
+          "distinction": "A modified rebuy changes an existing purchase situation; a new task concerns an unfamiliar buying requirement.",
+          "evidence": {
+            "page": 715,
+            "quote": "The buying process is influenced by the importance of the purchase and the complexity and difficulty of the choice.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c19-3",
+          "explanation": "Describe the organization’s size, activity, objectives, location, industry, and workforce where relevant. These characteristics help frame its needs and structure. Then identify the actual people and criteria for the purchase; a company profile alone does not reveal the final decision.",
+          "distinction": "Firmographics describes an organization; the DMU identifies participants in a particular purchase.",
+          "evidence": {
+            "page": 724,
+            "quote": "Firmographics involve both organization characteristics —for example, size, activities, objectives, location, and industry category— and characteristics of the composition of the organization —for example, gender, age, education, and income distribution of employees.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "chapterId": 20,
+      "question": "How could an audience take away more than the literal words say?",
+      "connection": "Evaluate audience understanding, data practices, and implied meanings. Regulatory frameworks here are historical US textbook content; they do not establish current legal compliance.",
+      "steps": [
+        {
+          "title": "Identify audience comprehension",
+          "text": "Distinguish recognizing selling intent from understanding claims, comparisons, and disclosures.",
+          "pages": [
+            751,
+            752,
+            753
+          ]
+        },
+        {
+          "title": "Examine privacy design",
+          "text": "Use the historical design, choice, and transparency framework to ask questions about data handling.",
+          "pages": [
+            760,
+            761
+          ]
+        },
+        {
+          "title": "Evaluate the implied takeaway",
+          "text": "Separate direct claims, logical implications, and context-dependent pragmatic inferences.",
+          "pages": [
+            763,
+            764
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "conceptId": "c20-1",
+          "explanation": "Ask both whether the audience recognizes the attempt to sell and whether it understands the specific claim. Vocabulary, fantasy, comparisons, and disclosures can alter comprehension. The book’s regulatory examples are historical US material, not a statement of current legal requirements.",
+          "distinction": "Recognizing an advertisement and correctly understanding its content are separate comprehension questions.",
+          "evidence": {
+            "page": 752,
+            "quote": "They should recognize that younger children have a limited capacity to evaluate the credibility of information, may not understand the persuasive intent of advertising, and may not even understand that they are being subjected to advertising.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c20-2",
+          "explanation": "Use the book’s historical framework to ask when privacy is considered, what choices are offered, and whether practices are understandable. Assess the actual data flow instead of relying only on a notice. Current legal obligations require current, jurisdiction-specific sources.",
+          "distinction": "A historical design framework offers analysis questions; it does not establish present legal compliance.",
+          "evidence": {
+            "page": 760,
+            "quote": "Companies should promote consumer privacy throughout their organizations and at every stage of the development of their products and services.",
+            "kind": "verbatim-excerpt"
+          }
+        },
+        {
+          "conceptId": "c20-3",
+          "explanation": "Read the literal words, then ask what a reasonable audience might infer in context. An implication can arise from hedging, juxtaposed statements, or missing qualifications even when the literal wording is narrower. Evaluate the takeaway rather than checking isolated words alone.",
+          "distinction": "A logical implication must follow from the statements; a pragmatic implication is inferred through practical interpretation.",
+          "evidence": {
+            "page": 763,
+            "quote": "Pragmatic implications are the implied meanings (that are neither directly stated nor logically implied) that consumers derive when interpreting language in a “practical” way.",
+            "kind": "verbatim-excerpt"
+          }
+        }
+      ]
+    }
+  ]
+}

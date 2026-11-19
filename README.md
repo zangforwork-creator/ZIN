@@ -30,3 +30,10 @@ Official guide: https://docs.github.com/en/pages/getting-started-with-github-pag
 Node 22 trở lên. `npm run check` và `npm test` không cần cài dependency. Kiểm tra trình duyệt cần `npm ci` rồi `npm run qa`, sử dụng Chrome hoặc Edge đã cài; có thể đặt biến `STUDIO_BROWSER` tới executable. Kết quả và ảnh được ghi vào `.preview/`, không đưa lên Git.
 
 Thư viện PDF.js và fflate cùng giấy phép đã nằm trong `vendor/`. Không cần npm để website hoạt động trên GitHub Pages.
+
+## Course websites
+
+- [Consumer Behavior](https://zangforwork-creator.github.io/ZIN/consumer-behavior/)
+- [Digital Marketing](https://zangforwork-creator.github.io/ZIN/digital-marketing/)
+
+Both course websites are served from this same repository and are linked from Studio. Their progress stores and backups remain separate. Original books and slides are not included.

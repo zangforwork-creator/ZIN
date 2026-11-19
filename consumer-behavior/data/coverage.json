@@ -1,0 +1,840 @@
+{
+  "version": 1,
+  "release": "Batch (c)",
+  "los": [
+    {
+      "lo": 1,
+      "status": "ready",
+      "location": "#module/1",
+      "concepts": 4
+    },
+    {
+      "lo": 2,
+      "status": "ready",
+      "location": "#module/2",
+      "concepts": 5
+    },
+    {
+      "lo": 3,
+      "status": "ready",
+      "location": "#module/3",
+      "concepts": 15
+    },
+    {
+      "lo": 4,
+      "status": "ready",
+      "location": "#module/4",
+      "concepts": 5
+    },
+    {
+      "lo": 5,
+      "status": "ready",
+      "location": "#module/5",
+      "concepts": 5
+    }
+  ],
+  "terms": [
+    {
+      "term": "Conceptual model",
+      "bookPage": 24,
+      "conceptId": "c1-23",
+      "lo": 4,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Consumer behavior",
+      "bookPage": 6,
+      "conceptId": "c1-1",
+      "lo": 1,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Consumer cost",
+      "bookPage": 19,
+      "conceptId": "c1-13",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Customer satisfaction",
+      "bookPage": 22,
+      "conceptId": "c1-17",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Customer value",
+      "bookPage": 10,
+      "conceptId": "c1-2",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Distribution",
+      "bookPage": 20,
+      "conceptId": "c1-14",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Injurious consumption",
+      "bookPage": 22,
+      "conceptId": "c1-18",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Lifestyle",
+      "bookPage": 26,
+      "conceptId": "c1-24",
+      "lo": 4,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Marketing communications",
+      "bookPage": 18,
+      "conceptId": "c1-12",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Marketing mix",
+      "bookPage": 17,
+      "conceptId": "c1-10",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Marketing strategy",
+      "bookPage": 17,
+      "conceptId": "c1-10",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Market segment",
+      "bookPage": 13,
+      "conceptId": "c1-3",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Need set",
+      "bookPage": 14,
+      "conceptId": "c1-3",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Price",
+      "bookPage": 19,
+      "conceptId": "c1-13",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Product",
+      "bookPage": 17,
+      "conceptId": "c1-11",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Product position",
+      "bookPage": 21,
+      "conceptId": "c1-17",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Self-concept",
+      "bookPage": 26,
+      "conceptId": "c1-24",
+      "lo": 4,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Service",
+      "bookPage": 20,
+      "conceptId": "c1-15",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Social marketing",
+      "bookPage": 8,
+      "conceptId": "c1-21",
+      "lo": 2,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Target market",
+      "bookPage": 16,
+      "conceptId": "c1-9",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    },
+    {
+      "term": "Total product",
+      "bookPage": 11,
+      "conceptId": "c1-7",
+      "lo": 3,
+      "location": "#glossary",
+      "status": "Module and glossary ready"
+    }
+  ],
+  "textbook": [
+    {
+      "number": 1,
+      "section": "Review",
+      "lo": 1,
+      "location": "#exam/textbook/1",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 2,
+      "section": "Review",
+      "lo": 1,
+      "location": "#exam/textbook/2",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 3,
+      "section": "Review",
+      "lo": 2,
+      "location": "#exam/textbook/3",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 4,
+      "section": "Review",
+      "lo": 2,
+      "location": "#exam/textbook/4",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 5,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/5",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 6,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/6",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 7,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/7",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 8,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/8",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 9,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/9",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 10,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/10",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 11,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/11",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 12,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/12",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 13,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/13",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 14,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/14",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 15,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/15",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 16,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/16",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 17,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/17",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 18,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/18",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 19,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/19",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 20,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/20",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 21,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/21",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 22,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/22",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 23,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/23",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 24,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/24",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 25,
+      "section": "Review",
+      "lo": 4,
+      "location": "#exam/textbook/25",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 26,
+      "section": "Review",
+      "lo": 3,
+      "location": "#exam/textbook/26",
+      "status": "Flashcard, model answer, and self-grade ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 27,
+      "section": "Discussion",
+      "lo": 3,
+      "location": "#exam/textbook/27",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 28,
+      "section": "Discussion",
+      "lo": 3,
+      "location": "#exam/textbook/28",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 29,
+      "section": "Discussion",
+      "lo": 4,
+      "location": "#exam/textbook/29",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 30,
+      "section": "Discussion",
+      "lo": 4,
+      "location": "#exam/textbook/30",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 31,
+      "section": "Discussion",
+      "lo": 4,
+      "location": "#exam/textbook/31",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 32,
+      "section": "Discussion",
+      "lo": 4,
+      "location": "#exam/textbook/32",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 33,
+      "section": "Discussion",
+      "lo": 3,
+      "location": "#exam/textbook/33",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 34,
+      "section": "Discussion",
+      "lo": 3,
+      "location": "#exam/textbook/34",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 35,
+      "section": "Discussion",
+      "lo": 3,
+      "location": "#exam/textbook/35",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 36,
+      "section": "Discussion",
+      "lo": 3,
+      "location": "#exam/textbook/36",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 37,
+      "section": "Discussion",
+      "lo": 3,
+      "location": "#exam/textbook/37",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 38,
+      "section": "Discussion",
+      "lo": 2,
+      "location": "#exam/textbook/38",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 39,
+      "section": "Discussion",
+      "lo": 5,
+      "location": "#exam/textbook/39",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 31
+    },
+    {
+      "number": 40,
+      "section": "Discussion",
+      "lo": 5,
+      "location": "#exam/textbook/40",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 32
+    },
+    {
+      "number": 41,
+      "section": "Discussion",
+      "lo": 1,
+      "location": "#exam/textbook/41",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 32
+    },
+    {
+      "number": 42,
+      "section": "Fieldwork",
+      "lo": 3,
+      "location": "#exam/textbook/42",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 32
+    },
+    {
+      "number": 43,
+      "section": "Fieldwork",
+      "lo": 2,
+      "location": "#exam/textbook/43",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 32
+    },
+    {
+      "number": 44,
+      "section": "Fieldwork",
+      "lo": 4,
+      "location": "#exam/textbook/44",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 32
+    },
+    {
+      "number": 45,
+      "section": "Fieldwork",
+      "lo": 3,
+      "location": "#exam/textbook/45",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 32
+    },
+    {
+      "number": 46,
+      "section": "Fieldwork",
+      "lo": 1,
+      "location": "#exam/textbook/46",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 32
+    },
+    {
+      "number": 47,
+      "section": "Fieldwork",
+      "lo": 3,
+      "location": "#exam/textbook/47",
+      "status": "Application prompt and checklist ready",
+      "questionBookPage": 32
+    }
+  ],
+  "blueprints": [
+    {
+      "item": 1,
+      "lo": 1,
+      "title": "Consumer behavior",
+      "conceptId": "c1-1",
+      "status": "Complete card and practice",
+      "location": "#module/1"
+    },
+    {
+      "item": 2,
+      "lo": 1,
+      "title": "Marketing 2 Consumers and Marketing 4 Consumers",
+      "conceptId": "c1-4",
+      "status": "Complete card and practice",
+      "location": "#module/1"
+    },
+    {
+      "item": 3,
+      "lo": 1,
+      "title": "Social media and crowdsourcing",
+      "conceptId": "c1-5",
+      "status": "Complete card and practice",
+      "location": "#module/1"
+    },
+    {
+      "item": 4,
+      "lo": 1,
+      "title": "Four key aspects of consumer behavior",
+      "conceptId": "c1-6",
+      "status": "Complete card and practice",
+      "location": "#module/1"
+    },
+    {
+      "item": 5,
+      "lo": 2,
+      "title": "Applications of consumer behavior",
+      "conceptId": "c1-20",
+      "status": "Complete card and practice",
+      "location": "#module/2"
+    },
+    {
+      "item": 6,
+      "lo": 2,
+      "title": "Social marketing",
+      "conceptId": "c1-21",
+      "status": "Complete card and practice",
+      "location": "#module/2"
+    },
+    {
+      "item": 7,
+      "lo": 2,
+      "title": "Ziploc TableTops and customer value",
+      "conceptId": "c1-22",
+      "status": "Complete card and practice",
+      "location": "#module/2"
+    },
+    {
+      "item": 8,
+      "lo": 3,
+      "title": "Customer value",
+      "conceptId": "c1-2",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 9,
+      "lo": 3,
+      "title": "Total product and experience",
+      "conceptId": "c1-7",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 10,
+      "lo": 3,
+      "title": "Market analysis: Consumers, Company, Competitors, Conditions",
+      "conceptId": "c1-8",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 11,
+      "lo": 3,
+      "title": "Market segment and need set",
+      "conceptId": "c1-3",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 12,
+      "lo": 3,
+      "title": "Target market and segment attractiveness",
+      "conceptId": "c1-9",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 13,
+      "lo": 3,
+      "title": "Marketing strategy and marketing mix",
+      "conceptId": "c1-10",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 14,
+      "lo": 3,
+      "title": "Product",
+      "conceptId": "c1-11",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 15,
+      "lo": 3,
+      "title": "Marketing communications",
+      "conceptId": "c1-12",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 16,
+      "lo": 3,
+      "title": "Price and consumer cost",
+      "conceptId": "c1-13",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 17,
+      "lo": 3,
+      "title": "Distribution",
+      "conceptId": "c1-14",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 18,
+      "lo": 3,
+      "title": "Service: core and auxiliary",
+      "conceptId": "c1-15",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 19,
+      "lo": 3,
+      "title": "Consumer decision process",
+      "conceptId": "c1-16",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 20,
+      "lo": 3,
+      "title": "Firm outcomes: product position, sales, profits, and customer satisfaction",
+      "conceptId": "c1-17",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 21,
+      "lo": 3,
+      "title": "Individual outcomes: need satisfaction and injurious consumption",
+      "conceptId": "c1-18",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 22,
+      "lo": 3,
+      "title": "Society outcomes",
+      "conceptId": "c1-19",
+      "status": "Complete card and practice",
+      "location": "#module/3"
+    },
+    {
+      "item": 23,
+      "lo": 4,
+      "title": "Conceptual model",
+      "conceptId": "c1-23",
+      "status": "Complete card and practice",
+      "location": "#module/4"
+    },
+    {
+      "item": 24,
+      "lo": 4,
+      "title": "Self-concept and lifestyle",
+      "conceptId": "c1-24",
+      "status": "Complete card and practice",
+      "location": "#module/4"
+    },
+    {
+      "item": 25,
+      "lo": 4,
+      "title": "Limits of the conceptual model",
+      "conceptId": "c1-25",
+      "status": "Complete card and practice",
+      "location": "#module/4"
+    },
+    {
+      "item": 26,
+      "lo": 4,
+      "title": "Organizations and regulation",
+      "conceptId": "c1-26",
+      "status": "Complete card and practice",
+      "location": "#module/4"
+    },
+    {
+      "item": 27,
+      "lo": 5,
+      "title": "Functional and symbolic consumption meaning",
+      "conceptId": "c1-27",
+      "status": "Complete card and practice",
+      "location": "#module/5"
+    },
+    {
+      "item": 28,
+      "lo": 5,
+      "title": "Meanings in the mundane, avoidance, and innovation",
+      "conceptId": "c1-28",
+      "status": "Complete card and practice",
+      "location": "#module/5"
+    },
+    {
+      "item": 29,
+      "lo": 5,
+      "title": "Do marketers create needs?",
+      "conceptId": "c1-29",
+      "status": "Complete card and practice",
+      "location": "#module/5"
+    }
+  ],
+  "figures": [
+    {
+      "id": "1-1",
+      "status": "Interactive map and build-model game ready",
+      "location": "#module/3"
+    },
+    {
+      "id": "1-2",
+      "status": "Illustrative expectation/delivery tool ready",
+      "location": "#tools/satisfaction"
+    },
+    {
+      "id": "1-3",
+      "status": "Interactive feedback map, factor sorting and purchase trace ready",
+      "location": "#module/4"
+    },
+    {
+      "id": "Table 1-1",
+      "status": "Scoring tool ready",
+      "location": "#tools/segments"
+    }
+  ]
+}

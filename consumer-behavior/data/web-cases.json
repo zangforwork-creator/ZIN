@@ -1,0 +1,65 @@
+[
+  {
+    "id": "case-f3252d60",
+    "title": "VALORANT: Vietnamese identity at a regional tournament",
+    "summary": "Riot Games and VNGGames incorporated Vietnamese cultural elements into the VCT Pacific Stage 1 experience in Ho Chi Minh City. The source explores how the host location became part of the event’s brand story.",
+    "url": "https://www.brandsvietnam.com/campaign/valorant-tu-non-la-den-vinahouse",
+    "publisher": "Brands Vietnam",
+    "brand": "VALORANT",
+    "date": null,
+    "campaignPeriod": "2026",
+    "checkedAt": "2026-11-16T10:38:31.624Z",
+    "question": "How can an international event retain its brand identity while using local culture meaningfully rather than as decoration?",
+    "kind": "web",
+    "image": "assets/case-f3252d60.jpg",
+    "chapters": [
+      7,
+      12
+    ],
+    "learningPrompt": "How can reference groups and cultural symbols contribute to a sense of belonging?",
+    "imageSha256": "bd56ffb7c952f58a1fe19399e76a5d3ddd7503d5dd8ee2c35e9458019e6ba744",
+    "language": "en"
+  },
+  {
+    "id": "case-826a8cc6",
+    "title": "Clorox: Clean is the beginning",
+    "summary": "Clorox extended its cleaning story to positive new beginnings in everyday life, drawing on a neuroscience-based argument. When reading the case, distinguish the brand message from scientific evidence and the conditions under which a claim applies.",
+    "url": "https://www.brandsvietnam.com/campaign/clorox-clean-is-the-beginning",
+    "publisher": "Brands Vietnam",
+    "brand": "Clorox",
+    "date": null,
+    "campaignPeriod": "September 2017 (historical case)",
+    "checkedAt": "2026-11-16T10:38:31.624Z",
+    "question": "What evidence supports the brand promise? Which campaign results are self-reported, and what would require independent verification?",
+    "kind": "web",
+    "image": "assets/case-826a8cc6.jpg",
+    "chapters": [
+      10,
+      13
+    ],
+    "learningPrompt": "Does this message evoke a consumption motive or establish a result? How far does the available evidence support a conclusion?",
+    "imageSha256": "5ef0d967bdf655fbe45c9f96c3613f4605bf26f278777edeb94a70a37d76dd44",
+    "language": "en"
+  },
+  {
+    "id": "case-626a3cfe",
+    "title": "NESCAFÉ Signature: Why not enjoy café-style coffee at home?",
+    "summary": "NESCAFÉ used the inconveniences of going to a café to introduce an at-home coffee experience. The source describes connections between usage occasions, outdoor advertising, and a partnership with Grab.",
+    "url": "https://www.brandsvietnam.com/campaign/nescafe-signature-sao-khong-di-ca-phe-tai-nha",
+    "publisher": "Brands Vietnam",
+    "brand": "NESCAFÉ",
+    "date": null,
+    "campaignPeriod": "",
+    "checkedAt": "2026-11-16T10:38:31.624Z",
+    "question": "How do the consumer insight, product benefit, and advertising context connect? What might limit a shift from café visits to coffee at home?",
+    "kind": "web",
+    "image": "assets/case-626a3cfe.jpg",
+    "chapters": [
+      6,
+      13
+    ],
+    "learningPrompt": "How does being at home change the desired benefits and usage situation?",
+    "imageSha256": "f15cb8eda93891bf74b96584273e21d5038307d7c8f2091a96ed9661cbf2de16",
+    "language": "en"
+  }
+]

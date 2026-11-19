@@ -1,0 +1,801 @@
+{
+  "version": 1,
+  "sourceHash": "cd079cb9c064cac8f95989d3ceb2d1105220c6d5d041e956958208c8e1643103",
+  "steps": [
+    "Hook",
+    "Explore the model",
+    "Try the concepts",
+    "Case challenge",
+    "Mini-game",
+    "Recall check",
+    "Your summary"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "status": "available",
+      "title": "Consumer Behavior and Marketing Strategy",
+      "shortTitle": "The coffee shop effect",
+      "icon": "cup",
+      "minutes": 12,
+      "difficulty": "Beginner",
+      "badge": "Consumer Detective",
+      "objectives": [
+        "Look beyond the checkout.",
+        "Compare benefits with total costs.",
+        "Build a needs-first segment."
+      ],
+      "hook": {
+        "title": "Same coffee. Different choice.",
+        "scenario": "Two coffee shops sell the same drink. One costs less; the other is closer and has a quiet seat. Why might you choose the second?",
+        "options": [
+          "The drink is the whole story.",
+          "Time and experience matter too.",
+          "Everyone chooses the cheapest."
+        ],
+        "correct": 1,
+        "explanation": "Nice observation: price is only one cost. Convenience and a useful experience can add value for a particular customer.",
+        "pages": [
+          24,
+          29
+        ]
+      },
+      "model": {
+        "title": "Build a strategy, one decision at a time",
+        "intro": "Select a glowing node. Answer its question to open the next connection. This compact introduction combines decisions and outcomes; Module 3 provides the full Figure 1-1 learning map.",
+        "nodes": [
+          {
+            "id": "analysis",
+            "label": "Market analysis",
+            "icon": "search",
+            "explanation": "Investigate customers, your company, competitors, and market conditions. This gives you evidence for the next decisions.",
+            "example": "A hypothetical Starbucks team compares what commuters need with what nearby cafés offer.",
+            "pages": [
+              29,
+              30
+            ],
+            "quiz": {
+              "prompt": "Before choosing an audience, what should you investigate?",
+              "options": [
+                "Only your logo",
+                "Customer needs and alternatives",
+                "The most expensive advertising channel"
+              ],
+              "correct": 1,
+              "explanation": "Market analysis examines the market before committing to a solution.",
+              "pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "segments",
+            "label": "Segmentation",
+            "icon": "people",
+            "explanation": "Identify different sets of needs and group people with similar needs. Describe those groups so you can understand and reach them.",
+            "example": "An original café scenario groups quiet-study seekers separately from quick-pickup commuters.",
+            "pages": [
+              32,
+              33
+            ],
+            "quiz": {
+              "prompt": "Which is a needs-based grouping?",
+              "options": [
+                "Everyone born in the same month",
+                "People needing a quiet place to study",
+                "Everyone who saw an advertisement"
+              ],
+              "correct": 1,
+              "explanation": "The group shares a relevant problem the offering could solve.",
+              "pages": [
+                32,
+                33
+              ]
+            }
+          },
+          {
+            "id": "target",
+            "label": "Target selection",
+            "icon": "target",
+            "explanation": "Evaluate which segment is attractive and feasible to serve. Fit matters: your resources must support the value you promise.",
+            "example": "A hypothetical small café chooses study sessions because it has seats and reliable Wi-Fi.",
+            "pages": [
+              33,
+              36
+            ],
+            "quiz": {
+              "prompt": "Your café has six seats. Which question matters before targeting all-day study groups?",
+              "options": [
+                "Can our space support their needs profitably?",
+                "Is the segment name catchy?",
+                "Can we promise unlimited seats?"
+              ],
+              "correct": 0,
+              "explanation": "A target must fit your capabilities as well as its needs and attractiveness.",
+              "pages": [
+                33,
+                36
+              ]
+            }
+          },
+          {
+            "id": "mix",
+            "label": "Marketing mix",
+            "icon": "spark",
+            "explanation": "Coordinate the offering, price, communication, distribution, and service. Together they should deliver value to the chosen customers.",
+            "example": "In an invented Shopee purchase, delivery, product information, price, and service all shape the offer.",
+            "pages": [
+              29,
+              36
+            ],
+            "quiz": {
+              "prompt": "Which plan supports a quick-pickup audience?",
+              "options": [
+                "A long queue with a convenience slogan",
+                "Pre-ordering plus a reliable pickup process",
+                "A new slogan with no service change"
+              ],
+              "correct": 1,
+              "explanation": "The actual experience must support the promised benefit.",
+              "pages": [
+                29,
+                36
+              ]
+            }
+          },
+          {
+            "id": "outcomes",
+            "label": "Decisions & outcomes",
+            "icon": "chart",
+            "explanation": "Observe what happens for consumers, the firm, and society. Use that evidence to revisit assumptions instead of assuming the strategy worked.",
+            "example": "An original café scenario checks repeat visits, customer complaints, and cup disposal—not just initial sales.",
+            "pages": [
+              29
+            ],
+            "quiz": {
+              "prompt": "Which outcome would a checkout-only view miss?",
+              "options": [
+                "The receipt total",
+                "The payment method",
+                "Use, disposal, and later customer experience"
+              ],
+              "correct": 2,
+              "explanation": "Consumer behavior extends beyond acquisition and includes broader consequences.",
+              "pages": [
+                25,
+                29
+              ]
+            }
+          }
+        ],
+        "edges": [
+          [
+            "analysis",
+            "segments",
+            "informs"
+          ],
+          [
+            "segments",
+            "target",
+            "helps select"
+          ],
+          [
+            "target",
+            "mix",
+            "guides"
+          ],
+          [
+            "mix",
+            "outcomes",
+            "influences"
+          ]
+        ]
+      },
+      "concepts": [
+        {
+          "id": "c1-1",
+          "term": "Consumer behavior",
+          "icon": "journey",
+          "definition": "How people select, acquire, use, and dispose of offerings to meet needs, including consequences for people and society.",
+          "analogy": "Think of the whole movie, not just the checkout scene.",
+          "analogyLimit": "Real decisions can loop or overlap rather than follow a script.",
+          "example": "Hypothetical IKEA shopper: compare desks, buy one, use it, then donate it.",
+          "mistake": "Only the person paying and the moment of purchase matter.",
+          "question": "Why should a marketer investigate what happens after purchase?",
+          "answer": "Use, evaluation, and disposal shape later decisions and affect consumers and society.",
+          "hint": "Think about use, evaluation, and disposal.",
+          "vi": "Hành vi người tiêu dùng gồm chọn, mua, sử dụng và thải bỏ; không chỉ là lúc thanh toán.",
+          "pages": [
+            25,
+            26
+          ],
+          "activity": {
+            "prompt": "A customer donates an old desk. Is this consumer behavior?",
+            "options": [
+              "Yes: disposal is part of consumption",
+              "No: there is no payment"
+            ],
+            "correct": 0,
+            "explanation": "Disposal is included even when nothing new is bought.",
+            "pages": [
+              25
+            ]
+          },
+          "quote": "select, secure, use, and dispose of products, services, experiences, or ideas",
+          "quotePage": 25
+        },
+        {
+          "id": "c1-2",
+          "term": "Customer value",
+          "icon": "balance",
+          "definition": "Perceived benefits minus all the costs of getting those benefits.",
+          "analogy": "A backpack has rewards inside—and weight you must carry.",
+          "analogyLimit": "Value is perceived, not a precise score measured by this analogy.",
+          "example": "Hypothetical café choice: a higher price can be worthwhile if it saves a long walk.",
+          "mistake": "The cheapest price always means the greatest value.",
+          "question": "How could a more expensive café provide greater customer value?",
+          "answer": "Benefits such as a useful space or lower time and effort costs may outweigh the higher price for that customer.",
+          "hint": "Include time, effort, and benefits—not only price.",
+          "vi": "Giá trị khách hàng là lợi ích cảm nhận trừ toàn bộ chi phí, kể cả thời gian và công sức.",
+          "pages": [
+            24,
+            29,
+            36
+          ],
+          "activity": {
+            "prompt": "Which cost can remain even when the drink is free?",
+            "options": [
+              "Its pleasant taste",
+              "A 20-minute queue",
+              "Friendly service"
+            ],
+            "correct": 1,
+            "explanation": "Waiting consumes time. A zero price does not remove every customer cost.",
+            "pages": [
+              29
+            ]
+          },
+          "quote": "Customer value is the difference between all the benefits",
+          "quotePage": 29
+        },
+        {
+          "id": "c1-3",
+          "term": "Segmentation by need sets",
+          "icon": "people",
+          "definition": "Group customers with similar product-related needs, then describe and select groups to serve.",
+          "analogy": "Sort study playlists by purpose before choosing who each one helps.",
+          "analogyLimit": "People can share several needs; segments are not permanent boxes.",
+          "example": "Original café scenario: quiet-study customers and rush-hour commuters need different experiences.",
+          "mistake": "Dividing people by age alone finishes segmentation.",
+          "question": "Name the four segmentation steps and explain why needs come first.",
+          "answer": "Identify need sets; group customers with similar needs; describe each group; select attractive groups the business can serve. Needs identify the value to provide.",
+          "hint": "Needs → groups → descriptions → selection.",
+          "vi": "Phân khúc: xác định nhu cầu → nhóm khách có nhu cầu giống nhau → mô tả nhóm → chọn nhóm phù hợp.",
+          "pages": [
+            32,
+            33,
+            36
+          ],
+          "activity": {
+            "prompt": "Which step comes before describing a segment?",
+            "options": [
+              "Designing a logo",
+              "Grouping customers with similar needs",
+              "Choosing an advertising slogan"
+            ],
+            "correct": 1,
+            "explanation": "Find the shared needs and groups before describing who is in them.",
+            "pages": [
+              32,
+              33
+            ]
+          },
+          "quote": "focusing first on needs and then on consumer characteristics associated with those needs",
+          "quotePage": 33
+        }
+      ],
+      "case": {
+        "brand": "Campus Cup",
+        "title": "Your café. Three decisions.",
+        "context": "Campus Cup is a fictional café near a university. You have reliable Wi-Fi, twelve seats, and a limited budget. Build an offer that fits.",
+        "metrics": [
+          "Customer fit",
+          "Delivery feasibility"
+        ],
+        "rounds": [
+          {
+            "prompt": "Who will you serve first?",
+            "options": [
+              "Everyone in the city",
+              "Students who need a quiet 60-minute study break",
+              "Anyone who likes blue packaging"
+            ],
+            "correct": 1,
+            "explanation": "A shared usage need gives you a clearer basis for an offer than an extremely broad or decorative grouping.",
+            "pages": [
+              32,
+              33,
+              36
+            ],
+            "consequences": [
+              [
+                -1,
+                -1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "prompt": "What should the offer prioritize?",
+            "options": [
+              "Quiet seating, clear seat availability, and dependable Wi-Fi",
+              "A large discount with no seating plan",
+              "A promise of unlimited seats"
+            ],
+            "correct": 0,
+            "explanation": "Align the marketing mix with the need. A promise your capacity cannot support creates a mismatch.",
+            "pages": [
+              29,
+              36
+            ],
+            "consequences": [
+              [
+                2,
+                2
+              ],
+              [
+                0,
+                -1
+              ],
+              [
+                -1,
+                -2
+              ]
+            ]
+          },
+          {
+            "prompt": "What should you learn after opening?",
+            "options": [
+              "Only how many people paid today",
+              "Whether the logo gets likes",
+              "Whether the space meets needs, repeat visits occur, and waste is handled"
+            ],
+            "correct": 2,
+            "explanation": "Evaluate use, later experiences, and consequences alongside sales. This gives evidence to improve the strategy.",
+            "pages": [
+              25,
+              29
+            ],
+            "consequences": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                2,
+                1
+              ]
+            ]
+          }
+        ]
+      },
+      "games": {
+        "sort": {
+          "title": "Pack the value backpack",
+          "description": "Drag each item to Benefits or Costs. Or select an item, then select a category.",
+          "categories": [
+            "Benefits",
+            "Costs"
+          ],
+          "items": [
+            {
+              "id": "taste",
+              "label": "Enjoyable taste",
+              "category": 0,
+              "explanation": "Taste can add a benefit the customer values."
+            },
+            {
+              "id": "wifi",
+              "label": "Reliable Wi-Fi",
+              "category": 0,
+              "explanation": "A useful service can add a benefit in a study context."
+            },
+            {
+              "id": "wait",
+              "label": "Time in a queue",
+              "category": 1,
+              "explanation": "Time is a cost even when the selling price is low."
+            },
+            {
+              "id": "fee",
+              "label": "Delivery fee",
+              "category": 1,
+              "explanation": "A fee adds to the monetary costs of the offer."
+            }
+          ],
+          "pages": [
+            29
+          ]
+        },
+        "sequence": {
+          "title": "Build a needs-first segment",
+          "description": "Drag the steps into order, or use the up and down buttons.",
+          "items": [
+            {
+              "id": "needs",
+              "label": "Identify need sets"
+            },
+            {
+              "id": "groups",
+              "label": "Group customers with similar needs"
+            },
+            {
+              "id": "describe",
+              "label": "Describe each group"
+            },
+            {
+              "id": "select",
+              "label": "Select attractive segments"
+            }
+          ],
+          "initialOrder": [
+            "describe",
+            "select",
+            "needs",
+            "groups"
+          ],
+          "explanation": "Start with the value people need, organize similar needs, describe the groups, then select whom you can serve.",
+          "pages": [
+            32,
+            33,
+            36
+          ]
+        },
+        "match": {
+          "title": "Connect the idea",
+          "description": "Match each term to its meaning. Drag a term onto a definition, or select one of each.",
+          "pairs": [
+            {
+              "id": "c1-1",
+              "term": "Consumer behavior",
+              "meaning": "Selecting, acquiring, using, and disposing"
+            },
+            {
+              "id": "c1-2",
+              "term": "Customer value",
+              "meaning": "Benefits compared with total costs"
+            },
+            {
+              "id": "c1-3",
+              "term": "Segmentation",
+              "meaning": "Grouping customers by related needs"
+            }
+          ],
+          "pages": [
+            25,
+            29,
+            32
+          ]
+        },
+        "mistake": {
+          "title": "Spot the costly assumption",
+          "prompt": "“Our drink is cheapest, so every customer gets the most value.” What is the mistake?",
+          "options": [
+            "It ignores benefits and non-price costs",
+            "It considers the customer’s perspective",
+            "It checks whether people need the offer"
+          ],
+          "correct": 0,
+          "explanation": "A low price can be outweighed by time, effort, or missing benefits. Compare total value for the target customer.",
+          "pages": [
+            29
+          ]
+        },
+        "flash": {
+          "title": "Flashcard sprint",
+          "description": "Recall the term before revealing it. Optional elapsed-time mode adds a combo, not a deadline.",
+          "cards": [
+            {
+              "prompt": "The process includes use and disposal, not just buying.",
+              "answer": "Consumer behavior",
+              "conceptId": "c1-1"
+            },
+            {
+              "prompt": "Benefits minus total customer costs.",
+              "answer": "Customer value",
+              "conceptId": "c1-2"
+            },
+            {
+              "prompt": "First step before grouping and describing customers.",
+              "answer": "Identify need sets",
+              "conceptId": "c1-3"
+            }
+          ],
+          "pages": [
+            25,
+            29,
+            32
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "status": "locked",
+      "title": "Cross-Cultural Variations in Consumer Behavior",
+      "shortTitle": "Cross-Cultural Variations in Consumer Behavior",
+      "icon": "globe",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c2-1",
+        "c2-2",
+        "c2-3"
+      ]
+    },
+    {
+      "id": 3,
+      "status": "locked",
+      "title": "Changing American Society: Values",
+      "shortTitle": "Changing American Society: Values",
+      "icon": "leaf",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c3-1",
+        "c3-2",
+        "c3-3"
+      ]
+    },
+    {
+      "id": 4,
+      "status": "locked",
+      "title": "Changing American Society: Demographics and Social Stratification",
+      "shortTitle": "Changing American Society: Demographics and Social Stratification",
+      "icon": "people",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c4-1",
+        "c4-2",
+        "c4-3"
+      ]
+    },
+    {
+      "id": 5,
+      "status": "locked",
+      "title": "Changing American Society: Subcultures",
+      "shortTitle": "Changing American Society: Subcultures",
+      "icon": "layers",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c5-1",
+        "c5-2",
+        "c5-3"
+      ]
+    },
+    {
+      "id": 6,
+      "status": "locked",
+      "title": "American Society: Families and Households",
+      "shortTitle": "American Society: Families and Households",
+      "icon": "home",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c6-1",
+        "c6-2",
+        "c6-3"
+      ]
+    },
+    {
+      "id": 7,
+      "status": "locked",
+      "title": "Group Influences on Consumer Behavior",
+      "shortTitle": "Group Influences on Consumer Behavior",
+      "icon": "network",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c7-1",
+        "c7-2",
+        "c7-3"
+      ]
+    },
+    {
+      "id": 8,
+      "status": "locked",
+      "title": "Perception: Exposure, Attention, and Interpretation",
+      "shortTitle": "Perception: Exposure, Attention, and Interpretation",
+      "icon": "eye",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c8-1",
+        "c8-2",
+        "c8-3"
+      ]
+    },
+    {
+      "id": 9,
+      "status": "locked",
+      "title": "Learning, Memory, and Product Positioning",
+      "shortTitle": "Learning, Memory, and Product Positioning",
+      "icon": "brain",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c9-1",
+        "c9-2",
+        "c9-3"
+      ]
+    },
+    {
+      "id": 10,
+      "status": "locked",
+      "title": "Motivation, Personality, and Emotion",
+      "shortTitle": "Motivation, Personality, and Emotion",
+      "icon": "heart",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c10-1",
+        "c10-2",
+        "c10-3"
+      ]
+    },
+    {
+      "id": 11,
+      "status": "locked",
+      "title": "Attitudes and Influencing Attitudes",
+      "shortTitle": "Attitudes and Influencing Attitudes",
+      "icon": "chat",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c11-1",
+        "c11-2",
+        "c11-3"
+      ]
+    },
+    {
+      "id": 12,
+      "status": "locked",
+      "title": "Self-Concept and Lifestyle",
+      "shortTitle": "Self-Concept and Lifestyle",
+      "icon": "person",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c12-1",
+        "c12-2",
+        "c12-3"
+      ]
+    },
+    {
+      "id": 13,
+      "status": "locked",
+      "title": "Situational Influences",
+      "shortTitle": "Situational Influences",
+      "icon": "clock",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c13-1",
+        "c13-2",
+        "c13-3"
+      ]
+    },
+    {
+      "id": 14,
+      "status": "locked",
+      "title": "Consumer Decision Process and Problem Recognition",
+      "shortTitle": "Consumer Decision Process and Problem Recognition",
+      "icon": "target",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c14-1",
+        "c14-2",
+        "c14-3"
+      ]
+    },
+    {
+      "id": 15,
+      "status": "locked",
+      "title": "Information Search",
+      "shortTitle": "Information Search",
+      "icon": "search",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c15-1",
+        "c15-2",
+        "c15-3"
+      ]
+    },
+    {
+      "id": 16,
+      "status": "locked",
+      "title": "Alternative Evaluation and Selection",
+      "shortTitle": "Alternative Evaluation and Selection",
+      "icon": "balance",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c16-1",
+        "c16-2",
+        "c16-3"
+      ]
+    },
+    {
+      "id": 17,
+      "status": "locked",
+      "title": "Outlet Selection and Purchase",
+      "shortTitle": "Outlet Selection and Purchase",
+      "icon": "bag",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c17-1",
+        "c17-2",
+        "c17-3"
+      ]
+    },
+    {
+      "id": 18,
+      "status": "locked",
+      "title": "Postpurchase Processes, Satisfaction, and Customer Commitment",
+      "shortTitle": "Postpurchase Processes, Satisfaction, and Customer Commitment",
+      "icon": "star",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c18-1",
+        "c18-2",
+        "c18-3"
+      ]
+    },
+    {
+      "id": 19,
+      "status": "locked",
+      "title": "Organizational Buyer Behavior",
+      "shortTitle": "Organizational Buyer Behavior",
+      "icon": "building",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c19-1",
+        "c19-2",
+        "c19-3"
+      ]
+    },
+    {
+      "id": 20,
+      "status": "locked",
+      "title": "Marketing Regulation and Consumer Protection",
+      "shortTitle": "Marketing Regulation and Consumer Protection",
+      "icon": "shield",
+      "minutes": null,
+      "difficulty": null,
+      "conceptIds": [
+        "c20-1",
+        "c20-2",
+        "c20-3"
+      ]
+    }
+  ]
+}

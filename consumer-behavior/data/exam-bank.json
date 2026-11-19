@@ -1,0 +1,2788 @@
+{
+  "version": 1,
+  "sourceHash": "cd079cb9c064cac8f95989d3ceb2d1105220c6d5d041e956958208c8e1643103",
+  "target": 150,
+  "questions": [
+    {
+      "id": "ex1-001",
+      "type": "mc",
+      "lo": 1,
+      "conceptId": "c1-1",
+      "pages": [
+        25
+      ],
+      "difficulty": "Applied",
+      "prompt": "A student team buys access to design software and later cancels it. Which scope statement is most complete?",
+      "kind": "original-question",
+      "options": [
+        "Only the payer and the first payment belong to consumer behavior.",
+        "The group’s selection, acquisition, use, ending access, and effects on people and society can be studied.",
+        "Only physical goods qualify, so software access is outside the field."
+      ],
+      "optionFeedback": [
+        "This leaves out groups, use, and disposal or ending consumption.",
+        "This preserves actors, processes, and wider effects.",
+        "Services and experiences are included too."
+      ],
+      "correct": 1,
+      "explanation": "The broader definition concerns multiple actors, offerings, processes, and consequences."
+    },
+    {
+      "id": "ex1-002",
+      "type": "mc",
+      "lo": 1,
+      "conceptId": "c1-4",
+      "pages": [
+        24
+      ],
+      "difficulty": "Applied",
+      "prompt": "A firm lets interested buyers opt into updates, compare independent reviews, and contribute ideas. Which interpretation fits?",
+      "kind": "original-question",
+      "options": [
+        "Marketing 4 Consumers, with permission and greater consumer participation.",
+        "Marketing 2 Consumers because every message is marketing.",
+        "Proof the firm no longer influences any consumer choice."
+      ],
+      "optionFeedback": [
+        "This aligns with the chapter’s relationship and power shift.",
+        "The distinction concerns the approach, not whether marketing exists.",
+        "Consumer power does not eliminate the firm’s influence."
+      ],
+      "correct": 0,
+      "explanation": "Permission, participation, and verification characterize the Marketing 4 Consumers discussion."
+    },
+    {
+      "id": "ex1-003",
+      "type": "mc",
+      "lo": 1,
+      "conceptId": "c1-5",
+      "pages": [
+        25
+      ],
+      "difficulty": "Applied",
+      "prompt": "A brand treats its most-liked online idea as proof of every customer’s needs. What is the strongest criticism?",
+      "kind": "original-question",
+      "options": [
+        "Crowdsourcing cannot produce any useful ideas.",
+        "Participation provides input, but representativeness still requires investigation.",
+        "Social media is entirely controlled by the firm."
+      ],
+      "optionFeedback": [
+        "The chapter recognizes the usefulness of consumer input.",
+        "A visible response does not establish population-wide needs.",
+        "Consumer-to-consumer communication extends beyond direct marketer control."
+      ],
+      "correct": 1,
+      "explanation": "The examples support listening and participation, not substituting popularity for contextual research."
+    },
+    {
+      "id": "ex1-004",
+      "type": "mc",
+      "lo": 1,
+      "conceptId": "c1-6",
+      "pages": [
+        26
+      ],
+      "difficulty": "Applied",
+      "prompt": "Two similar airline advertisements appeal differently to the same broad market. What should a manager investigate?",
+      "kind": "original-question",
+      "options": [
+        "Only which ad uses the larger typeface.",
+        "The behavioral assumptions and evidence for the actual consumers, situation, and service.",
+        "Whether one theory guarantees a universal winner."
+      ],
+      "optionFeedback": [
+        "Execution alone misses assumptions about behavior.",
+        "The chapter links assumptions with specific consumer research.",
+        "The chapter does not support universal predictions."
+      ],
+      "correct": 1,
+      "explanation": "Air France and Flexjet illustrate differing assumptions; decisions require category- and situation-specific evidence."
+    },
+    {
+      "id": "ex1-005",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-2",
+      "pages": [
+        29
+      ],
+      "difficulty": "Applied",
+      "prompt": "Two offers have the same selling price. One reduces travel and uncertainty. Which conclusion is justified?",
+      "kind": "original-question",
+      "options": [
+        "Their customer value must be identical.",
+        "The more convenient offer may provide more perceived value for the target customer.",
+        "The firm’s production cost alone determines which offer is better."
+      ],
+      "optionFeedback": [
+        "The nonprice sacrifices and benefits may differ.",
+        "Value includes the total benefit/cost comparison.",
+        "The customer’s perspective is required."
+      ],
+      "correct": 1,
+      "explanation": "Total costs and benefits, not only price, determine perceived customer value."
+    },
+    {
+      "id": "ex1-006",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-7",
+      "pages": [
+        30
+      ],
+      "difficulty": "Applied",
+      "prompt": "Two customers receive the same museum tour but feel differently about it. Which distinction matters?",
+      "kind": "original-question",
+      "options": [
+        "The internal experience need not be identical to the external service.",
+        "A service guarantees a fixed emotional response.",
+        "Total product means only the physical building."
+      ],
+      "optionFeedback": [
+        "Experience is largely internal.",
+        "The chapter does not claim uniform internal responses.",
+        "It includes the combined offering, not only a building."
+      ],
+      "correct": 0,
+      "explanation": "A firm supplies products and services, while experience concerns the engaged individual."
+    },
+    {
+      "id": "ex1-007",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-8",
+      "pages": [
+        31
+      ],
+      "difficulty": "Applied",
+      "prompt": "A firm assumes its strong business-sales reputation will automatically win household buyers. Which analysis is weak?",
+      "kind": "original-question",
+      "options": [
+        "Company capabilities and their fit with this market.",
+        "Only the weather forecast.",
+        "Only the number of demographic categories."
+      ],
+      "optionFeedback": [
+        "Relevant capabilities must be evaluated in context.",
+        "Conditions matter but do not identify this capability-transfer error.",
+        "Counting categories does not test capability relevance."
+      ],
+      "correct": 0,
+      "explanation": "IBM’s PC Jr. illustrates that strengths with business customers need not transfer to households."
+    },
+    {
+      "id": "ex1-008",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-8",
+      "pages": [
+        32
+      ],
+      "difficulty": "Applied",
+      "prompt": "After estimating which rival could respond and how, what is the next competitor-analysis question?",
+      "kind": "original-question",
+      "options": [
+        "Can our plan withstand the response, or does it need contingencies?",
+        "Can we assume rivals stay still?",
+        "Should we replace consumer analysis with competitor counts?"
+      ],
+      "optionFeedback": [
+        "This is the robustness question.",
+        "The question explicitly anticipates reactions.",
+        "The four components complement one another."
+      ],
+      "correct": 0,
+      "explanation": "The book asks whether the proposed strategy is robust enough for likely competitor actions."
+    },
+    {
+      "id": "ex1-009",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-3",
+      "pages": [
+        34
+      ],
+      "difficulty": "Applied",
+      "prompt": "A report repeats “Steady Shoppers: 46%” from the holiday table. Which label preserves its meaning?",
+      "kind": "original-question",
+      "options": [
+        "46% of all shoppers today.",
+        "46% of holiday spending in 2016 in the cited analysis.",
+        "46% guaranteed sales growth after targeting them."
+      ],
+      "optionFeedback": [
+        "The source is not a current population count.",
+        "This preserves the denominator and period.",
+        "The source is descriptive, not a causal forecast."
+      ],
+      "correct": 1,
+      "explanation": "The percentages describe historical holiday spending shares."
+    },
+    {
+      "id": "ex1-010",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-3",
+      "pages": [
+        33,
+        35
+      ],
+      "difficulty": "Applied",
+      "prompt": "Two buyers differ in age but want the same practical product benefits. What should segmentation research do?",
+      "kind": "original-question",
+      "options": [
+        "Assume they cannot share a segment.",
+        "Investigate their shared need set, then describe any media and context differences.",
+        "Ignore all descriptive characteristics permanently."
+      ],
+      "optionFeedback": [
+        "Demographic differences do not rule out shared needs.",
+        "Needs and segment descriptions play different roles.",
+        "Descriptions are needed to reach and serve groups."
+      ],
+      "correct": 1,
+      "explanation": "Need sets can cross demographics; descriptions still inform communication and service."
+    },
+    {
+      "id": "ex1-011",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-9",
+      "pages": [
+        35,
+        36
+      ],
+      "difficulty": "Applied",
+      "prompt": "Segment A is largest but expensive to serve; B fits the firm’s resources and can be profitable. What follows?",
+      "kind": "original-question",
+      "options": [
+        "A must be selected because size dominates every other criterion.",
+        "B deserves consideration alongside the evidence for superior value and profit.",
+        "A worksheet score is proof of profit without further analysis."
+      ],
+      "optionFeedback": [
+        "Profitability and capabilities also matter.",
+        "Attractiveness involves multiple criteria and fit.",
+        "The worksheet is an aid, not a validated predictor."
+      ],
+      "correct": 1,
+      "explanation": "Choose targets based on superior value and profitable fit, not size alone."
+    },
+    {
+      "id": "ex1-012",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-10",
+      "pages": [
+        36
+      ],
+      "difficulty": "Applied",
+      "prompt": "Which proposal most clearly expresses strategy rather than a single mix action?",
+      "kind": "original-question",
+      "options": [
+        "Post one new advertisement.",
+        "Provide dependable rapid pickup to time-pressed commuters through a coherent offer.",
+        "Pick the cheapest color for the package."
+      ],
+      "optionFeedback": [
+        "That is an isolated communications action.",
+        "This connects the target need and value promise with delivery.",
+        "This is a narrow execution choice."
+      ],
+      "correct": 1,
+      "explanation": "Strategy concerns how superior value will be provided to a target market."
+    },
+    {
+      "id": "ex1-013",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-11",
+      "pages": [
+        36
+      ],
+      "difficulty": "Applied",
+      "prompt": "Why could a digital transmission service compete with an overnight letter service?",
+      "kind": "original-question",
+      "options": [
+        "Both use identical physical packages.",
+        "They may satisfy the same underlying communication need.",
+        "Only firms in one named category can be competitors."
+      ],
+      "optionFeedback": [
+        "Physical similarity is not necessary.",
+        "This follows the need-satisfaction view of product.",
+        "The FedEx example shows otherwise."
+      ],
+      "correct": 1,
+      "explanation": "A product is defined by the perceived need it meets, including substitutes across categories."
+    },
+    {
+      "id": "ex1-014",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-12",
+      "pages": [
+        37,
+        38
+      ],
+      "difficulty": "Applied",
+      "prompt": "A team has chosen a message and a channel but no intended audience response. What is missing?",
+      "kind": "original-question",
+      "options": [
+        "The desired effect of communications.",
+        "The definition of physical distribution only.",
+        "Nothing, because sales always explains the immediate effect."
+      ],
+      "optionFeedback": [
+        "The team must specify what it wants the audience to do or learn.",
+        "That is not the missing communications question.",
+        "Ultimate sales goals need more specific immediate effects."
+      ],
+      "correct": 0,
+      "explanation": "Audience, effect, message, media, and timing are all required planning questions."
+    },
+    {
+      "id": "ex1-015",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-13",
+      "pages": [
+        38,
+        39
+      ],
+      "difficulty": "Applied",
+      "prompt": "A rental fee buys one day’s access, while a long journey adds inconvenience. Which classification is accurate?",
+      "kind": "original-question",
+      "options": [
+        "Both are the posted price.",
+        "The rental fee is price; the journey is another consumer cost.",
+        "Rental charges cannot be prices because no ownership transfers."
+      ],
+      "optionFeedback": [
+        "The journey is a nonprice sacrifice.",
+        "Price can buy limited usage rights.",
+        "The definition explicitly allows limited use."
+      ],
+      "correct": 1,
+      "explanation": "Price buys usage rights; consumer cost includes all sacrifices."
+    },
+    {
+      "id": "ex1-016",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-14",
+      "pages": [
+        39
+      ],
+      "difficulty": "Applied",
+      "prompt": "A retailer combines immediately available store items with a broader online assortment. What is the key decision?",
+      "kind": "original-question",
+      "options": [
+        "Distribution and cross-channel roles.",
+        "Proof all consumers perceive identical quality.",
+        "A decision to remove services from the marketing mix."
+      ],
+      "optionFeedback": [
+        "It concerns availability through channels.",
+        "That inference is unsupported.",
+        "Channels do not determine that definition."
+      ],
+      "correct": 0,
+      "explanation": "Channel combinations can use the strengths of each route to purchase."
+    },
+    {
+      "id": "ex1-017",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-15",
+      "pages": [
+        39
+      ],
+      "difficulty": "Applied",
+      "prompt": "For a purchased haircut, an optional free pickup shuttle is best described as what?",
+      "kind": "original-question",
+      "options": [
+        "The core service itself.",
+        "An auxiliary service enhancing the core service.",
+        "A replacement for all distribution decisions."
+      ],
+      "optionFeedback": [
+        "The haircut is the primary service.",
+        "It supports access to the main product.",
+        "A supporting activity does not eliminate channel decisions."
+      ],
+      "correct": 1,
+      "explanation": "The textbook distinguishes the core service as product and auxiliary support as service in the mix."
+    },
+    {
+      "id": "ex1-018",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-16",
+      "pages": [
+        29,
+        46
+      ],
+      "difficulty": "Applied",
+      "prompt": "Which statement correctly uses Figure 1-1’s six-stage model?",
+      "kind": "original-question",
+      "options": [
+        "Purchase is followed by use and evaluation, while actual decisions may involve little effort.",
+        "Every purchase requires an extended conscious search.",
+        "Figure 1-1 and Figure 1-3 must use identical groupings."
+      ],
+      "optionFeedback": [
+        "This preserves the labels and the model’s limits.",
+        "Low-involvement decisions are common.",
+        "Their stage groupings differ."
+      ],
+      "correct": 0,
+      "explanation": "Learn the figure’s labels without converting the framework into a universal rational sequence."
+    },
+    {
+      "id": "ex1-019",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-17",
+      "pages": [
+        40,
+        41
+      ],
+      "difficulty": "Applied",
+      "prompt": "A launch creates a convenient brand image and first-time sales, but users report poor delivery. Which inference is safest?",
+      "kind": "original-question",
+      "options": [
+        "Product position and initial sales do not establish customer satisfaction.",
+        "Sales prove all customer needs are met.",
+        "Position can exist only after use."
+      ],
+      "optionFeedback": [
+        "Post-use value still needs evaluation.",
+        "The chapter separates these outcomes.",
+        "Communications can form a position before purchase."
+      ],
+      "correct": 0,
+      "explanation": "Position, sales, profits, and satisfaction are distinct firm outcomes."
+    },
+    {
+      "id": "ex1-020",
+      "type": "mc",
+      "lo": 3,
+      "conceptId": "c1-18",
+      "pages": [
+        41,
+        42
+      ],
+      "difficulty": "Applied",
+      "prompt": "Which statement best distinguishes perceived from actual need fulfillment?",
+      "kind": "original-question",
+      "options": [
+        "A belief about benefit is always proof of the underlying outcome.",
+        "What a consumer believes and what actually happens may need separate evidence.",
+        "Any mismatch means marketing alone caused the problem."
+      ],
+      "optionFeedback": [
+        "Perceptions and actual effects can differ.",
+        "This is the textbook distinction.",
+        "The chapter does not make that causal claim."
+      ],
+      "correct": 1,
+      "explanation": "Perceived fulfillment concerns belief; actual fulfillment concerns whether the need is met."
+    },
+    {
+      "id": "ex1-021",
+      "type": "tf",
+      "lo": 1,
+      "conceptId": "c1-1",
+      "pages": [
+        25
+      ],
+      "difficulty": "Foundational",
+      "prompt": "A consumer-behavior analysis can include groups, services, disposal, and effects on society.",
+      "kind": "original-question",
+      "correct": true,
+      "explanation": "The broader definition explicitly includes these actors, offerings, processes, and effects.",
+      "correction": "The broader definition explicitly includes these actors, offerings, processes, and effects."
+    },
+    {
+      "id": "ex1-022",
+      "type": "tf",
+      "lo": 3,
+      "conceptId": "c1-9",
+      "pages": [
+        35
+      ],
+      "difficulty": "Foundational",
+      "prompt": "In Table 1-1, a score of 10 means the criterion is most favorable for the firm.",
+      "kind": "original-question",
+      "correct": true,
+      "explanation": "Ratings must follow the favorable direction; stronger competitors are not automatically a higher attractiveness rating.",
+      "correction": "Ratings must follow the favorable direction; stronger competitors are not automatically a higher attractiveness rating."
+    },
+    {
+      "id": "ex1-023",
+      "type": "tf",
+      "lo": 3,
+      "conceptId": "c1-19",
+      "pages": [
+        42,
+        43
+      ],
+      "difficulty": "Foundational",
+      "prompt": "A profitable marketing action necessarily improves social welfare.",
+      "kind": "original-question",
+      "correct": false,
+      "explanation": "Firm and societal outcomes can diverge; examine economic, physical-environment, and social-welfare consequences.",
+      "correction": "Firm and societal outcomes can diverge; examine economic, physical-environment, and social-welfare consequences."
+    },
+    {
+      "id": "ex1-024",
+      "type": "tf",
+      "lo": 2,
+      "conceptId": "c1-21",
+      "pages": [
+        27
+      ],
+      "difficulty": "Foundational",
+      "prompt": "Social marketing is defined only by whether the organization is a nonprofit.",
+      "kind": "original-question",
+      "correct": false,
+      "explanation": "The definition concerns beneficial behavior change, not simply the legal form of the organization.",
+      "correction": "The definition concerns beneficial behavior change, not simply the legal form of the organization."
+    },
+    {
+      "id": "ex1-025",
+      "type": "tf",
+      "lo": 4,
+      "conceptId": "c1-25",
+      "pages": [
+        43,
+        46
+      ],
+      "difficulty": "Foundational",
+      "prompt": "The conceptual model predicts a single conscious and linear route for every purchase.",
+      "kind": "original-question",
+      "correct": false,
+      "explanation": "The book describes complex, nonconscious, emotional, and circular behavior; the model is an organizing aid.",
+      "correction": "The book describes complex, nonconscious, emotional, and circular behavior; the model is an organizing aid."
+    },
+    {
+      "id": "ex1-026",
+      "type": "tf",
+      "lo": 5,
+      "conceptId": "c1-27",
+      "pages": [
+        47
+      ],
+      "difficulty": "Foundational",
+      "prompt": "A purchase can have symbolic meaning as well as a functional purpose.",
+      "kind": "original-question",
+      "correct": true,
+      "explanation": "The chapter discusses status, identity, and personal meanings beyond basic function.",
+      "correction": "The chapter discusses status, identity, and personal meanings beyond basic function."
+    },
+    {
+      "id": "ex1-027",
+      "type": "matching",
+      "lo": 3,
+      "conceptId": "c1-8",
+      "pages": [
+        31,
+        32
+      ],
+      "difficulty": "Applied",
+      "prompt": "Match each investigation to a C.",
+      "kind": "original-question",
+      "pairs": [
+        {
+          "id": "p0",
+          "left": "Research unmet dorm needs",
+          "right": "Consumers"
+        },
+        {
+          "id": "p1",
+          "left": "Assess our service capability",
+          "right": "Company"
+        },
+        {
+          "id": "p2",
+          "left": "Anticipate a rival’s response",
+          "right": "Competitors"
+        },
+        {
+          "id": "p3",
+          "left": "Assess technology and regulation",
+          "right": "Conditions"
+        }
+      ],
+      "explanation": "The 4 Cs separate the customer process, our capability, rivals, and implementation conditions."
+    },
+    {
+      "id": "ex1-028",
+      "type": "matching",
+      "lo": 3,
+      "conceptId": "c1-10",
+      "pages": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "difficulty": "Applied",
+      "prompt": "Match each action to the five-element mix.",
+      "kind": "original-question",
+      "pairs": [
+        {
+          "id": "p0",
+          "left": "Offer a core repair",
+          "right": "Product"
+        },
+        {
+          "id": "p1",
+          "left": "Set a usage charge",
+          "right": "Price"
+        },
+        {
+          "id": "p2",
+          "left": "Explain the offer in a message",
+          "right": "Communications"
+        },
+        {
+          "id": "p3",
+          "left": "Choose where customers buy",
+          "right": "Distribution"
+        },
+        {
+          "id": "p4",
+          "left": "Add supporting pickup service",
+          "right": "Auxiliary service"
+        }
+      ],
+      "explanation": "Distinguish the core product from the surrounding auxiliary service and other mix elements."
+    },
+    {
+      "id": "ex1-029",
+      "type": "matching",
+      "lo": 2,
+      "conceptId": "c1-20",
+      "pages": [
+        27,
+        28
+      ],
+      "difficulty": "Applied",
+      "prompt": "Match each purpose to an application of consumer behavior.",
+      "kind": "original-question",
+      "pairs": [
+        {
+          "id": "p0",
+          "left": "Design a superior offer",
+          "right": "Marketing strategy"
+        },
+        {
+          "id": "p1",
+          "left": "Protect and aid consumers through rules",
+          "right": "Regulatory policy"
+        },
+        {
+          "id": "p2",
+          "left": "Encourage beneficial behavior",
+          "right": "Social marketing"
+        },
+        {
+          "id": "p3",
+          "left": "Understand persuasion and consumption choices",
+          "right": "Informed individuals"
+        }
+      ],
+      "explanation": "These are the four applications identified in Chapter 1."
+    },
+    {
+      "id": "ex1-030",
+      "type": "matching",
+      "lo": 4,
+      "conceptId": "c1-23",
+      "pages": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "difficulty": "Applied",
+      "prompt": "Match the model component to the appropriate description.",
+      "kind": "original-question",
+      "pairs": [
+        {
+          "id": "p0",
+          "left": "Culture and reference groups",
+          "right": "External influences"
+        },
+        {
+          "id": "p1",
+          "left": "Perception and emotions",
+          "right": "Internal influences"
+        },
+        {
+          "id": "p2",
+          "left": "Thoughts and feelings about oneself",
+          "right": "Self-concept"
+        },
+        {
+          "id": "p3",
+          "left": "How one lives",
+          "right": "Lifestyle"
+        }
+      ],
+      "explanation": "The model organizes interrelated influences; the categories are useful but not perfectly exclusive."
+    },
+    {
+      "id": "ex1-031",
+      "type": "scenario",
+      "lo": 3,
+      "conceptId": "c1-17",
+      "pages": [
+        41
+      ],
+      "difficulty": "Synthesis",
+      "prompt": "A café meets the very low quality customers expected, but still fails their basic study-space need. What should the manager conclude?",
+      "kind": "original-question",
+      "options": [
+        "Satisfaction is guaranteed because expectations were met.",
+        "Matching expectations alone is insufficient evidence of satisfaction.",
+        "Customer needs do not matter after purchase."
+      ],
+      "optionFeedback": [
+        "The need must also be sufficiently satisfied.",
+        "This preserves both conditions in the chapter.",
+        "Need satisfaction remains central."
+      ],
+      "correct": 1,
+      "explanation": "Use expectations and adequate need satisfaction together."
+    },
+    {
+      "id": "ex1-032",
+      "type": "scenario",
+      "lo": 3,
+      "conceptId": "c1-19",
+      "pages": [
+        42,
+        43
+      ],
+      "difficulty": "Synthesis",
+      "prompt": "An offer increases firm profit and creates waste costs for the neighborhood. Which evaluation fits the chapter?",
+      "kind": "original-question",
+      "options": [
+        "Ignore the waste because the firm is profitable.",
+        "Separate firm gains from societal environmental and welfare effects.",
+        "Assume every individual buyer suffers the same measured loss."
+      ],
+      "optionFeedback": [
+        "This omits societal consequences.",
+        "This preserves the different outcome levels.",
+        "A shared consequence does not establish an identical individual outcome."
+      ],
+      "correct": 1,
+      "explanation": "Trade-offs can occur across firm, individual, and society."
+    },
+    {
+      "id": "ex1-033",
+      "type": "scenario",
+      "lo": 1,
+      "conceptId": "c1-6",
+      "pages": [
+        25,
+        26
+      ],
+      "difficulty": "Applied",
+      "prompt": "A team copies a campaign from another country without testing the local category or occasion. What is its main reasoning error?",
+      "kind": "original-question",
+      "options": [
+        "It ignores the need for specific consumer and situation research.",
+        "It used any theory at all.",
+        "It considered ethical consequences."
+      ],
+      "optionFeedback": [
+        "General principles must be applied to the relevant context.",
+        "Theory can be useful when combined with evidence.",
+        "Considering consequences is part of sound analysis."
+      ],
+      "correct": 0,
+      "explanation": "Consumer behavior varies by consumers, situation, and product category."
+    },
+    {
+      "id": "ex1-034",
+      "type": "scenario",
+      "lo": 5,
+      "conceptId": "c1-29",
+      "pages": [
+        47,
+        48,
+        49
+      ],
+      "difficulty": "Synthesis",
+      "prompt": "A student says marketers invented every symbolic desire; another says marketing never affects meaning. What is the best response?",
+      "kind": "original-question",
+      "options": [
+        "Accept the first claim without qualification.",
+        "Accept the second claim without qualification.",
+        "Evaluate both influence and independently arising meaning, then discuss ethical consequences."
+      ],
+      "optionFeedback": [
+        "The chapter recognizes meanings can arise without extensive marketing.",
+        "Firms can influence and amplify desires and meanings.",
+        "This reflects the chapter’s balanced debate."
+      ],
+      "correct": 2,
+      "explanation": "The debate requires arguments and limits, not an absolute conclusion."
+    },
+    {
+      "id": "ex1-035",
+      "type": "short",
+      "lo": 1,
+      "conceptId": "c1-1",
+      "pages": [
+        25,
+        26
+      ],
+      "difficulty": "Applied",
+      "prompt": "Define consumer behavior in a way that avoids a buyer-only view.",
+      "kind": "original-question",
+      "modelAnswer": [
+        "Include individuals, groups, and organizations.",
+        "Include selecting, securing, using, and disposing of goods, services, experiences, and ideas.",
+        "State need satisfaction and effects on consumers and society."
+      ],
+      "rubric": [
+        "Names the actor categories",
+        "Explains the consumption processes and range of offerings",
+        "Includes needs and both consumer and societal consequences"
+      ],
+      "commonErrors": [
+        "Stopping at purchase",
+        "Omitting organizations or society"
+      ],
+      "explanation": "Compare your own explanation with the source-based checklist. Written answers are self-assessed, not automatically judged for meaning."
+    },
+    {
+      "id": "ex1-036",
+      "type": "short",
+      "lo": 3,
+      "conceptId": "c1-15",
+      "pages": [
+        36,
+        39
+      ],
+      "difficulty": "Applied",
+      "prompt": "Use a repair example to distinguish product, core service, and auxiliary service.",
+      "kind": "original-question",
+      "modelAnswer": [
+        "The primary repair is a core service and is treated as a product.",
+        "A supporting pickup/delivery activity is auxiliary service.",
+        "The extra must provide value the target customer appreciates."
+      ],
+      "rubric": [
+        "Correctly identifies the core product",
+        "Distinguishes supporting service",
+        "Evaluates valued benefits versus delivery costs"
+      ],
+      "commonErrors": [
+        "Treating every service as auxiliary",
+        "Assuming extras are always valuable"
+      ],
+      "explanation": "Compare your own explanation with the source-based checklist. Written answers are self-assessed, not automatically judged for meaning."
+    },
+    {
+      "id": "ex1-037",
+      "type": "short",
+      "lo": 4,
+      "conceptId": "c1-24",
+      "pages": [
+        45,
+        46
+      ],
+      "difficulty": "Applied",
+      "prompt": "Distinguish self-concept from lifestyle without assuming consumers consciously calculate a lifestyle for each purchase.",
+      "kind": "original-question",
+      "modelAnswer": [
+        "Self-concept concerns thoughts and feelings about oneself.",
+        "Lifestyle concerns how one lives, buys, uses, thinks, and feels.",
+        "Many consistent choices occur with little conscious effort."
+      ],
+      "rubric": [
+        "Defines self-concept",
+        "Defines lifestyle",
+        "Recognizes low-involvement or nonconscious decisions"
+      ],
+      "commonErrors": [
+        "Equating the two terms",
+        "Claiming every choice is deliberate lifestyle planning"
+      ],
+      "explanation": "Compare your own explanation with the source-based checklist. Written answers are self-assessed, not automatically judged for meaning."
+    },
+    {
+      "id": "ex1-038",
+      "type": "short",
+      "lo": 2,
+      "conceptId": "c1-21",
+      "pages": [
+        27
+      ],
+      "difficulty": "Applied",
+      "prompt": "Explain social marketing and distinguish its purpose from a commercial sales objective.",
+      "kind": "original-question",
+      "modelAnswer": [
+        "Its purpose is creating or changing behavior that benefits target people or society.",
+        "It uses marketing strategies and tactics informed by consumer behavior.",
+        "Smoking reduction or recycling illustrates the behavioral goal; organizational form alone does not define it."
+      ],
+      "rubric": [
+        "States beneficial behavior change",
+        "Explains use of marketing strategy/tactics",
+        "Uses an example without equating nonprofit status with purpose"
+      ],
+      "commonErrors": [
+        "Defining it as social media advertising",
+        "Defining it only by nonprofit status"
+      ],
+      "explanation": "Compare your own explanation with the source-based checklist. Written answers are self-assessed, not automatically judged for meaning."
+    },
+    {
+      "id": "ex1-039",
+      "type": "essay",
+      "lo": 1,
+      "conceptId": "c1-6",
+      "pages": [
+        25,
+        26
+      ],
+      "difficulty": "Synthesis",
+      "prompt": "Evaluate a campus campaign using all four key aspects of consumer behavior. Explain what evidence you would need and one ethical trade-off.",
+      "kind": "original-question",
+      "modelAnswer": [
+        "Discuss the multidimensional process and multiple actors.",
+        "Identify behavioral assumptions behind the proposed action.",
+        "Specify research for the actual consumers, situation, and product category.",
+        "Evaluate effects and ethical trade-offs for individuals, firm, and society."
+      ],
+      "rubric": [
+        "Explains complexity with a relevant example",
+        "Identifies assumptions rather than asserting causation",
+        "Proposes contextual research",
+        "Evaluates an ethical trade-off with limits"
+      ],
+      "commonErrors": [
+        "Substituting intuition for evidence",
+        "Listing only the advertising design",
+        "Declaring success without outcomes"
+      ],
+      "explanation": "Compare your own explanation with the source-based checklist. Written answers are self-assessed, not automatically judged for meaning."
+    },
+    {
+      "id": "ex1-040",
+      "type": "essay",
+      "lo": 5,
+      "conceptId": "c1-29",
+      "pages": [
+        47,
+        48,
+        49
+      ],
+      "difficulty": "Synthesis",
+      "prompt": "Discuss the claim that marketers create needs. Distinguish functional purpose, symbolic meaning, influence, and ethical responsibility.",
+      "kind": "original-question",
+      "modelAnswer": [
+        "Consumption can have functional and symbolic meaning.",
+        "Firms may instill or amplify desires and meanings.",
+        "Meanings may also arise without extensive marketing.",
+        "An ethical judgment should discuss evidence, vulnerability, and consequences rather than assume a single universal cause."
+      ],
+      "rubric": [
+        "Distinguishes function and symbolism",
+        "Explains marketing influence",
+        "Recognizes meaning can arise independently",
+        "Supports an ethical argument and acknowledges limits"
+      ],
+      "commonErrors": [
+        "Treating an interpretation of a person’s motives as a proven fact",
+        "Using absolute claims unsupported by the chapter"
+      ],
+      "explanation": "Compare your own explanation with the source-based checklist. Written answers are self-assessed, not automatically judged for meaning."
+    }
+  ],
+  "textbook": [
+    {
+      "id": "tb1-1",
+      "number": 1,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 1,
+      "conceptId": "c1-1",
+      "prompt": "Define the field beyond the buyer-only view.",
+      "modelAnswer": [
+        "Actors include individuals, groups, and organizations.",
+        "Processes include selection, securing, use, and disposal of several kinds of offerings.",
+        "Explain needs and consequences for consumers and society."
+      ],
+      "rubric": [
+        "Actors include individuals, groups, and organizations.",
+        "Processes include selection, securing, use, and disposal of several kinds of offerings.",
+        "Explain needs and consequences for consumers and society."
+      ],
+      "commonErrors": [
+        "Consumer behavior is only the act of paying for physical goods."
+      ],
+      "pages": [
+        25
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-2",
+      "number": 2,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 1,
+      "conceptId": "c1-5",
+      "prompt": "Explain the opening examples’ implications for consumer understanding.",
+      "modelAnswer": [
+        "Products can carry services and internal experiences.",
+        "Consumer permission, participation, and reviews shift power.",
+        "Social media and crowdsourcing make listening and contextual research important."
+      ],
+      "rubric": [
+        "Products can carry services and internal experiences.",
+        "Consumer permission, participation, and reviews shift power.",
+        "Social media and crowdsourcing make listening and contextual research important."
+      ],
+      "commonErrors": [
+        "A popular online suggestion proves the needs of the entire market."
+      ],
+      "pages": [
+        24,
+        25,
+        26
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-3",
+      "number": 3,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 2,
+      "conceptId": "c1-20",
+      "prompt": "Identify four applications of consumer behavior.",
+      "modelAnswer": [
+        "Marketing strategy supports superior value for selected customers.",
+        "Regulatory policy protects and aids consumers.",
+        "Social marketing and informed individuals are the other two applications."
+      ],
+      "rubric": [
+        "Marketing strategy supports superior value for selected customers.",
+        "Regulatory policy protects and aids consumers.",
+        "Social marketing and informed individuals are the other two applications."
+      ],
+      "commonErrors": [
+        "Consumer behavior matters only to commercial advertisers, or a theory guarantees a campaign will succeed."
+      ],
+      "pages": [
+        27,
+        28
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-4",
+      "number": 4,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 2,
+      "conceptId": "c1-21",
+      "prompt": "Define social marketing and illustrate its behavioral aim.",
+      "modelAnswer": [
+        "Uses marketing strategies and tactics.",
+        "Creates or changes behavior benefiting targets or society.",
+        "Examples include recycling or smoking reduction; it is not simply social media use."
+      ],
+      "rubric": [
+        "Uses marketing strategies and tactics.",
+        "Creates or changes behavior benefiting targets or society.",
+        "Examples include recycling or smoking reduction; it is not simply social media use."
+      ],
+      "commonErrors": [
+        "Social marketing means advertising on social media, or only nonprofits can use behavioral understanding for beneficial aims."
+      ],
+      "pages": [
+        27
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-5",
+      "number": 5,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-2",
+      "prompt": "Explain customer value and its significance.",
+      "modelAnswer": [
+        "Compare all benefits with all customer costs.",
+        "Use the customer’s perspective and relevant alternatives.",
+        "A strategy needs superior value while allowing firm profitability."
+      ],
+      "rubric": [
+        "Compare all benefits with all customer costs.",
+        "Use the customer’s perspective and relevant alternatives.",
+        "A strategy needs superior value while allowing firm profitability."
+      ],
+      "commonErrors": [
+        "Customer value is whatever the company spent to make the product."
+      ],
+      "pages": [
+        29
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-6",
+      "number": 6,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-10",
+      "prompt": "Explain what superior customer value requires.",
+      "modelAnswer": [
+        "Understand the target and competitive alternatives.",
+        "Coordinate product, price, communications, distribution, and service.",
+        "Ensure the combined benefits and sacrifices fit the customer and the firm can profit."
+      ],
+      "rubric": [
+        "Understand the target and competitive alternatives.",
+        "Coordinate product, price, communications, distribution, and service.",
+        "Ensure the combined benefits and sacrifices fit the customer and the firm can profit."
+      ],
+      "commonErrors": [
+        "Marketing strategy means advertising, and the textbook mix has only four elements."
+      ],
+      "pages": [
+        29,
+        36
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-7",
+      "number": 7,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-7",
+      "prompt": "Explain total product.",
+      "modelAnswer": [
+        "It is the combined offer, not only physical features.",
+        "Include price, communications, distribution, and service.",
+        "Experiences can be important; internal experience differs from the external offer."
+      ],
+      "rubric": [
+        "It is the combined offer, not only physical features.",
+        "Include price, communications, distribution, and service.",
+        "Experiences can be important; internal experience differs from the external offer."
+      ],
+      "commonErrors": [
+        "A designed service guarantees every customer has the same experience."
+      ],
+      "pages": [
+        29,
+        30
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-8",
+      "number": 8,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-8",
+      "prompt": "Explain consumer analysis within market analysis.",
+      "modelAnswer": [
+        "Investigate the consumption process and relevant needs.",
+        "Use appropriate research rather than stereotypes.",
+        "The Target dorm example shows studying specific situations and motivations."
+      ],
+      "rubric": [
+        "Investigate the consumption process and relevant needs.",
+        "Use appropriate research rather than stereotypes.",
+        "The Target dorm example shows studying specific situations and motivations."
+      ],
+      "commonErrors": [
+        "A strong business reputation guarantees success with a different consumer segment."
+      ],
+      "pages": [
+        31
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-9",
+      "number": 9,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-8",
+      "prompt": "Explain company analysis.",
+      "modelAnswer": [
+        "Assess financial, managerial, production, R&D, and technological capability.",
+        "Include reputation and marketing/service capabilities.",
+        "Test whether strengths fit this target; the IBM example shows transfer cannot be assumed."
+      ],
+      "rubric": [
+        "Assess financial, managerial, production, R&D, and technological capability.",
+        "Include reputation and marketing/service capabilities.",
+        "Test whether strengths fit this target; the IBM example shows transfer cannot be assumed."
+      ],
+      "commonErrors": [
+        "A strong business reputation guarantees success with a different consumer segment."
+      ],
+      "pages": [
+        31
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-10",
+      "number": 10,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-8",
+      "prompt": "Explain competitor analysis.",
+      "modelAnswer": [
+        "Understand key competitors’ capabilities and strategies.",
+        "Ask who is hurt by our success, who can respond, and how.",
+        "Assess whether the proposed strategy survives likely responses or needs contingencies."
+      ],
+      "rubric": [
+        "Understand key competitors’ capabilities and strategies.",
+        "Ask who is hurt by our success, who can respond, and how.",
+        "Assess whether the proposed strategy survives likely responses or needs contingencies."
+      ],
+      "commonErrors": [
+        "A strong business reputation guarantees success with a different consumer segment."
+      ],
+      "pages": [
+        31,
+        32
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-11",
+      "number": 11,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-8",
+      "prompt": "Explain conditions analysis.",
+      "modelAnswer": [
+        "Examine the economy, physical environment, regulation, and technology.",
+        "Explain effects on needs and on firm/competitor capabilities.",
+        "Keep historical illustrations such as NAFTA separate from current factual claims."
+      ],
+      "rubric": [
+        "Examine the economy, physical environment, regulation, and technology.",
+        "Explain effects on needs and on firm/competitor capabilities.",
+        "Keep historical illustrations such as NAFTA separate from current factual claims."
+      ],
+      "commonErrors": [
+        "A strong business reputation guarantees success with a different consumer segment."
+      ],
+      "pages": [
+        32
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-12",
+      "number": 12,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-3",
+      "prompt": "Describe the segmentation process.",
+      "modelAnswer": [
+        "Identify product-related need sets and group similar customers.",
+        "Describe each group.",
+        "Select attractive groups the firm can serve with superior value profitably."
+      ],
+      "rubric": [
+        "Identify product-related need sets and group similar customers.",
+        "Describe each group.",
+        "Select attractive groups the firm can serve with superior value profitably."
+      ],
+      "commonErrors": [
+        "The four holiday percentages describe the share of shoppers, or age alone fully explains a need set."
+      ],
+      "pages": [
+        32,
+        33,
+        35
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-13",
+      "number": 13,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-10",
+      "prompt": "Define marketing strategy.",
+      "modelAnswer": [
+        "Specify how superior customer value will be provided to a target.",
+        "Coordinate a consistent mix.",
+        "Consider the firm’s capabilities and competitive conditions."
+      ],
+      "rubric": [
+        "Specify how superior customer value will be provided to a target.",
+        "Coordinate a consistent mix.",
+        "Consider the firm’s capabilities and competitive conditions."
+      ],
+      "commonErrors": [
+        "Marketing strategy means advertising, and the textbook mix has only four elements."
+      ],
+      "pages": [
+        36
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-14",
+      "number": 14,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-10",
+      "prompt": "Name and explain the marketing mix.",
+      "modelAnswer": [
+        "Product and price are two elements.",
+        "Communications and distribution are two more.",
+        "Auxiliary services are explicitly a fifth element in this text."
+      ],
+      "rubric": [
+        "Product and price are two elements.",
+        "Communications and distribution are two more.",
+        "Auxiliary services are explicitly a fifth element in this text."
+      ],
+      "commonErrors": [
+        "Marketing strategy means advertising, and the textbook mix has only four elements."
+      ],
+      "pages": [
+        36,
+        39
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-15",
+      "number": 15,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-11",
+      "prompt": "Define product by perceived need.",
+      "modelAnswer": [
+        "Anything acquired or potentially acquired to meet a perceived need.",
+        "Includes physical goods and core services.",
+        "Need satisfaction explains substitutes across different technologies."
+      ],
+      "rubric": [
+        "Anything acquired or potentially acquired to meet a perceived need.",
+        "Includes physical goods and core services.",
+        "Need satisfaction explains substitutes across different technologies."
+      ],
+      "commonErrors": [
+        "A product is only a physical object, and competition comes only from physically similar products."
+      ],
+      "pages": [
+        36,
+        37
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-16",
+      "number": 16,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-12",
+      "prompt": "Explain effective communications planning.",
+      "modelAnswer": [
+        "Identify whom to reach and the desired effect.",
+        "Choose a message and appropriate means/media.",
+        "Determine timing using the target’s decision process."
+      ],
+      "rubric": [
+        "Identify whom to reach and the desired effect.",
+        "Choose a message and appropriate means/media.",
+        "Determine timing using the target’s decision process."
+      ],
+      "commonErrors": [
+        "“Increase sales” supplies enough detail to choose an audience, message, media, and timing."
+      ],
+      "pages": [
+        37,
+        38
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-17",
+      "number": 17,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-13",
+      "prompt": "Distinguish price from consumer cost.",
+      "modelAnswer": [
+        "Price is money for the right to use, including limited use.",
+        "Consumer cost includes all sacrifices, not just price.",
+        "Give relevant nonprice examples such as time, effort, or operating costs."
+      ],
+      "rubric": [
+        "Price is money for the right to use, including limited use.",
+        "Consumer cost includes all sacrifices, not just price.",
+        "Give relevant nonprice examples such as time, effort, or operating costs."
+      ],
+      "commonErrors": [
+        "Every consumer cost is part of the posted price, or a higher price proves objective quality."
+      ],
+      "pages": [
+        38,
+        39
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-18",
+      "number": 18,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-15",
+      "prompt": "Explain service as used in the mix.",
+      "modelAnswer": [
+        "Core services are products.",
+        "Auxiliary or peripheral activities enhance the primary offering.",
+        "Unvalued extra service can add costs without corresponding customer value."
+      ],
+      "rubric": [
+        "Core services are products.",
+        "Auxiliary or peripheral activities enhance the primary offering.",
+        "Unvalued extra service can add costs without corresponding customer value."
+      ],
+      "commonErrors": [
+        "Adding more free services necessarily raises customer value."
+      ],
+      "pages": [
+        39
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-19",
+      "number": 19,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-17",
+      "prompt": "Explain how to create satisfied customers.",
+      "modelAnswer": [
+        "Expected superior value can support an initial sale.",
+        "Perceived delivered value must meet or exceed initial expectations.",
+        "Delivery must also be sufficient to meet needs; a sale alone is not proof."
+      ],
+      "rubric": [
+        "Expected superior value can support an initial sale.",
+        "Perceived delivered value must meet or exceed initial expectations.",
+        "Delivery must also be sufficient to meet needs; a sale alone is not proof."
+      ],
+      "commonErrors": [
+        "A first sale proves satisfaction, or satisfaction follows whenever expectations were low enough."
+      ],
+      "pages": [
+        41
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-20",
+      "number": 20,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-17",
+      "prompt": "Describe firm outcomes.",
+      "modelAnswer": [
+        "A relative product position may arise before purchase.",
+        "Sales and profits are important but distinct.",
+        "Customer satisfaction matters for retaining customers and later business."
+      ],
+      "rubric": [
+        "A relative product position may arise before purchase.",
+        "Sales and profits are important but distinct.",
+        "Customer satisfaction matters for retaining customers and later business."
+      ],
+      "commonErrors": [
+        "A first sale proves satisfaction, or satisfaction follows whenever expectations were low enough."
+      ],
+      "pages": [
+        40,
+        41
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-21",
+      "number": 21,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-18",
+      "prompt": "Describe individual outcomes.",
+      "modelAnswer": [
+        "Need satisfaction can range from none to complete.",
+        "Separate actual from perceived fulfillment.",
+        "Include long-run harms from injurious consumption."
+      ],
+      "rubric": [
+        "Need satisfaction can range from none to complete.",
+        "Separate actual from perceived fulfillment.",
+        "Include long-run harms from injurious consumption."
+      ],
+      "commonErrors": [
+        "Feeling helped proves actual benefit, or marketing alone causes every harmful consumption decision."
+      ],
+      "pages": [
+        41,
+        42
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-22",
+      "number": 22,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-19",
+      "prompt": "Describe societal outcomes.",
+      "modelAnswer": [
+        "Economic outcomes concern cumulative buying/saving and industry effects.",
+        "Physical-environment outcomes concern resources and pollution.",
+        "Social welfare concerns quality of life, public goods, and harmful-consumption costs."
+      ],
+      "rubric": [
+        "Economic outcomes concern cumulative buying/saving and industry effects.",
+        "Physical-environment outcomes concern resources and pollution.",
+        "Social welfare concerns quality of life, public goods, and harmful-consumption costs."
+      ],
+      "commonErrors": [
+        "A profitable campaign must be beneficial to society, or marketing can only cause harm."
+      ],
+      "pages": [
+        42,
+        43
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-23",
+      "number": 23,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-17",
+      "prompt": "Define product position.",
+      "modelAnswer": [
+        "It is an image relative to competing offerings.",
+        "Beliefs, representations, and feelings contribute.",
+        "Communications and other sources can create it without purchase or use."
+      ],
+      "rubric": [
+        "It is an image relative to competing offerings.",
+        "Beliefs, representations, and feelings contribute.",
+        "Communications and other sources can create it without purchase or use."
+      ],
+      "commonErrors": [
+        "A first sale proves satisfaction, or satisfaction follows whenever expectations were low enough."
+      ],
+      "pages": [
+        40
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-24",
+      "number": 24,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-18",
+      "prompt": "Define injurious consumption.",
+      "modelAnswer": [
+        "Consumption decisions have negative long-run well-being consequences.",
+        "Overspending, unhealthy consumption, and damaging gambling are examples.",
+        "They are not an exhaustive taxonomy or proof marketing is the sole cause."
+      ],
+      "rubric": [
+        "Consumption decisions have negative long-run well-being consequences.",
+        "Overspending, unhealthy consumption, and damaging gambling are examples.",
+        "They are not an exhaustive taxonomy or proof marketing is the sole cause."
+      ],
+      "commonErrors": [
+        "Feeling helped proves actual benefit, or marketing alone causes every harmful consumption decision."
+      ],
+      "pages": [
+        41,
+        42
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-25",
+      "number": 25,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 4,
+      "conceptId": "c1-24",
+      "prompt": "Define lifestyle.",
+      "modelAnswer": [
+        "How one lives, including purchasing and usage.",
+        "Include thinking and feeling about offerings.",
+        "It reflects self-concept and many past choices without always being consciously planned."
+      ],
+      "rubric": [
+        "How one lives, including purchasing and usage.",
+        "Include thinking and feeling about offerings.",
+        "It reflects self-concept and many past choices without always being consciously planned."
+      ],
+      "commonErrors": [
+        "Self-concept and lifestyle mean the same thing, or every lifestyle-consistent purchase must be a conscious identity project."
+      ],
+      "pages": [
+        45,
+        46
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-26",
+      "number": 26,
+      "section": "Review",
+      "type": "flashcard",
+      "lo": 3,
+      "conceptId": "c1-16",
+      "prompt": "Describe the consumer decision process.",
+      "modelAnswer": [
+        "Figure 1-1: problem recognition, search, alternative evaluation.",
+        "Then purchase, use, and evaluation.",
+        "Many decisions involve limited effort and emotions; figures organize rather than dictate behavior."
+      ],
+      "rubric": [
+        "Figure 1-1: problem recognition, search, alternative evaluation.",
+        "Then purchase, use, and evaluation.",
+        "Many decisions involve limited effort and emotions; figures organize rather than dictate behavior."
+      ],
+      "commonErrors": [
+        "Every purchase follows six equally effortful, conscious, rational steps."
+      ],
+      "pages": [
+        29,
+        46
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-27",
+      "number": 27,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 3,
+      "conceptId": "c1-3",
+      "prompt": "Explain why different people might choose or avoid an online outlet, a device, or a restaurant.",
+      "rubric": [
+        "Identify needs and relevant situations",
+        "Compare benefits and total costs",
+        "Explain variation in alternatives and processes"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        25,
+        29,
+        32
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-28",
+      "number": 28,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 3,
+      "conceptId": "c1-3",
+      "prompt": "Apply the holiday-shopper need sets and explain the limits of extending them beyond holidays.",
+      "rubric": [
+        "Match needs and behavior, not stereotypes",
+        "Interpret shares as 2016 spending",
+        "Adapt targeting while acknowledging season and context"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        34
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-29",
+      "number": 29,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 4,
+      "conceptId": "c1-23",
+      "prompt": "Evaluate how a conceptual model can help a manager.",
+      "rubric": [
+        "Explain organization and hypothesis generation",
+        "Connect influences and processes",
+        "Acknowledge insufficient detail for a particular prediction"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        43,
+        44
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-30",
+      "number": 30,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 4,
+      "conceptId": "c1-25",
+      "prompt": "Propose and justify a change to the model.",
+      "rubric": [
+        "Identify what the current model represents",
+        "Explain the proposed connection or emphasis",
+        "Evaluate usefulness and added complexity without claiming validation"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        43,
+        44,
+        46
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-31",
+      "number": 31,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 4,
+      "conceptId": "c1-24",
+      "prompt": "Compare your lifestyle with a parent’s or another generation’s.",
+      "rubric": [
+        "Describe actual patterns rather than a value judgment",
+        "Connect circumstances and self-concept",
+        "Distinguish observations from unsupported generalization"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        45,
+        46
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-32",
+      "number": 32,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 4,
+      "conceptId": "c1-24",
+      "prompt": "Explain possible lifestyle changes over the next five years and their consumption implications.",
+      "rubric": [
+        "Identify plausible changing circumstances",
+        "Connect changes to needs and offerings",
+        "Label projections as possibilities, not facts"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        45,
+        46
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-33",
+      "number": 33,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 3,
+      "conceptId": "c1-16",
+      "prompt": "Analyze a recent purchase against the decision model.",
+      "rubric": [
+        "Describe what actually happened",
+        "Identify skipped, repeated, or low-effort stages",
+        "Explain situation and emotion without forcing a linear script"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        29,
+        46
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-34",
+      "number": 34,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 3,
+      "conceptId": "c1-7",
+      "prompt": "Analyze offers that extend beyond direct physical features.",
+      "rubric": [
+        "Identify the core product",
+        "Describe additional mix elements",
+        "Separate external offer from internal experience"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        29,
+        30
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-35",
+      "number": 35,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 3,
+      "conceptId": "c1-13",
+      "prompt": "Compare needs and total costs for a recording device, elective service, motorcycle, or SUV.",
+      "rubric": [
+        "Identify relevant need sets",
+        "Include price and nonprice sacrifices",
+        "Avoid unsupported claims about health effects or all consumers"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        29,
+        33,
+        38,
+        39
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-36",
+      "number": 36,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 3,
+      "conceptId": "c1-11",
+      "prompt": "Analyze a themed café as a product and a total offering.",
+      "rubric": [
+        "Define perceived needs",
+        "Identify product plus surrounding offer",
+        "Discuss experience without assuming uniform responses"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        30,
+        36
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-37",
+      "number": 37,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 3,
+      "conceptId": "c1-18",
+      "prompt": "Evaluate a marketer’s responsibility for harmful consumption.",
+      "rubric": [
+        "Define long-run harm",
+        "Discuss influence without assuming sole causation",
+        "Weigh firm, individual, and societal effects"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        41,
+        42,
+        43
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-38",
+      "number": 38,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 2,
+      "conceptId": "c1-21",
+      "prompt": "Propose a social-marketing response to a societal problem.",
+      "rubric": [
+        "Specify a beneficial behavioral objective",
+        "Research target barriers and motivations",
+        "Explain evaluation and limits without fabricating results"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        27,
+        43
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-39",
+      "number": 39,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 5,
+      "conceptId": "c1-28",
+      "prompt": "Discuss meanings in ordinary goods, risk avoidance, and innovation.",
+      "rubric": [
+        "Distinguish functional and symbolic meaning",
+        "Apply each of the three perspectives",
+        "Treat motive interpretations as interpretations"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        47,
+        48
+      ],
+      "questionPages": [
+        50
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-40",
+      "number": 40,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 5,
+      "conceptId": "c1-29",
+      "prompt": "Evaluate criticism of status symbolism in Nike marketing.",
+      "rubric": [
+        "State the ethical argument",
+        "Recognize meaning can also arise beyond marketing",
+        "Avoid treating inferred motives as proven causes"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        47,
+        48,
+        49
+      ],
+      "questionPages": [
+        51
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-41",
+      "number": 41,
+      "section": "Discussion",
+      "type": "application",
+      "lo": 1,
+      "conceptId": "c1-6",
+      "prompt": "Evaluate intuitive product development versus systematic research in a historical snack-business example.",
+      "rubric": [
+        "Explain a possible fit without inventing results",
+        "Identify benefits and risks of intuition",
+        "Propose evidence that could test the explanation"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Treating a plausible explanation as verified evidence."
+      ],
+      "pages": [
+        25,
+        26,
+        51
+      ],
+      "questionPages": [
+        51
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-42",
+      "number": 42,
+      "section": "Fieldwork",
+      "type": "application",
+      "lo": 3,
+      "conceptId": "c1-10",
+      "prompt": "Interview a retailer about strategy development and compare the process with the chapter.",
+      "rubric": [
+        "Record consented observations accurately",
+        "Map analysis, segmentation, strategy, decisions, and outcomes",
+        "Explain differences without fabricating interview evidence"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Inventing interviews or representing a small convenience sample as the population."
+      ],
+      "pages": [
+        29,
+        36
+      ],
+      "questionPages": [
+        51
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-43",
+      "number": 43,
+      "section": "Fieldwork",
+      "type": "application",
+      "lo": 2,
+      "conceptId": "c1-21",
+      "prompt": "Investigate a charity’s assumptions about supporter behavior and its strategy.",
+      "rubric": [
+        "Separate actual interview evidence from inference",
+        "Identify target behavior and supporters’ needs",
+        "Compare strategy with the consumer-behavior framework"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Inventing interviews or representing a small convenience sample as the population."
+      ],
+      "pages": [
+        27,
+        28
+      ],
+      "questionPages": [
+        51
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-44",
+      "number": 44,
+      "section": "Fieldwork",
+      "type": "application",
+      "lo": 4,
+      "conceptId": "c1-25",
+      "prompt": "Compare students’ recent restaurant occasions and the role of person and situation.",
+      "rubric": [
+        "Collect observations rather than invented responses",
+        "Compare individual and situational influences",
+        "Acknowledge the small sample cannot establish universal causes"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Inventing interviews or representing a small convenience sample as the population."
+      ],
+      "pages": [
+        25,
+        26,
+        46
+      ],
+      "questionPages": [
+        51
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-45",
+      "number": 45,
+      "section": "Fieldwork",
+      "type": "application",
+      "lo": 3,
+      "conceptId": "c1-12",
+      "prompt": "Observe selling techniques in stores and infer the behavioral assumptions behind them.",
+      "rubric": [
+        "Record displays, store design, and sales behavior",
+        "Link each inference to a recorded observation",
+        "Distinguish observation from tested causal explanation"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Inventing interviews or representing a small convenience sample as the population."
+      ],
+      "pages": [
+        26,
+        37,
+        39
+      ],
+      "questionPages": [
+        51
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-46",
+      "number": 46,
+      "section": "Fieldwork",
+      "type": "application",
+      "lo": 1,
+      "conceptId": "c1-6",
+      "prompt": "Interview sellers about their own models of consumer behavior.",
+      "rubric": [
+        "Describe interviewees and product context",
+        "Record their stated assumptions",
+        "Compare assumptions with research needs and model limits"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Inventing interviews or representing a small convenience sample as the population."
+      ],
+      "pages": [
+        25,
+        26,
+        43
+      ],
+      "questionPages": [
+        51
+      ],
+      "kind": "textbook-question-paraphrase"
+    },
+    {
+      "id": "tb1-47",
+      "number": 47,
+      "section": "Fieldwork",
+      "type": "application",
+      "lo": 3,
+      "conceptId": "c1-16",
+      "prompt": "Compare recent major- and minor-purchase decision processes.",
+      "rubric": [
+        "Gather actual accounts",
+        "Compare effort, search, feelings, and situations",
+        "Discuss similarities and limits without forcing every stage"
+      ],
+      "modelAnswer": [],
+      "commonErrors": [
+        "Inventing interviews or representing a small convenience sample as the population."
+      ],
+      "pages": [
+        29,
+        46
+      ],
+      "questionPages": [
+        51
+      ],
+      "kind": "textbook-question-paraphrase"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "compare-1",
+      "left": "Product",
+      "right": "Total product",
+      "conceptId": "c1-7",
+      "pages": [
+        29,
+        30,
+        36
+      ],
+      "definitions": [
+        "Anything acquired to meet a perceived need, including core services.",
+        "The combined product, price, communications, distribution, and auxiliary service."
+      ],
+      "limit": "Do not reduce either term to physical attributes alone."
+    },
+    {
+      "id": "compare-2",
+      "left": "Price",
+      "right": "Consumer cost",
+      "conceptId": "c1-13",
+      "pages": [
+        38,
+        39
+      ],
+      "definitions": [
+        "Money for the right to use the product.",
+        "All sacrifices involved in obtaining its benefits, including price."
+      ],
+      "limit": "A lower price does not guarantee lower total consumer cost."
+    },
+    {
+      "id": "compare-3",
+      "left": "Market segment",
+      "right": "Target market",
+      "conceptId": "c1-9",
+      "pages": [
+        32,
+        35
+      ],
+      "definitions": [
+        "A part of the market with somewhat different needs.",
+        "The segment(s) selected for focused marketing effort."
+      ],
+      "limit": "Segmentation and selection are related but distinct decisions."
+    },
+    {
+      "id": "compare-4",
+      "left": "Core service",
+      "right": "Auxiliary service",
+      "conceptId": "c1-15",
+      "pages": [
+        36,
+        39
+      ],
+      "definitions": [
+        "The primary service purchased; treated as product.",
+        "Support enhancing the primary good or service."
+      ],
+      "limit": "Extras need to provide value the target appreciates."
+    },
+    {
+      "id": "compare-5",
+      "left": "Actual need fulfillment",
+      "right": "Perceived need fulfillment",
+      "conceptId": "c1-18",
+      "pages": [
+        41
+      ],
+      "definitions": [
+        "Whether the underlying need is really satisfied.",
+        "The consumer’s belief about satisfaction of that need."
+      ],
+      "limit": "The two can differ; belief is not objective proof."
+    },
+    {
+      "id": "compare-6",
+      "left": "B2C",
+      "right": "B2B",
+      "conceptId": "c1-26",
+      "pages": [
+        46
+      ],
+      "definitions": [
+        "Marketing to individual or household consumers.",
+        "Marketing to organizations as consumers."
+      ],
+      "limit": "Organizations still involve people; their buying behavior needs special treatment."
+    },
+    {
+      "id": "compare-7",
+      "left": "Self-concept",
+      "right": "Lifestyle",
+      "conceptId": "c1-24",
+      "pages": [
+        45,
+        46
+      ],
+      "definitions": [
+        "Thoughts and feelings about oneself.",
+        "How one lives, including acquisition, use, thoughts, and feelings."
+      ],
+      "limit": "Consumers need not consciously plan each choice in lifestyle terms."
+    },
+    {
+      "id": "compare-8",
+      "left": "Traditional view",
+      "right": "Broader consumer behavior",
+      "conceptId": "c1-1",
+      "pages": [
+        25
+      ],
+      "definitions": [
+        "Focus on buyer and immediate purchasing antecedents/consequences.",
+        "Actors, offerings, processes, and far-reaching consumer/societal effects."
+      ],
+      "limit": "The broader view includes purchase but extends beyond it."
+    },
+    {
+      "id": "compare-9",
+      "left": "Marketing 2 Consumers",
+      "right": "Marketing 4 Consumers",
+      "conceptId": "c1-4",
+      "pages": [
+        24
+      ],
+      "definitions": [
+        "Repeated broad mass messages.",
+        "Relevant targeting, permission, participation, and verification."
+      ],
+      "limit": "Targeting does not by itself prove permission."
+    },
+    {
+      "id": "compare-10",
+      "left": "Social marketing",
+      "right": "Commercial marketing",
+      "conceptId": "c1-21",
+      "pages": [
+        27,
+        29,
+        36
+      ],
+      "definitions": [
+        "Beneficial behavior change for targets or society is the defining purpose.",
+        "Superior customer value and commercial outcomes guide the business offer."
+      ],
+      "limit": "This is a comparison of purposes, not simply nonprofit versus for-profit status."
+    }
+  ],
+  "referenceConcepts": [],
+  "terms": [
+    {
+      "id": "kt1-1",
+      "chapterId": 1,
+      "term": "Conceptual model",
+      "viTerm": "Mô hình khái niệm",
+      "conceptId": "c1-23",
+      "lo": 4,
+      "definition": "An organizing model of the influences and processes in consumer behavior. External and internal influences interact, shape self-concept and lifestyle, and connect through needs, desires, situations and decisions. Experiences and acquisitions feed back into both influence sets. It lacks enough detail to predict particular behavior.",
+      "vi": "Hai nhóm ảnh hưởng bên ngoài và bên trong tương tác hai chiều, góp phần hình thành tự quan niệm và lối sống. Nhu cầu, mong muốn và tình huống liên quan đến quyết định; trải nghiệm quay lại tác động cả hai nhóm. Đây là khung tư duy, không phải công thức dự đoán.",
+      "pages": [
+        43
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-2",
+      "chapterId": 1,
+      "term": "Consumer behavior",
+      "viTerm": "Hành vi người tiêu dùng",
+      "conceptId": "c1-1",
+      "lo": 1,
+      "definition": "The study of individuals, groups, or organizations and how they select, secure, use, and dispose of products, services, experiences, or ideas to satisfy needs, including the effects of these processes on consumers and society.",
+      "vi": "Bao gồm cá nhân, nhóm và tổ chức; chọn, có được, dùng và thải bỏ hàng hóa, dịch vụ, trải nghiệm hoặc ý tưởng để đáp ứng nhu cầu, cùng tác động tới người tiêu dùng và xã hội.",
+      "pages": [
+        25
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-3",
+      "chapterId": 1,
+      "term": "Consumer cost",
+      "viTerm": "Chi phí người tiêu dùng",
+      "conceptId": "c1-13",
+      "lo": 3,
+      "definition": "Everything the consumer must surrender to receive the benefits of owning or using the product, including monetary and nonmonetary sacrifices.",
+      "vi": "Giá là tiền để có quyền sử dụng; tổng chi phí còn gồm thời gian, công sức, chi phí vận hành và những đánh đổi khác.",
+      "pages": [
+        38
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-4",
+      "chapterId": 1,
+      "term": "Customer satisfaction",
+      "viTerm": "Sự hài lòng của khách hàng",
+      "conceptId": "c1-17",
+      "lo": 3,
+      "definition": "A post-use outcome requiring perceived delivered value at least matching expectations and sufficient to satisfy the consumer’s needs.",
+      "vi": "Gồm vị trí sản phẩm trong tâm trí, doanh số, lợi nhuận và hài lòng. Có bán lần đầu chưa chứng minh đã đáp ứng kỳ vọng và nhu cầu.",
+      "pages": [
+        41
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-5",
+      "chapterId": 1,
+      "term": "Customer value",
+      "viTerm": "Giá trị khách hàng",
+      "conceptId": "c1-2",
+      "lo": 3,
+      "definition": "The difference between all the benefits of the total product and all the costs of acquiring those benefits, evaluated from the customer’s perspective.",
+      "vi": "Lợi ích của toàn bộ đề nghị trừ tổng chi phí từ góc nhìn khách hàng, không chỉ dựa vào giá bán.",
+      "pages": [
+        29
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-6",
+      "chapterId": 1,
+      "term": "Distribution",
+      "viTerm": "Phân phối",
+      "conceptId": "c1-14",
+      "lo": 3,
+      "definition": "Making a product available where target customers can buy it, with channel decisions based on their shopping behavior and the role each channel can perform.",
+      "vi": "Đảm bảo sản phẩm có mặt nơi khách mục tiêu có thể mua; kết hợp kênh theo vai trò và hành vi mua thực tế.",
+      "pages": [
+        39
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-7",
+      "chapterId": 1,
+      "term": "Injurious consumption",
+      "viTerm": "Tiêu dùng gây hại",
+      "conceptId": "c1-18",
+      "lo": 3,
+      "definition": "Consumption decisions with negative consequences for individuals’ or groups’ long-run well-being.",
+      "vi": "Đáp ứng thực tế có thể khác cảm nhận. Tiêu dùng gây hại tạo hậu quả bất lợi dài hạn; ba ví dụ trong sách không phải toàn bộ các loại gây hại.",
+      "pages": [
+        41
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-8",
+      "chapterId": 1,
+      "term": "Lifestyle",
+      "viTerm": "Lối sống",
+      "conceptId": "c1-24",
+      "lo": 4,
+      "definition": "How one lives, including products bought, how they are used, and what one thinks and feels about them.",
+      "vi": "Tự quan niệm là toàn bộ suy nghĩ, cảm xúc về bản thân. Lối sống là cách sống, gồm mua, dùng, suy nghĩ và cảm nhận về sản phẩm; thể hiện tự quan niệm nhưng không phải lúc nào cũng được hoạch định có ý thức.",
+      "pages": [
+        45
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-9",
+      "chapterId": 1,
+      "term": "Marketing communications",
+      "viTerm": "Truyền thông marketing",
+      "conceptId": "c1-12",
+      "lo": 3,
+      "definition": "Advertising, the sales force, public relations, packaging, and other signals the firm provides about itself and its products. Effective planning identifies the audience, desired effect, message, means/media, and timing.",
+      "vi": "Mọi tín hiệu doanh nghiệp gửi về mình và sản phẩm. Cần xác định người nhận, tác động mong muốn, thông điệp, phương tiện và thời điểm.",
+      "pages": [
+        37
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-10",
+      "chapterId": 1,
+      "term": "Marketing mix",
+      "viTerm": "Marketing mix",
+      "conceptId": "c1-10",
+      "lo": 3,
+      "definition": "The product, price, communications, distribution, and services provided to the target market.",
+      "vi": "Chiến lược trả lời cách tạo giá trị vượt trội; marketing mix gồm sản phẩm, giá, truyền thông, phân phối và dịch vụ hỗ trợ.",
+      "pages": [
+        36
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-11",
+      "chapterId": 1,
+      "term": "Marketing strategy",
+      "viTerm": "Chiến lược marketing",
+      "conceptId": "c1-10",
+      "lo": 3,
+      "definition": "How the firm will provide superior customer value to its target market through a consistent marketing mix.",
+      "vi": "Chiến lược trả lời cách tạo giá trị vượt trội; marketing mix gồm sản phẩm, giá, truyền thông, phân phối và dịch vụ hỗ trợ.",
+      "pages": [
+        36
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-12",
+      "chapterId": 1,
+      "term": "Market segment",
+      "viTerm": "Phân khúc thị trường",
+      "conceptId": "c1-3",
+      "lo": 3,
+      "definition": "A portion of a larger market whose needs differ somewhat from those of the larger market.",
+      "vi": "Nhóm khách có nhu cầu tương đồng; một sản phẩm có thể đáp ứng nhiều nhu cầu. Số 46/28/16/10 là tỷ trọng chi tiêu dịp lễ năm 2016, không phải tỷ lệ người mua.",
+      "pages": [
+        32
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-13",
+      "chapterId": 1,
+      "term": "Need set",
+      "viTerm": "Tập hợp nhu cầu",
+      "conceptId": "c1-3",
+      "lo": 3,
+      "definition": "The collection of needs an offering may satisfy; most products in the chapter’s context meet more than one need.",
+      "vi": "Nhóm khách có nhu cầu tương đồng; một sản phẩm có thể đáp ứng nhiều nhu cầu. Số 46/28/16/10 là tỷ trọng chi tiêu dịp lễ năm 2016, không phải tỷ lệ người mua.",
+      "pages": [
+        33
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-14",
+      "chapterId": 1,
+      "term": "Price",
+      "viTerm": "Giá",
+      "conceptId": "c1-13",
+      "lo": 3,
+      "definition": "The money required to obtain the right to use a product, including ownership or limited-use arrangements.",
+      "vi": "Giá là tiền để có quyền sử dụng; tổng chi phí còn gồm thời gian, công sức, chi phí vận hành và những đánh đổi khác.",
+      "pages": [
+        38
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-15",
+      "chapterId": 1,
+      "term": "Product",
+      "viTerm": "Sản phẩm",
+      "conceptId": "c1-11",
+      "lo": 3,
+      "definition": "Anything a consumer acquires or might acquire to meet a perceived need, including physical products and primary or core services. Consumers seek need satisfaction rather than attributes for their own sake.",
+      "vi": "Bất kỳ thứ gì có thể được có để đáp ứng nhu cầu cảm nhận, kể cả dịch vụ cốt lõi; khách hàng mua sự đáp ứng nhu cầu chứ không chỉ thuộc tính.",
+      "pages": [
+        36
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-16",
+      "chapterId": 1,
+      "term": "Product position",
+      "viTerm": "Vị trí sản phẩm trong tâm trí",
+      "conceptId": "c1-17",
+      "lo": 3,
+      "definition": "The image of a product or brand in consumers’ minds relative to competing products and brands.",
+      "vi": "Gồm vị trí sản phẩm trong tâm trí, doanh số, lợi nhuận và hài lòng. Có bán lần đầu chưa chứng minh đã đáp ứng kỳ vọng và nhu cầu.",
+      "pages": [
+        40
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-17",
+      "chapterId": 1,
+      "term": "Self-concept",
+      "viTerm": "Tự quan niệm",
+      "conceptId": "c1-24",
+      "lo": 4,
+      "definition": "The totality of an individual’s thoughts and feelings about themself.",
+      "vi": "Tự quan niệm là toàn bộ suy nghĩ, cảm xúc về bản thân. Lối sống là cách sống, gồm mua, dùng, suy nghĩ và cảm nhận về sản phẩm; thể hiện tự quan niệm nhưng không phải lúc nào cũng được hoạch định có ý thức.",
+      "pages": [
+        45
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-18",
+      "chapterId": 1,
+      "term": "Service",
+      "viTerm": "Dịch vụ hỗ trợ",
+      "conceptId": "c1-15",
+      "lo": 3,
+      "definition": "In this marketing mix, auxiliary or peripheral activities enhancing the primary good or core service.",
+      "vi": "Dịch vụ cốt lõi là sản phẩm chính; dịch vụ hỗ trợ tăng cường sản phẩm đó. Thêm dịch vụ khách không coi trọng có thể chỉ làm tăng chi phí.",
+      "pages": [
+        39
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-19",
+      "chapterId": 1,
+      "term": "Social marketing",
+      "viTerm": "Marketing xã hội",
+      "conceptId": "c1-21",
+      "lo": 2,
+      "definition": "Applying marketing strategies and tactics to create or change behaviors that benefit targeted individuals or society. Its defining purpose is beneficial behavioral change, rather than merely promoting an organization or increasing a firm’s sales.",
+      "vi": "Dùng chiến lược, chiến thuật marketing để tạo thay đổi hành vi có lợi. Không đồng nghĩa quảng cáo trên mạng xã hội và không chỉ được xác định bởi việc tổ chức có phi lợi nhuận hay không.",
+      "pages": [
+        27
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-20",
+      "chapterId": 1,
+      "term": "Target market",
+      "viTerm": "Thị trường mục tiêu",
+      "conceptId": "c1-9",
+      "lo": 3,
+      "definition": "The segment or segments of the larger market on which the firm focuses its marketing effort.",
+      "vi": "Chọn nhóm mà doanh nghiệp có thể phục vụ giá trị vượt trội một cách có lợi nhuận; quy mô lớn không đủ. Điểm bảng chỉ là công cụ so sánh.",
+      "pages": [
+        35
+      ],
+      "status": "available"
+    },
+    {
+      "id": "kt1-21",
+      "chapterId": 1,
+      "term": "Total product",
+      "viTerm": "Sản phẩm tổng thể",
+      "conceptId": "c1-7",
+      "lo": 3,
+      "definition": "The combined product features, price, communications, distribution, and services offered to the target market.",
+      "vi": "Sản phẩm tổng thể gồm nhiều yếu tố của đề nghị; trải nghiệm chủ yếu diễn ra bên trong cảm nhận mỗi khách hàng.",
+      "pages": [
+        30
+      ],
+      "status": "available"
+    }
+  ]
+}

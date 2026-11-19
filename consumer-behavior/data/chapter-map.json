@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "Consumer Behavior and Marketing Strategy",
+    "printedStart": 4,
+    "printedEnd": 33,
+    "pdfStart": 23,
+    "pdfEnd": 52
+  },
+  {
+    "id": 2,
+    "title": "Cross-Cultural Variations in Consumer Behavior",
+    "printedStart": 36,
+    "printedEnd": 77,
+    "pdfStart": 55,
+    "pdfEnd": 96
+  },
+  {
+    "id": 3,
+    "title": "The Changing American Society: Values",
+    "printedStart": 78,
+    "printedEnd": 109,
+    "pdfStart": 97,
+    "pdfEnd": 128
+  },
+  {
+    "id": 4,
+    "title": "The Changing American Society: Demographics and Social Stratification",
+    "printedStart": 110,
+    "printedEnd": 149,
+    "pdfStart": 129,
+    "pdfEnd": 168
+  },
+  {
+    "id": 5,
+    "title": "The Changing American Society: Subcultures",
+    "printedStart": 150,
+    "printedEnd": 185,
+    "pdfStart": 169,
+    "pdfEnd": 204
+  },
+  {
+    "id": 6,
+    "title": "The American Society: Families and Households",
+    "printedStart": 186,
+    "printedEnd": 217,
+    "pdfStart": 205,
+    "pdfEnd": 236
+  },
+  {
+    "id": 7,
+    "title": "Group Influences on Consumer Behavior",
+    "printedStart": 218,
+    "printedEnd": 258,
+    "pdfStart": 237,
+    "pdfEnd": 277
+  },
+  {
+    "id": 8,
+    "title": "Perception",
+    "printedStart": 280,
+    "printedEnd": 321,
+    "pdfStart": 299,
+    "pdfEnd": 340
+  },
+  {
+    "id": 9,
+    "title": "Learning, Memory, and Product Positioning",
+    "printedStart": 322,
+    "printedEnd": 363,
+    "pdfStart": 341,
+    "pdfEnd": 382
+  },
+  {
+    "id": 10,
+    "title": "Motivation, Personality, and Emotion",
+    "printedStart": 364,
+    "printedEnd": 395,
+    "pdfStart": 383,
+    "pdfEnd": 414
+  },
+  {
+    "id": 11,
+    "title": "Attitudes and Influencing Attitudes",
+    "printedStart": 396,
+    "printedEnd": 431,
+    "pdfStart": 415,
+    "pdfEnd": 450
+  },
+  {
+    "id": 12,
+    "title": "Self-Concept and Lifestyle",
+    "printedStart": 432,
+    "printedEnd": 457,
+    "pdfStart": 451,
+    "pdfEnd": 476
+  },
+  {
+    "id": 13,
+    "title": "Situational Influences",
+    "printedStart": 486,
+    "printedEnd": 511,
+    "pdfStart": 505,
+    "pdfEnd": 530
+  },
+  {
+    "id": 14,
+    "title": "Consumer Decision Process and Problem Recognition",
+    "printedStart": 512,
+    "printedEnd": 533,
+    "pdfStart": 531,
+    "pdfEnd": 552
+  },
+  {
+    "id": 15,
+    "title": "Information Search",
+    "printedStart": 534,
+    "printedEnd": 565,
+    "pdfStart": 553,
+    "pdfEnd": 584
+  },
+  {
+    "id": 16,
+    "title": "Alternative Evaluation and Selection",
+    "printedStart": 566,
+    "printedEnd": 595,
+    "pdfStart": 585,
+    "pdfEnd": 614
+  },
+  {
+    "id": 17,
+    "title": "Outlet Selection and Purchase",
+    "printedStart": 596,
+    "printedEnd": 639,
+    "pdfStart": 615,
+    "pdfEnd": 658
+  },
+  {
+    "id": 18,
+    "title": "Postpurchase Processes, Customer Satisfaction, and Customer Commitment",
+    "printedStart": 640,
+    "printedEnd": 673,
+    "pdfStart": 659,
+    "pdfEnd": 692
+  },
+  {
+    "id": 19,
+    "title": "Organizational Buyer Behavior",
+    "printedStart": 692,
+    "printedEnd": 721,
+    "pdfStart": 711,
+    "pdfEnd": 740
+  },
+  {
+    "id": 20,
+    "title": "Marketing Regulation and Consumer Behavior",
+    "printedStart": 730,
+    "printedEnd": 756,
+    "pdfStart": 749,
+    "pdfEnd": 775
+  }
+]
