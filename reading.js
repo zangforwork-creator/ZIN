@@ -1,6 +1,5 @@
 import {englishEdition} from './language.js';
-const CACHE='zin-reading-cache-v1';
-export const REFRESH_MS=15*60*1000;
+const CACHE='zin-reading-static-cache-v1';
 const trusted=['vnexpress.net','blog.google','ads-developers.googleblog.com','brandsvietnam.com','thinkwithgoogle.com','business.google.com','warc.com'];
 export function safeSource(value){try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password&&!u.port&&trusted.some(h=>u.hostname===h||u.hostname.endsWith('.'+h))?u.href:'';}catch{return '';}}
 export function cleanEdition(value){
@@ -9,8 +8,8 @@ export function cleanEdition(value){
 }
 export function cachedEdition(){try{return cleanEdition(JSON.parse(localStorage.getItem(CACHE)));}catch{return {items:[],caseStudies:[],sources:[],updatedAt:null,caseUpdatedAt:null};}}
 export async function fetchEdition(){
- const response=await fetch('/api/reading',{cache:'no-store',signal:AbortSignal.timeout(18000)});
- if(!response.ok)throw Error('New stories are unavailable. Your latest saved edition is retained; you can retry.');
+ const response=await fetch(new URL('./data/reading-seed.json',import.meta.url),{cache:'no-cache',signal:AbortSignal.timeout(18000)});
+ if(!response.ok)throw Error('The saved reading library is unavailable. Your last downloaded copy is retained.');
  const edition=cleanEdition(await response.json());try{localStorage.setItem(CACHE,JSON.stringify(edition));}catch{}
  return edition;
 }

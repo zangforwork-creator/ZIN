@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {validateCourses,filterCourses,courseCards} from '../dist/courses.js';
-const data=JSON.parse(await readFile(new URL('../dist/data/online-courses.json',import.meta.url)));
+import {validateCourses,filterCourses,courseCards} from '../courses.js';
+const data=JSON.parse(await readFile(new URL('../data/online-courses.json',import.meta.url)));
 test('five course records retain primary provider sources and distinguish blended delivery',()=>{
  assert.equal(validateCourses(data).courses.length,5);assert.equal(data.courses.find(c=>c.id==='aim-digital-platform').online,false);assert.equal(data.courses.find(c=>c.id==='linkedin-marketing-foundations').duration,'1 hr 20 min');assert.equal(data.courses.find(c=>c.id==='hubspot-digital-marketing').duration,'3 hr 24 min');
 });

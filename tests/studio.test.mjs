@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {initialState,validateState,loadState,saveState,mergeState,STORAGE_KEY,escapeHTML} from '../dist/core.js';
-import {calendarDate,daysLeft,deadline,examState,validateExam,orderedExams,duplicateExam,tickLabel} from '../dist/exams.js';
+import {initialState,validateState,loadState,saveState,mergeState,STORAGE_KEY,escapeHTML} from '../core.js';
+import {calendarDate,daysLeft,deadline,examState,validateExam,orderedExams,duplicateExam,tickLabel} from '../exams.js';
 const now=Date.parse('2026-11-17T03:00:00Z'),exam=(overrides={})=>validateExam({id:'exam-a',subject:'Consumer Behaviour',courseId:'consumer-behaviour',type:'Final',date:'2026-12-01',time:'',location:'',note:'',addedAt:'2026-11-01T00:00:00Z',...overrides});
 test('Vietnam calendar-day differences ignore 24-hour durations and cross midnight, month, year and leap-day boundaries',()=>{
  assert.equal(calendarDate(Date.parse('2026-11-16T17:00:00Z')),'2026-11-17');assert.equal(daysLeft(exam({date:'2026-11-18'}),Date.parse('2026-11-17T16:59:00Z')),1);assert.equal(daysLeft(exam({date:'2026-11-18'}),Date.parse('2026-11-17T17:00:00Z')),0);assert.equal(daysLeft(exam({date:'2027-01-01'}),Date.parse('2026-12-31T03:00:00Z')),1);assert.equal(daysLeft(exam({date:'2028-03-01'}),Date.parse('2028-02-28T03:00:00Z')),2);
@@ -29,5 +29,5 @@ test('reload and backup merge retain exams and current notes once, while undo su
  const a=initialState(),b=initialState();a.exams=[exam()];b.exams=[exam(),exam({id:'b',subject:'A custom subject',courseId:''})];a.notes['case:a']='Current';b.notes['case:a']='Incoming';a.undo={exam:exam({id:'deleted'}),until:now+30000};const merged=mergeState(a,b);assert.equal(merged.exams.length,2);assert.equal(mergeState(merged,b).exams.length,2);assert.equal(merged.notes['case:a'],'Current');assert.equal(validateState(JSON.parse(JSON.stringify(merged))).undo.exam.id,'deleted');assert(!escapeHTML('<img src=x>').includes('<img'));
 });
 test('single editable catalog retains real courses and current-semester picks with no invented exam dates',async()=>{
- const data=JSON.parse(await readFile(new URL('../dist/data/studio.json',import.meta.url)));assert.equal(data.courses.length,10);assert.equal(data.courses.filter(c=>c.current).length,4);assert.deepEqual(data.exams,[]);assert(data.links.consumerBehaviorLab.startsWith('https://'));assert(data.courses.every(c=>c.books.length&&c.cover.src));
+ const data=JSON.parse(await readFile(new URL('../data/studio.json',import.meta.url)));assert.equal(data.courses.length,10);assert.equal(data.courses.filter(c=>c.current).length,4);assert.deepEqual(data.exams,[]);assert(data.links.consumerBehaviorLab.startsWith('https://'));assert(data.courses.every(c=>c.books.length&&c.cover.src));
 });

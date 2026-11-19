@@ -7,3 +7,14 @@
 /Kho-tai-lieu-mon-hoc/**/*.pdf
 /Kho-tai-lieu-mon-hoc/**/*.zip
 /Websites/Archives/
+
+# Browser-only Studio development
+node_modules/
+.preview/
+.env*
+!.env.example
+*.log
+*.tar.gz
+*.zip
+.DS_Store
+Thumbs.db
