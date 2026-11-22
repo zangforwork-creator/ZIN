@@ -10,7 +10,7 @@ try{
  await page.locator('.learn-card-image').first().waitFor();
  assert.equal(await page.locator('.learn-card-image').count(),5);
  for(const img of await page.locator('.learn-card-image').all())await img.evaluate(x=>x.decode());
- assert(await page.locator('.learn-story .learn-illustration img').evaluate(x=>x.getBoundingClientRect().width<=600));
+ assert(await page.locator('.learn-story .learn-illustration img').evaluate(x=>Math.abs(x.getBoundingClientRect().width-x.closest('figure').getBoundingClientRect().width)<1));
  assert.equal(await page.locator('.map-variable-icon').count(),7);
  const titles=['External influences','Self-concept & lifestyle','Internal influences','Customer value','Consumer process','Consumption meaning','Marketing strategy'];
  for(const [i,node] of (await page.locator('[data-map-variable]').all()).entries()){

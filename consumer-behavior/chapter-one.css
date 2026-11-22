@@ -25,9 +25,9 @@
 .chapter-content .match{display:grid;grid-template-columns:1fr 1fr;gap:15px}.chapter-content .selected{outline:3px solid var(--primary);outline-offset:2px}
 .chapter-content .chapter-backups{margin:28px 0}.chapter-content .chapter-backups>button{margin-right:16px}
 .chapter-content :focus-visible{outline:3px solid var(--primary);outline-offset:3px}
-.chapter-content .learn-story{background:linear-gradient(130deg,var(--soft),var(--surface));border-color:var(--line);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:32px}
+.chapter-content .learn-story{background:linear-gradient(130deg,var(--soft),var(--surface));border-color:var(--line);display:grid;grid-template-columns:minmax(0,3fr) minmax(0,7fr);align-items:center;gap:32px}
 .chapter-content .learn-story-copy{min-width:0}
-.chapter-content .learn-story>.learn-illustration{width:100%;max-width:600px;margin:0;justify-self:end}
+.chapter-content .learn-story>.learn-illustration{width:100%;max-width:none;margin:0;justify-self:end}
 @media(max-width:900px){.chapter-content .learn-story{grid-template-columns:1fr;gap:24px}.chapter-content .learn-story>.learn-illustration{justify-self:center}}
 .chapter-content .learn-path{max-width:1050px;margin:auto}
 .chapter-content .learn-stages{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}
@@ -48,8 +48,7 @@
 .chapter-content .learn-illustration{margin:22px 0}
 .chapter-content .learn-illustration img{display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--line);background:#ecebff}
 .chapter-content .learn-card-image{display:block;width:100%;height:auto;aspect-ratio:12/5;object-fit:contain;border-radius:12px;background:var(--soft);margin-bottom:20px;border:1px solid var(--line)}
-.chapter-content .learn-story>.learn-illustration{max-width:600px;margin:0 auto 24px}
-.chapter-content .learn-story>.learn-illustration img{max-height:250px;object-fit:contain}
+.chapter-content .learn-story>.learn-illustration img{max-height:none;object-fit:contain}
 .chapter-content figure figcaption{font-size:14px;line-height:1.7;color:var(--muted);margin-top:10px}
 .chapter-content .learn-linked-map{margin:24px 0;position:relative}
 .chapter-content .learn-diagram-scroll{overflow-x:auto;max-width:100%;border:1px solid var(--line);border-radius:16px;background:var(--soft);padding:12px}

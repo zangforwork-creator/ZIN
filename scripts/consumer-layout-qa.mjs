@@ -9,6 +9,7 @@ try{
  await page.locator('.learn-story-copy').waitFor();
  const copy=await page.locator('.learn-story-copy').boundingBox(),picture=await page.locator('.learn-story>.learn-illustration').boundingBox();
  assert(copy.x+copy.width<=picture.x,'Story content must be to the left of the image');
+ assert(Math.abs(picture.width/(copy.width+picture.width)-0.7)<0.005,'Story must allocate 70% to the image and 30% to the text');
  assert.equal(await page.locator('.learn-map-branches,[data-learn-map-hide],[data-learn-map-all]').count(),0);
  assert(!/Read the connections as a list|Teaching synthesis/.test(await page.locator('.learn-chapter-map').innerText()));
  await page.locator('.collapse-nav').click();
