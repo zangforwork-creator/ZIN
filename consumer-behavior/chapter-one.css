@@ -27,6 +27,19 @@
 .chapter-content :focus-visible{outline:3px solid var(--primary);outline-offset:3px}
 .chapter-content .learn-story{background:linear-gradient(130deg,var(--soft),var(--surface));border-color:var(--line);display:grid;grid-template-columns:minmax(0,3fr) minmax(0,7fr);align-items:center;gap:32px}
 .chapter-content .learn-story-copy{min-width:0}
+.chapter-content .chapter-outcomes{padding-left:22px;margin:16px 0}
+.chapter-content .chapter-outcomes li{font-size:16px;line-height:1.65;margin-bottom:10px}
+.study-audio{display:flex;align-items:center;gap:6px;flex-shrink:0;color:var(--ink)}
+.study-audio button,.study-audio summary{font:inherit;font-size:13px;color:var(--ink);border:1px solid var(--line);background:var(--soft);border-radius:10px;padding:9px 12px;cursor:pointer;white-space:nowrap}
+.study-audio .audio-settings{position:relative;border:0;padding:0}
+.study-audio summary{list-style:none;font-size:19px;line-height:1;padding:10px}
+.study-audio summary::-webkit-details-marker{display:none}
+.audio-settings-panel{position:absolute;right:0;top:46px;width:270px;max-width:calc(100vw - 32px);padding:20px;border:1px solid var(--line);border-radius:16px;background:var(--bg);box-shadow:0 12px 32px #10094a22;z-index:90}
+.audio-settings-panel>label{display:block;font-size:14px;margin-top:16px}
+.audio-settings-panel input[type=range]{width:100%;accent-color:var(--primary);margin:12px 0}
+.audio-settings-panel .audio-effects{display:flex;align-items:center;gap:9px;margin-bottom:16px;line-height:1.5}
+.audio-settings-panel p{font-size:13px;line-height:1.6;margin:10px 0}
+@media(max-width:650px){.study-audio{gap:4px}.study-audio button{font-size:11px;padding:8px}.study-audio summary{padding:8px}.declutter .topbar{gap:7px}.declutter .global-search{min-width:0}.declutter .global-search input{min-width:0}.audio-settings-panel{position:fixed;top:65px;right:12px}}
 .chapter-content .learn-story>.learn-illustration{width:100%;max-width:none;margin:0;justify-self:end}
 @media(max-width:900px){.chapter-content .learn-story{grid-template-columns:1fr;gap:24px}.chapter-content .learn-story>.learn-illustration{justify-self:center}}
 .chapter-content .learn-path{max-width:1050px;margin:auto}

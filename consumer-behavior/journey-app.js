@@ -1,7 +1,8 @@
-import {mountChapterContent,unmountChapterContent} from './chapter-one.js?v=20261122-layout1';
-import {loadLectureCompanion} from './lecture-companion.js';
+import {playCue} from './study-audio.js?v=20261122-audio1';
+import {mountChapterContent,unmountChapterContent} from './chapter-one.js?v=20261122-audio1';
+import {loadLectureCompanion} from './lecture-companion.js?v=20261122-audio1';
 let lecture;
-import {createExpansion} from './chapter-expansion.js';
+import {createExpansion} from './chapter-expansion.js?v=20261122-audio1';
 import {createDeclutter} from './declutter.js';
 import {revealWritten,saveWritten,replayWritten,writtenScore} from './meaning-state.js';
 import {feedbackCanvas,feedbackNodeDetails,bookRoadmap,toggleFeedback} from './model-feedback.js';
@@ -110,7 +111,7 @@ function downloadBackup(){let unreadableOriginal;try{if(storageError)unreadableO
 function searchResults(){const box=$('#search-suggestions'),query=searchTerm.trim().toLowerCase();$('#global-query').setAttribute('aria-expanded',String(!!query));if(!query){box.hidden=true;return;}const concepts=[...examBank.terms,...allConcepts()].filter(c=>(c.term+' '+c.definition).toLowerCase().includes(query)).slice(0,5),chapters=data.chapters.filter(c=>c.title.toLowerCase().includes(query)).slice(0,2);box.innerHTML=`<span class="eyebrow">SEARCH RESULTS</span>${concepts.map(c=>`<button data-action="search-concept" data-item="${c.id}">${icon('glossary',17)}<span>${e(c.term)}<small>Concept · Chapter ${c.chapterId}</small></span></button>`).join('')}${chapters.map(c=>`<a href="#chapter/${c.id}">${icon(c.status==='available'?'book':'lock',17)}<span>${e(c.title)}<small>${c.status==='available'?'Interactive chapter':'Interactive chapter coming'}</small></span></a>`).join('')}<button data-action="search-all">${concepts.length||chapters.length?'See all matching concepts':'No quick matches. Search the glossary.'} ${icon('arrow',15)}</button>`;box.hidden=false;}
 function navigate(){if(!data||!course||!deep||!exp)return;const [view,id,...tail]=location.hash.slice(1).split('/');parameter=[id,...tail].filter(Boolean).join('/');quickStart=view==='quick-start';route=['home','chapters','chapter','practice','review','games','progress','glossary','exam','tools','coverage','cheat'].includes(view)?view:quickStart||view==='module'?'chapter':'home';if(view==='module'){chapterId=100+Number(id);if(!getChapter(chapterId))chapterId=101;if(getChapter(chapterId)?.status==='available'){journey.exam.lastModule=chapterId;save();}}else if(route==='chapter')chapterId=quickStart?1:getChapter(id)?.id||1;ui.restoreGame(route==='chapter'?chapterId:gameUnit);if(dialog.open)dialog.close();$('#search-suggestions').hidden=true;render(true);}
 
-function choiceResult(q,selected){recordActivity(journey);return {selected,correct:selected===q.correct};}
+function choiceResult(q,selected){playCue(selected===q.correct?'correct':'wrong');recordActivity(journey);return {selected,correct:selected===q.correct};}
 function answerCurrent(action,d){const ch=chapter(),c=chapterState(),selected=Number(d.choice);
  if(action==='hook-answer'){if(c.hook!==null)return;c.hook=selected;reward('chapter:'+ch.id+':hook',10);completeStep(0);}
  if(action==='model-answer'){const node=ch.model.nodes.find(n=>n.id===d.item);if(!node||c.modelAnswers[d.item]?.correct)return;const a=choiceResult(node.quiz,selected);c.modelAnswers[d.item]=a;if(a.correct)reward('chapter:'+ch.id+':model:'+d.item,10);if(ch.model.nodes.every(n=>c.modelAnswers[n.id]?.correct))completeStep(1);}
@@ -120,7 +121,7 @@ function answerCurrent(action,d){const ch=chapter(),c=chapterState(),selected=Nu
 }
 function gameAction(action,d){
  const id=route==='chapter'?chapterId:gameUnit,ch=getChapter(id),c=chapterState(id);if(!ch.games[gameType])gameType='sort';const g=gameState(c,gameType,ch),spec=ch.games[gameType];
- const result=(key,correct,text)=>{if(!markGameAnswer(g,key,correct))return;recordActivity(journey);g.feedback=text;g.positive=correct;};
+ const result=(key,correct,text)=>{if(!markGameAnswer(g,key,correct))return;playCue(correct?'correct':'wrong');recordActivity(journey);g.feedback=text;g.positive=correct;};
  switch(action){
  case 'game-type':gameType=d.type;gameState(c,gameType,ch);break;
  case 'game-hint':if(!g.hintOpen){g.hints++;g.hintOpen=true;}break;

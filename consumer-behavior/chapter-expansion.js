@@ -1,3 +1,4 @@
+import {playCue} from './study-audio.js?v=20261122-audio1';
 import {escapeHTML as e} from './core.js';
 import {recordActivity} from './journey-state.js';
 import {checkedRecord,gradeQuestion,recordExam,questionReviews,evidenceFor,examReadiness,rankSegments,satisfactionState} from './exam-state.js';
@@ -54,7 +55,7 @@ export function createExpansion(ctx){
  function saveResult(q,r,sessionId){if(recordExam(state(),q,r,sessionId)){recordActivity(journey());ctx.reward('exam:'+q.id+':'+new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()),gradeQuestion(q,r)===1?10:5);}maybeBadge();ctx.save();}
  function finish(){const s=state().session;if(!s||s.finished)return;for(const id of s.ids){const q=find(id),r=s.records[id]||(s.records[id]=checkedRecord());if(!r.saved){recordExam(state(),q,r,s.id);const attempt=state().attempts.find(a=>a.id===r.attemptId);if(attempt){attempt.score=0;attempt.basis='unanswered';attempt.assisted=true;}}}s.finished=true;s.paused=true;ctx.save();ctx.render();}
  function clock(s){const ms=s.timed?Math.max(0,s.limitMs-s.elapsedMs):s.elapsedMs;return `${s.timed?'Remaining':'Active time'} ${Math.floor(ms/60000)}:${String(Math.floor(ms/1000)%60).padStart(2,'0')}${s.paused?' · paused':''}`;}
- function tick(active){const s=state().session;if(!active||!s||s.finished||s.paused||document.hidden)return;s.elapsedMs+=1000;const el=$('#exam-clock');if(el)el.textContent=clock(s);if(s.timed&&s.elapsedMs>=s.limitMs){ctx.toast('The active-time limit ended. Saved results and unanswered items are in your session report.');finish();}else if(s.elapsedMs%10000===0)ctx.save();}
+ function tick(active){const s=state().session;if(!active||!s||s.finished||s.paused||document.hidden)return;s.elapsedMs+=1000;const el=$('#exam-clock');if(el)el.textContent=clock(s);if(s.timed&&s.elapsedMs>=s.limitMs){playCue('timeout');ctx.toast('The active-time limit ended. Saved results and unanswered items are in your session report.');finish();}else if(s.elapsedMs%10000===0)ctx.save();}
  function handle(action,d){
   const active=activeQuestion();
   if(action==='module-practice'){const ch=ctx.currentChapter(),c=ch.concepts.find(x=>x.id===d.item),st=ctx.unitState();if(!c)return true;st.practiceAnswers||={};if(st.practiceAnswers[c.id]?.correct)return true;const selected=Number(d.choice);st.practiceAnswers[c.id]={selected,correct:selected===c.practice.correct};recordActivity(journey());if(selected===c.practice.correct)ctx.reward('module:'+ch.id+':extra:'+c.id,5);ctx.save();ctx.render();return true;}
@@ -62,7 +63,7 @@ export function createExpansion(ctx){
   if(action==='exam-weak'){weak();return true;}if(action==='exam-fix-one'){weak([d.item]);return true;}
   if(action==='exam-select'&&active&&!active.r.revealed){active.r.selected=Number(d.choice);ctx.save();ctx.render();return true;}
   if(action==='exam-hint'&&active&&!active.r.revealed){active.r.hint=true;ctx.save();ctx.render();return true;}
-  if(action==='exam-reveal'&&active&&!active.r.revealed){const {q,r,s}=active;const written=['short','essay','flashcard','application'].includes(q.type);r.early=written?!r.response.trim():q.type==='matching'?q.pairs.some(p=>r.matches[p.id]===undefined):r.selected===null;r.revealed=true;if(!written)saveResult(q,r,s.id);ctx.save();ctx.render();return true;}
+  if(action==='exam-reveal'&&active&&!active.r.revealed){const {q,r,s}=active;const written=['short','essay','flashcard','application'].includes(q.type);r.early=written?!r.response.trim():q.type==='matching'?q.pairs.some(p=>r.matches[p.id]===undefined):r.selected===null;r.revealed=true;if(!written){saveResult(q,r,s.id);playCue(gradeQuestion(q,r)===1?'correct':'wrong')}ctx.save();ctx.render();return true;}
   if(action==='exam-save-written'&&active&&active.r.revealed&&!active.r.saved){saveResult(active.q,active.r,active.s.id);ctx.render();return true;}
   if(action==='exam-next'&&active?.r.saved){active.s.index++;if(active.s.index>=active.s.ids.length)active.s.finished=true;ctx.save();ctx.render();return true;}
   if(action==='exam-finish'){finish();return true;}if(action==='exam-pause'&&state().session){state().session.paused=!state().session.paused;ctx.save();ctx.render();return true;}
