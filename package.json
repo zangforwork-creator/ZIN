@@ -7,7 +7,9 @@
     "dev": "node scripts/serve.mjs",
     "check": "node scripts/check.mjs",
     "test": "node --test tests/*.test.mjs",
-    "qa": "node scripts/pages-qa.mjs"
+    "qa": "node scripts/pages-qa.mjs",
+    "qa:consumer": "node scripts/adaptive-qa.mjs",
+    "check:consumer": "node --check consumer-behavior/adaptive-state.js && node --check consumer-behavior/concept-learning.js && node --check consumer-behavior/journey-app.js && node --check consumer-behavior/journey-state.js"
   },
   "devDependencies": {
     "playwright-core": "1.56.1"

@@ -11,7 +11,7 @@ function showRecovery(message){
  screen.append(title,text,retry);app.replaceChildren(screen);
 }
 const timeout=setTimeout(()=>showRecovery('Loading is taking longer than expected. Check your connection and retry.'),20000);
-try{await import('./journey-app.js?v=20261122-audio1')}
+try{await import('./journey-app.js?v=20261123-concepts1')}
 catch(error){console.error('Consumer Behavior startup failed:',error);showRecovery('Some application files could not load. Please retry.')}
 finally{clearTimeout(timeout)}
 

@@ -1,8 +1,9 @@
+import {freshLearning,checkedLearning,mergeLearning} from './adaptive-state.js?v=20261123-concepts1';
 import {schedule} from './core.js';
 import {checkedWritten,mergeWritten} from './meaning-state.js';
 import {freshExam,validateExam,mergeExam} from './exam-state.js';
 export const JOURNEY_KEY='zin-cb-journey-v1';
-export const freshJourney=()=>({version:1,chapters:{},rewards:{},activityDays:[],preferences:{vi:false,collapsed:false},session:null,exam:freshExam()});
+export const freshJourney=()=>({version:1,chapters:{},rewards:{},activityDays:[],preferences:{vi:false,collapsed:false},session:null,conceptLearning:freshLearning(),exam:freshExam()});
 export const newChapter=()=>({step:0,completed:[],hook:null,modelAnswers:{},modelIndex:0,conceptIndex:0,conceptAnswers:{},caseAnswers:{},games:{},recall:{},badge:false});
 const safeKey=k=>/^[a-zA-Z0-9:_-]{1,140}$/.test(k)&&!['__proto__','constructor','prototype'].includes(k);
 const dict=value=>Object.fromEntries(Object.entries(value&&typeof value==='object'&&!Array.isArray(value)?value:{}).filter(([k])=>safeKey(k)));
@@ -27,7 +28,7 @@ export function validateJourney(value){
  next.activityDays=[...new Set((Array.isArray(value.activityDays)?value.activityDays:[]).filter(x=>typeof x==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(x)))].sort();
  next.preferences={vi:!!value.preferences?.vi,collapsed:!!value.preferences?.collapsed};
  if(value.session&&typeof value.session.id==='string'&&safeKey(value.session.id)&&Array.isArray(value.session.ids)&&value.session.ids.length<=100&&value.session.ids.every(id=>/^c(?:[1-9]|1\d|20)-[1-9]\d?$/.test(id)))next.session={id:value.session.id,ids:[...new Set(value.session.ids)],index:integer(value.session.index,value.session.ids.length),records:Object.fromEntries(Object.entries(dict(value.session.records)).map(([id,r])=>[id,{response:text(r?.response,5000),revealed:r?.revealed===true,hint:r?.hint===true,saved:r?.saved===true}])),lessonId:integer(value.session.lessonId,105)};
- next.exam=validateExam(value.exam);
+ next.conceptLearning=checkedLearning(value.conceptLearning);next.exam=validateExam(value.exam);
  return next;
 }
 export const localDay=(now=Date.now())=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(now));
@@ -55,7 +56,7 @@ export function mergeJourney(current,incoming){
  const a=validateJourney(current),b=validateJourney(incoming);
  a.rewards={...b.rewards,...a.rewards};a.activityDays=[...new Set([...a.activityDays,...b.activityDays])].sort();
  if(!a.session)a.session=b.session;
- a.exam=mergeExam(a.exam,b.exam);
+ a.conceptLearning=mergeLearning(a.conceptLearning,b.conceptLearning);a.exam=mergeExam(a.exam,b.exam);
  for(const [id,other] of Object.entries(b.chapters)){
   if(!a.chapters[id]){a.chapters[id]=other;continue;}
   const c=a.chapters[id];c.completed=[...new Set([...c.completed,...other.completed])];c.badge=c.badge||other.badge;

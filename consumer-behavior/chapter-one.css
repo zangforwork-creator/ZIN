@@ -29,6 +29,22 @@
 .chapter-content .learn-story-copy{min-width:0}
 .chapter-content .chapter-outcomes{padding-left:22px;margin:16px 0}
 .chapter-content .chapter-outcomes li{font-size:16px;line-height:1.65;margin-bottom:10px}
+.concept-learning{max-width:1100px;margin:auto}
+.concept-learning .concept-card{max-width:850px;margin:20px auto}
+.concept-learning .concept-card-image{float:right;width:35%;height:auto;margin:0 0 20px 22px;border-radius:14px;background:var(--soft)}
+.concept-learning .concept-card:after{content:'';display:block;clear:both}
+@media(max-width:650px){.concept-learning .concept-card-image{float:none;display:block;width:100%;max-width:320px;margin:18px auto}}
+.concept-learning .concept-question{max-width:900px;margin:20px auto}
+.concept-learning .concept-question fieldset{border:0;padding:0;min-width:0}
+.concept-learning .concept-question fieldset>label{display:block;margin:16px 0}
+.concept-learning table,.concept-dashboard table{border-collapse:collapse;width:100%;font-size:14px;margin:18px 0}
+.concept-learning td,.concept-learning th,.concept-dashboard td,.concept-dashboard th{text-align:left;vertical-align:top;padding:12px;border-bottom:1px solid var(--line)}
+.concept-table-wrap{overflow-x:auto}
+.concept-dashboard .concept-dashboard{border:0;padding:0;box-shadow:none;margin:0}
+.concept-dashboard p{line-height:1.7}
+.concept-learning .learn-map-tools{justify-content:flex-start}
+.concept-learning input[type=file]{max-width:100%}
+@media(max-width:650px){.concept-learning h2{font-size:23px}.concept-learning th,.concept-learning td{padding:8px;font-size:13px}.concept-learning .learn-map-tools>button{flex:1}}
 .study-audio{display:flex;align-items:center;gap:6px;flex-shrink:0;color:var(--ink)}
 .study-audio button,.study-audio summary{font:inherit;font-size:13px;color:var(--ink);border:1px solid var(--line);background:var(--soft);border-radius:10px;padding:9px 12px;cursor:pointer;white-space:nowrap}
 .study-audio .audio-settings{position:relative;border:0;padding:0}
