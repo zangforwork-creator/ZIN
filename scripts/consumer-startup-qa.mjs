@@ -9,7 +9,7 @@ try{
  await page.route('**/consumer-behavior/chapter-one.css',route=>{staleRequests++;return route.fulfill({contentType:'text/css',body:'body{display:none}'})});
  await page.goto(url+'consumer-behavior/index.html#home');
  await page.locator('.dashboard-chapters').waitFor();assert.equal(staleRequests,0);
- await page.goto(url+'consumer-behavior/index.html#chapter/1');await page.locator('[data-lesson="0"]').waitFor();
+ await page.goto(url+'consumer-behavior/index.html#chapter/1');await page.locator('.grid [data-lesson="0"]').waitFor();
  await page.close();
  const failed=await browser.newPage();
  await failed.route('**/journey-app.js?*',r=>r.abort());

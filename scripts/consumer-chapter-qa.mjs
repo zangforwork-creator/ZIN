@@ -13,12 +13,12 @@ try{
  assert(await page.locator('.dashboard-chapters').count(),'Original dashboard is missing');
  await page.screenshot({path:'consumer-original-home.png',fullPage:true});
  await page.goto(url+'consumer-behavior/index.html#chapter/1');
- await page.locator('[data-lesson="0"]').waitFor();
- assert.equal(await page.locator('[data-lesson]').count(),5);
- await page.locator('[data-lesson="0"]').click();
+ await page.locator('.grid [data-lesson="0"]').waitFor();
+ assert.equal(await page.locator('.grid [data-lesson]').count(),5);
+ await page.locator('.grid [data-lesson="0"]').click();await page.locator('.learn-reference summary').click();await page.locator('[data-full-lesson]').click();
  await page.locator('#note').fill('Buyer and consumer can differ.');
  await page.locator('[data-complete]').click();
- await page.reload();await page.locator('[data-lesson="0"]').click();
+ await page.reload();await page.locator('.grid [data-lesson="0"]').click();await page.locator('.learn-reference summary').click();await page.locator('[data-full-lesson]').click();
  assert.equal(await page.locator('#note').inputValue(),'Buyer and consumer can differ.');
  await page.locator('[data-tab="practice"]').first().click();
  for(const game of ['gap','match','shoot']){

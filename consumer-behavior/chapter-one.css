@@ -25,4 +25,25 @@
 .chapter-content .match{display:grid;grid-template-columns:1fr 1fr;gap:15px}.chapter-content .selected{outline:3px solid var(--primary);outline-offset:2px}
 .chapter-content .chapter-backups{margin:28px 0}.chapter-content .chapter-backups>button{margin-right:16px}
 .chapter-content :focus-visible{outline:3px solid var(--primary);outline-offset:3px}
+.chapter-content .learn-story{background:linear-gradient(130deg,var(--soft),var(--surface));border-color:var(--line)}
+.chapter-content .learn-path{max-width:1050px;margin:auto}
+.chapter-content .learn-stages{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}
+.chapter-content .learn-stages button{font-size:14px;padding:9px 12px}
+.chapter-content .learn-stages [aria-current=step]{background:var(--primary);color:var(--on-primary)}
+.chapter-content .learn-scene{min-height:320px}
+.chapter-content .learn-scenario,.chapter-content .learn-keypoint{font-size:20px;line-height:1.8;padding:22px;background:var(--soft);border-radius:14px;margin:22px 0}
+.chapter-content .learn-prediction{border:1px solid var(--line);border-radius:12px;padding:18px;margin:20px 0}
+.chapter-content .learn-prediction label{display:block;line-height:1.7;padding:8px 0}
+.chapter-content .learn-navigation,.chapter-content .learn-point-controls,.chapter-content .learn-map-tools{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:20px 0}
+.chapter-content .learn-map-tools{justify-content:flex-start}
+.chapter-content .learn-map-root{background:var(--primary);color:var(--on-primary);padding:20px;border-radius:14px;text-align:center;font-weight:800;margin:24px auto 0;max-width:400px}
+.chapter-content .learn-map-root span{display:block;font-size:14px;font-weight:400;margin-top:8px}
+.chapter-content .learn-map-branches{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;padding-top:22px;border-top:2px solid var(--line);margin-top:22px}
+.chapter-content .learn-map-branches>details{background:var(--soft);border:1px solid var(--line);border-top:3px solid var(--primary);border-radius:12px;padding:18px;min-width:0}
+.chapter-content .learn-map-branches summary>span{display:block;color:var(--muted);font-size:13px;font-weight:400}
+.chapter-content .learn-map-relation{font-size:14px;color:var(--muted)}
+.chapter-content .learn-value-lab input[type=range]{display:block;width:100%;accent-color:var(--primary);margin:16px 0 25px}
+.chapter-content blockquote{margin:22px 0;padding:18px;border-left:3px solid var(--primary);background:var(--soft)}
+@media(max-width:850px){.chapter-content .learn-map-branches{grid-template-columns:1fr 1fr}}
+@media(max-width:650px){.chapter-content .learn-map-branches{grid-template-columns:1fr}.chapter-content .learn-keypoint,.chapter-content .learn-scenario{padding:16px;font-size:18px}.chapter-content .learn-stages{gap:6px}.chapter-content .learn-stages button{font-size:13px}.chapter-content .learn-navigation>button{flex:1}}
 @media(max-width:1100px){.chapter-content .grid{grid-template-columns:1fr 1fr}}@media(max-width:650px){.chapter-content .grid{grid-template-columns:1fr}.chapter-content .section-head{align-items:flex-start}.chapter-content .card,.chapter-content .panel,.chapter-content .lesson{padding:18px}.chapter-content .section-tabs button{padding:12px 16px}}
