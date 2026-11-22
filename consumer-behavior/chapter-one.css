@@ -42,6 +42,29 @@
 .chapter-content .learn-map-branches>details{background:var(--soft);border:1px solid var(--line);border-top:3px solid var(--primary);border-radius:12px;padding:18px;min-width:0}
 .chapter-content .learn-map-branches summary>span{display:block;color:var(--muted);font-size:13px;font-weight:400}
 .chapter-content .learn-map-relation{font-size:14px;color:var(--muted)}
+.chapter-content .learn-illustration{margin:22px 0}
+.chapter-content .learn-illustration img{display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--line);background:#ecebff}
+.chapter-content figure figcaption{font-size:14px;line-height:1.7;color:var(--muted);margin-top:10px}
+.chapter-content .learn-linked-map{margin:24px 0}
+.chapter-content .learn-diagram-scroll{overflow-x:auto;max-width:100%;border:1px solid var(--line);border-radius:16px;background:var(--soft);padding:12px}
+.chapter-content .learn-linked-map svg{display:block;width:100%;min-width:960px;height:auto;overflow:visible}
+.chapter-content .concept-node{cursor:pointer;outline:none}
+.chapter-content .concept-node rect{fill:var(--surface);stroke:var(--primary);stroke-width:1.5}
+.chapter-content .concept-node text{fill:var(--ink);font-family:inherit;font-size:18px;font-weight:700}
+.chapter-content .concept-node .node-subtitle{font-size:13px;fill:var(--muted);font-weight:400}
+.chapter-content .concept-node:hover rect,.chapter-content .concept-node:focus rect{stroke-width:4}
+.chapter-content .concept-edge{fill:none;stroke:var(--primary);stroke-width:2.5}
+.chapter-content #learn-arrow path{fill:var(--primary)}
+.chapter-content .edge-label{font-family:inherit;font-size:14px;font-weight:600;fill:var(--ink);paint-order:stroke;stroke:var(--soft);stroke-width:6;stroke-linejoin:round}
+.chapter-content .learn-map-branches{border-top:0;padding-top:0}
+.chapter-content .learn-flow-figure{margin:24px 0}
+.chapter-content .learn-flow{display:flex;align-items:stretch;gap:8px;padding:18px;background:var(--soft);border-radius:16px}
+.chapter-content .learn-flow>details{flex:1;min-width:0;background:var(--surface);padding:16px;border:1px solid var(--line);border-radius:12px;overflow-wrap:anywhere}
+.chapter-content .learn-flow-connector{flex:0 0 65px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px}
+.chapter-content .learn-flow-connector span{font-size:12px;text-align:center;line-height:1.5;color:var(--muted)}
+.chapter-content .learn-flow-connector svg{width:50px;height:24px;flex-shrink:0}
+.chapter-content .learn-flow-connector path{fill:none;stroke:var(--primary);stroke-width:2.5}
+@media(max-width:1000px){.chapter-content .learn-flow{flex-direction:column}.chapter-content .learn-flow-connector{flex:0 0 60px;flex-direction:row}.chapter-content .learn-flow-connector svg{transform:rotate(90deg);width:40px}.chapter-content .learn-flow-connector span{font-size:14px;max-width:180px}.chapter-content .learn-flow>details{min-height:65px}}
 .chapter-content .learn-value-lab input[type=range]{display:block;width:100%;accent-color:var(--primary);margin:16px 0 25px}
 .chapter-content blockquote{margin:22px 0;padding:18px;border-left:3px solid var(--primary);background:var(--soft)}
 @media(max-width:850px){.chapter-content .learn-map-branches{grid-template-columns:1fr 1fr}}

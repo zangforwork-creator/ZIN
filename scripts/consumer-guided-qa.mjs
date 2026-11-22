@@ -7,6 +7,11 @@ try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
  page.on('pageerror',e=>errors.push(e.message));
  await page.goto(url+'consumer-behavior/index.html#chapter/1/learn');
+ await page.locator('.learn-illustration img').first().evaluate(img=>img.decode());
+ assert.equal(await page.locator('.learn-linked-map path[marker-end]').count(),8);
+ await page.locator('[data-learn-map-node="1"]').focus();await page.keyboard.press('Enter');
+ assert(await page.locator('[data-map-topic="1"]').evaluate(x=>x.open),'Keyboard diagram navigation failed');
+ await page.locator('.learn-linked-map').screenshot({path:'consumer-arrow-map.png'});
  await page.getByRole('button',{name:'Start the learning story'}).click();
  assert.equal(await page.locator('.learn-stages button').count(),7);
  await page.locator('#learn-prediction').fill('The quiet seat may be worth the extra cost.');
@@ -27,6 +32,7 @@ try{
  await page.locator('[data-learn-complete]').click();
  assert.match(await page.locator('.learn-path').innerText(),/TOPIC 2/);
  await page.locator('[data-learn-stage="2"]').click();
+ assert.equal(await page.locator('.learn-flow-connector svg').count(),3);
  await page.locator('#value-wait').fill('35');await page.locator('#value-fee').fill('4');
  assert.match(await page.locator('#value-explanation').innerText(),/\$8 and takes 35 minutes/);
  await page.locator('[data-learn-match="1"]').click();
@@ -37,6 +43,7 @@ try{
  await page.locator('[data-learn-stage="6"]').click();await page.locator('[data-learn-complete]').click();
  for(const topic of [3,4]){assert.match(await page.locator('.learn-path').innerText(),new RegExp('TOPIC '+topic));await page.locator('[data-learn-stage="6"]').click();await page.locator('[data-learn-complete]').click()}
  await page.locator('[data-learn-stage="3"]').click();
+ await page.locator('.learn-illustration img').evaluate(img=>img.decode());
  assert.match(await page.locator('.learn-scene').innerText(),/Real campaign/);
  assert.match(await page.getByRole('link',{name:'Read the primary company account'}).getAttribute('href'),/unilever.com/);
  await page.locator('[data-learn-stage="6"]').click();await page.locator('[data-learn-complete]').click();
@@ -57,6 +64,8 @@ try{
  await page.setViewportSize({width:390,height:844});await page.waitForTimeout(300);
  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Mobile overflow');
  await page.screenshot({path:'consumer-guided-mobile.png',fullPage:true});
+ const allImages=await page.evaluate(async()=>{const names=['campus-choice','people-process','perceived-value','marketing-strategy','consumer-influences','meaning-evidence'];return Promise.all(names.map(async n=>{const img=new Image();img.src='assets/learn/'+n+'.svg';await img.decode();return img.naturalWidth>0}))});
+ assert(allImages.every(Boolean),'An illustration failed to load');
  assert.deepEqual(errors,[]);
  console.log('PASS: seven learning stages, saved prediction and resume, recall assistance, value interaction, real case source, five-topic map, keyword recall, backup restore, mobile layout.');
 }finally{await browser.close();await new Promise(r=>server.close(r))}
