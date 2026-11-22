@@ -18,7 +18,7 @@ export function chapterDiagram(){
  ${box(370,280,0,'Consumer process','Select · acquire · use · dispose')}
  ${box(710,280,4,'Consumption meaning','Functional · symbolic')}
  ${box(370,500,2,'Marketing strategy','Research · STP · 4Ps')}
- </svg></div><aside class="learn-map-inspector" id="map-inspector" role="dialog" aria-modal="false" aria-labelledby="map-inspector-title" tabindex="-1" hidden></aside><figcaption>Click a variable to read its details, or an arrow to understand the relationship. An explanation opens beside the diagram. On small screens, swipe across the diagram; the same connections are available in the text list.</figcaption></figure>`;
+ </svg></div><aside class="learn-map-inspector" id="map-inspector" role="dialog" aria-modal="false" aria-labelledby="map-inspector-title" tabindex="-1" hidden></aside><figcaption>Click a variable to read its details, or an arrow to understand the relationship. An explanation opens beside the diagram. On small screens, swipe across the diagram to explore every variable and relationship.</figcaption></figure>`;
 }
 export function lessonDiagram(section,escape,rich){
  const labels={roles:['leads into','followed by'],value:['evaluated through','compared across alternatives','checked through'],strategy:['informs','guides the offer','produces a response'],influences:['shapes','interacts with','produces experience'],knorr:['informs','guides','assessed through']};

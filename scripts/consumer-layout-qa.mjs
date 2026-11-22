@@ -1,0 +1,36 @@
+import {chromium} from 'playwright-core';
+import assert from 'node:assert/strict';
+import {startServer} from './serve.mjs';
+const {server,url}=await startServer({port:0,basePath:'/ZIN/'});
+const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
+try{
+ const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(url+'consumer-behavior/index.html#chapter/1/learn');
+ await page.locator('.learn-story-copy').waitFor();
+ const copy=await page.locator('.learn-story-copy').boundingBox(),picture=await page.locator('.learn-story>.learn-illustration').boundingBox();
+ assert(copy.x+copy.width<=picture.x,'Story content must be to the left of the image');
+ assert.equal(await page.locator('.learn-map-branches,[data-learn-map-hide],[data-learn-map-all]').count(),0);
+ assert(!/Read the connections as a list|Teaching synthesis/.test(await page.locator('.learn-chapter-map').innerText()));
+ await page.locator('.collapse-nav').click();
+ await page.waitForFunction(()=>document.documentElement.dataset.collapsed==='true'&&document.querySelector('.sidebar').getBoundingClientRect().width<=86);
+ await page.locator('.sidebar').hover();
+ assert((await page.locator('.sidebar').boundingBox()).width<=86,'Collapsed menu expanded on hover');
+ for(const span of await page.locator('.sidebar nav a>span').all())assert(await span.isHidden());
+ assert.equal(await page.locator('.sidebar nav a[aria-label]').count(),4);
+ await page.reload();await page.locator('.learn-story-copy').waitFor();
+ await page.waitForFunction(()=>document.querySelector('.sidebar').getBoundingClientRect().width<=86);
+ assert.equal(await page.locator('.collapse-nav').getAttribute('aria-label'),'Expand menu');
+ await page.locator('.sidebar a[aria-label="Home"]').click();await page.locator('.dashboard-chapters').waitFor();
+ assert((await page.locator('.sidebar').boundingBox()).width<=86);
+ await page.locator('.collapse-nav').click();
+ await page.waitForFunction(()=>document.documentElement.dataset.collapsed==='false'&&document.querySelector('.sidebar').getBoundingClientRect().width>=240);
+ await page.locator('.sidebar a[aria-label="Chapters"]').click();
+ await page.goto(url+'consumer-behavior/index.html#chapter/1/learn');await page.locator('.learn-story-copy').waitFor();
+ await page.locator('.learn-story').screenshot({path:'consumer-story-two-columns.png'});
+ await page.setViewportSize({width:390,height:844});await page.waitForTimeout(250);
+ const mobileCopy=await page.locator('.learn-story-copy').boundingBox(),mobileImage=await page.locator('.learn-story>.learn-illustration').boundingBox();
+ assert(mobileCopy.y+mobileCopy.height<=mobileImage.y,'Mobile story must stack without overlap');
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ assert.deepEqual(errors,[]);
+ console.log('PASS: removed map appendix, text-left/image-right layout, compact icon-only sidebar, hover/focus stability, persistence, navigation and mobile stacking.');
+}finally{await browser.close();await new Promise(r=>server.close(r))}

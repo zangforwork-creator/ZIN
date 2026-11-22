@@ -25,7 +25,10 @@
 .chapter-content .match{display:grid;grid-template-columns:1fr 1fr;gap:15px}.chapter-content .selected{outline:3px solid var(--primary);outline-offset:2px}
 .chapter-content .chapter-backups{margin:28px 0}.chapter-content .chapter-backups>button{margin-right:16px}
 .chapter-content :focus-visible{outline:3px solid var(--primary);outline-offset:3px}
-.chapter-content .learn-story{background:linear-gradient(130deg,var(--soft),var(--surface));border-color:var(--line)}
+.chapter-content .learn-story{background:linear-gradient(130deg,var(--soft),var(--surface));border-color:var(--line);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:32px}
+.chapter-content .learn-story-copy{min-width:0}
+.chapter-content .learn-story>.learn-illustration{width:100%;max-width:600px;margin:0;justify-self:end}
+@media(max-width:900px){.chapter-content .learn-story{grid-template-columns:1fr;gap:24px}.chapter-content .learn-story>.learn-illustration{justify-self:center}}
 .chapter-content .learn-path{max-width:1050px;margin:auto}
 .chapter-content .learn-stages{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}
 .chapter-content .learn-stages button{font-size:14px;padding:9px 12px}
@@ -86,3 +89,19 @@
 @media(max-width:850px){.chapter-content .learn-map-branches{grid-template-columns:1fr 1fr}}
 @media(max-width:650px){.chapter-content .learn-map-branches{grid-template-columns:1fr}.chapter-content .learn-keypoint,.chapter-content .learn-scenario{padding:16px;font-size:18px}.chapter-content .learn-stages{gap:6px}.chapter-content .learn-stages button{font-size:13px}.chapter-content .learn-navigation>button{flex:1}}
 @media(max-width:1100px){.chapter-content .grid{grid-template-columns:1fr 1fr}}@media(max-width:650px){.chapter-content .grid{grid-template-columns:1fr}.chapter-content .section-head{align-items:flex-start}.chapter-content .card,.chapter-content .panel,.chapter-content .lesson{padding:18px}.chapter-content .section-tabs button{padding:12px 16px}}
+/* A manually collapsed sidebar stays narrow, including while hovered or focused. */
+@media(min-width:761px){
+ :root[data-collapsed=false]{--sidebar:248px}
+ :root[data-collapsed=true]{--sidebar:84px}
+ [data-collapsed=true] .declutter .sidebar,[data-collapsed=true] .declutter .sidebar:is(:hover,:focus-within){width:84px!important;padding-left:12px!important;padding-right:12px!important;box-shadow:none}
+ [data-collapsed=true] .declutter .workspace{margin-left:84px}
+ [data-collapsed=false] .declutter .workspace{margin-left:248px}
+ [data-collapsed=true] .declutter .sidebar .brand-name,[data-collapsed=true] .declutter .sidebar .collapse-nav span,[data-collapsed=true] .declutter .sidebar nav a>span,[data-collapsed=true] .declutter .sidebar .profile>span,[data-collapsed=true] .declutter .sidebar .profile>svg,[data-collapsed=true] .declutter .sidebar .auto-menu,[data-collapsed=true] .declutter .sidebar #sidebar-rewards,[data-collapsed=true] .declutter .sidebar .nav-caption{display:none!important}
+ [data-collapsed=true] .declutter .sidebar-brand{justify-content:center;padding:0}
+ [data-collapsed=true] .declutter .sidebar .brand{width:48px;height:48px;font-size:34px!important}
+ [data-collapsed=true] .declutter .sidebar nav a{justify-content:center;gap:0;padding:12px!important;width:60px;min-height:48px}
+ [data-collapsed=true] .declutter .sidebar .collapse-nav{display:flex!important;justify-content:center;width:60px;margin:24px 0 18px!important;padding:8px}
+ [data-collapsed=true] .declutter .sidebar .profile{justify-content:center;padding-left:0;padding-right:0}
+ [data-collapsed=false] .declutter .sidebar .brand-name,[data-collapsed=false] .declutter .sidebar nav a>span{display:block}
+ [data-collapsed=false] .declutter .sidebar .collapse-nav{display:flex}
+}

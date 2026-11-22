@@ -49,10 +49,7 @@ try{
  assert.match(await page.getByRole('link',{name:'Read the primary company account'}).getAttribute('href'),/unilever.com/);
  await page.locator('[data-learn-stage="6"]').click();await page.locator('[data-learn-complete]').click();
  assert.match(await page.locator('.learn-chapter-map').innerText(),/5\/5 topics marked as read/);
- await page.locator('[data-learn-map-hide]').click();
- await page.locator('#map-term-0').fill('Customer and consumer');
- await page.locator('[data-learn-map-hide]').click();await page.locator('[data-learn-map-hide]').click();
- assert.equal(await page.locator('#map-term-0').inputValue(),'Customer and consumer');
+ assert.equal(await page.locator('.learn-map-branches').count(),0);
  const downloadPromise=page.waitForEvent('download');await page.getByRole('button',{name:'Export progress backup'}).click();
  const download=await downloadPromise,backupPath=await download.path();
  const fresh=await browser.newContext(),restored=await fresh.newPage();
@@ -68,5 +65,5 @@ try{
  const allImages=await page.evaluate(async()=>{const names=['campus-choice','people-process','perceived-value','marketing-strategy','consumer-influences','meaning-evidence'];return Promise.all(names.map(async n=>{const img=new Image();img.src='assets/learn/'+n+'.svg';await img.decode();return img.naturalWidth>0}))});
  assert(allImages.every(Boolean),'An illustration failed to load');
  assert.deepEqual(errors,[]);
- console.log('PASS: seven learning stages, saved prediction and resume, recall assistance, value interaction, real case source, five-topic map, keyword recall, backup restore, mobile layout.');
+ console.log('PASS: seven learning stages, saved prediction and resume, recall assistance, value interaction, real case source, five-topic map, diagram navigation, backup restore, mobile layout.');
 }finally{await browser.close();await new Promise(r=>server.close(r))}
