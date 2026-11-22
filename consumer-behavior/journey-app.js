@@ -1,4 +1,4 @@
-import {mountChapterContent,unmountChapterContent} from './chapter-one.js?v=20261122-visual1';
+import {mountChapterContent,unmountChapterContent} from './chapter-one.js?v=20261122-panel1';
 import {loadLectureCompanion} from './lecture-companion.js';
 let lecture;
 import {createExpansion} from './chapter-expansion.js';

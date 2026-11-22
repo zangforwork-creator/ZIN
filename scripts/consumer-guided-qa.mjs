@@ -10,7 +10,8 @@ try{
  await page.locator('.learn-illustration img').first().evaluate(img=>img.decode());
  assert.equal(await page.locator('.learn-linked-map path[marker-end]').count(),8);
  await page.locator('[data-learn-map-node="1"]').focus();await page.keyboard.press('Enter');
- assert(await page.locator('[data-map-topic="1"]').evaluate(x=>x.open),'Keyboard diagram navigation failed');
+ assert.match(await page.locator('.learn-map-inspector').innerText(),/Customer value/);
+ await page.locator('[data-map-close]').click();
  await page.locator('.learn-linked-map').screenshot({path:'consumer-arrow-map.png'});
  await page.getByRole('button',{name:'Start the learning story'}).click();
  assert.equal(await page.locator('.learn-stages button').count(),7);

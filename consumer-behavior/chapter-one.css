@@ -44,16 +44,32 @@
 .chapter-content .learn-map-relation{font-size:14px;color:var(--muted)}
 .chapter-content .learn-illustration{margin:22px 0}
 .chapter-content .learn-illustration img{display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--line);background:#ecebff}
+.chapter-content .learn-card-image{display:block;width:100%;height:auto;aspect-ratio:12/5;object-fit:contain;border-radius:12px;background:var(--soft);margin-bottom:20px;border:1px solid var(--line)}
+.chapter-content .learn-story>.learn-illustration{max-width:600px;margin:0 auto 24px}
+.chapter-content .learn-story>.learn-illustration img{max-height:250px;object-fit:contain}
 .chapter-content figure figcaption{font-size:14px;line-height:1.7;color:var(--muted);margin-top:10px}
-.chapter-content .learn-linked-map{margin:24px 0}
+.chapter-content .learn-linked-map{margin:24px 0;position:relative}
 .chapter-content .learn-diagram-scroll{overflow-x:auto;max-width:100%;border:1px solid var(--line);border-radius:16px;background:var(--soft);padding:12px}
 .chapter-content .learn-linked-map svg{display:block;width:100%;min-width:960px;height:auto;overflow:visible}
 .chapter-content .concept-node{cursor:pointer;outline:none}
 .chapter-content .concept-node rect{fill:var(--surface);stroke:var(--primary);stroke-width:1.5}
-.chapter-content .concept-node text{fill:var(--ink);font-family:inherit;font-size:18px;font-weight:700}
+.chapter-content .concept-node text{fill:var(--ink);font-family:inherit;font-size:16px;font-weight:700}
 .chapter-content .concept-node .node-subtitle{font-size:13px;fill:var(--muted);font-weight:400}
 .chapter-content .concept-node:hover rect,.chapter-content .concept-node:focus rect{stroke-width:4}
 .chapter-content .concept-edge{fill:none;stroke:var(--primary);stroke-width:2.5}
+.chapter-content .map-variable-icon path{fill:none;stroke:var(--primary);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.chapter-content .concept-connection{cursor:pointer;outline:none}
+.chapter-content .concept-edge-hit{fill:none;stroke:transparent;stroke-width:24;pointer-events:stroke}
+.chapter-content .concept-connection:hover .concept-edge,.chapter-content .concept-connection:focus .concept-edge,.chapter-content .concept-connection[data-map-active] .concept-edge{stroke-width:5}
+.chapter-content .concept-node[data-map-active] rect{stroke-width:4}
+.chapter-content .learn-map-inspector{position:absolute;inset:18px 18px auto auto;width:340px;max-width:calc(100% - 36px);max-height:min(540px,calc(100dvh - 150px));overflow:auto;background:var(--bg);color:var(--ink);border:1px solid var(--primary);border-radius:16px;box-shadow:0 12px 42px #10094a33;padding:22px;z-index:6;font-size:16px;overscroll-behavior:contain}
+.chapter-content .learn-map-inspector[hidden]{display:none}
+.chapter-content .learn-map-inspector[data-side=left]{left:18px;right:auto}
+.chapter-content .learn-map-inspector h3{font-size:20px;margin:14px 0}
+.chapter-content .learn-map-inspector p{margin:10px 0;line-height:1.7}
+.chapter-content .map-inspector-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.chapter-content .map-inspector-head button{padding:3px 11px;font-size:23px}
+@media(max-width:650px){.chapter-content .learn-map-inspector,.chapter-content .learn-map-inspector[data-side=left]{left:12px;right:12px;top:12px;width:auto;max-width:calc(100% - 24px);max-height:440px;padding:18px}.chapter-content .learn-story>.learn-illustration{max-width:440px}}
 .chapter-content #learn-arrow path{fill:var(--primary)}
 .chapter-content .edge-label{font-family:inherit;font-size:14px;font-weight:600;fill:var(--ink);paint-order:stroke;stroke:var(--soft);stroke-width:6;stroke-linejoin:round}
 .chapter-content .learn-map-branches{border-top:0;padding-top:0}
