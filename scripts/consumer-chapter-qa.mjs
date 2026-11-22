@@ -8,6 +8,11 @@ try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
  page.on('pageerror',e=>errors.push(e.message));
  await page.goto(url+'consumer-behavior/index.html#home');
+ await page.locator('.sidebar-brand').waitFor();
+ assert.equal(await page.locator('.chapter-content').count(),0);
+ assert(await page.locator('.dashboard-chapters').count(),'Original dashboard is missing');
+ await page.screenshot({path:'consumer-original-home.png',fullPage:true});
+ await page.goto(url+'consumer-behavior/index.html#chapter/1');
  await page.locator('[data-lesson="0"]').waitFor();
  assert.equal(await page.locator('[data-lesson]').count(),5);
  await page.locator('[data-lesson="0"]').click();
@@ -30,7 +35,8 @@ try{
  await page.locator('[data-tab="learn"]').first().click();
  await page.screenshot({path:'consumer-chapter-desktop.png',fullPage:true});
  await page.setViewportSize({width:390,height:844});
- assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Mobile overflow');
+ await page.screenshot({path:'consumer-chapter-mobile.png',fullPage:true});
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Mobile overflow: '+await page.evaluate(()=>JSON.stringify([...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().right>innerWidth+1).map(e=>[e.tagName,e.className,Math.round(e.getBoundingClientRect().right)]).slice(0,18))));
  await page.screenshot({path:'consumer-chapter-mobile.png',fullPage:true});
  assert.deepEqual(errors,[]);console.log('PASS: existing /ZIN/consumer-behavior path, lessons, persistence, all games, exam, mobile layout, no browser errors');
 }finally{await browser?.close();await new Promise(r=>server.close(r))}
