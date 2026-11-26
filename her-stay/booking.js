@@ -1,15 +1,25 @@
-const stays = [
-  {id:'hanoi-garden',name:'Garden House Hanoi',country:'Vietnam',city:'Hanoi',type:'Homestay',price:48,guests:2,features:['Private room lock','Well-lit entrance','Late check-in contact'],color:'#e2f0cb'},
-  {id:'hanoi-lotus',name:'Lotus City Rooms',country:'Vietnam',city:'Hanoi',type:'Hotel',price:66,guests:3,features:['Private room lock','Controlled entry','24-hour reception'],color:'#c7ceea'},
-  {id:'hcmc-sky',name:'Skyline Women’s Stay',country:'Vietnam',city:'Ho Chi Minh City',type:'Hostel',price:39,guests:1,features:['Women-only room','Controlled entry','Well-lit entrance'],color:'#ffb7b2'},
-  {id:'hcmc-courtyard',name:'Courtyard House',country:'Vietnam',city:'Ho Chi Minh City',type:'Homestay',price:58,guests:2,features:['Private room lock','Late check-in contact'],color:'#ffdac1'},
-  {id:'bangkok-nest',name:'The Pink Nest',country:'Thailand',city:'Bangkok',type:'Hotel',price:72,guests:2,features:['Private room lock','Controlled entry','24-hour reception'],color:'#ff9aa2'},
-  {id:'chiangmai-bloom',name:'Bloom Guesthouse',country:'Thailand',city:'Chiang Mai',type:'Guesthouse',price:44,guests:2,features:['Private room lock','Well-lit entrance'],color:'#b5ead7'},
-  {id:'tokyo-sakura',name:'Sakura Lane Stay',country:'Japan',city:'Tokyo',type:'Hotel',price:110,guests:2,features:['Private room lock','Controlled entry','24-hour reception'],color:'#c7ceea'},
-  {id:'osaka-momo',name:'Momo House',country:'Japan',city:'Osaka',type:'Homestay',price:82,guests:3,features:['Private room lock','Well-lit entrance'],color:'#e2f0cb'},
-  {id:'seoul-haru',name:'Haru Women’s Rooms',country:'South Korea',city:'Seoul',type:'Guesthouse',price:76,guests:1,features:['Women-only room','Controlled entry','Late check-in contact'],color:'#ffb7b2'},
-  {id:'busan-wave',name:'Wave House Busan',country:'South Korea',city:'Busan',type:'Hotel',price:88,guests:2,features:['Private room lock','Well-lit entrance'],color:'#b5ead7'}
+const destinations = [
+  {country:'Vietnam',city:'Hanoi',base:56},
+  {country:'Vietnam',city:'Ho Chi Minh City',base:63},
+  {country:'Thailand',city:'Bangkok',base:72},
+  {country:'Thailand',city:'Chiang Mai',base:49},
+  {country:'Japan',city:'Tokyo',base:112},
+  {country:'Japan',city:'Osaka',base:96},
+  {country:'South Korea',city:'Seoul',base:91},
+  {country:'South Korea',city:'Busan',base:78}
 ];
+const hotelStyles = [
+  {name:'Garden Hotel',priceOffset:0,features:['Private room lock','Well-lit entrance','Late check-in contact'],image:'sample-hotel-1.png'},
+  {name:'Bloom Boutique Hotel',priceOffset:22,features:['Private room lock','Controlled entry','24-hour reception'],image:'sample-hotel-2.png'},
+  {name:'Sora City Hotel',priceOffset:38,features:['Private room lock','Controlled entry','Well-lit entrance'],image:'sample-hotel-3.png'}
+];
+const stays = destinations.flatMap(destination => hotelStyles.map((hotel,index) => ({
+  id:`${destination.city.toLowerCase().replace(/[^a-z]+/g,'-')}-${index + 1}`,
+  name:`${hotel.name} ${destination.city}`,
+  country:destination.country,city:destination.city,type:'Hotel',
+  price:destination.base + hotel.priceOffset,guests:4,
+  features:hotel.features,image:hotel.image
+})));
 const byId = id => document.getElementById(id);
 const country = byId('country'), city = byId('city'), checkIn = byId('check-in'), checkOut = byId('check-out');
 const searchMessage = byId('search-message'), listingGrid = byId('listing-grid');
@@ -40,7 +50,10 @@ function search() {
   searchMessage.textContent = `${results.length} sample ${results.length === 1 ? 'stay' : 'stays'} in ${city.value} · ${nights()} ${nights() === 1 ? 'night' : 'nights'}`;
   for (const stay of results) {
     const card = document.createElement('article'); card.className = 'listing-card';
-    const art = document.createElement('div'); art.className = 'listing-art'; art.style.background = stay.color; art.textContent = stay.type;
+    const art = document.createElement('div'); art.className = 'listing-art';
+    const photo = document.createElement('img'); photo.src = stay.image; photo.alt = `Illustrative room photo for sample listing ${stay.name}`; photo.loading = 'lazy';
+    const photoLabel = document.createElement('span'); photoLabel.textContent = 'Sample hotel · Illustrative photo';
+    art.append(photo,photoLabel);
     const body = document.createElement('div'); body.className = 'listing-body';
     const title = document.createElement('h3'); title.textContent = stay.name;
     const details = document.createElement('p'); details.textContent = `${stay.city}, ${stay.country} · up to ${stay.guests} ${stay.guests === 1 ? 'guest' : 'guests'}`;
