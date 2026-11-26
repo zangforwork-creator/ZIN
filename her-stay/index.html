@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#fff9f5">
-  <meta name="description" content="HerStay is a proposed travel booking platform for women, designed to make accommodation safety criteria clear before booking.">
+  <meta name="description" content="Explore sample stays with clear safety details, choose dates, and save a booking request with HerStay.">
   <title>HER STAY — Wherever she goes, she belongs</title>
   <link rel="icon" type="image/png" href="her-stay-favicon.png">
   <link rel="apple-touch-icon" href="her-stay-favicon.png">
@@ -15,12 +15,12 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="announcement">HER STAY is a concept in development. Booking services are not live yet.</div>
+  <div class="announcement">Wherever she goes, she belongs · Explore stays with confidence</div>
   <header class="site-header" id="top">
     <a class="brand" href="#top" aria-label="HER STAY — back to top"><img src="her-stay-logo.png" alt="HER STAY logo"></a>
     <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button>
     <nav id="nav" aria-label="Main navigation">
-      <a href="#concept">The concept</a><a href="#criteria">Safety criteria</a><a href="#experience">How it could work</a><a href="#research">Why HerStay</a><a href="#market">Vietnam market</a>
+      <a href="#book">Find a stay</a><a href="#criteria">Safety details</a><a href="#experience">How it works</a><a href="#research">Why HerStay</a><a href="#social">Follow us</a>
       <div class="mobile-auth"><button type="button" class="auth-trigger" data-auth-mode="sign-in">Sign in</button><button type="button" class="auth-trigger" data-auth-mode="log-in">Log in</button></div>
     </nav>
     <div class="header-auth"><button type="button" class="auth-trigger auth-outline" data-auth-mode="sign-in">Sign in</button><button type="button" class="auth-trigger auth-filled" data-auth-mode="log-in">Log in</button></div>
@@ -29,22 +29,39 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-image" role="img" aria-label="Two women relaxing in a bright guesthouse beside a balcony"></div>
       <div class="hero-content">
-        <span class="eyebrow">A new way to plan a stay</span>
+        <span class="eyebrow">Your stay starts here</span>
         <h1 id="hero-title">Wherever she<br>goes, <em>she belongs</em></h1>
-        <p>HerStay is a proposed travel booking platform for women. Its focus is simple: show the safety conditions of a place before you book, and make it clear who to contact if something goes wrong.</p>
-        <div class="hero-actions"><a class="button button-primary" href="#criteria">Explore the concept</a><a class="text-link" href="#market">Why explore Vietnam?</a></div>
-        <p class="hero-caveat">Concept preview · No properties or bookings are available yet.</p>
+        <p>Discover places to stay, compare practical safety details, and plan each step of your journey with more confidence.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#book">Find a stay</a><a class="text-link" href="#criteria">Explore safety details</a></div>
+        <p class="hero-caveat">Explore sample stays and save your plans. Hotel reservations require confirmed partners.</p>
       </div>
     </section>
+
+    <section class="booking section-pad" id="book" aria-labelledby="booking-title">
+      <div class="section-heading"><div><span class="eyebrow">Find your next stay</span><h2 id="booking-title">A place that <em>fits your plans.</em></h2></div><p>Browse example listings, compare their stated features, and save a stay request. These listings are sample data, so no room is reserved with a hotel.</p></div>
+      <form id="search-form" class="search-form">
+        <label>Country<select id="country" required><option value="">Select country</option></select></label>
+        <label>City<select id="city" required disabled><option value="">Select city</option></select></label>
+        <label>Check-in<input id="check-in" type="date" required></label>
+        <label>Check-out<input id="check-out" type="date" required></label>
+        <label>Guests<select id="guests"><option value="1">1 guest</option><option value="2">2 guests</option><option value="3">3 guests</option><option value="4">4 guests</option></select></label>
+        <button class="button button-primary" type="submit">Search stays</button>
+      </form>
+      <p id="search-message" class="booking-message" role="status" aria-live="polite">Choose your destination and dates to see sample stays.</p>
+      <div id="listing-grid" class="listing-grid"></div>
+      <div class="booking-info"><strong>How booking requests work</strong><p>Choose a sample stay and add your contact details. Your request is saved in this browser and can be reviewed or cancelled below. No payment is taken and no hotel receives the request.</p></div>
+      <div id="saved-requests"><h3>Your saved requests</h3><div id="requests-list"></div></div>
+    </section>
+    <dialog id="booking-dialog" class="booking-dialog" aria-labelledby="request-title"><form id="request-form" class="request-form"><button type="button" id="booking-close" class="auth-close" aria-label="Close booking form">&times;</button><span class="eyebrow">Stay request</span><h2 id="request-title">Save your stay</h2><p id="request-summary"></p><label>Your name<input id="guest-name" name="name" autocomplete="name" required minlength="2"></label><label>Email address<input id="guest-email" name="email" type="email" autocomplete="email" required></label><label>Phone number<input id="guest-phone" name="phone" type="tel" autocomplete="tel" required></label><label>Notes for your trip<textarea id="guest-notes" name="notes" rows="3" placeholder="Arrival time or accessibility needs"></textarea></label><p class="booking-disclosure">This saves a request in this browser only. It does not reserve a room or contact a hotel.</p><button class="button button-primary" type="submit">Save request</button></form></dialog>
     <div class="ticker" aria-hidden="true">KNOW BEFORE YOU BOOK <span>✳</span> PLAN YOUR ARRIVAL <span>✳</span> KNOW WHO TO CALL <span>✳</span></div>
 
     <section class="intro section-pad" id="concept">
-      <div class="intro-side"><span class="eyebrow">The HerStay idea</span><div class="small-flower" aria-hidden="true">✳</div></div>
-      <div class="intro-main"><h2>Stay choices with <em>more clarity.</em></h2><p>HerStay would bring accommodation, verified airport transfers, and local travel options into one journey for women travelling solo or with friends. Inspired by the convenience of platforms that combine travel services, the proposal puts visible safety information at the centre of each stay.</p><p class="small-note">The concept draws on the multi-service model shown by <a href="https://www.klook.com/" target="_blank" rel="noopener noreferrer">Klook</a>. HerStay is an independent proposal and is not affiliated with Klook.</p></div>
+      <div class="intro-side"><span class="eyebrow">About HerStay</span><div class="small-flower" aria-hidden="true">✳</div></div>
+      <div class="intro-main"><h2>Stay choices with <em>more clarity.</em></h2><p>HerStay brings sample accommodation options and clear planning information into one journey for women travelling solo or with friends. Inspired by the convenience of platforms that combine travel services, the proposal puts visible safety information at the centre of each stay.</p><p class="small-note">The concept draws on the multi-service model shown by <a href="https://www.klook.com/" target="_blank" rel="noopener noreferrer">Klook</a>. HerStay is an independent proposal and is not affiliated with Klook.</p></div>
     </section>
 
     <section class="criteria section-pad" id="criteria">
-      <div class="section-heading"><div><span class="eyebrow">What a listing would show</span><h2>See the details <em>before you decide.</em></h2></div><p>Partner hotels, homestays, and hostels would show which specific criteria they meet. Each detail would be visible on the booking page.</p></div>
+      <div class="section-heading"><div><span class="eyebrow">What to look for in a listing</span><h2>See the details <em>before you decide.</em></h2></div><p>Use these criteria when checking a property. Safety features in sample listings are illustrative and have not been verified.</p></div>
       <div class="criteria-grid">
         <article class="criteria-card"><span class="criteria-icon" aria-hidden="true">⌂</span><h3>Private room locks</h3><p>Clear information about whether a room has its own secure lock.</p></article>
         <article class="criteria-card"><span class="criteria-icon" aria-hidden="true">✳</span><h3>Controlled entry</h3><p>How the property manages access to rooms and shared spaces.</p></article>
@@ -55,11 +72,11 @@
     </section>
 
     <section class="experience section-pad" id="experience">
-      <div class="section-heading"><div><span class="eyebrow">The proposed booking journey</span><h2>From choosing a room<br>to <em>arriving well.</em></h2></div><p>The plan connects practical decisions that are often spread across several services.</p></div>
+      <div class="section-heading"><div><span class="eyebrow">Your planning journey</span><h2>From choosing a room<br>to <em>arriving well.</em></h2></div><p>The experience connects practical decisions that are often spread across several services.</p></div>
       <div class="steps">
         <article class="step"><div class="step-art art-one"><div class="mini-listing"><span class="mini-label">STAY DETAILS</span><span>✓ Private lock</span><span>✓ Controlled entry</span><span>✓ Lit entrance</span></div></div><span class="step-number">01 / COMPARE</span><h3>Compare safety details</h3><p>See which criteria each partner property meets before choosing where to stay.</p></article>
         <article class="step"><div class="step-art art-two"><div class="mini-filter"><span class="mini-label">YOUR PREFERENCES</span><span class="mini-chip">Women-only room</span><span class="mini-chip">Women-only area</span><span class="mini-chip">Late check-in</span></div></div><span class="step-number">02 / FILTER</span><h3>Find a stay that fits</h3><p>Filter for women-only rooms or areas, then review the property's conditions.</p></article>
-        <article class="step"><div class="step-art art-three"><div class="mini-route"><span class="route-dot">✈</span><span class="route-line"></span><span class="route-dot">⌂</span><small>Airport to your stay</small></div></div><span class="step-number">03 / ARRIVE</span><h3>Plan the journey in</h3><p>Choose a transfer from a verified partner and know who to contact on arrival.</p></article>
+        <article class="step"><div class="step-art art-three"><div class="mini-route"><span class="route-dot">✈</span><span class="route-line"></span><span class="route-dot">⌂</span><small>Airport to your stay</small></div></div><span class="step-number">03 / ARRIVE</span><h3>Plan the journey in</h3><p>Check the route, arrival time, and property's contact information before travelling.</p></article>
       </div>
     </section>
 
@@ -82,12 +99,13 @@
 
     <section class="pilot section-pad" id="market"><div class="pilot-content"><span class="eyebrow">Market context</span><h2>Explore <em>Vietnam.</em></h2><p>Vietnam welcomed nearly 21.2 million international visitors in 2025, up 20.4% from 2024. That is a figure for the overall tourism market, not a forecast for HerStay.</p><p>Before choosing a launch location, HerStay would test demand among women travellers, assess whether accommodation partners can meet the criteria, and validate arrival and support processes.</p><a class="source-link" href="https://www.nso.gov.vn/en/data-and-statistics/2026/01/socio-economic-situation-in-the-fourth-quarter-and-2025/" target="_blank" rel="noopener noreferrer">Source: National Statistics Office of Vietnam, 2026</a></div><div class="pilot-card"><span class="mini-label">PILOT LOCATION · TO BE SELECTED</span><h3>Three things to validate</h3><ol><li>Traveller demand for visible safety details</li><li>Partner ability to meet and document criteria</li><li>Transfer and support response in real use</li></ol><span class="pilot-mark" aria-hidden="true">✳</span></div></section>
 
-    <section class="faq section-pad" id="faq"><div><span class="eyebrow">Good to know</span><h2>A few <em>questions.</em></h2></div><div class="faq-list"><details><summary>Can I book a stay through HerStay now?</summary><p>No. This is a concept website. There are no live property listings, reservations, transfer bookings, or payment services yet.</p></details><details><summary>Does a listed criterion guarantee safety?</summary><p>No single feature can guarantee safety. The proposal is to make each partner's conditions visible so travellers can make a more informed choice.</p></details><details><summary>Is 24/7 support available today?</summary><p>Not yet. A round-the-clock support channel is a planned feature to be tested as part of the pilot.</p></details><details><summary>Is account sign-in active?</summary><p>No. The sign-in window is a visual preview; Google, email, and phone authentication are not connected yet.</p></details></div></section>
+    <section class="faq section-pad" id="faq"><div><span class="eyebrow">Good to know</span><h2>A few <em>questions.</em></h2></div><div class="faq-list"><details><summary>Can I reserve a real hotel room now?</summary><p>You can search sample stays and save a request in this browser. No hotel receives or confirms it, and no payment is taken.</p></details><details><summary>Does a listed criterion guarantee safety?</summary><p>No single feature can guarantee safety. The proposal is to make each partner's conditions visible so travellers can make a more informed choice.</p></details><details><summary>Is 24/7 support available today?</summary><p>Not yet. A round-the-clock support channel is a planned feature to be tested as part of the pilot.</p></details><details><summary>Is account sign-in active?</summary><p>Google, email, and phone account sign-in requires an authentication service. You can use the stay planner without an account.</p></details></div></section>
   </main>
 
-  <dialog class="auth-dialog" id="auth-dialog" aria-labelledby="auth-title" aria-describedby="auth-description"><div class="auth-dialog-inner"><button type="button" class="auth-close" aria-label="Close sign-in window">&times;</button><img class="auth-logo" src="her-stay-login-logo.png" alt="HER STAY"><span class="eyebrow">Welcome to HER STAY</span><h2 id="auth-title">Sign in</h2><p id="auth-description">Choose how you would like to continue.</p><div class="auth-methods" role="group" aria-label="Sign-in methods"><button type="button" class="auth-method" data-method="google"><span class="google-g" aria-hidden="true">G</span> Continue with Google</button><button type="button" class="auth-method" data-method="email"><span aria-hidden="true">✉</span> Continue with email</button><button type="button" class="auth-method" data-method="phone"><span aria-hidden="true">✆</span> Continue with phone</button></div><form class="auth-form" id="email-form" hidden><label for="auth-email">Email address</label><input id="auth-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required><button type="submit">Continue</button></form><form class="auth-form" id="phone-form" hidden><label for="auth-phone">Phone number</label><input id="auth-phone" name="phone" type="tel" autocomplete="tel" placeholder="+1 555 000 0000" required><button type="submit">Continue</button></form><p class="auth-status" id="auth-status" role="status" aria-live="polite">This is a preview. Account sign-in is not available yet.</p></div></dialog>
+  <dialog class="auth-dialog" id="auth-dialog" aria-labelledby="auth-title" aria-describedby="auth-description"><div class="auth-dialog-inner"><button type="button" class="auth-close" aria-label="Close sign-in window">&times;</button><img class="auth-logo" src="her-stay-login-logo.png" alt="HER STAY"><span class="eyebrow">Welcome to HER STAY</span><h2 id="auth-title">Sign in</h2><p id="auth-description">Choose how you would like to continue.</p><div class="auth-methods" role="group" aria-label="Sign-in methods"><button type="button" class="auth-method" data-method="google"><span class="google-g" aria-hidden="true">G</span> Continue with Google</button><button type="button" class="auth-method" data-method="email"><span aria-hidden="true">✉</span> Continue with email</button><button type="button" class="auth-method" data-method="phone"><span aria-hidden="true">✆</span> Continue with phone</button></div><form class="auth-form" id="email-form" hidden><label for="auth-email">Email address</label><input id="auth-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required><button type="submit">Continue</button></form><form class="auth-form" id="phone-form" hidden><label for="auth-phone">Phone number</label><input id="auth-phone" name="phone" type="tel" autocomplete="tel" placeholder="+1 555 000 0000" required><button type="submit">Continue</button></form><p class="auth-status" id="auth-status" role="status" aria-live="polite">Account sign-in is not connected yet. You can plan a stay without an account.</p></div></dialog>
 
-  <footer><div class="footer-top"><a class="brand footer-brand" href="#top" aria-label="HER STAY — back to top"><img src="her-stay-logo.png" alt="HER STAY logo"></a><p>Wherever she goes,<br>she belongs</p><a href="#concept" class="footer-mail">Explore the concept</a></div><div class="footer-bottom"><span>© 2026 HER STAY · Concept preview</span><a href="#top">Back to top ↑</a></div></footer>
+  <footer id="social"><div class="footer-top"><a class="brand footer-brand" href="#top" aria-label="HER STAY — back to top"><img src="her-stay-logo.png" alt="HER STAY logo"></a><p>Wherever she goes,<br>she belongs</p><div class="social-links"><a href="https://www.instagram.com/herstay63/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://www.facebook.com/share/1F8K547W22/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a><a href="https://www.tiktok.com/@herstay3?is_from_webapp=1&amp;sender_device=pc" target="_blank" rel="noopener noreferrer">TikTok</a></div></div><div class="footer-bottom"><span>© 2026 HER STAY · Sample stay planner</span><a href="#top">Back to top ↑</a></div></footer>
   <script src="script.js"></script>
+  <script src="booking.js"></script>
 </body>
 </html>

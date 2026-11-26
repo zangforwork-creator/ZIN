@@ -40,3 +40,26 @@ footer{background:var(--lavender);padding:65px max(5.5vw,24px) 25px}.footer-top{
 .hero h1{font-size:clamp(62px,5.6vw,84px);max-width:800px}
 @media(max-width:760px){.hero h1{font-size:clamp(52px,10vw,68px)}.hero h1 em{display:block}}
 @media(max-width:470px){.hero h1{font-size:clamp(46px,10vw,56px)}}
+
+/* Stay finder */
+.booking{background:#fffdf9}
+.search-form{display:grid;grid-template-columns:repeat(5,minmax(130px,1fr)) auto;gap:12px;align-items:end;background:#fff2ec;border:1px solid #f2dcd7;padding:22px;border-radius:22px}
+.search-form label,.request-form label{display:grid;gap:7px;font-size:.88rem;font-weight:700}
+.search-form input,.search-form select,.request-form input,.request-form textarea{width:100%;min-width:0;border:1px solid #d9c5c3;border-radius:11px;background:white;color:var(--ink);padding:12px 13px;font:inherit}
+.search-form select{appearance:none;background-image:linear-gradient(45deg,transparent 50%,#a44b61 50%),linear-gradient(135deg,#a44b61 50%,transparent 50%);background-position:calc(100% - 18px) 50%,calc(100% - 13px) 50%;background-size:5px 5px;background-repeat:no-repeat;padding-right:32px}
+.search-form .button{border-radius:11px;min-height:51px}
+.booking-message{min-height:1.6em;margin:24px 0;color:#805562;font-weight:700}
+.listing-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.listing-card{background:white;border:1px solid #eadbd6;border-radius:20px;overflow:hidden;box-shadow:0 12px 30px #7e485713}
+.listing-art{height:145px;display:grid;place-items:center;font-family:'Italiana',Georgia,serif;font-size:2.5rem;color:#8c435a}
+.listing-body{padding:22px}.listing-body h3{font:400 2rem/1.1 'Italiana',Georgia,serif;margin:0 0 8px}.listing-body>p{margin:0 0 14px}
+.listing-features{list-style:none;padding:0;margin:16px 0;display:flex;gap:7px;flex-wrap:wrap}.listing-features li{background:#f8f0ef;border-radius:999px;padding:5px 10px;font-size:.78rem}
+.listing-price{font-weight:700;color:#a44861}.listing-body .button{width:100%;text-align:center}
+.booking-info{margin-top:30px;padding:20px 24px;background:var(--sage);border-radius:18px}.booking-info p{margin:5px 0 0}
+#saved-requests{margin-top:38px}#saved-requests h3{font:400 2rem 'Italiana',Georgia,serif;margin:0 0 15px}
+.saved-request{display:flex;justify-content:space-between;gap:20px;align-items:center;padding:18px 0;border-top:1px solid #e8d9d3}.saved-request p{margin:4px 0}.saved-request small{color:#805562}.saved-request button{border:1px solid #b95b71;background:white;color:#9c3f58;padding:8px 14px;border-radius:999px;font-weight:700;white-space:nowrap}
+.booking-dialog{width:min(520px,calc(100vw - 28px));max-height:90vh;overflow:auto;border:0;border-radius:24px;padding:0;background:#fffdf9;box-shadow:0 24px 80px #5635475c}.booking-dialog::backdrop{background:#281b2694}.request-form{position:relative;padding:38px;display:grid;gap:15px}.request-form h2{font-size:3rem;margin:0}.request-form>p{margin:0}.request-form .button{width:100%}.booking-disclosure{font-size:.85rem;color:#79505d;background:#fff0eb;padding:12px;border-radius:10px}
+.social-links{display:flex;gap:18px;flex-wrap:wrap;font-weight:700}.social-links a{text-decoration:underline;text-underline-offset:5px}
+@media(max-width:1100px){.search-form{grid-template-columns:repeat(3,1fr)}.listing-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.search-form{grid-template-columns:repeat(2,minmax(0,1fr))}.search-form .button{grid-column:1/-1}.listing-grid{grid-template-columns:1fr}.saved-request{align-items:start;flex-direction:column}}
+@media(max-width:450px){.search-form{grid-template-columns:1fr}.request-form{padding:28px 22px}}

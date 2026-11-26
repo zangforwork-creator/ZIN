@@ -19,7 +19,7 @@ const authTitle = document.querySelector('#auth-title');
 const authStatus = document.querySelector('#auth-status');
 const emailForm = document.querySelector('#email-form');
 const phoneForm = document.querySelector('#phone-form');
-const previewMessage = 'This is a preview. Account sign-in is not available yet.';
+const previewMessage = 'Account sign-in is not connected yet. You can plan a stay without an account.';
 
 document.querySelectorAll('.auth-trigger').forEach(button => {
   button.addEventListener('click', () => {
