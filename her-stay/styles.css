@@ -76,3 +76,4 @@ footer{background:var(--lavender);padding:65px max(5.5vw,24px) 25px}.footer-top{
 
 .hero-photo{top:-3px}
 .hero{height:min(calc(100svh - 64px),42vw);min-height:430px;max-height:none}.hero-photo{top:0;width:100%;height:100%;min-height:0;object-fit:cover;object-position:center top}@media(max-width:760px){.hero{height:calc(100svh - 64px);min-height:520px}.hero-photo{width:auto;height:100%;min-width:100%;object-fit:cover;object-position:center top}}
+.download-app img{width:min(360px,38vw);aspect-ratio:auto;border-radius:0}@media(max-width:700px){.download-app img{width:min(280px,75vw)}}
